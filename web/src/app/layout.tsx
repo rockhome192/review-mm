@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { IBM_Plex_Sans_Thai, Noto_Serif_Thai } from "next/font/google";
+import { ListsMenu } from "@/components/ListsMenu";
 import { getLists } from "@/lib/data";
 import "./globals.css";
 
@@ -23,7 +24,9 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: LayoutProps<"/">) {
   // the lists section is hidden until a list is published, so is its menu link
-  const hasLists = (await getLists()).some((l) => l.slug !== "featured" && l.ids.length);
+  const menuLists = (await getLists())
+    .filter((l) => l.slug !== "featured" && l.ids.length)
+    .map((l) => ({ slug: l.slug, title: l.title, description: l.description, count: l.ids.length }));
   return (
     <html lang="th" className={`${plex.variable} ${serif.variable}`}>
       <body className="flex min-h-screen flex-col font-sans">
@@ -35,7 +38,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
             <nav className="flex items-center gap-3.5 text-[15px] sm:gap-[18px] font-medium whitespace-nowrap">
               <Link href="/?type=manga">มังงะ</Link>
               <Link href="/?type=manhwa">มังฮวา</Link>
-              {hasLists && <Link href="/#lists">ลิสต์คัดสรร</Link>}
+              {menuLists.length > 0 && <ListsMenu lists={menuLists} />}
             </nav>
           </div>
         </header>

@@ -76,7 +76,7 @@ function ParamSync({
   onChange,
 }: {
   writtenRef: React.RefObject<string>;
-  onChange: (f: Filters, random: boolean, from: number | null) => void;
+  onChange: (f: Filters, random: boolean, from: number | null, list: string | null) => void;
 }) {
   const params = useSearchParams();
   useEffect(() => {
@@ -84,7 +84,7 @@ function ParamSync({
     if (query === writtenRef.current) return;
     writtenRef.current = query;
     const from = Number(params.get("from"));
-    onChange(fromQuery(params), params.get("random") === "1", Number.isInteger(from) && from > 0 ? from : null);
+    onChange(fromQuery(params), params.get("random") === "1", Number.isInteger(from) && from > 0 ? from : null, params.get("list"));
   }, [params, writtenRef, onChange]);
   return null;
 }
@@ -98,12 +98,13 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
   const writtenRef = useRef("");
 
   // Keep the URL in step with the panel (replace, not push: filter clicks aren't history).
+  // An open list wins: ?list=<slug>.
   useEffect(() => {
-    const query = toQuery(filters);
+    const query = listSlug ? new URLSearchParams({ list: listSlug }).toString() : toQuery(filters);
     if (query === writtenRef.current) return;
     writtenRef.current = query;
     window.history.replaceState(null, "", query ? `/?${query}` : "/");
-  }, [filters]);
+  }, [filters, listSlug]);
 
   const pool = useMemo(() => match(titles, filters), [titles, filters]);
   const list = lists.find((l) => l.slug === listSlug);
@@ -143,10 +144,17 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
   };
 
   const onParams = useMemo(
-    () => (f: Filters, random: boolean, from: number | null) => {
+    () => (f: Filters, random: boolean, from: number | null, list: string | null) => {
+      setPicked(null);
+      if (list && lists.some((l) => l.slug === list)) {
+        // header "ลิสต์คัดสรร" menu
+        setFilters(NO_FILTERS);
+        setListSlug(list);
+        scrollToResults();
+        return;
+      }
       setFilters(f);
       setListSlug(null);
-      setPicked(null);
       if (random) {
         // "from" is the detail page the visitor came from; never pick it back
         pickRandom(match(titles, f), f, from);
@@ -156,7 +164,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
       } else if (toQuery(f)) scrollToResults();
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps -- run once per URL change
-    [titles],
+    [titles, lists],
   );
 
   const F = featured[feat];
@@ -293,7 +301,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
         </div>
       </section>
 
-      <section ref={resultsRef} className="mx-auto flex w-full max-w-[1240px] flex-col gap-[22px] px-4 pt-10 pb-5 sm:px-7">
+      <section ref={resultsRef} className="mx-auto flex w-full max-w-[1240px] flex-col gap-[22px] px-4 pt-10 pb-16 sm:px-7">
         <div className="flex flex-wrap items-baseline justify-between gap-4">
           <h2 className="font-serif text-[26px] font-extrabold">
             {list ? list.title : hasFilters ? "ผลลัพธ์ของคุณ" : "เรื่องแนะนำทั้งหมด"}
@@ -349,43 +357,6 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
           </ul>
         )}
       </section>
-
-      {lists.length > 0 && (
-        <section id="lists" className="mx-auto flex w-full max-w-[1240px] scroll-mt-20 flex-col gap-[18px] px-4 pt-5 pb-16 sm:px-7">
-          <div className="flex flex-wrap items-baseline justify-between gap-3 border-t-[1.5px] border-ink pt-8">
-            <h2 className="font-serif text-[26px] font-extrabold">ลิสต์คัดสรร</h2>
-            <span className="text-sm text-muted">กดเพื่อดูทุกเรื่องในลิสต์</span>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            {lists.map((l) => (
-              <button
-                key={l.slug}
-                aria-pressed={listSlug === l.slug}
-                onClick={() => {
-                  setListSlug(l.slug);
-                  setPicked(null);
-                  scrollToResults();
-                }}
-                className={`flex items-center gap-3 rounded-[10px] border-[1.5px] border-ink py-2.5 pr-4 pl-2.5 ${
-                  listSlug === l.slug ? "bg-ink text-paper" : ""
-                }`}
-              >
-                <div className="flex gap-[3px]">
-                  {l.ids.slice(0, 3).map((id) => (
-                    <div key={id} className="h-9 w-3.5 rounded-[3px]" style={{ background: byId.get(id)?.coverColor }} />
-                  ))}
-                </div>
-                <div className="text-left">
-                  <div className="font-serif text-base leading-snug font-extrabold">{l.title}</div>
-                  <div className="text-xs opacity-75">
-                    {l.ids.length} เรื่อง{l.description ? ` · ${l.description}` : ""}
-                  </div>
-                </div>
-              </button>
-            ))}
-          </div>
-        </section>
-      )}
     </main>
   );
 }
