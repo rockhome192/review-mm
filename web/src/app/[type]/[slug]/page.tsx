@@ -116,7 +116,7 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
             <div className="mt-1.5 flex flex-wrap gap-2.5">
               {hero.length > 0 && (
                 <Link
-                  href={`/?moods=${hero.join(",")}&random=1`}
+                  href={`/?moods=${hero.join(",")}&random=1&from=${t.id}`}
                   className="rounded-lg border-[1.5px] border-ink bg-ink px-[18px] py-2.5 text-[15px] font-semibold text-paper hover:border-accent-ink hover:bg-accent-ink hover:text-white"
                 >
                   สุ่มเรื่องที่อารมณ์คล้ายกัน ✦

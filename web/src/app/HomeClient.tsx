@@ -22,6 +22,10 @@ const NO_FILTERS: Filters = { type: "all", moods: [], length: "any" };
 /** A title "has" a mood when readers clearly mention it. */
 const MOOD_MIN = 2;
 
+/** How well a title fits the chosen moods: sum of its clearly-mentioned mood scores. */
+const fitOf = (t: CardTitle, f: Filters) =>
+  f.moods.reduce((s, m) => s + (t.moodScores[m] >= MOOD_MIN ? t.moodScores[m] : 0), 0);
+
 function match(titles: CardTitle[], f: Filters) {
   return titles
     .filter(
@@ -30,9 +34,17 @@ function match(titles: CardTitle[], f: Filters) {
         (f.length === "any" || t.length === f.length) &&
         (!f.moods.length || f.moods.some((m) => t.moodScores[m] >= MOOD_MIN)),
     )
-    .map((t) => ({ t, fit: f.moods.reduce((s, m) => s + (t.moodScores[m] >= MOOD_MIN ? t.moodScores[m] : 0), 0) }))
+    .map((t) => ({ t, fit: fitOf(t, f) }))
     .sort((a, b) => b.fit - a.fit || b.t.popularity - a.t.popularity)
     .map((x) => x.t);
+}
+
+/** Random pick weighted by mood fit, so closer matches come up more often. */
+function weightedPick(from: CardTitle[], f: Filters) {
+  const weights = from.map((t) => (f.moods.length ? fitOf(t, f) : 1));
+  let r = Math.random() * weights.reduce((a, b) => a + b, 0);
+  for (let i = 0; i < from.length; i++) if ((r -= weights[i]) < 0) return from[i];
+  return from[from.length - 1];
 }
 
 /** ?type=&moods=&length= mirror the filters, so the URL is shareable and survives refresh. */
@@ -59,13 +71,20 @@ function fromQuery(params: URLSearchParams): Filters {
  * the logo (empty query = reset), back/forward, and "สุ่มเรื่องที่อารมณ์คล้ายกัน"
  * (?random=1) on detail pages. URLs this page wrote itself are skipped.
  */
-function ParamSync({ writtenRef, onChange }: { writtenRef: React.RefObject<string>; onChange: (f: Filters, random: boolean) => void }) {
+function ParamSync({
+  writtenRef,
+  onChange,
+}: {
+  writtenRef: React.RefObject<string>;
+  onChange: (f: Filters, random: boolean, from: number | null) => void;
+}) {
   const params = useSearchParams();
   useEffect(() => {
     const query = params.toString();
     if (query === writtenRef.current) return;
     writtenRef.current = query;
-    onChange(fromQuery(params), params.get("random") === "1");
+    const from = Number(params.get("from"));
+    onChange(fromQuery(params), params.get("random") === "1", Number.isInteger(from) && from > 0 ? from : null);
   }, [params, writtenRef, onChange]);
   return null;
 }
@@ -103,22 +122,34 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
     setPicked(null);
     setListSlug(null);
   };
-  const pickRandom = (from: CardTitle[]) => {
-    if (!from.length) return;
-    let p = from[Math.floor(Math.random() * from.length)];
-    if (from.length > 1 && p.id === picked) p = from.find((x) => x.id !== picked)!;
+  // Titles already picked under the current filters; no repeats until all have come up.
+  const seenRef = useRef({ key: "", ids: new Set<number>() });
+  const pickRandom = (pool: CardTitle[], f: Filters, exclude: number | null = null) => {
+    const key = `${toQuery(f)}|${exclude}`;
+    if (seenRef.current.key !== key) seenRef.current = { key, ids: new Set() };
+    const seen = seenRef.current.ids;
+    const candidates = pool.filter((t) => t.id !== exclude);
+    if (!candidates.length) return;
+    let fresh = candidates.filter((t) => !seen.has(t.id));
+    if (!fresh.length) {
+      seen.clear(); // went through them all: start over, but not with the one just shown
+      fresh = candidates.length > 1 ? candidates.filter((t) => t.id !== picked) : candidates;
+    }
+    const p = weightedPick(fresh, f);
+    seen.add(p.id);
     setListSlug(null);
     setPicked(p.id);
     scrollToResults();
   };
 
   const onParams = useMemo(
-    () => (f: Filters, random: boolean) => {
+    () => (f: Filters, random: boolean, from: number | null) => {
       setFilters(f);
       setListSlug(null);
       setPicked(null);
       if (random) {
-        pickRandom(match(titles, f));
+        // "from" is the detail page the visitor came from; never pick it back
+        pickRandom(match(titles, f), f, from);
         // drop ?random=1 so a refresh doesn't pick again
         writtenRef.current = toQuery(f);
         window.history.replaceState(null, "", writtenRef.current ? `/?${writtenRef.current}` : "/");
@@ -251,7 +282,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
                 ดู {pool.length} เรื่องที่ตรงใจ
               </button>
               <button
-                onClick={() => pickRandom(pool)}
+                onClick={() => pickRandom(pool, filters)}
                 disabled={!pool.length}
                 className="w-full rounded-lg border-[1.5px] border-ink p-2.5 text-[15px] font-semibold hover:bg-paper disabled:opacity-40"
               >

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { IBM_Plex_Sans_Thai, Noto_Serif_Thai } from "next/font/google";
+import { getLists } from "@/lib/data";
 import "./globals.css";
 
 const plex = IBM_Plex_Sans_Thai({
@@ -20,7 +21,9 @@ export const metadata: Metadata = {
   description: "เลือกมังงะและมังฮวาตามอารมณ์ที่อยากรู้สึก สรุปจากเสียงของคนอ่านจริง พร้อมช่องทางอ่านแบบถูกลิขสิทธิ์",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  // the lists section is hidden until a list is published, so is its menu link
+  const hasLists = (await getLists()).some((l) => l.slug !== "featured" && l.ids.length);
   return (
     <html lang="th" className={`${plex.variable} ${serif.variable}`}>
       <body className="flex min-h-screen flex-col font-sans">
@@ -32,7 +35,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <nav className="flex items-center gap-3.5 text-[15px] sm:gap-[18px] font-medium whitespace-nowrap">
               <Link href="/?type=manga">มังงะ</Link>
               <Link href="/?type=manhwa">มังฮวา</Link>
-              <Link href="/#lists">ลิสต์คัดสรร</Link>
+              {hasLists && <Link href="/#lists">ลิสต์คัดสรร</Link>}
             </nav>
           </div>
         </header>
