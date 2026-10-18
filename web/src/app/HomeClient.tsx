@@ -35,18 +35,38 @@ function match(titles: CardTitle[], f: Filters) {
     .map((x) => x.t);
 }
 
-/** Reads ?type=&moods=&random=1 (header nav, "สุ่มเรื่องที่อารมณ์คล้ายกัน" on detail pages). */
-function ParamSync({ onChange }: { onChange: (f: Filters, random: boolean) => void }) {
+/** ?type=&moods=&length= mirror the filters, so the URL is shareable and survives refresh. */
+function toQuery(f: Filters) {
+  const q = new URLSearchParams();
+  if (f.type !== "all") q.set("type", f.type);
+  if (f.moods.length) q.set("moods", f.moods.join(","));
+  if (f.length !== "any") q.set("length", f.length);
+  return q.toString();
+}
+
+function fromQuery(params: URLSearchParams): Filters {
+  const type = params.get("type");
+  const length = params.get("length");
+  return {
+    type: type === "manga" || type === "manhwa" ? type : "all",
+    moods: (params.get("moods") ?? "").split(",").filter((m): m is MoodKey => MOOD_KEYS.includes(m as MoodKey)),
+    length: length === "short" || length === "mid" || length === "long" ? length : "any",
+  };
+}
+
+/**
+ * Applies URL changes that came from outside the filter panel: header nav,
+ * the logo (empty query = reset), back/forward, and "สุ่มเรื่องที่อารมณ์คล้ายกัน"
+ * (?random=1) on detail pages. URLs this page wrote itself are skipped.
+ */
+function ParamSync({ writtenRef, onChange }: { writtenRef: React.RefObject<string>; onChange: (f: Filters, random: boolean) => void }) {
   const params = useSearchParams();
   useEffect(() => {
-    if (!params.size) return;
-    const type = params.get("type");
-    const moods = (params.get("moods") ?? "").split(",").filter((m): m is MoodKey => MOOD_KEYS.includes(m as MoodKey));
-    onChange(
-      { ...NO_FILTERS, type: type === "manga" || type === "manhwa" ? type : "all", moods },
-      params.get("random") === "1",
-    );
-  }, [params, onChange]);
+    const query = params.toString();
+    if (query === writtenRef.current) return;
+    writtenRef.current = query;
+    onChange(fromQuery(params), params.get("random") === "1");
+  }, [params, writtenRef, onChange]);
   return null;
 }
 
@@ -56,6 +76,15 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
   const [listSlug, setListSlug] = useState<string | null>(null);
   const [feat, setFeat] = useState(0);
   const resultsRef = useRef<HTMLElement>(null);
+  const writtenRef = useRef("");
+
+  // Keep the URL in step with the panel (replace, not push: filter clicks aren't history).
+  useEffect(() => {
+    const query = toQuery(filters);
+    if (query === writtenRef.current) return;
+    writtenRef.current = query;
+    window.history.replaceState(null, "", query ? `/?${query}` : "/");
+  }, [filters]);
 
   const pool = useMemo(() => match(titles, filters), [titles, filters]);
   const list = lists.find((l) => l.slug === listSlug);
@@ -88,8 +117,12 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
       setFilters(f);
       setListSlug(null);
       setPicked(null);
-      if (random) pickRandom(match(titles, f));
-      else scrollToResults();
+      if (random) {
+        pickRandom(match(titles, f));
+        // drop ?random=1 so a refresh doesn't pick again
+        writtenRef.current = toQuery(f);
+        window.history.replaceState(null, "", writtenRef.current ? `/?${writtenRef.current}` : "/");
+      } else if (toQuery(f)) scrollToResults();
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps -- run once per URL change
     [titles],
@@ -100,7 +133,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
   return (
     <main>
       <Suspense fallback={null}>
-        <ParamSync onChange={onParams} />
+        <ParamSync writtenRef={writtenRef} onChange={onParams} />
       </Suspense>
 
       <section className="border-b-[1.5px] border-ink">
