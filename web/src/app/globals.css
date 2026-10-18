@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f3efe6;
+  --color-panel: #ebe5d8;
+  --color-ink: #16130f;
+  --color-soft: #4a443b;
+  --color-muted: #6b645a;
+  --color-line: #cfc6b4;
+  --color-off: #d8d0bf;
+  /* brand accent for large type and fills; accent-ink for small text (AA on paper) */
+  --color-accent: #d9461f;
+  --color-accent-ink: #b8391a;
+
+  --font-sans: var(--font-plex-thai), system-ui, sans-serif;
+  --font-serif: var(--font-noto-serif-thai), serif;
+}
+
+@layer base {
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  a:hover {
+    color: var(--color-accent-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent-ink);
+    outline-offset: 2px;
+  }
+}
