@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "db:migrate": "tsx pipeline/db-migrate.ts",
+    "db:import": "tsx pipeline/db-import.ts",
+    "db:links": "tsx pipeline/db-import-links.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +14,7 @@
   "type": "module",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",
+    "postgres": "3.4.9",
     "zod": "^4.6.5"
   },
   "devDependencies": {
