@@ -21,6 +21,13 @@ const gen: any[] = JSON.parse(fs.readFileSync("data/generated/all.json", "utf8")
 const fetched: any[] = JSON.parse(fs.readFileSync("data/raw/anilist-recs.json", "utf8"));
 
 const byId = new Map(raw.map((t) => [t.anilistId, t]));
+// pairs the card writer marked as a weak fit (rec-prompt.md); never offered again
+const EXCLUDE = "data/generated/recs-exclude.json";
+const excluded = new Set<string>(
+  fs.existsSync(EXCLUDE)
+    ? JSON.parse(fs.readFileSync(EXCLUDE, "utf8")).map((p: any) => `${p.anilistId}:${p.recAnilistId}`)
+    : [],
+);
 const moodsOf = new Map(gen.map((g) => [g.anilistId, MOOD_KEYS.map((k) => g.moods[k].score as number)]));
 
 const jaccard = (a: Set<string>, b: Set<string>) => {
@@ -47,6 +54,7 @@ const cands = new Map<number, Cand[]>();
 for (const f of fetched) {
   cands.set(f.anilistId, f.recs
     .filter((r: any) => byId.has(r.anilistId) && r.anilistId !== f.anilistId &&
+      !excluded.has(`${f.anilistId}:${r.anilistId}`) &&
       r.format !== "NOVEL" && !r.isAdult && r.votes >= MIN_VOTES)
     .map((r: any) => {
       const sim = similarity(f.anilistId, r.anilistId);
@@ -90,6 +98,22 @@ for (let changed = true; changed && pass < 20; pass++) {
     const deg = indegree(picks, a);
     const next = top(c, (x) => score(a, x, picks, deg));
     if (next.join() !== picks.get(a)!.join()) { picks.set(a, next); changed = true; }
+  }
+}
+
+// --refill: keep the published cards (their same/diff text is written) and only
+// fill the slots of excluded cards with the best remaining candidates
+if (process.argv.includes("--refill")) {
+  const byTitle = new Map(raw.map((t) => [t.title, t.anilistId]));
+  const old: any[] = JSON.parse(fs.readFileSync(OUT, "utf8"));
+  for (const r of old) picks.set(r.anilistId,
+    r.recs.map((n: string) => byTitle.get(n)!).filter((id: number) => !excluded.has(`${r.anilistId}:${id}`)));
+  for (const [a, c] of cands) {
+    const kept = picks.get(a) ?? [];
+    if (kept.length >= N) continue;
+    const deg = indegree(picks, a);
+    const extra = top(c.filter((x) => !kept.includes(x.id)), (x) => score(a, x, picks, deg)).slice(0, N - kept.length);
+    picks.set(a, [...kept, ...extra]);
   }
 }
 

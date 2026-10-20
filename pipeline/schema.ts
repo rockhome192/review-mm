@@ -14,6 +14,9 @@ export const MOOD_LABELS: Record<(typeof MOOD_KEYS)[number], string> = {
 
 export const WARNING_KEYS = ["violence", "gore", "sexual", "nudity", "suicide", "abuse"] as const;
 
+/** Overused phrases the writers must not use (prompt.md "คำ/สำนวนที่ห้ามใช้ซ้ำซาก"). */
+export const BANNED_PHRASES = ["ลุ้นจนลืมหายใจ", "วางไม่ลง", "ห้ามพลาด", "ครบทุกรส", "อ่านเพลิน"];
+
 const MoodScore = z.object({
   score: z.number().int().min(0).max(3),
   reason: z.string().min(1),
@@ -66,6 +69,27 @@ export const Review = z.object({
   ),
 });
 export type Review = z.infer<typeof Review>;
+
+/** "เหมือนกันตรง / ต่างตรง" for one rec card. See pipeline/rec-prompt.md. */
+export const RecText = z.object({
+  anilistId: z.number().int(), // the page the card is on
+  recAnilistId: z.number().int(), // the title the card points to
+  same: z.string().min(8).max(90),
+  diff: z.string().min(8).max(90),
+  fit: z.enum(["ok", "weak"]), // weak: nothing real in common beyond genre
+  usedOutsideKnowledge: z.boolean(),
+});
+export type RecText = z.infer<typeof RecText>;
+
+/** Reviewer verdict on one RecText. */
+export const RecReview = z.object({
+  anilistId: z.number().int(),
+  recAnilistId: z.number().int(),
+  verdict: z.enum(["pass", "revise"]),
+  problem: z.string().nullable(),
+  fix: z.string().nullable(),
+});
+export type RecReview = z.infer<typeof RecReview>;
 
 /** Moods shown on the site: score >= 2, strongest first, at most 3. */
 export function pickMoods(r: Recommendation) {

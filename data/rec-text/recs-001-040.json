@@ -1,0 +1,834 @@
+[
+  {
+    "anilistId": 30002,
+    "recAnilistId": 30642,
+    "same": "ล้างแค้นกลางสงครามดิบๆ พร้อมคำถามว่าแข็งแกร่งคืออะไร",
+    "diff": "อิงไวกิ้งยุคจริง และจบแล้วใน 224 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30002,
+    "recAnilistId": 30583,
+    "same": "นักรบดาบสู้ปีศาจ และสะเทือนใจกับการสูญเสียเพื่อนร่วมทาง",
+    "diff": "ตัวเอกเป็นนักรบหญิง เน้นมิตรภาพ จบแล้ว 159 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30002,
+    "recAnilistId": 31706,
+    "same": "ออกเดินทางไกลกับคู่หูที่ค่อยๆ ผูกพันกันบนเส้นทางโหด",
+    "diff": "แข่งม้าข้ามอเมริกา พลังพิสดาร จบแล้ว 95 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31706,
+    "recAnilistId": 30642,
+    "same": "ผจญภัยต่างแดนที่ค่อยๆ กลายเป็นการหาความหมายของชีวิต",
+    "diff": "อิงยุคไวกิ้ง เน้นสงครามกับแง่คิด ไม่มีพลังพิเศษ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31706,
+    "recAnilistId": 30026,
+    "same": "ต่อสู้ด้วยพลังที่มีกฎชัด ต้องวางแผนหักเหลี่ยมกัน",
+    "diff": "เปลี่ยนแนวทุกภาค แต่ยังไม่จบและหยุดพักบ่อย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31706,
+    "recAnilistId": 30002,
+    "same": "ตัวเอกเดินทางไกลกับเพื่อนร่วมทาง ฝ่าชะตาที่โหดร้าย",
+    "diff": "มืดและโหดกว่ามาก เลือดสาด ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30656,
+    "recAnilistId": 30002,
+    "same": "นักดาบเดินทางสู้ไปพร้อมคำถามว่าการมีชีวิตคืออะไร",
+    "diff": "มืดกว่ามาก มีปีศาจกับฉากเลือดสาด",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30656,
+    "recAnilistId": 46765,
+    "same": "ไต่จากศูนย์สู่ 'ที่สุด' ในยุคสงครามจริง",
+    "diff": "เน้นศึกใหญ่และการเมืองในวัง ยาวมาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30656,
+    "recAnilistId": 30658,
+    "same": "ซามูไรผู้ไม่สง่างาม กับฉากดวลดาบดุดันลื่นไหล",
+    "diff": "อมตะแต่ยังเจ็บ เลือดสาดหนัก จบแล้ว 219 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30013,
+    "recAnilistId": 30026,
+    "same": "เด็กบ้านนอกออกเดินทางไกล ได้เพื่อนร่วมทางหลายคน",
+    "diff": "ตึงและใช้สมองกว่า ยังไม่จบและหยุดพักบ่อย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30013,
+    "recAnilistId": 86123,
+    "same": "พระเอกไร้พรสวรรค์แต่ไม่ยอมแพ้ มีทีมเพี้ยนๆ หนุนหลัง",
+    "diff": "เดินตามสูตรโชเน็นตรงๆ จบแล้ว 392 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30013,
+    "recAnilistId": 30025,
+    "same": "มุกตลกแทรกตลอด พร้อมปมที่ปูไว้แล้วเฉลยตอนจบ",
+    "diff": "จบแล้วใน 116 ตอน แต่การเมืองกับสงครามหนักกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30001,
+    "recAnilistId": 30003,
+    "same": "ปริศนาตามหาตัวคนบงการ ที่ต้องอ่านต่อให้รู้",
+    "diff": "ข้ามเวลาไปมา ยาว 249 ตอน ช่วงหลังยืดไปบ้าง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30001,
+    "recAnilistId": 30745,
+    "same": "คดีฆาตกรรมแนวนัวร์ ไล่เบาะแสทีละขั้น",
+    "diff": "ตัวเอกเป็นนักสืบหุ่นยนต์ กระชับ 65 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30001,
+    "recAnilistId": 30936,
+    "same": "ทริลเลอร์จิตวิทยาที่ชวนคิดเรื่องธาตุแท้ของมนุษย์",
+    "diff": "สยองและพิสดารกว่ามาก มีฉากโหดขยะแขยง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30642,
+    "recAnilistId": 30656,
+    "same": "ตั้งคำถามว่าความแข็งแกร่งคืออะไร ผ่านนักรบยุคเก่า",
+    "diff": "เน้นดวลดาบ หยุดพักหลายปี ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30642,
+    "recAnilistId": 46765,
+    "same": "ตัวเอกโตขึ้นท่ามกลางศึกสงครามในประวัติศาสตร์",
+    "diff": "เป็นจีนโบราณ เน้นกลยุทธ์ศึกใหญ่ ยาวมาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30642,
+    "recAnilistId": 86559,
+    "same": "ล่าขุมทองเลือดสาด บนฉากหลังประวัติศาสตร์ที่ค้นมาละเอียด",
+    "diff": "ฮาเพี้ยนกว่ามาก มีมุกแทรกแม้ในฉากเลือดสาด",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30051,
+    "recAnilistId": 30657,
+    "same": "บาสกับการลุกขึ้นใหม่ของคนหัวแข็ง จากคนเขียน Slam Dunk",
+    "diff": "หนักและสมจริงกว่ามาก บางคนเล่นบนวีลแชร์ ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30051,
+    "recAnilistId": 31303,
+    "same": "นักเลงหัวแข็งที่กีฬาค่อยๆ เปลี่ยนเขาไป",
+    "diff": "เป็นมวย ลายเส้นยุค 60 จริงจังกว่ามาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30051,
+    "recAnilistId": 30043,
+    "same": "มือใหม่ถูกลากเข้าชมรมกีฬา ตลกโผงผางตลอดการแข่ง",
+    "diff": "เป็นอเมริกันฟุตบอล ยาว 333 ตอน จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 74489,
+    "recAnilistId": 97830,
+    "same": "การเปลี่ยนร่างกับคำถามว่าการมีชีวิตคืออะไร",
+    "diff": "เล่าข้ามหลายช่วงเวลา ซึ้งน้ำตาซึมกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 74489,
+    "recAnilistId": 30698,
+    "same": "ตั้งคำถามเรื่องตัวตนลึกๆ ท่ามกลางศึกกับศัตรูลึกลับ",
+    "diff": "เด็ก 14 ขับหุ่นยักษ์ แนวเมคา จบแล้ว 97 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 74489,
+    "recAnilistId": 87170,
+    "same": "โลกหลังล่มสลายที่ตั้งคำถามเรื่องการมีชีวิต",
+    "diff": "หดหู่และโหดกว่า เน้นล้างแค้น จบแล้ว 83 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30657,
+    "recAnilistId": 37375,
+    "same": "กีฬาคือที่เดียวที่ใจสบาย ตัวเอกค่อยๆ เปลี่ยนไปอย่างหนักแน่น",
+    "diff": "ปีนเขาคนเดียว เงียบและเหงากว่า จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30657,
+    "recAnilistId": 30656,
+    "same": "คนที่ล้มลงแล้วหาความหมายของตัวเองจากสิ่งที่ทุ่มให้",
+    "diff": "เป็นนักดาบยุคเก่า เน้นดวลดาบ ไม่ใช่กีฬา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30657,
+    "recAnilistId": 31224,
+    "same": "คนเจ็บที่ค่อยๆ หัดเชื่อใจคนอื่น จุกแต่อุ่นใจ",
+    "diff": "เป็นโชกิ อบอุ่นกว่า ยังไม่จบและออกช้า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30025,
+    "recAnilistId": 30013,
+    "same": "ผจญภัยไกลกับพวกพ้อง ตลกแทรกและปมเก่าย้อนมาเฉลย",
+    "diff": "ยาวพันกว่าตอนและยังไม่จบ ต้องมีเวลาอ่านทัน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30025,
+    "recAnilistId": 98263,
+    "same": "ระบบเวทมีกฎชัด กับคนใกล้ตัวที่ต้องเสียไปเพราะมัน",
+    "diff": "นุ่มนวลแบบนิทาน ตัวเอกเป็นเด็กสาว ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30025,
+    "recAnilistId": 30908,
+    "same": "คู่หูที่ผูกพันกัน ท่ามกลางศึกที่มีมุกตลกแทรก",
+    "diff": "เบากว่า ไม่เน้นการเมือง ช่วงแรกเรื่องยังไม่ไปไหน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31303,
+    "recAnilistId": 30007,
+    "same": "เด็กที่โดนรังแกก้าวขึ้นเวทีมวย แล้วโตขึ้นทีละไฟต์",
+    "diff": "สดใสกว่า มีตลก แต่ยาวกว่าพันตอนและยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31303,
+    "recAnilistId": 30051,
+    "same": "นักเลงหัวแข็งที่ค่อยๆ ถูกกีฬาเปลี่ยนไปทีละนิด",
+    "diff": "เป็นบาส ตลกกว่ามาก ลายเส้นยุค 90 จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31303,
+    "recAnilistId": 30657,
+    "same": "คนที่ร่วงลงสุดทางแล้วใช้กีฬาเป็นที่ยืน",
+    "diff": "เป็นบาส บางคนเล่นบนวีลแชร์ ยังไม่จบและออกนานๆ ครั้ง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 46765,
+    "recAnilistId": 30002,
+    "same": "ฉากรบและดวลดาบดุเดือด ตัวเอกฝ่าความโหดของยุคสมัย",
+    "diff": "มืดกว่ามาก มีปีศาจและฉากโหดจัด",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 46765,
+    "recAnilistId": 30642,
+    "same": "ตัวเอกเติบโตจากเด็กสู่นักรบท่ามกลางสงคราม",
+    "diff": "ช่วงหลังเน้นแง่คิดมากกว่าฉากรบ จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 46765,
+    "recAnilistId": 30656,
+    "same": "ตัวเอกไล่ตามฝันเป็น 'ที่สุด' ในยุคสงครามจริง",
+    "diff": "เน้นดวลตัวต่อตัวกับคำถามชีวิต เดินช้ากว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 87395,
+    "recAnilistId": 101233,
+    "same": "มุกบ้าๆ แบบสแลปสติก ตัวเอกผู้ใหญ่ฮาไม่หยุด",
+    "diff": "จบเป็นตอนๆ หยิบอ่านง่าย เรื่องยากูซ่าเป็นพ่อบ้าน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 87395,
+    "recAnilistId": 30044,
+    "same": "มุกบ้าๆ ฮาจนน้ำตาเล็ด ตัวละครเพี้ยนทั้งกลุ่ม",
+    "diff": "ยาว 709 ตอน ล้อการ์ตูนอื่น แล้วหักเป็นอาร์คซึ้ง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30104,
+    "recAnilistId": 30085,
+    "same": "ตอนสั้นๆ จบในตัว ฮาเบาๆ ไม่มีพล็อตใหญ่",
+    "diff": "เน้นสาวนักเรียนหลายคน แบบสี่ช่อง จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30104,
+    "recAnilistId": 66413,
+    "same": "พ่อจำเป็นที่ต้องเลี้ยงเด็กสาวแปลกๆ ฮาปนอบอุ่น",
+    "diff": "พ่อเป็นยากูซ่า เด็กมีพลังจิต เพี้ยนกว่า จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30104,
+    "recAnilistId": 108556,
+    "same": "ครอบครัวบุญธรรมที่ค่อยๆ ผูกพัน ฮาและอุ่นใจ",
+    "diff": "มีแอ็กชันสายลับ และมุกปิดบังตัวตนที่วนซ้ำบ่อย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 65243,
+    "recAnilistId": 30051,
+    "same": "ตัวเอกตัวป่วนที่ต้องฝึกพื้นฐานซ้ำๆ ก่อนได้เฉิดฉายในสนาม",
+    "diff": "เป็นบาส ตัวเอกเป็นนักเลง ช่วงต้นตลกกว่ากีฬา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 65243,
+    "recAnilistId": 106130,
+    "same": "คู่แข่งรอบตัวเก่งจัดและมีเรื่องของตัวเอง ทุกแมตช์ต้องสุดตัว",
+    "diff": "เขี่ยกันตกรอบ อีโก้จัดกว่า ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 65243,
+    "recAnilistId": 107279,
+    "same": "เกมในสนามเล่าละเอียด คนไม่ดูบอลก็เข้าใจทุกจังหวะ",
+    "diff": "เป็นฟุตบอล ตัวเอกหยิ่งขี้โมโห จบแล้ว 410 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30028,
+    "recAnilistId": 30145,
+    "same": "ตั้งวงร็อกจากศูนย์ พร้อมมิตรภาพและความรักรอบตัว",
+    "diff": "ตัวเอกเป็นผู้ชาย เล่าติดดิน ตลกกว่า จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30028,
+    "recAnilistId": 87347,
+    "same": "วงดนตรีที่ความรักและการสูญเสียเล่าผ่านเพลง",
+    "diff": "เป็นรักวาย สั้นกว่า จบแล้วใน 51 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30028,
+    "recAnilistId": 33731,
+    "same": "ฝันดนตรีของคนวัยทำงานที่ยังไม่แน่ใจกับชีวิตจริง",
+    "diff": "จบกระชับแค่ 30 ตอน ไม่ค้างกลางเรื่อง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 63327,
+    "recAnilistId": 126693,
+    "same": "คนธรรมดาที่กลายเป็นสิ่งไม่ใช่มนุษย์ แล้วแยกดีชั่วไม่ออก",
+    "diff": "แนวฮีโร่ มีมุกตลกแทรก ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 63327,
+    "recAnilistId": 30401,
+    "same": "ต้องอยู่ร่วมกับสิ่งแปลกปลอมในร่าง ชวนคิดความเป็นมนุษย์",
+    "diff": "เอเลี่ยนแทนกูล สั้นกระชับ 64 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 63327,
+    "recAnilistId": 120760,
+    "same": "ตัวเอกกลายเป็นสัตว์ประหลาดแต่ยังสู้ฝั่งมนุษย์",
+    "diff": "โทนสว่างกว่า มีมุกตลก ตามสูตรโชเน็น",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30026,
+    "recAnilistId": 30013,
+    "same": "เด็กหนุ่มผจญภัยตามความฝัน พร้อมกลุ่มเพื่อนร่วมทาง",
+    "diff": "ตลกกว่า ปูปมไว้ยาวๆ แล้วค่อยเฉลย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30026,
+    "recAnilistId": 30053,
+    "same": "เด็กเกเรได้พลังพิเศษ แล้วผจญภัยกับพวกพ้องแบบโชเน็น",
+    "diff": "เบากว่า มีผีและยมโลก จบแล้ว 176 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30026,
+    "recAnilistId": 30025,
+    "same": "ระบบพลังมีกฎชัด ทุกการต่อสู้ต้องคิด",
+    "diff": "จบแล้วใน 116 ตอน ไม่หยุดพักกลางทาง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 75143,
+    "recAnilistId": 43245,
+    "same": "ชมรมวัยเรียนที่เกมเงียบๆ ลุ้นไม่แพ้มังงะกีฬา",
+    "diff": "เป็นไพ่คารุตะ มีสามเส้ารัก จบแล้ว 248 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 75143,
+    "recAnilistId": 78347,
+    "same": "เด็กหนุ่มที่ไม่เคยหลงใหลอะไร เจอสิ่งที่ทุ่มได้ทั้งใจ",
+    "diff": "เป็นเต้นบอลรูม ภาพลื่นไหล ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 75143,
+    "recAnilistId": 107237,
+    "same": "เด็ก ม.ปลายที่ทุ่มทั้งใจให้ศิลปะ แล้วโตขึ้นทีละก้าว",
+    "diff": "สงบกว่า เป็นงานวาด มีประเด็นฆ่าตัวตายแทรก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30003,
+    "recAnilistId": 30001,
+    "same": "ไล่ตามฆาตกรที่โผล่ไม่กี่ฉากแต่เงาคลุมทั้งเรื่อง",
+    "diff": "เป็นหมอกับฆาตกร เดินช้ากว่า จบแล้ว 162 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30003,
+    "recAnilistId": 41054,
+    "same": "ปริศนาสมคบคิดก้อนใหญ่ข้ามยุคข้ามเวลา",
+    "diff": "ช่วงต้นกระโดดจนงง ฉากหลังคือการ์ตูนอเมริกา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30003,
+    "recAnilistId": 85316,
+    "same": "วันสิ้นโลกที่ค้างเหนือหัว กับชีวิตประจำวันคนธรรมดา",
+    "diff": "โทนเสียดสีและตลกกว่า ตัวเอกเป็นสาวมัธยม",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 34632,
+    "recAnilistId": 33731,
+    "same": "คนหนุ่มสาวที่ฝันถูกโลกจริงบดทีละนิด",
+    "diff": "เบากว่ามาก มีดนตรีเป็นที่พักใจ จบ 30 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 34632,
+    "recAnilistId": 98397,
+    "same": "ความสัมพันธ์ในครอบครัวที่ค่อยๆ บิดเบี้ยว",
+    "diff": "เป็นสยองจิตวิทยา ความน่ากลัวมาจากแม่ที่คุมชีวิตลูก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 34632,
+    "recAnilistId": 85316,
+    "same": "ชีวิตธรรมดาที่ปนปรัชญากับมุกเสียดสีจิกกัด",
+    "diff": "เบากว่า มีเอเลี่ยนเหนือฟ้า ไม่ดำดิ่งเท่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86082,
+    "recAnilistId": 118586,
+    "same": "ผจญภัยกับเอลฟ์ ดูเรียบง่ายแต่ค่อยๆ ลึกกว่าที่คิด",
+    "diff": "ช้าและเหงากว่า เน้นความเสียดายเวลา ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86082,
+    "recAnilistId": 86559,
+    "same": "อาหารที่เล่าจริงจัง สอดแทรกในเรื่องผจญภัย",
+    "diff": "ฮอกไกโดยุคเก่า โหดและเลือดสาดกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86082,
+    "recAnilistId": 31133,
+    "same": "โลกแฟนตาซีเพี้ยนๆ ตลกปนความสยอง",
+    "diff": "มืดและเลือดสาดกว่า เรื่องหลักเร่งในครึ่งหลัง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86635,
+    "recAnilistId": 108556,
+    "same": "ต่างฝ่ายปิดบังตัวตน แล้วเกิดมุกฮาๆ อบอุ่น",
+    "diff": "เป็นสายลับครอบครัวปลอม มีแอ็กชัน ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86635,
+    "recAnilistId": 72451,
+    "same": "รักวัยเรียนหวานและฮา ตัวประกอบน่าจำ",
+    "diff": "ไม่มีสงครามจิตวิทยา กลางเรื่องไม่แน่นเท่าต้น",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86635,
+    "recAnilistId": 60315,
+    "same": "เกมจิตวิทยาในความรัก ใครแพ้ใจก่อนก็แพ้",
+    "diff": "ขึ้นมหาลัยแล้ว มีสามเหลี่ยมรัก สั้น 66 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30007,
+    "recAnilistId": 31303,
+    "same": "ตัวเอกไต่เวทีมวยทีละไฟต์ ผ่านการเติบโต",
+    "diff": "ตัวเอกร้ายกว่า ลายเส้นยุค 60 จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30007,
+    "recAnilistId": 30051,
+    "same": "มือใหม่ที่ฮาแต่ซึ้ง โตผ่านการฝึกหนัก",
+    "diff": "เป็นบาสโรงเรียน ตัวเอกเป็นนักเลง จบแล้ว 276 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30007,
+    "recAnilistId": 107279,
+    "same": "เกมแข่งที่เล่าละเอียดจนเห็นว่าทุกจังหวะถูกคิดมา",
+    "diff": "เป็นฟุตบอล จบแล้ว 410 ตอน ตลกน้อยกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31224,
+    "recAnilistId": 97701,
+    "same": "ความใจดีที่ค่อยๆ ทำให้ชีวิตคนรอบตัวดีขึ้น อ่านแล้วอุ่นใจ",
+    "diff": "เบาและอบอุ่นกว่า เป็นเรื่องเล็กๆ จบแล้วใน 28 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31224,
+    "recAnilistId": 106331,
+    "same": "ครอบครัวที่ไม่ได้เลือก ค่อยๆ อยู่ด้วยกันหลังการสูญเสีย",
+    "diff": "เน้นรับมือความตายในครอบครัว ซึมกว่า จบแล้วใน 59 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 31224,
+    "recAnilistId": 75143,
+    "same": "เด็กชมรมที่ค่อยๆ เป็นครอบครัวกัน ซึ้งจนน้ำตาซึม",
+    "diff": "เป็นดนตรีโคโตะ ลุ้นแบบแข่งขัน ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 37375,
+    "recAnilistId": 30657,
+    "same": "คนเจ็บที่ใช้กีฬาเป็นที่ยืนของใจ",
+    "diff": "เป็นบาสวีลแชร์ เล่นเป็นทีม ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 37375,
+    "recAnilistId": 30656,
+    "same": "ตัวเอกโดดเดี่ยวเดินทางไกลเพื่อพิสูจน์ตัวเอง ปรัชญาเยอะ",
+    "diff": "เป็นนักดาบยุคเก่า หยุดพักหลายปี ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 37375,
+    "recAnilistId": 33285,
+    "same": "หนุ่มเก็บตัวที่ได้ที่ยืนจากสิ่งที่ทุ่มให้",
+    "diff": "ต่อยกันบนถนน ฉากสู้สมจริง พล็อตเดินตามสูตร",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 98263,
+    "recAnilistId": 86082,
+    "same": "โลกแฟนตาซีที่คิดมาละเอียด ดันเจี้ยนมีระบบนิเวศของตัวเอง",
+    "diff": "ตลกกว่ามาก ตัวเอกผู้ใหญ่ จบแล้ว 111 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 98263,
+    "recAnilistId": 86770,
+    "same": "เทพนิยายนุ่มนวลที่เด็กสาวอยู่กับผู้ใหญ่ลึกลับ",
+    "diff": "จบแล้วใน 53 ตอน ระทึกอยู่ใต้ความนุ่มนวล",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 98263,
+    "recAnilistId": 180752,
+    "same": "คนที่ไม่เคยมีพลังก้าวเข้าสู่โลกเวทมนตร์ของแม่มด",
+    "diff": "ตัวเอกเป็นหนุ่มนักล่าที่บุกโลกแม่มดซึ่งมีแต่ผู้หญิง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 51525,
+    "recAnilistId": 99022,
+    "same": "นางเอกเก่งเรื่องของตัวเอง ท่ามกลางการเมืองในวัง",
+    "diff": "ไขคดีในวังหลังทีละตอน ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 51525,
+    "recAnilistId": 34571,
+    "same": "นางเอกที่ไม่ต้องรอใครมาช่วย มีหนุ่มคอยอยู่ข้างๆ",
+    "diff": "เบาและอบอุ่นกว่า ความรักคืบช้า ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 51525,
+    "recAnilistId": 30676,
+    "same": "กลุ่มเพื่อนร่วมทางที่กลายเป็นครอบครัวระหว่างทาง",
+    "diff": "ยุคโบราณกับปีศาจ ยาว 558 ตอน สูตรซ้ำๆ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 85135,
+    "recAnilistId": 99609,
+    "same": "เด็กสองคนผูกพันกันผ่านความลับ จนซึ้งน้ำตาซึม",
+    "diff": "สั้นแค่ 10 ตอน เน้นโรคร้ายของเพื่อนร่วมห้อง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 85135,
+    "recAnilistId": 85922,
+    "same": "คนได้ยินไม่ชัดกับคนที่ยอมพูดกับเขาตรงๆ ซึ้งลึก",
+    "diff": "เป็นรักวาย สั้นแค่ 6 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 85135,
+    "recAnilistId": 31224,
+    "same": "คนเจ็บที่ค่อยๆ หัดเชื่อใจคนอื่น",
+    "diff": "เป็นโชกิ อบอุ่นกว่า ยังไม่จบและออกช้า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 116170,
+    "recAnilistId": 41514,
+    "same": "ความรักช้าๆ ที่ความหวานอยู่ในท่าทางเล็กๆ",
+    "diff": "ย้อนยุคต่างแดน ภาพละเอียด มีหลายเจ้าสาว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 118586,
+    "recAnilistId": 86082,
+    "same": "ปาร์ตี้ผจญภัยกับเอลฟ์ที่เล่าตัวละครลึก",
+    "diff": "ฮาและกินมอนสเตอร์ จบแล้วใน 111 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 118586,
+    "recAnilistId": 98263,
+    "same": "โลกเวทมนตร์เล่าละมุน อ่านสบายแต่ซ่อนความเจ็บ",
+    "diff": "ฝึกเป็นแม่มด มีด้านมืดจากเวทต้องห้าม",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 118586,
+    "recAnilistId": 97830,
+    "same": "เดินทางผ่านหลายยุค ต้องจากลาคนที่ผูกพันไปเรื่อยๆ",
+    "diff": "มีฉากโหดเลือดสาด จบแล้วใน 202 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 107279,
+    "recAnilistId": 65243,
+    "same": "แข่งกีฬาที่เล่าคนมากกว่ากติกา คนไม่รู้เกมก็อ่านได้",
+    "diff": "เป็นวอลเลย์ ฮามากกว่า จบแล้ว 404 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 107279,
+    "recAnilistId": 106130,
+    "same": "ฟุตบอลเยาวชนที่ต้องแข่งคัดตัว ทุกแมตช์คือการเอาตัวรอด",
+    "diff": "นักเตะ 300 คนแย่งกันเป็นกองหน้า อีโก้จัด ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 107279,
+    "recAnilistId": 30051,
+    "same": "ตัวเอกหยิ่งๆ ที่ค่อยๆ โตขึ้นในสนามกีฬา",
+    "diff": "เป็นบาส ตลกกว่า ลายเส้นยุค 90 จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 117620,
+    "recAnilistId": 85135,
+    "same": "เด็กมัธยมที่แผลใจค่อยๆ ถูกเปิดออก จนซึ้งหนัก",
+    "diff": "รักต่างเพศ แตะเรื่องกลั่นแกล้งตรงๆ จบ 64 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 117620,
+    "recAnilistId": 99609,
+    "same": "รักวัยเรียนของสองคนต่างขั้ว ผูกกันด้วยความลับ",
+    "diff": "รักต่างเพศ สั้นแค่ 10 ตอน จังหวะเร็ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 117620,
+    "recAnilistId": 100187,
+    "same": "ยูริวัยเรียนที่รุ่นพี่รุ่นน้องค่อยๆ เปิดใจให้กัน",
+    "diff": "อบอุ่นกว่า บรรยากาศชมรมตู้ปลา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 39982,
+    "recAnilistId": 85911,
+    "same": "เกมเดิมพันที่ต้องหักเหลี่ยมกัน ลุ้นหนักทุกรอบ",
+    "diff": "สั้นกว่า จบใน 130 ตอน เน้นจับผิดคนโกหก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 39982,
+    "recAnilistId": 30021,
+    "same": "เกมสมองหักเหลี่ยมที่ลุ้นว่าใครจะชนะ",
+    "diff": "สั้นกว่า จบใน 108 ตอน สู้กันด้วยสมองล้วน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 43245,
+    "recAnilistId": 75143,
+    "same": "ชมรมวัยเรียนที่ลุ้นไม่แพ้มังงะกีฬา",
+    "diff": "เป็นดนตรีโคโตะ ตัวเอกเด็กเกเร ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 43245,
+    "recAnilistId": 31224,
+    "same": "เกมกระดานที่แข่งกันบีบใจ กับตัวเอกที่ค่อยๆ หัดเชื่อใจคน",
+    "diff": "ช้าและอบอุ่นกว่า เน้นโต๊ะข้าว ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 43245,
+    "recAnilistId": 78347,
+    "same": "เด็กที่ยังไม่มีฝัน เห็นอัจฉริยะเต้นแล้วหลงรักการแข่ง",
+    "diff": "เป็นเต้นบอลรูม ภาพลื่นไหล ยังไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 140475,
+    "recAnilistId": 85135,
+    "same": "แก๊งเพื่อนที่แต่ละคนมีแผลในใจ แล้วค่อยๆ เข้าใจกันมากขึ้น",
+    "diff": "หนักกว่ามาก แตะกลั่นแกล้งและอยากตาย จบ 64 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 140475,
+    "recAnilistId": 75143,
+    "same": "เด็กเกเรที่ถูกลือว่ามีคดี แต่ตั้งใจจริงกับชมรมที่เข้ามา",
+    "diff": "เป็นดนตรีโคโตะ เน้นแข่งขัน ครอบครัวร้าวฉาน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 140475,
+    "recAnilistId": 109285,
+    "same": "รักวัยเรียนค่อยเป็นค่อยไป อ่านแล้วอุ่นใจ",
+    "diff": "สาวต่างจังหวัดมาเมืองใหญ่ ซึ้งกว่า โรแมนซ์ช้ามาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  }
+]

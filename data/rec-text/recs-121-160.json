@@ -1,0 +1,770 @@
+[
+  {
+    "anilistId": 113488,
+    "recAnilistId": 119174,
+    "same": "พระเอกโดนรังแกมาก่อน และทุกไฟต์มีเรื่องของคู่ต่อสู้ให้อิน",
+    "diff": "ชกบนเวทีมวย ซึ้งกว่า จบแล้ว 133 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 113488,
+    "recAnilistId": 126297,
+    "same": "พระเอกหน้านิ่งที่แก๊งในโรงเรียนเลือกรังแกผิดคน",
+    "diff": "พระเอกเป็นอดีตทหารรับจ้าง สะใจตรงๆ ไม่ซับซ้อน ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 113488,
+    "recAnilistId": 86848,
+    "same": "เด็กโรงเรียนที่ค่อยๆ ถูกดึงเข้าโลกแก๊งต่อยตี",
+    "diff": "ตลกกว่ามาก มีร่างที่สอง ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 201009,
+    "recAnilistId": 85934,
+    "same": "พระเอกมาจากโลกเกมและลุ้นว่าจะกลายเป็นตัวร้ายเสียเอง",
+    "diff": "โครงกระดูกจอมเวทเก่งล้น จบแล้ว 83 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 201009,
+    "recAnilistId": 158448,
+    "same": "ความเข้าใจผิดทำให้คนมองพระเอกเป็นตัวละครสุดน่ากลัว",
+    "diff": "มีสงครามและฉากเลือด จบแล้ว 127 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 201009,
+    "recAnilistId": 123573,
+    "same": "อยากอยู่เงียบๆ แต่โดนลากเข้าเรื่องใหญ่ ฮาจากช่องว่างนี้",
+    "diff": "เน้นสงครามการเมือง มีแก๊งพวกพ้องเป็นครอบครัว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 119363,
+    "recAnilistId": 85143,
+    "same": "ไต่ผ่านด่านทดสอบทีละชั้น ไปพร้อมเพื่อนร่วมทีม",
+    "diff": "จริงจังกว่า เน้นเกมการเมือง ช่วงแรกช้า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 119363,
+    "recAnilistId": 150170,
+    "same": "ตลกด้วยบทพูดกวนๆ ของตัวเอกที่ตื่นมาในโลกเกม",
+    "diff": "มีคู่พระนางเถียงกันตลอด ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 119363,
+    "recAnilistId": 101134,
+    "same": "ตัวเอกต้องไต่ขึ้นมาใหม่ในโลกแบบเกม",
+    "diff": "จริงจังตรงๆ ไม่เน้นตลก ยาว 318 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 150170,
+    "recAnilistId": 119363,
+    "same": "มุกตลกแน่นตลอดเรื่อง ตัวเอกถูกดึงเข้าโลกอีกใบ",
+    "diff": "เล่าพระเอกเดี่ยวที่ไม่ค่อยเชื่อในตัวเอง จบแล้ว 264 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 150170,
+    "recAnilistId": 172619,
+    "same": "ตื่นมาในเกมที่ต้องเอาตัวรอด มีสาวๆ เข้ามาพัวพัน",
+    "diff": "จริงจังกว่า มุกเบา เน้นเอาตัวรอดในเกมยาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 159930,
+    "recAnilistId": 170400,
+    "same": "เด็กไร้ฐานะที่ไต่ขึ้นมาด้วยความรู้และฝีมือของตัวเอง",
+    "diff": "สายดาบแทนเวท มีดาบที่มีจิตเป็นครู และเส้นล้างแค้น",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 159930,
+    "recAnilistId": 178379,
+    "same": "พระเอกงัดไอเดียมากกว่าพลังดิบในสถาบันเวท",
+    "diff": "โลกเกมแบบอิเซไก มีฮาเร็มเบาๆ อ่านสบายกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 159930,
+    "recAnilistId": 135325,
+    "same": "พระเอกค่อยๆ ฝึกฝนจากจุดต่ำจนเก่งขึ้นทีละขั้น",
+    "diff": "เน้นดาบแทนเวท โทนอบอุ่นช้าๆ ปมแผลใจเรื่องแม่",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86848,
+    "recAnilistId": 121991,
+    "same": "เด็กที่โดนรังแกค่อยๆ เก่งจนล้มคนตัวใหญ่กว่าได้",
+    "diff": "ฮาน้อยกว่า เน้นเทคนิคต่อยล้วนๆ จบแล้ว 222 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86848,
+    "recAnilistId": 113488,
+    "same": "ชีวิตโรงเรียนกับแก๊งต่อยตีที่แต่ละคนมีแผลใจ",
+    "diff": "จริงจังและดิบกว่ามาก แทบไม่เน้นฮา จบแล้ว 268 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86848,
+    "recAnilistId": 110472,
+    "same": "ตัวเอกมือหนักในโรงเรียนเด็กเกเรที่มีแก๊งเพื่อนรอบตัว",
+    "diff": "เน้นฉากต่อยเป็นหลัก ตัวเอกตั้งใจเรียน ยาวเกิน 300 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 121991,
+    "recAnilistId": 86848,
+    "same": "เด็กที่โดนมองต่ำค่อยๆ ก้าวเข้าสู่โลกต่อยตี",
+    "diff": "มีร่างที่สอง ซึ้งกว่า ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 121991,
+    "recAnilistId": 110472,
+    "same": "โรงเรียนเต็มเด็กเกเรกับฉากต่อสู้เข้มข้น",
+    "diff": "ตัวเอกดื้อตั้งใจเรียน ยังลงต่อ ยาวเกิน 300 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 121991,
+    "recAnilistId": 113488,
+    "same": "ตัวเอกตัวเล็กที่ใช้หัวกับฝีมือล้มคนที่ใหญ่กว่า",
+    "diff": "ดิบและจริงจังกว่ามาก ไม่มีมุกเปิ่นๆ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 151512,
+    "recAnilistId": 149332,
+    "same": "ได้เกิดใหม่เพื่อแก้ชะตาในโลกดาบกับเวทมนตร์",
+    "diff": "เริ่มใหม่ตั้งแต่เป็นทารก เน้นสายดาบกับมังกร",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 151512,
+    "recAnilistId": 153880,
+    "same": "นักดาบที่ตายไปแล้วโผล่ในร่างเด็กและฝึกดาบใหม่หมด",
+    "diff": "มีเทพน้อยพาวิญญาณมา เน้นเปิดโปงคนทรยศ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 151512,
+    "recAnilistId": 135325,
+    "same": "ตัวเอกเริ่มฝึกดาบจากศูนย์ พร้อมแผลใจจากอดีต",
+    "diff": "โทนอบอุ่นช้าๆ ตัวละครรอบข้างตลกๆ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 187427,
+    "recAnilistId": 150836,
+    "same": "ตัวเอกต้องสวมรอยเป็นคนอื่นแล้วเอาตัวรอดในรั้วโรงเรียน",
+    "diff": "เดินเรื่องเร็วมาก ตัวละครเยอะ จบแล้ว 168 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 187427,
+    "recAnilistId": 152128,
+    "same": "คนรู้เนื้อเรื่องตื่นมาในบทตัวประกอบที่ชะตาเริ่มเพี้ยน",
+    "diff": "พกปืนในโลกดาบเวท ตอนแรกปูเรื่องช้า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 187427,
+    "recAnilistId": 118408,
+    "same": "ตื่นมาในเกมในบทที่เสี่ยงตายทุกทาง ต้องคิดหนีเอาตัวรอด",
+    "diff": "ตัวเอกเป็นผู้หญิง ซึ้งและลุ้นหนักกว่า มีลุ้นรัก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 114542,
+    "recAnilistId": 129210,
+    "same": "นางเอกร้ายๆ ที่วางหมากเอาตัวรอดในบ้านที่ใครก็โกหก",
+    "diff": "มืดกว่ามาก มีฉากเลือดสาดและสยอง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 114542,
+    "recAnilistId": 118408,
+    "same": "นางเอกในบทนางร้ายที่ไม่ยอมก้มหัวและสู้เอาตัวรอด",
+    "diff": "เป็นเกมจีบหนุ่ม เน้นความเจ็บกับครอบครัว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 114542,
+    "recAnilistId": 116382,
+    "same": "นางร้ายที่ไม่กลับตัวเป็นคนดี แต่วางแผนแก้แค้นรอบนี้",
+    "diff": "นางเอกได้เปรียบกว่า ลุ้นน้อยกว่า จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 116382,
+    "recAnilistId": 114542,
+    "same": "นางเอกร้ายที่เล่นเกมอำนาจและแก้แค้นโดยไม่กลับใจ",
+    "diff": "หักมุมไม่หยุด ลุ้นหนักกว่า ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 116382,
+    "recAnilistId": 129210,
+    "same": "นางเอกเกิดใหม่ในตระกูลร้ายและต้องจับตาคนรอบตัวทุกก้าว",
+    "diff": "มืดกว่ามาก มีฉากเลือดและสยอง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 116382,
+    "recAnilistId": 124783,
+    "same": "นางเอกที่ถูกประหารแล้วได้โอกาสแก้ชะตาอีกครั้ง",
+    "diff": "เน้นสร้างพันธมิตรกับเส้นรัก ไม่ใช่นางร้ายเขี้ยวลากดิน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 138222,
+    "recAnilistId": 109957,
+    "same": "ปีนหอคอยที่มีเทพเกี่ยวข้องพร้อมความแค้นส่วนตัว",
+    "diff": "เน้นล้างแค้นแทนพี่ชาย ปริศนาเปิดช้า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 138222,
+    "recAnilistId": 119257,
+    "same": "ใช้ความรู้ล่วงหน้านำหน้าคนอื่นในเกมเอาชีวิตรอด",
+    "diff": "ลุ้นหนักกว่า หักมุม ตัวเอกรู้มากกว่าเก่ง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 138222,
+    "recAnilistId": 137280,
+    "same": "ใช้ความรู้ที่สั่งสมมานานไต่หอคอยนำหน้าทุกคน",
+    "diff": "มีเส้นตาย 90 วัน ตัวเอกเป็นสตรีมเมอร์ตกอับ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 123573,
+    "recAnilistId": 140407,
+    "same": "ตื่นมาเป็นลูกขุนนางไร้ค่า แล้วใช้หัวสู้แทนพลัง",
+    "diff": "ฮาหน้าพัง มุกหยาบเยอะ จบแล้ว 222 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 123573,
+    "recAnilistId": 141958,
+    "same": "ทีมพวกพ้องที่ค่อยๆ กลายเป็นครอบครัวรอบตัวพระเอก",
+    "diff": "ฮันเตอร์ย้อนเวลา มีมุกล้อแนวนี้ ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 123573,
+    "recAnilistId": 119257,
+    "same": "ตัวเอกรู้เนื้อเรื่องล่วงหน้าและมีพวกพ้องผูกพันกัน",
+    "diff": "จริงจังและลุ้นหนักกว่า ไม่เน้นฮา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 153432,
+    "recAnilistId": 107518,
+    "same": "แอนตี้ฮีโร่ในยุทธภพที่ต้องดิ้นรนจากศูนย์",
+    "diff": "เกิดใหม่ในสำนักมาร เน้นล้างแค้น จบแล้ว 252 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 153432,
+    "recAnilistId": 130566,
+    "same": "ผู้รอดจากการถูกทำร้ายสุดโหดในโลกยุทธภพ",
+    "diff": "ล้างแค้นล้วนๆ ไล่ล้างตระกูลพิษ ฉากโหดจัด",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 153432,
+    "recAnilistId": 119521,
+    "same": "พระเอกยุทธภพโทนมืดที่ต้องรอดและทวงแค้น",
+    "diff": "เน้นสู้ดาบ ภาพโทนหม่น จบแล้ว 202 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 135325,
+    "recAnilistId": 170400,
+    "same": "เด็กหนุ่มที่ค่อยๆ โตขึ้นผ่านการฝึกดาบกับครูที่ผูกพัน",
+    "diff": "มีดาบมีจิตสำนึก เน้นแก้แค้นและการเมือง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 135325,
+    "recAnilistId": 149332,
+    "same": "ตัวเอกสายดาบที่ได้โอกาสเริ่มใหม่ ฉากดาบเป็นจุดเด่น",
+    "diff": "เกิดใหม่เป็นทารกพร้อมเวทและมังกร เน้นสู้",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 135325,
+    "recAnilistId": 167649,
+    "same": "นักดาบที่แบกเรื่องหนักใจไว้คนเดียวขณะฝึกฝน",
+    "diff": "ย้อนเวลาเป็นนักเรียนสถาบัน โครงเรื่องคุ้นๆ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 151460,
+    "recAnilistId": 120980,
+    "same": "พระเอกมีของวิเศษติดตัวช่วยลัดการฝึกวรยุทธ์",
+    "diff": "มีเทคโนโลยีจากอนาคต สู้ดุเดือดและโหดกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 151460,
+    "recAnilistId": 107518,
+    "same": "ตื่นมาใหม่ในยุทธภพพร้อมความรู้ชาติก่อน",
+    "diff": "แอนตี้ฮีโร่ล้างแค้นในสำนักมาร จบแล้ว 252 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 170894,
+    "recAnilistId": 159441,
+    "same": "ใช้ความรู้เรื่องเกมมรณะเอาตัวรอดและปั้นทีมให้ครบ",
+    "diff": "ตึงเครียดกว่า มีฉากเลือดสาด ตัวละครตายได้ทุกเมื่อ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 170894,
+    "recAnilistId": 128067,
+    "same": "ตายซ้ำแล้วย้อนเวลา ใช้ความรู้รอบก่อนหาทางรอด",
+    "diff": "ซึ้งและฮากว่ามาก แต่การฆ่าตัวตายเป็นกลไกหลัก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 170894,
+    "recAnilistId": 144957,
+    "same": "นักปีนหอคอยกับเรื่องย้อนเวลาและทางเลือกเริ่มใหม่",
+    "diff": "ปฏิเสธย้อนเวลา สู้โลกเดิมที่พัง โทนโศกกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 152128,
+    "recAnilistId": 173020,
+    "same": "คนรู้เนื้อเรื่องเกมละเอียดและใช้มันโค่นบอสหลัก",
+    "diff": "พระเอกเป็น NPC ย้อนเวลา มีฮาเร็มโรงเรียนเวท",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 152128,
+    "recAnilistId": 123573,
+    "same": "รู้เนื้อเรื่องนิยายที่ตัวเองหลุดเข้าไปแล้วพยายามเลี่ยงชะตา",
+    "diff": "ฮากว่า มีพวกพ้องเป็นครอบครัว เน้นสงครามการเมือง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 152128,
+    "recAnilistId": 141007,
+    "same": "ตัวเอกตัวประกอบที่รอดด้วยหัวไวมากกว่าพลัง",
+    "diff": "เน้นแผนฉลาดแกมโกง ตลกกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 117460,
+    "recAnilistId": 137969,
+    "same": "ผู้เล่นเกมเสมือนจริงที่ลุยหาเงินและพลิกชีวิต",
+    "diff": "อดีตราชาเกมมาล้างแค้น จริงจังกว่า ไม่เน้นฮา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 117460,
+    "recAnilistId": 116506,
+    "same": "คนธรรมดาไร้สกิลสู้ที่ใช้ฝีมือช่างเอาตัวรอดในเกม",
+    "diff": "อยู่ในดันเจี้ยนเกมมรณะ มีตอนทำอาหาร จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 117460,
+    "recAnilistId": 105398,
+    "same": "มือใหม่ดวงซวยได้ของพิเศษคนเดียวจนไต่ระดับแบบเกม",
+    "diff": "บู๊จริงจังกว่า ไม่เน้นตลก จบแล้ว 201 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 130300,
+    "recAnilistId": 129758,
+    "same": "นางร้ายรู้เนื้อเรื่องล่วงหน้าและเลือกวางแผนเอง",
+    "diff": "จริงจังกว่า เน้นการเมืองในวัง ไม่เน้นฮา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 130300,
+    "recAnilistId": 107521,
+    "same": "เกิดใหม่ในนิยายที่พ่อคือต้นเหตุชะตาร้ายของเธอ",
+    "diff": "เน้นสายสัมพันธ์พ่อลูก น่ารักฟู รักน้อยกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 130300,
+    "recAnilistId": 118408,
+    "same": "นางเอกที่ครอบครัวทิ้งไว้ ต้องหาทางรอดจากชะตาร้าย",
+    "diff": "หนักและลุ้นกว่ามาก ไม่ใช่รอมคอมฮา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 136109,
+    "recAnilistId": 86218,
+    "same": "รักระหว่างสาวสองคนที่ค่อยๆ หาคำตอบใจตัวเอง",
+    "diff": "เรื่องรักล้วนในสภานักเรียน จบแล้ว 53 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 136109,
+    "recAnilistId": 107987,
+    "same": "รักระหว่างสาวสองคนในโรงเรียนที่ผูกกับดนตรี",
+    "diff": "สดใสกว่า เน้นชมรมดนตรี ตอนใหม่เคยหยุดนาน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 136109,
+    "recAnilistId": 85135,
+    "same": "สายสัมพันธ์กับคนหูหนวกและการหัดเข้าใจกัน",
+    "diff": "หนักและเศร้ากว่า มีเรื่องรังแก จบแล้ว 64 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 166742,
+    "recAnilistId": 147997,
+    "same": "รักวัยเรียนเขินๆ ของสองคนนิสัยตรงข้าม มีเพื่อนคอยช่วย",
+    "diff": "เดินเรื่องไวกว่า ฮากว่า ไม่ยืดเยื้อ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 166742,
+    "recAnilistId": 33378,
+    "same": "นางเอกเงียบที่ไม่ถนัดคนและค่อยๆ เปิดใจมีเพื่อน",
+    "diff": "ซึ้งกว่า รักคืบช้ามาก จบแล้ว 127 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 166742,
+    "recAnilistId": 109285,
+    "same": "รักช้าๆ ของวัยรุ่น อ่านสบาย มีแก๊งเพื่อนรอบตัว",
+    "diff": "สาวจากอิชิคาวะมาโตเกียว ซึ้งกว่า ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 38157,
+    "recAnilistId": 30102,
+    "same": "นางเอกไร้บ้าน ได้อาศัยกับหนุ่มๆ ที่มีความลับเหนือธรรมชาติ",
+    "diff": "หนักและหดหู่กว่า เน้นปมครอบครัว จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 38157,
+    "recAnilistId": 98842,
+    "same": "โยไคกับผีในโรงเรียน ผสมรักกุ๊กกิ๊กน่ารัก",
+    "diff": "มืดและมีปริศนากว่า ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 38157,
+    "recAnilistId": 30676,
+    "same": "สาวธรรมดาผูกพันกับหนุ่มครึ่งปีศาจที่มีอดีตเจ็บปวด",
+    "diff": "สายผจญภัยต่อสู้ ยาว 558 ตอน สูตรซ้ำๆ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 87347,
+    "recAnilistId": 87208,
+    "same": "คนที่แบกความเจ็บไว้ในใจ ซึ้งจนอ่านแล้วต้องร้องไห้",
+    "diff": "สั้น 23 ตอน มีเรื่องบูลลี่และความคิดอยากตาย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 87347,
+    "recAnilistId": 30028,
+    "same": "วงดนตรี ความรัก และมิตรภาพที่เจ็บจนร้องไห้",
+    "diff": "ดราม่าผู้ใหญ่หญิงชาย หนักกว่า ค้างมานานหลายปี",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 87347,
+    "recAnilistId": 85616,
+    "same": "รักชายชายที่ค่อยๆ ก่อตัวจากความรู้สึกที่พูดไม่ออก",
+    "diff": "สั้นแค่ 4 ตอน นุ่มนวลช้าๆ ไม่มีวงดนตรี",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 126399,
+    "recAnilistId": 30756,
+    "same": "ความผูกพันของสองชายต่างโลกจนอ่านจบแล้วตัดใจไม่ได้",
+    "diff": "มาเฟียแอ็กชันจัด 110 ตอน มีเรื่องล่วงละเมิดหนักมาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 126399,
+    "recAnilistId": 114027,
+    "same": "รักชายชายที่มีแผลใจแรง จบในเล่มสั้นแต่อัดอารมณ์",
+    "diff": "ฉากชมรมการแสดง มีมุกขำแทรก ปิดเรื่องไม่ถูกใจบางคน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 104241,
+    "recAnilistId": 87459,
+    "same": "ผู้หญิงที่กำลังหัดยอมรับตัวเองและความสัมพันธ์",
+    "diff": "เรื่องจริงของผู้เขียนแค่ 6 ตอน หนักเรื่องซึมเศร้า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 98370,
+    "recAnilistId": 109921,
+    "same": "รอมคอมวายหวานใสฮาๆ ไม่มีดราม่าหนัก",
+    "diff": "ฮาเว่อร์กว่า มีสามเส้า จบแล้ว 41 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 98370,
+    "recAnilistId": 85616,
+    "same": "รักชายชายค่อยเป็นค่อยไป ให้ความรู้สึกนุ่มนวล",
+    "diff": "สั้นแค่ 4 ตอน จริงจังกว่า ไม่เน้นมุกฮา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 98370,
+    "recAnilistId": 72451,
+    "same": "คู่รักวัยเรียนที่ต่างจากภาพที่คนเห็น พร้อมแก๊งเพื่อนน่ารัก",
+    "diff": "เป็นคู่หญิงชาย จบแล้ว 152 ตอน ช่วงท้ายไม่แน่น",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 134191,
+    "recAnilistId": 67705,
+    "same": "ผลงานผู้เขียนคนเดียวกัน ต้องคอยอ่านใจตัวละครไปด้วย",
+    "diff": "เป็นมหาลัย ลุ้นกว่า ซีซั่นแรก 47 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 134191,
+    "recAnilistId": 109285,
+    "same": "รักช้าๆ ของเด็กต่างจังหวัดที่เป็นเพื่อนกันก่อน",
+    "diff": "ซึ้งและสดใสกว่า มีแก๊งเพื่อนเยอะ ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 134191,
+    "recAnilistId": 126986,
+    "same": "เด็กสองคนที่ค่อยๆ ใกล้กันจากความเย็นชา",
+    "diff": "แฟนตาซีผี หนักเรื่องครอบครัว จบแล้ว 269 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 138705,
+    "recAnilistId": 172619,
+    "same": "ต้องเอาตัวรอดในโลกเกมท่ามกลางสาวๆ ที่พัวพัน",
+    "diff": "ไม่มีวนลูปเวลา ฮาเร็มเคมีจืดกว่า ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 104677,
+    "recAnilistId": 155471,
+    "same": "รักหญิงหญิงที่เริ่มจากมิตรภาพและมีเงื่อนงำซ่อนอยู่",
+    "diff": "ฉากโรงเรียนสมัยใหม่ เบากว่า จบแล้ว 56 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 143003,
+    "recAnilistId": 145551,
+    "same": "นางเอกวัยทำงานที่เส้นรักเดินคู่กับชีวิตการงาน",
+    "diff": "เป็นแก้แค้นย้อนเวลา มืดและลุ้นกว่ามาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 143003,
+    "recAnilistId": 120440,
+    "same": "รักวัยผู้ใหญ่หวานๆ พระเอกกรีนแฟล็กอ่านฟูใจ",
+    "diff": "เริ่มจากท้องก่อนแต่ง ฮากว่า มีครอบครัวเป็นแกน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 143003,
+    "recAnilistId": 110095,
+    "same": "รักออฟฟิศหวานๆ กับหนุ่มที่ดูมีทุกอย่าง อ่านไม่เครียด",
+    "diff": "ฮากว่า เป็นนัดบอดปลอมกับซีอีโอ ไม่เน้นวงการบันเทิง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 104533,
+    "recAnilistId": 121565,
+    "same": "คู่หลักน่ารักจนเขินตามทั้งเรื่อง",
+    "diff": "หนักกว่ามาก มีเรื่องซึมเศร้าและฆ่าตัวตาย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 104533,
+    "recAnilistId": 149483,
+    "same": "รักสามเส้าวัยเรียนที่ต้องเลือกใจตัวเอง",
+    "diff": "มีมือถือพูดได้ ดราม่ากว่า ช่วงหลังจืดลง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 104533,
+    "recAnilistId": 102259,
+    "same": "รอมคอมฮาๆ ที่นางเอกวุ่นกับหนุ่มคนที่ใช่",
+    "diff": "มีคำสาปแปลงเป็นหมา และมีรักสามเส้า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 119701,
+    "recAnilistId": 143099,
+    "same": "คู่หลักที่ค่อยๆ ใกล้กันกลางความลับและสงคราม",
+    "diff": "คดีฆาตกรบนเรือ เล่าสลับอดีต จบใน 80 ตอน สั้นกว่ามาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 119701,
+    "recAnilistId": 111075,
+    "same": "นางเอกผู้ใหญ่รับมือขุนนางที่ไม่ยอมรับ ซึ้งเรื่องครอบครัว",
+    "diff": "ซึ้งหนักกว่า เน้นครอบครัวกับลูกเลี้ยง ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 119701,
+    "recAnilistId": 103854,
+    "same": "รักที่เริ่มจากความระแวงกลางการเมืองและสงคราม",
+    "diff": "นางเอกเป็นสาวใช้ปากกล้า อ่านเบากว่า จบใน 103 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 143099,
+    "recAnilistId": 119701,
+    "same": "ตัวเอกที่ความลับผูกกับคนใกล้ชิดกลางสงคราม",
+    "diff": "มีเวทมนตร์และเทพ ยาว 230 ตอน จบแล้ว",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 143099,
+    "recAnilistId": 118408,
+    "same": "ความสัมพันธ์ตึงๆ กับคนที่อาจเป็นอันตรายต่อนางเอก",
+    "diff": "เป็นเกมจีบหนุ่ม ลุ้นหนัก ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 99923,
+    "recAnilistId": 134191,
+    "same": "รักใสที่ค่อยๆ ขยับจากคนแปลกหน้าเป็นเพื่อนทีละนิด",
+    "diff": "เงียบกว่า ไม่ฮามาก เน้นรักช้าๆ ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 100932,
+    "recAnilistId": 97871,
+    "same": "คู่ BL วัยเรียนที่ความสัมพันธ์ยังคลุมเครือ",
+    "diff": "บูลลี่เป็นแกนเท่ากับรัก ไม่เบาสบาย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 155471,
+    "recAnilistId": 126986,
+    "same": "เพื่อนวัยเรียนที่สนิทกันทีละนิดจนผูกพัน",
+    "diff": "ไม่ใช่รัก เป็นแฟนตาซีผี ซึ้งหนัก จบแล้ว 269 ตอน",
+    "fit": "weak",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 155471,
+    "recAnilistId": 104677,
+    "same": "รักหญิงหญิงที่เริ่มจากการช่วยเหลือและมีเจตนาแอบแฝง",
+    "diff": "ย้อนยุคเกาหลี จริงจังกว่า จบแล้ว 90 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  }
+]

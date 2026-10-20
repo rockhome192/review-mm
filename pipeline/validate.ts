@@ -4,9 +4,9 @@
 //
 // Usage: npx tsx pipeline/validate.ts
 import fs from "node:fs";
-import { Recommendation, MoodResult, MOOD_KEYS, pickMoods, MOOD_LABELS } from "./schema.ts";
+import { Recommendation, MoodResult, MOOD_KEYS, pickMoods, MOOD_LABELS, BANNED_PHRASES } from "./schema.ts";
 
-const BANNED = ["ลุ้นจนลืมหายใจ", "วางไม่ลง", "ห้ามพลาด", "ครบทุกรส", "อ่านเพลิน"];
+const BANNED = BANNED_PHRASES;
 const raw: any[] = JSON.parse(fs.readFileSync("data/raw/anilist-top.json", "utf8"));
 const byId = new Map(raw.map((t) => [t.anilistId, t]));
 

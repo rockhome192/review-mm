@@ -5,12 +5,14 @@ import { MOOD_KEYS, type CardTitle, type LengthKey, type List, type Title, type 
 
 const URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const KEY = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+// next dev reads fresh rows on every refresh, so DB edits show up without clearing .next/cache
+const DEV = process.env.NODE_ENV === "development";
 
 async function rest<T>(path: string): Promise<T> {
   if (!URL || !KEY) throw new Error("NEXT_PUBLIC_SUPABASE_URL / _PUBLISHABLE_KEY are not set");
   const res = await fetch(`${URL}/rest/v1/${path}`, {
     headers: { apikey: KEY },
-    cache: "force-cache",
+    cache: DEV ? "no-store" : "force-cache",
   });
   if (!res.ok) throw new Error(`Supabase ${res.status}: ${await res.text()}`);
   return res.json();
@@ -64,6 +66,7 @@ let catalog: Promise<Title[]> | undefined;
 
 /** Every visible title (published blurb, not hidden), most popular first. */
 export function getCatalog(): Promise<Title[]> {
+  if (DEV) catalog = undefined; // the dev server process lives across refreshes
   catalog ??= rest<TitleRow[]>(
     "titles?select=*,blurbs!inner(*),moods(*),recommendations!recommendations_anilist_id_fkey(*),reading_links(*),overrides(*)&order=popularity.desc",
   ).then((rows) => rows.filter((r) => !r.overrides?.hidden).map(toTitle));
