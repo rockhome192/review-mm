@@ -177,7 +177,7 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
         {t.recs.length > 0 && (
           <section className="flex flex-col gap-4">
             <h2 className="font-serif text-2xl font-extrabold">ถ้าชอบเรื่องนี้ ลองอ่าน</h2>
-            <ul className="grid grid-cols-[repeat(auto-fill,minmax(230px,1fr))] gap-4">
+            <ul className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-4">
               {t.recs.map((r) => {
                 const other = r.id ? byId.get(r.id) : undefined;
                 const card = (

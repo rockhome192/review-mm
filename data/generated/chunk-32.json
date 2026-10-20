@@ -1,0 +1,464 @@
+[
+  {
+    "anilistId": 124577,
+    "hook": "เขาเป็นคนเดียวที่รอดจากเกมสังหารของเหล่าเทพ แล้วได้ย้อนเวลากลับไปเล่นรอบสองเพื่อเอาคืน",
+    "body": "เกมนี้เริ่มมาสิบปีแล้ว ทุกคนบนโลกถูกบังคับให้ฆ่ามอนสเตอร์ตัวเป็นๆ ไม่งั้นก็ตาย คิมเซฮันเลยตั้งเป้าเปลี่ยนชะตาโลกและเอาชนะเทพด้วยเกมของพวกมันเอง",
+    "caveat": null,
+    "ifYouLike": [
+      "Omniscient Reader",
+      "The Frozen Player Returns"
+    ],
+    "tagsTh": [
+      "ย้อนเวลา",
+      "ดันเจี้ยน",
+      "เกมเอาชีวิตรอด",
+      "ระบบเกม"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "ฆ่าสัตว์ประหลาดในโลกจริง แท็ก Action และ Dungeon"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "เกมเอาชีวิตรอดที่ตายได้จริง"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องตึงเครียด"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 165287,
+    "hook": "สามร้อยปีในต่างโลกเพื่อไล่ล่าปีศาจ แล้วเขากลับมายังโลกมนุษย์ แต่ไม่ได้กลับมาคนเดียว",
+    "body": "เขาเป็นนักดาบที่ล่าปีศาจมาสามศตวรรษ ส่วนสิ่งที่ตามกลับมาด้วยดูจะเกี่ยวพันกับเหล่าเทพ ความวุ่นวายบนโลกมนุษย์เลยไม่ธรรมดาแน่",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "After Ten Millennia in Hell",
+      "The Sword God from the Lost World"
+    ],
+    "tagsTh": [
+      "ต่างโลก",
+      "นักดาบ",
+      "ปีศาจ"
+    ],
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "แท็ก Swordplay, Demons"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "มีลึกลับว่าใครกลับมาด้วย"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "แนวแอคชันจริงจัง"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "low",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 165182,
+    "hook": "ชายป่วยหนักที่เหลือเวลาอีกเดือนเดียว ดำดิ่งเข้าไปในเกม RPG ที่คุ้นเคยที่สุด แล้วเจอเหตุผลให้สู้",
+    "body": "พอตื่นมาในโลกเกม ชานก็กลายเป็นน็อกซ์ ตัวละครของตัวเองที่ถูกกำหนดให้ตายเหมือนกัน เขาเลยตั้งใจสู้ให้ตัวละครนี้มีทางรอด ทั้งที่ตัวเองเหลือเวลาไม่มาก",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "Revenge of the Baskerville Bloodhound",
+      "Mythic Item Obtained"
+    ],
+    "tagsTh": [
+      "ทะลุมิติ",
+      "เข้าไปในเกม",
+      "RPG"
+    ],
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "แท็ก Swordplay, Magic, Demons"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "ตัวเอกป่วยใกล้ตาย เรื่องย่อชวนสะเทือนใจ"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "เดิมพันคือชีวิตของสองคน"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่เรื่องสบายๆ"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 110042,
+    "hook": "รับจ้างเป็นเหยื่อล่อมอนสเตอร์จนใกล้ตาย ภาพชาติก่อนก็ผุดขึ้นมา เขาคือราชาจอมเวทกลับชาติมาเกิด",
+    "body": "อีซองฮุนทำงานเสี่ยงตายเพื่อหาเงินค่ารักษาแม่ที่หลับไม่ตื่น พอความทรงจำกลับมา เขาก็ใช้เวทมนตร์อย่างมีระบบและเตรียมตัวรัดกุม คนอ่านชอบตรงที่เวทมีรายละเอียดและตัวเอกค่อยๆ เติบโต",
+    "caveat": "ตัวเอกเก่งล้นจนคนไม่ชอบสายโอพีอาจเลี่ยง",
+    "ifYouLike": [
+      "Solo Leveling",
+      "The Archmage Returns After 4000 Years"
+    ],
+    "tagsTh": [
+      "กลับชาติมาเกิด",
+      "จอมเวท",
+      "ดันเจี้ยน",
+      "โอพี"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "ต่อสู้ด้วยเวทมนตร์ล่ามอนสเตอร์ แท็ก Magic 92"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "แท็ก Survival"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "แนวต่อสู้เอาชีวิตรอด"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "high",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 151194,
+    "hook": "หนุ่มอัดเพลงสารภาพรักลงยูทูบแล้วโดนทั้งห้องหัวเราะ จนมีคนเห็นผีในคลิป โลกก็เริ่มตีความกันบ้าคลั่ง",
+    "body": "ยิ่งคนค้นเจอความผิดปกติในวิดีโอมากเท่าไหร่ ก็ยิ่งตีความไปไกลกว่าที่เจ้าของคลิปตั้งใจ เป็นงานเสียดสีวัฒนธรรมการวิเคราะห์เกินเหตุจากคนเขียน Chainsaw Man ที่อ่านจบเร็วแต่ชวนคิดต่อ",
+    "caveat": "เป็นวันช็อตตอนเดียวจบ",
+    "ifYouLike": [
+      "Goodbye, Eri",
+      "Look Back"
+    ],
+    "tagsTh": [
+      "วันช็อต",
+      "เสียดสี",
+      "ผี"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "romance": {
+        "score": 1,
+        "reason": "เริ่มจากการสารภาพรัก แต่ไม่ใช่แกนหลัก"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "มีผีและปริศนาในคลิป"
+      },
+      "comedy": {
+        "score": 3,
+        "reason": "แท็ก Satire, Surreal Comedy และเหตุการณ์สุดเพี้ยน"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่เรื่องสบายๆ"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "high",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30085,
+    "hook": "สาวๆ ในห้องเรียนสุดป่วน กับครูที่เพี้ยนไม่แพ้นักเรียน ในมังงะสี่ช่องที่ฮาแบบไม่มีพล็อต",
+    "body": "ทุกตัวละครมีจุดเพี้ยนเฉพาะตัว ทั้งโทโมะที่ซ่า โอซาก้าที่เหม่อ และชิโยะจังที่น่ารัก แต่ละตอนสั้นจบในตัว หยิบอ่านตรงไหนก็ได้",
+    "caveat": null,
+    "ifYouLike": [
+      "Yotsuba&!",
+      "Nichijou"
+    ],
+    "tagsTh": [
+      "คอมเมดี้",
+      "โรงเรียน",
+      "สี่ช่อง",
+      "สาวน่ารัก"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 3,
+        "reason": "แท็ก 4-koma, Slapstick, Surreal Comedy"
+      },
+      "chill": {
+        "score": 2,
+        "reason": "แท็ก Cute Girls Doing Cute Things, Episodic"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "high",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 141705,
+    "hook": "ตายเพราะฟาร์มไอเทมให้พวกอันธพาลทั้งสัปดาห์ แต่ลืมตาอีกทีก็อยู่ในห้องเรียนก่อนตาย พร้อมสกิลจากเกมทุกอย่าง",
+    "body": "ฮาโดวอนโดนบังคับให้หาไอเทมหายากไม่งั้นต้องโดนซ้อมต่อหน้าสาวที่สวยที่สุดในโรงเรียน เขาเลยเล่นเกมจนหมดแรงตาย พอย้อนกลับมา สกิลที่สะสมไว้ใช้ได้จริงในชีวิตจริง",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "Viral Hit",
+      "Weak Hero"
+    ],
+    "tagsTh": [
+      "โดนบูลลี่",
+      "เกมเมอร์",
+      "ย้อนเวลา",
+      "สายต่อสู้"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "แท็ก Martial Arts, Gangs"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "เดิมพันชีวิตและการเอาคืน"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่"
+      }
+    },
+    "contentWarnings": [
+      "violence",
+      "abuse"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 110472,
+    "hook": "โรงเรียนอาชีวะที่ถูกเรียกว่าโรงเรียนอนาคตอาชญากร มีเด็กคนเดียวที่ตั้งใจจะเข้ามหาลัย แถมฝีมือต่อยโหดเกินคาด",
+    "body": "ยุนกามินโดนปฏิเสธจากทุกกลุ่มติว เลยตั้งกลุ่มเอง ส่วนติวเตอร์เก่าอย่างฮันคยองก็มาเป็นครูฝึกสอนที่นี่ ตัวเอกมือหนักระดับโหดแต่ดื้อจะตั้งใจเรียน ส่วนเรื่องนี้อยู่ในจักรวาลเดียวกับ Blue String",
+    "caveat": "ยาวเกิน 300 ตอนและยังลงต่อ",
+    "ifYouLike": [
+      "Weak Hero",
+      "Get Schooled"
+    ],
+    "tagsTh": [
+      "โรงเรียน",
+      "นักเลง",
+      "ต่อสู้",
+      "ตลก"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "แท็ก Martial Arts, Delinquents"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "การต่อสู้และเดิมพันความฝัน"
+      },
+      "comedy": {
+        "score": 2,
+        "reason": "แท็ก Comedy และความย้อนแย้งของตัวเอก"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 97701,
+    "hook": "ดูเหมือนเป็นลูก พี่ชาย และนักเรียนในอุดมคติ เพราะเด็กหนุ่มคนนี้รักทุกคนรอบตัวจริงๆ ทั้งที่เขาเอาแต่ตำหนิตัวเอง",
+    "body": "มาจิดะคุงช่วยคนแบบเกินหน้าที่ ความใจดีของเขาจึงทำให้ชีวิตคนรอบตัวดีขึ้นทีละเรื่อง อ่านแล้วอุ่นใจและอยากใจดีกับคนรอบตัวมากขึ้น",
+    "caveat": "พล็อตไม่ซับซ้อน เน้นเหตุการณ์เล็กๆ ของผู้คน",
+    "ifYouLike": [
+      "Skip and Loafer",
+      "March Comes in Like a Lion"
+    ],
+    "tagsTh": [
+      "อบอุ่นใจ",
+      "โรงเรียน",
+      "ชีวิตประจำวัน"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "romance": {
+        "score": 1,
+        "reason": "มีบ้างตามแท็ก"
+      },
+      "cry": {
+        "score": 2,
+        "reason": "รีวิวพูดถึงความอบอุ่นและความดีที่ซึ้ง"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "แท็ก Comedy"
+      },
+      "chill": {
+        "score": 3,
+        "reason": "แท็ก Iyashikei, Episodic"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "high",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 30676,
+    "hook": "เด็กสาวยุคใหม่หลุดไปญี่ปุ่นโบราณ เจอครึ่งปีศาจสุนัขที่เกี่ยวพันกับลูกแก้วที่ทุกคนอยากแย่ง",
+    "body": "คาโงเมะต้องเดินทางกับอินุยาฉะเพื่อตามหาเศษลูกแก้วสี่วิญญาณท่ามกลางปีศาจ เสน่ห์คือกลุ่มเพื่อนร่วมทางและความรักที่ผูกกับความเจ็บปวดในอดีตของอินุยาฉะ",
+    "caveat": "โครงเรื่องเป็นสูตรซ้ำๆ ตามสไตล์รูมิโกะ",
+    "ifYouLike": [
+      "Rurouni Kenshin",
+      "Ranma ½"
+    ],
+    "tagsTh": [
+      "ปีศาจ",
+      "ทะลุมิติ",
+      "ย้อนยุค",
+      "สามเหลี่ยมรัก"
+    ],
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "แท็ก Demons, Youkai และการต่อสู้"
+      },
+      "romance": {
+        "score": 2,
+        "reason": "แท็ก Love Triangle และรีวิวชมความรัก"
+      },
+      "cry": {
+        "score": 2,
+        "reason": "รีวิวพูดถึงความเศร้าและการเยียวยา"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "ภัยจากปีศาจ"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "แท็ก Comedy"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่"
+      }
+    },
+    "contentWarnings": [
+      "violence",
+      "gore"
+    ],
+    "confidence": "high",
+    "usedOutsideKnowledge": true
+  }
+]

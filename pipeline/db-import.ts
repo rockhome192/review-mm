@@ -67,8 +67,15 @@ const blurbs = gen.map((g) => ({
 const moods = gen.flatMap((g) =>
   MOOD_KEYS.map((k) => ({ anilist_id: g.anilistId, mood: k, score: g.moods[k].score, reason: g.moods[k].reason })),
 );
+// cards come from pick-recs.ts when it has run, else from the writer's ifYouLike
+const RECS = "data/generated/recs.json";
+const picked = new Map<number, string[]>(
+  fs.existsSync(RECS)
+    ? JSON.parse(fs.readFileSync(RECS, "utf8")).map((r: any) => [r.anilistId, r.recs])
+    : [],
+);
 const recs = gen.flatMap((g) =>
-  g.ifYouLike.map((name, i) => ({
+  (picked.get(g.anilistId) ?? g.ifYouLike).map((name, i) => ({
     anilist_id: g.anilistId,
     position: i + 1,
     rec_title: name,

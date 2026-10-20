@@ -1,0 +1,54 @@
+[
+  {
+    "anilistId": 137969,
+    "moods": {
+      "action": { "score": 1, "reason": "มีฉากต่อสู้บ้างแต่คนอ่านพูดถึงน้อย", "evidence": "Swordplay 60%" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 1,
+    "confidence": "low"
+  },
+  {
+    "anilistId": 133708,
+    "moods": {
+      "action": { "score": 1, "reason": "มีฉากต่อสู้บ้างแต่คนอ่านพูดถึงน้อย", "evidence": "Martial Arts 60%" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 6,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 100187,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนพูดถึงความสัมพันธ์ของสองสาวที่ค่อยๆ ผูกพันกันเป็นจุดหลัก", "evidence": "R26320, R13439, MU1" },
+      "cry": { "score": 2, "reason": "คนอ่านหลายคนบอกว่าเรื่องความเหงาทำให้รู้สึกลึกซึ้ง", "evidence": "R12462, R26320" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "comedy": { "score": 1, "reason": "มีช่วงให้ยิ้มได้บ้างแต่คนอ่านไม่ค่อยพูดถึงเรื่องขำ", "evidence": "Comedy genre (MU)" },
+      "chill": { "score": 1, "reason": "บรรยากาศอบอุ่นแต่มีช่วงที่คนอ่านรู้สึกอึดอัดด้วย", "evidence": "Cute Girls Doing Cute Things 51%, MU2" }
+    },
+    "textCount": 5,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 139339,
+    "moods": {
+      "action": { "score": 1, "reason": "มีคนพูดถึงความรุนแรงช่วงแรกของเรื่องเพียงเล็กน้อย", "evidence": "MU1" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 1, "reason": "มีคนรู้สึกผูกพันกับตัวละครในครอบครัวของตัวเอก", "evidence": "MU2" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "comedy": { "score": 1, "reason": "มีคนขำกับบางฉากแต่ไม่บ่อย", "evidence": "MU7" },
+      "chill": { "score": 1, "reason": "มีคนบอกว่าช่วงแรกมีความน่ารักอยู่บ้าง", "evidence": "MU7, MU10" }
+    },
+    "textCount": 11,
+    "confidence": "high"
+  }
+]
