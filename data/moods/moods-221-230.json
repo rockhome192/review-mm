@@ -1,0 +1,132 @@
+[
+  {
+    "anilistId": 143056,
+    "moods": {
+      "action": { "score": 2, "reason": "หลายคนบอกว่ามีฉากสู้เยอะและเป็นจุดที่ดูสนุก แต่บางคนเริ่มเบื่อการต่อสู้ที่ยืดยาวเกินไป", "evidence": "MU4, MU5, MU8" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 2, "reason": "คนอ่านหลายคนชอบมุกและจังหวะตลกที่สลับกับฉากจริงจัง แต่บางคนว่าตลกมากไปจนดราม่าจืดลง", "evidence": "MU2, MU4, MU10" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 11,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 118424,
+    "moods": {
+      "action": { "score": 0, "reason": "คนอ่านไม่ค่อยพูดถึงฉากต่อสู้ในทางบวก", "evidence": "MU5" },
+      "romance": { "score": 0, "reason": "คนอ่านบอกว่าความสัมพันธ์ของตัวละครไม่ค่อยน่าติดตาม", "evidence": "MU1, MU5" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 0, "reason": "คนอ่านบอกว่ามุกมากเกินไปจนไม่ค่อยสนุก", "evidence": "MU4" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 16,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 114605,
+    "moods": {
+      "action": { "score": 3, "reason": "ฉากต่อสู้และแอ็กชันที่ออกแนวเกินจริงคือจุดที่คนอ่านพูดถึงบ่อย", "evidence": "Swordplay 90%, R10975, MU4, MU7" },
+      "romance": { "score": 1, "reason": "มีคนชมตัวละครว่าน่ารัก แต่ไม่ค่อยมีคนพูดถึงความหวานของเรื่อง", "evidence": "MU14" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าเรื่องทำให้สะเทือนใจ แต่บางคนว่าดราม่าช่วงหลังมาแบบกะทันหัน", "evidence": "MU6, MU7" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าขำจริง โดยเฉพาะมุกที่สลับกับฉากแอ็กชัน", "evidence": "R10975, MU6, MU7, MU15, MU16, MU20, MU21" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 22,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 153284,
+    "moods": {
+      "action": { "score": 2, "reason": "คนอ่านหลายคนชมฉากต่อสู้และภาพการปะทะว่าสวย", "evidence": "MU2, MU5" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 5,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 136331,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึงฉากต่อสู้ในทางบวก", "evidence": "none" },
+      "romance": { "score": 0, "reason": "คนอ่านบอกว่าโรแมนซ์ฝืนและไม่ค่อยลงตัว", "evidence": "MU3, MU6" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 1, "reason": "มีคนชอบจังหวะพลิกเรื่องที่คาดไม่ถึงบ้าง", "evidence": "MU9" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 11,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 130870,
+    "moods": {
+      "action": { "score": 2, "reason": "ตัวเอกแข็งแกร่งและการต่อสู้ในดันเจี้ยนเป็นจุดที่คนอ่านบอกว่าอ่านสนุก", "evidence": "Super Power 73%, MU1" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่ามีมุกตลกให้เห็นบ้าง ไม่ได้จริงจังตลอดเรื่อง", "evidence": "MU7" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 8,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 141007,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึงฉากต่อสู้", "evidence": "none" },
+      "romance": { "score": 1, "reason": "มีคนชอบความสัมพันธ์ของนางเอกกับตัวเอก แต่บางคนรำคาญตัวนางเอก", "evidence": "MU8, MU10, MU11" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 2, "reason": "คนอ่านหลายคนบอกว่าขำกับการวางแผนและมุกของตัวเอก แต่บางคนว่าช่วงหลังมุกเริ่มน่ารำคาญ", "evidence": "MU1, MU2, MU6, MU8, MU10, MU11" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 13,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 150836,
+    "moods": {
+      "action": { "score": 0, "reason": "ฉากต่อสู้ไม่ใช่จุดที่คนอ่านพูดถึง", "evidence": "none" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 1, "reason": "คนอ่านบางคนชอบปมลึกลับและแผนซ่อนที่ค่อยๆ เปิดเผย", "evidence": "Conspiracy 96%, MU6, MU7" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่าไอเดียตอนเปิดเรื่องตลกดี", "evidence": "MU4" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 8,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 173020,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึงฉากต่อสู้", "evidence": "none" },
+      "romance": { "score": 0, "reason": "คนอ่านบางคนรู้สึกว่าฉากรักและสาวๆ ในเรื่องเยอะเกินไป", "evidence": "MU3" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 1, "reason": "มีคนชมช่วงสร้างความตึงเครียดก่อนตอนสำคัญว่าดี", "evidence": "MU5" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่าช่วงเปิดเรื่องตลกดี", "evidence": "MU4" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 6,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 128882,
+    "moods": {
+      "action": { "score": 2, "reason": "มีคนชมฉากต่อสู้และการไต่ระดับพลังว่าสนุก แต่บางคนรู้สึกการต่อสู้จืดลงภายหลัง", "evidence": "MU2, MU4, R14554" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 8,
+    "confidence": "high"
+  }
+]

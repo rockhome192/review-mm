@@ -1,0 +1,132 @@
+[
+  {
+    "anilistId": 130229,
+    "moods": {
+      "action": { "score": 1, "reason": "มีปืนและฉากสู้พอให้ตื่นเต้น แต่คนอ่านบางคนบอกว่าส่วนแอ็กชันค่อนข้างจืด", "evidence": "Guns 73%, Action genre, MU3" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no romance tags or reader mentions" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "thrill": { "score": 2, "reason": "คนอ่านหลายคนบอกว่าความลึกลับและความตึงเครียดทำให้อยากอ่านต่อ", "evidence": "Psychological + Thriller genres, Survival 60%, R26889, MU2" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" }
+    },
+    "textCount": 8,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 141958,
+    "moods": {
+      "action": { "score": 2, "reason": "พระเอกแข็งแกร่งมากและมีฉากต่อสู้ที่คนอ่านพูดถึง แต่บางคนว่าการต่อสู้บางช่วงน่าเบื่อ", "evidence": "Super Power 73%, Action genre, MU7, MU15" },
+      "romance": { "score": 1, "reason": "มีคนรู้สึกถึงกลิ่นความรักพี่น้องแบบเกินเลย แต่หลายคนไม่ชอบที่เรื่องไม่บอกตรงๆ", "evidence": "Brother Complex 16 votes, MU1, MU5" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าเรื่องมีความรู้สึกเรื่องครอบครัวที่กินใจ", "evidence": "MU12" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "comedy": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าขำจริง ทั้งมุกและสีหน้าตัวละคร และตลกกว่าที่คาดไว้", "evidence": "Comedy genre (MU), Parody 56%, MU9, MU11, MU14, MU21" },
+      "chill": { "score": 1, "reason": "มีคนบอกว่าอ่านสบายๆ เหมือนหนังชีวิตอบอุ่น", "evidence": "MU12" }
+    },
+    "textCount": 21,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 178379,
+    "moods": {
+      "action": { "score": 2, "reason": "คนอ่านชอบที่การต่อสู้มีความตึงเครียดและไม่น่าเบื่อ แม้จะไม่ใช่ตัวเอกที่สู้", "evidence": "Swordplay 30%, Action genre, MU1, MU3" },
+      "romance": { "score": 1, "reason": "ฉากรักมีบ้างแต่ไม่ได้เป็นจุดหลัก คนอ่านบอกว่าไม่รู้สึกฝืน", "evidence": "Harem 50%, MU3" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าบางครั้งการต่อสู้ทำให้ลุ้นว่าใครจะรอด", "evidence": "Action genre, MU1" },
+      "comedy": { "score": 1, "reason": "มีอารมณ์ขันเบาๆ แต่คนอ่านแทบไม่บอกว่าขำ", "evidence": "Comedy genre (MU), no reader said they laughed" },
+      "chill": { "score": 1, "reason": "มีคนบอกว่าอ่านสบาย ไม่เครียด และตัวละครน่ารัก", "evidence": "MU3" }
+    },
+    "textCount": 7,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 113055,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "romance": { "score": 2, "reason": "ความรักและการแต่งงานเป็นแกนเรื่อง คนอ่านพูดถึงความสัมพันธ์ของตัวเอกที่ค่อยๆ เปลี่ยนไป แต่หลายคนบอกว่าช่วงหลังยืดเยื้อ", "evidence": "Romance genre, Heterosexual 76%, Marriage 96%, Unrequited Love 70%, MU1, MU21" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าการแก้แค้นและการแย่งชิงอำนาจทำให้ตึงเครียด แต่บางคนว่าน่าเบื่อ", "evidence": "Politics 80%, MU8" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "chill": { "score": 0, "reason": "คนอ่านบอกว่าเรื่องหนักและดราม่า ไม่ใช่เรื่องผ่อนคลาย", "evidence": "MU6, MU8" }
+    },
+    "textCount": 23,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 136204,
+    "moods": {
+      "action": { "score": 2, "reason": "คนอ่านหลายคนพูดถึงเรื่องวรยุทธ์และพระเอกที่กำราบศัตรูได้ง่ายๆ แต่บางคนบอกว่าเน้นการเมืองมากกว่า", "evidence": "Martial Arts 40%, Swordplay 50%, Action genre, MU4, MU7" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "thrill": { "score": 2, "reason": "คนอ่านหลายคนบอกว่าเดิมพันสูงขึ้นเรื่อยๆ และอ่านรวดเดียวได้ไม่เบื่อ", "evidence": "MU6, MU9" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "chill": { "score": 0, "reason": "ตัวเอกเย็นชาและเรื่องหนัก คนอ่านไม่ได้บอกว่าผ่อนคลาย", "evidence": "MU5" }
+    },
+    "textCount": 11,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 107918,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "romance": { "score": 2, "reason": "เส้นความรักถูกพูดถึงบ่อย บางคนชอบตอนจบที่ได้อยู่ด้วยกัน แต่บางคนว่าพระเอกเย็นชาเกินไป", "evidence": "Romance genre, Heterosexual 72%, Love Triangle 60%, MU2, MU15, MU17, MU22" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าตอนจบทำให้ร้องไห้และขนลุก", "evidence": "MU15" },
+      "thrill": { "score": 0, "reason": "ไม่ค่อยมีคนพูดถึงความตึงเครียด", "evidence": "MU22" },
+      "comedy": { "score": 1, "reason": "มีอารมณ์ขันเบาๆ แต่คนอ่านแทบไม่บอกว่าขำ", "evidence": "Comedy genre (AniList), no reader said they laughed" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" }
+    },
+    "textCount": 23,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 107518,
+    "moods": {
+      "action": { "score": 3, "reason": "คนอ่านพูดถึงฉากวรยุทธ์ว่าลื่นไหลและเข้าใจง่าย และชอบความยิ่งใหญ่ของการปะทะ", "evidence": "Martial Arts 92%, Action genre, MU7, MU14" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "MU14 says romance is not pushy" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "MU16 says no comedic relief" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" }
+    },
+    "textCount": 16,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 123739,
+    "moods": {
+      "action": { "score": 0, "reason": "คนอ่านบางคนบอกว่าขาดฉากต่อสู้", "evidence": "MU13" },
+      "romance": { "score": 2, "reason": "คนอ่านหลายคนชอบความสัมพันธ์ที่ค่อยๆ อบอุ่นขึ้น แต่บางคนว่าพระเอกน่าหงุดหงิด", "evidence": "Romance genre, Heterosexual 86%, Arranged Marriage 79%, MU4, MU12, MU19" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าร้องไห้ตามตัวเอกที่ถูกทำร้ายมาตลอด", "evidence": "MU12" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าอ่านต่อเรื่อยๆ ไม่หยุด แต่บางคนว่าจังหวะช้าเกินไป", "evidence": "MU9, MU8" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "chill": { "score": 0, "reason": "คนอ่านบอกว่าจังหวะช้าและเรื่องหนักทางใจ ไม่ใช่เรื่องผ่อนคลาย", "evidence": "MU5, MU8, MU9" }
+    },
+    "textCount": 21,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 149483,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "romance": { "score": 2, "reason": "คนอ่านพูดถึงความรักสามเส้าและฉากโรงเรียนบ่อย แต่หลายคนว่าช่วงหลังน่าเบื่อ", "evidence": "Romance genre, Heterosexual 89%, Fake Relationship 55%, MU1, MU6, MU8" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" }
+    },
+    "textCount": 9,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 129758,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "romance": { "score": 1, "reason": "มีคนพูดถึงเส้นความรักของพระเอกที่รู้สึกเร็วเกินไปและเงอะงะ", "evidence": "Male Lead Falls in Love First 13 votes, MU6, MU7, MU14" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "thrill": { "score": 1, "reason": "คนอ่านบอกว่าการวางแผนและการเมืองในวังลุ้นได้บ้าง แต่บางคนว่าช่วงหลังจืด", "evidence": "Politics 73%, Royal Affairs 60%, MU9, MU21" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "no reader mentions" }
+    },
+    "textCount": 24,
+    "confidence": "high"
+  }
+]

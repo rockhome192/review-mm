@@ -1,0 +1,132 @@
+[
+  {
+    "anilistId": 132029,
+    "moods": {
+      "action": { "score": 3, "reason": "หลายคนชมว่าฉากแอ็กชันเดือดและวาดสุดยอด มีบางคนบ่นว่าฉากสู้ยาวไป", "evidence": "R26047, R27342, MU8, MU12, MU6" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าความรักของคู่พระนางคือหัวใจของเรื่อง น่ารักและฟิน", "evidence": "Heterosexual 78%, R26421, MU1, MU12, MU14, MU8" },
+      "cry": { "score": 2, "reason": "มีคนอ่านบอกว่าเรื่องนี้ทั้งสนุกและซึ้ง บางตอนถึงขั้นน้ำตาซึม", "evidence": "R21985, MU7" },
+      "thrill": { "score": 2, "reason": "หลายคนบอกว่าติดหนึบ อ่านรวดเดียวจนลืมเวลา", "evidence": "R27342, MU3, MU7" },
+      "comedy": { "score": 3, "reason": "คนอ่านจำนวนมากบอกว่าฮาลั่น มุกแนวเพี้ยนสุดๆ แต่มุกทะลึ่งอาจไม่ถูกใจทุกคน", "evidence": "Surreal Comedy 86%, R21985, MU4, MU12, MU13, MU14, MU15, MU16" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 20,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 86123,
+    "moods": {
+      "action": { "score": 3, "reason": "การต่อสู้คือจุดขายหลัก หลายคนชมว่าฉากสู้มันส์และลื่นไหล แม้บางคนว่าสู้วนซ้ำ", "evidence": "Super Power 86%, R31527, MU6, MU12, MU18, MU3, MU7" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึงความฟิน มีแต่คนบ่นว่าไม่ได้คู่กัน", "evidence": "MU1" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่ามีพลิกล็อกเกินคาด แต่อีกหลายคนว่าเดาทางง่าย", "evidence": "R9154, MU6, MU11, MU25" },
+      "comedy": { "score": 1, "reason": "เรื่องไม่จริงจังนอกฉากสู้ มีมุกแทรก แต่ไม่ค่อยมีคนบอกว่าขำ", "evidence": "MU7, MU12" },
+      "chill": { "score": 1, "reason": "มีคนบอกว่าเหมาะอ่านเพลินๆ ฆ่าเวลา", "evidence": "MU3" }
+    },
+    "textCount": 26,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 97852,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 2, "reason": "ความรักค่อยๆ ก่อตัวแบบน่ารัก บางคนชอบมาก แต่หลายคนว่าช้าไป", "evidence": "Heterosexual 71%, R31287, MU1, MU14, MU5, R14169, MU2" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าบางตอนแตะเรื่องจริงจังและใกล้ตัวจนอิน", "evidence": "R13299, R15924, MU17" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "comedy": { "score": 3, "reason": "คนอ่านจำนวนมากบอกว่าตลกจริง มุกเบาๆ อ่านแล้วขำ มีบางคนว่าบางตอนฝืด", "evidence": "Slapstick 73%, MU7, MU9, MU16, MU18, R13299, MU8, R14141" },
+      "chill": { "score": 3, "reason": "หลายคนบอกว่าอ่านแล้วผ่อนคลาย อบอุ่นใจ เป็นเรื่องที่หยิบมาอ่านตอนวันแย่ๆ", "evidence": "MU1, MU2, MU9, R4183, R11175" }
+    },
+    "textCount": 27,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 120760,
+    "moods": {
+      "action": { "score": 2, "reason": "หลายคนชมว่าฉากสู้ชัดเจนและอลังการ แต่ก็มีคนว่าฉากต่อสู้จืด", "evidence": "Super Power 79%, R11215, MU3, MU12, MU8" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึงความลุ้น มีคนว่าไม่มีความตึงเครียด", "evidence": "MU8" },
+      "comedy": { "score": 2, "reason": "คนอ่านบอกว่ามุกตลกจังหวะดี โดยเฉพาะช่วงแรกที่ทั้งสนุกทั้งขำ", "evidence": "R11215, R15967, MU1" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 16,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 87170,
+    "moods": {
+      "action": { "score": 1, "reason": "มีพลังและความรุนแรงเยอะ แต่คนอ่านบอกว่าไม่ใช่เรื่องแนวบู๊ ฉากสู้ใหญ่ถูกข้ามไป", "evidence": "Super Power 86%, MU8, MU19" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าเรื่องทรงพลังและทิ้งความรู้สึกไว้นาน แต่ส่วนใหญ่พูดถึงความหดหู่มากกว่าความซึ้ง", "evidence": "R23133, R21001" },
+      "thrill": { "score": 2, "reason": "หลายคนบอกว่าเดาทางไม่ได้เลย อ่านแล้ววางไม่ลง แม้บางคนจะงงกับเนื้อเรื่อง", "evidence": "Survival 85%, R18768, MU21, MU23, MU18" },
+      "comedy": { "score": 2, "reason": "คนอ่านหลายคนชอบมุกตลกร้ายแปลกๆ ที่ทำให้หลุดขำ แต่บางคนว่ามุกเด็กๆ", "evidence": "Surreal Comedy 64%, MU1, MU12, MU17, MU22" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง เรื่องหนักและมืดหม่น", "evidence": "MU23" }
+    },
+    "textCount": 33,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 85141,
+    "moods": {
+      "action": { "score": 3, "reason": "ฉากต่อสู้คือหัวใจของเรื่อง หลายคนชมว่ามันส์ แม้บางคนว่ายืดยาวไป", "evidence": "Martial Arts 97%, MU11, MU16, MU21, MU22, MU23, MU12" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าลุ้นว่าใครจะชนะในทัวร์นาเมนต์ แต่บางคนว่าไม่มีความลุ้น", "evidence": "MU22, MU15, MU3" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่าช่วงแรกฮามาก แต่ความตลกหายไปในช่วงหลัง", "evidence": "MU14, MU17" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 24,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 137280,
+    "moods": {
+      "action": { "score": 1, "reason": "มีการต่อสู้ แต่มีคนว่าสู้ไปเรื่อยๆ ไม่มีจุดหมาย", "evidence": "MU6" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 1, "reason": "มีคนชอบที่พระเอกวางแผนนำคู่แข่งไปหลายก้าว และเดิมพันคือความอยู่รอดของมนุษย์", "evidence": "R21132, MU4, MU8" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่าคู่หูพระเอกกับนางเอกเป็นตัวป่วนที่สนุก", "evidence": "MU4" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 12,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 105393,
+    "moods": {
+      "action": { "score": 2, "reason": "คนอ่านชอบฉากสู้ที่ใช้สมองและวางแผน แต่บางคนว่าฉากแอ็กชันไม่เร้าใจ", "evidence": "Swordplay 79%, R32472, MU11, MU18, MU21" },
+      "romance": { "score": 1, "reason": "มีคนชอบความรักตอนจบมาก แต่เสียดายที่เล่าน้อยไป", "evidence": "R32472" },
+      "cry": { "score": 1, "reason": "มีคนอ่านบอกว่าร้องไห้กับการตายของตัวละคร แต่อีกคนว่าอารมณ์ไม่ค่อยถึง", "evidence": "R25081, MU21" },
+      "thrill": { "score": 2, "reason": "หลายคนบอกว่าเรื่องดึงให้อ่านต่อเนื่อง และช่วงเร่งจังหวะตื่นเต้นมาก", "evidence": "R32472, MU18, MU24" },
+      "comedy": { "score": 1, "reason": "มีตัวละครไว้สร้างเสียงหัวเราะ แต่ไม่มีใครบอกว่าขำ", "evidence": "MU19" },
+      "chill": { "score": 1, "reason": "มีคนบอกว่าอ่านแล้วรู้สึกดี เป็นเรื่องฟีลกู๊ด", "evidence": "MU24" }
+    },
+    "textCount": 23,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 144957,
+    "moods": {
+      "action": { "score": 1, "reason": "มีฉากฟันดาบ แต่ไม่มีใครพูดถึงความมันส์ของการต่อสู้", "evidence": "Swordplay 53%, MU15" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึงความลุ้น หลายคนว่างงและน่าเบื่อ", "evidence": "MU4, MU12, MU14" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 13,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 109957,
+    "moods": {
+      "action": { "score": 1, "reason": "มีคนชอบที่พระเอกสู้กับศัตรูทรงพลัง แต่อีกคนว่าฉากสู้แย่", "evidence": "MU7, MU2" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง มีคนว่าความผูกพันพี่น้องเล่าไม่ถึง", "evidence": "MU11" },
+      "thrill": { "score": 1, "reason": "เรื่องเอาชีวิตรอด แต่หลายคนบอกว่าไม่ลุ้นและน่าเบื่อ", "evidence": "Survival 75%, MU1, MU9, MU12, MU15" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 15,
+    "confidence": "high"
+  }
+]

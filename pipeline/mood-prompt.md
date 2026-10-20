@@ -15,7 +15,8 @@ Don't use your own memory of the title. If the evidence doesn't show a mood, it 
   Bleak or depressing alone is NOT cry; readers must say it touched them.
 - thrill ลุ้นระทึก: suspense, tension, "couldn't stop reading", competitive sports matches
 - comedy ฮาไม่ไหว: readers say they laughed. "Has some gags" is at most 1.
-- chill ชิลๆ: relaxing, comfy, low-stress. A title readers call tense or heavy can't be above 1.
+- chill ชิลๆ: relaxing, comfy, low-stress. A title most readers call tense or heavy can't be above 1.
+  Some heavy arcs or moments don't cap it: if readers call it comfy or a light read overall, score that.
 
 ## Scale 0–3
 - 3 = a main thing readers talk about: several readers bring it up unprompted, or a strong signal tag (≥ 80%) plus readers confirming it

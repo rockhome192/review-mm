@@ -3,6 +3,7 @@
 // Never touches overrides, lists or reading_links.
 //
 // Usage: npx tsx pipeline/db-import.ts [status=published] [model] [promptVersion]
+//   status applies to new titles only; model/promptVersion to titles whose text changed
 import fs from "node:fs";
 import { Recommendation, MOOD_KEYS } from "./schema.ts";
 import { sql, closeDb } from "./db.ts";
@@ -85,12 +86,18 @@ await sql.begin(async (tx) => {
       also_liked = excluded.also_liked, cover_url = excluded.cover_url,
       cover_color = excluded.cover_color, anilist_url = excluded.anilist_url, updated_at = now()`;
   // slug stays fixed once set, so published URLs never change
+  // status is only set for new rows, so a hand-set needs_review survives re-imports;
+  // model/prompt_version only change when the text itself changed
   await tx`insert into blurbs ${tx(blurbs)}
     on conflict (anilist_id) do update set
       hook = excluded.hook, body = excluded.body, caveat = excluded.caveat,
       tags_th = excluded.tags_th, content_warnings = excluded.content_warnings,
-      confidence = excluded.confidence, status = excluded.status, model = excluded.model,
-      prompt_version = excluded.prompt_version, updated_at = now()`;
+      confidence = excluded.confidence,
+      model = case when (blurbs.hook, blurbs.body, blurbs.caveat) is distinct from
+        (excluded.hook, excluded.body, excluded.caveat) then excluded.model else blurbs.model end,
+      prompt_version = case when (blurbs.hook, blurbs.body, blurbs.caveat) is distinct from
+        (excluded.hook, excluded.body, excluded.caveat) then excluded.prompt_version else blurbs.prompt_version end,
+      updated_at = now()`;
   await tx`insert into moods ${tx(moods)}
     on conflict (anilist_id, mood) do update set score = excluded.score, reason = excluded.reason`;
   // same/diff come from a later pass; keep them unless the card's title changed

@@ -7,6 +7,9 @@
 // (Manga for JP, Manhwa for KR). An exact title match is "exact"; otherwise the closest
 // year with the most votes is "check" and listed at the end for a human to confirm.
 //
+// Titles already in the output are kept as they are (including hand-checked matches);
+// only new titles are fetched. Set ALL=1 to refetch everything.
+//
 // Usage: npx tsx pipeline/fetch-mangaupdates.ts [commentsPerTitle=20]
 import fs from "node:fs";
 
@@ -74,9 +77,18 @@ async function match(t: Raw) {
 }
 
 const titles: Raw[] = JSON.parse(fs.readFileSync(SRC, "utf8"));
+const prev = new Map<number, Raw>(
+  (!process.env.ALL && fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : []).map((r: Raw) => [r.anilistId, r]),
+);
 const out: Raw[] = [];
+const fresh = new Set<number>(); // fetched this run, for the summary below
 
 for (const [i, t] of titles.entries()) {
+  if (prev.has(t.anilistId)) {
+    out.push(prev.get(t.anilistId));
+    continue;
+  }
+  fresh.add(t.anilistId);
   const m = await match(t);
   if (!m) {
     out.push({ anilistId: t.anilistId, match: "none" });
@@ -111,7 +123,8 @@ for (const [i, t] of titles.entries()) {
 }
 
 fs.writeFileSync(OUT, JSON.stringify(out, null, 2));
-const by = (k: string) => out.filter((r) => r.match === k);
+const by = (k: string) => out.filter((r) => r.match === k && fresh.has(r.anilistId));
+console.log(`${out.length - fresh.size} kept from the previous run; the counts below are for the ${fresh.size} fetched now`);
 console.log(`saved ${out.length} -> ${OUT}; exact ${by("exact").length}, check ${by("check").length}, none ${by("none").length}`);
 for (const r of [...by("check"), ...by("none")]) {
   const t = titles.find((x) => x.anilistId === r.anilistId);

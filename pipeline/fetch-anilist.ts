@@ -7,8 +7,13 @@
 //          to give the site enough "ฟินใจละลาย" and "ชิลๆ" picks
 //
 // Usage: npx tsx pipeline/fetch-anilist.ts [scorePerCountry=70] [moodPerGenreCountry=10]
+//        npx tsx pipeline/fetch-anilist.ts more <manhwa> <manga>
+//        npx tsx pipeline/fetch-anilist.ts more ids <id,id,...>
+//          append the most-read standalone titles not yet in the file (pool "popular")
 import fs from "node:fs";
 
+const MORE = process.argv[2] === "more";
+const MIN_SCORE_POPULAR = 74; // widely read is not the same as good
 const SCORE_PER_COUNTRY = Number(process.argv[2] ?? 70);
 const MOOD_PER_BUCKET = Number(process.argv[3] ?? 10);
 const MOOD_GENRES = ["Romance", "Slice of Life", "Comedy"];
@@ -25,12 +30,12 @@ const SKIP = new Set([
 ]);
 
 const QUERY = `
-query ($page: Int, $perPage: Int, $country: CountryCode, $minPop: Int,
-       $genreIn: [String], $genreNotIn: [String]) {
+query ($page: Int, $perPage: Int, $country: CountryCode, $minPop: Int, $minScore: Int, $ids: [Int],
+       $sort: [MediaSort] = [SCORE_DESC], $genreIn: [String], $genreNotIn: [String]) {
   Page(page: $page, perPage: $perPage) {
     pageInfo { hasNextPage }
-    media(type: MANGA, sort: SCORE_DESC, isAdult: false,
-          countryOfOrigin: $country, popularity_greater: $minPop,
+    media(type: MANGA, sort: $sort, isAdult: false, id_in: $ids,
+          countryOfOrigin: $country, popularity_greater: $minPop, averageScore_greater: $minScore,
           genre_in: $genreIn, genre_not_in: $genreNotIn) {
       id
       title { romaji english native }
@@ -145,13 +150,31 @@ async function take(want: number, pool: string, filter: Record<string, unknown>,
   }
 }
 
-for (const country of ["JP", "KR"])
-  await take(SCORE_PER_COUNTRY, "score", { country, minPop: MIN_POPULARITY });
-for (const genre of MOOD_GENRES)
+if (MORE) {
+  // keep every existing title (and its order) untouched; new ones go at the end
+  const prev = JSON.parse(fs.readFileSync(OUT, "utf8"));
+  fs.copyFileSync(OUT, OUT.replace(/\.json$/, `.before-more-${prev.length}.json`));
+  out.push(...prev);
+  for (const t of prev) seen.add(t.anilistId);
+  if (process.argv[3] === "ids") {
+    // hand-picked titles, e.g. to balance genres the popularity order skews
+    const ids = process.argv[4].split(",").map(Number);
+    await take(ids.length, "popular", { ids, sort: ["POPULARITY_DESC"] });
+  } else {
+    const [manhwa, manga] = [Number(process.argv[3] ?? 0), Number(process.argv[4] ?? 0)];
+    const popular = { sort: ["POPULARITY_DESC"], minScore: MIN_SCORE_POPULAR };
+    await take(manhwa, "popular", { country: "KR", ...popular }, true);
+    await take(manga, "popular", { country: "JP", ...popular }, true);
+  }
+} else {
   for (const country of ["JP", "KR"])
-    await take(MOOD_PER_BUCKET, `mood:${genre}`, {
-      country, minPop: MIN_POPULARITY_MOOD, genreIn: [genre], genreNotIn: MOOD_EXCLUDE,
-    }, true);
+    await take(SCORE_PER_COUNTRY, "score", { country, minPop: MIN_POPULARITY });
+  for (const genre of MOOD_GENRES)
+    for (const country of ["JP", "KR"])
+      await take(MOOD_PER_BUCKET, `mood:${genre}`, {
+        country, minPop: MIN_POPULARITY_MOOD, genreIn: [genre], genreNotIn: MOOD_EXCLUDE,
+      }, true);
+}
 
 fs.mkdirSync("data/raw", { recursive: true });
 fs.writeFileSync(OUT, JSON.stringify(out, null, 2));

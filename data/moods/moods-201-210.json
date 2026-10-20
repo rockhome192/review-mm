@@ -1,0 +1,372 @@
+[
+  {
+    "anilistId": 105778,
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "ฉากฆ่าฟันกับอสูรดุเดือดและโลดโผนมาก คนอ่านพูดถึงความมันของการต่อสู้เป็นจุดเด่น",
+        "evidence": "Action genre, Super Power 60%, R9656, R18677, MU17, MU25"
+      },
+      "romance": {
+        "score": 1,
+        "reason": "มีเรื่องรักที่ไม่สมหวังอยู่บ้าง แต่คนอ่านไม่ได้ฟินไปกับมัน",
+        "evidence": "Unrequited Love 79%, MU16"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "มีช่วงอ่อนโยนและเงียบๆ ที่คนอ่านบอกว่าซึ้ง แต่เป็นส่วนน้อยของเรื่อง",
+        "evidence": "R9656, MU18"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "พล็อตซ้อนและปมลึกลับทำให้คนอ่านอยากรู้ต่อ",
+        "evidence": "Psychological + Mystery genres (MangaUpdates), R10022, MU24"
+      },
+      "comedy": {
+        "score": 2,
+        "reason": "มุกดำและความตลกโปกฮาในท่ามกลางความโหดทำให้คนอ่านหัวเราะหลายครั้ง",
+        "evidence": "Comedy genre, Slapstick 63%, R5042, R8717, R9656"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องหนักและโหดเกินกว่าจะอ่านสบายๆ",
+        "evidence": "Gore 88%, Body Horror 88%"
+      }
+    },
+    "textCount": 35,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 87216,
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "ฉากดาบและการต่อสู้กับอสูรเป็นหัวใจของเรื่อง แต่คนอ่านแบ่งกันว่าฉากสู้มันจริงหรือซ้ำ",
+        "evidence": "Swordplay 92%, Action genre, R7207, MU20, R9707 (against)"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องโรแมนติก",
+        "evidence": "No Romance genre, no romance tag at 70%+"
+      },
+      "cry": {
+        "score": 3,
+        "reason": "คนอ่านหลายคนบอกว่าเรื่องครอบครัวและการสูญเสียสะเทือนใจ จนน้ำตาซึมตอนอ่านฉากจากลา",
+        "evidence": "R17075, R16377, MU1, MU19, MU23"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "จังหวะเรื่องกระชับ ช่วยให้คนอ่านลุ้นอยู่บ้างระหว่างทาง",
+        "evidence": "MU20"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องฮา",
+        "evidence": "No Comedy genre, no reader mentions laughing"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องดุเดือดและเศร้า ไม่ใช่เรื่องผ่อนคลาย",
+        "evidence": "Demons 97%, Body Horror 59%, Tragic Past (MangaUpdates)"
+      }
+    },
+    "textCount": 35,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 85486,
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "ฉากการต่อสู้และพลังของฮีโร่เป็นสีสันหลัก แต่จุดเด่นจริงคือความเติบโตของตัวละคร",
+        "evidence": "Super Power 96% + Action genre, MU12, MU22, R18257"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องโรแมนติกเป็นจุดเด่น",
+        "evidence": "No Romance genre, Heterosexual 52%"
+      },
+      "cry": {
+        "score": 2,
+        "reason": "คนอ่านหลายคนบอกว่าเดคุอ่อนไหวและความพยายามของเขาทำให้ซึ้ง",
+        "evidence": "R24126, MU1, MU18"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "ฉากแข่งขันและช่วงฝึกฝนทำให้คนอ่านตื่นเต้นไปตามตอน",
+        "evidence": "Tournament (MangaUpdates), MU2, MU6, MU20"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "มีมุกบ้างในเรื่อง แต่ไม่ใช่จุดขายหลัก",
+        "evidence": "Comedy genre only"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องเร่งจังหวะ ไม่ได้อ่านชิลๆ",
+        "evidence": "MU20"
+      }
+    },
+    "textCount": 33,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 74347,
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "ฉากสู้วาดอลังการและความแข็งแกร่งเกินตัวของตัวเอก คนอ่านชอบฉากต่อสู้มาก",
+        "evidence": "Super Power 95%, Action genre, R18129, R19042, MU10, MU19"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องโรแมนติก",
+        "evidence": "No Romance genre, no romance tag"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องซึ้งกินใจ",
+        "evidence": "No reader mentions"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "คนอ่านบอกว่าไม่ค่อยรู้สึกถึงเดิมพัน ความลุ้นไม่ใช่จุดเด่น",
+        "evidence": "MU11, MU18"
+      },
+      "comedy": {
+        "score": 3,
+        "reason": "คนอ่านหลายคนบอกว่าหัวเราะบ่อย มุกล้อเลียนซูเปอร์ฮีโร่ทำให้อ่านสนุก",
+        "evidence": "Parody 91%, Surreal Comedy 90%, Satire 80%, MU5, MU13, MU19, MU20, MU24"
+      },
+      "chill": {
+        "score": 1,
+        "reason": "อ่านสบาย ไม่ต้องคิดมาก แต่ก็ไม่ได้ชิลจริงจัง",
+        "evidence": "MU24"
+      }
+    },
+    "textCount": 29,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 108556,
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "ฉากภารกิจสายลับและการต่อสู้ทำให้สนุกบ้าง แต่หลักของเรื่องคือความฮา",
+        "evidence": "Super Power 70%, Action genre, MU10, MU12"
+      },
+      "romance": {
+        "score": 2,
+        "reason": "คู่รักปลอมที่ค่อยๆ ใกล้กันทำให้คนอ่านอยากเห็นความสัมพันธ์ลงตัว",
+        "evidence": "Romance genre (MangaUpdates), Heterosexual 75%, Fake Relationship 82%, MU10, MU11, MU17, MU22"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "มีคนบอกว่าได้กำลังใจจากเรื่อง และมีฉากครอบครัวอบอุ่นที่ทำให้คนอ่านซึ้งบ้าง",
+        "evidence": "MU6, MU10"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "มีปมสายลับที่ทำให้อยากรู้ว่าเรื่องจะไปต่อยังไง",
+        "evidence": "Espionage 96%, MU1"
+      },
+      "comedy": {
+        "score": 3,
+        "reason": "คนอ่านหลายคนบอกว่าหัวเราะออกมา โดยเฉพาะปฏิกิริยาของตัวเล็กที่ทำให้ขำ",
+        "evidence": "Comedy genre, Slapstick 68%, MU10, MU11, MU12, MU13, MU24"
+      },
+      "chill": {
+        "score": 3,
+        "reason": "คนอ่านหลายคนบอกว่าเป็นเรื่องเบา ๆ อบอุ่น อ่านสบายใจ",
+        "evidence": "R18632, MU10, MU13, MU15"
+      }
+    },
+    "textCount": 30,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 87423,
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงฉากต่อสู้ว่าเป็นจุดเด่น",
+        "evidence": "Action genre (MangaUpdates) only, MU4, MU8"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องโรแมนติก",
+        "evidence": "No Romance genre, no romance tag"
+      },
+      "cry": {
+        "score": 2,
+        "reason": "คนอ่านหลายคนบอกว่าการตายของตัวละครเด็กๆ สะเทือนใจมาก",
+        "evidence": "R31547, MU12, MU18"
+      },
+      "thrill": {
+        "score": 3,
+        "reason": "คนอ่านหลายคนบอกว่าเป็นเกมจิตวิทยาที่หยุดอ่านไม่ได้ ตื่นเต้นตั้งแต่ช่วงเปิดเรื่อง",
+        "evidence": "Psychological + Thriller (AniList), Mystery, Survival (MangaUpdates), R6898, R6949, R8208, MU13, MU16, MU17"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องฮา",
+        "evidence": "No Comedy genre"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องหนักและเครียดตลอด ไม่ใช่เรื่องผ่อนคลาย",
+        "evidence": "Gore 64%, Body Horror 91%"
+      }
+    },
+    "textCount": 32,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 106130,
+    "moods": {
+      "action": {
+        "score": 1,
+        "reason": "แข่งกันแบบคัดออกและกดดันมาก แต่คนอ่านมองว่าเป็นการแข่งกีฬามากกว่าการต่อสู้",
+        "evidence": "Battle Royale 91%, Athletics 91%, Action genre, R9712"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องโรแมนติก",
+        "evidence": "No Romance genre, no romance tag"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องซึ้งกินใจ",
+        "evidence": "Tragedy 51%, no reader mentions"
+      },
+      "thrill": {
+        "score": 3,
+        "reason": "คนอ่านหลายคนบอกว่าลุ้นจนแทบไม่มีเวลาพัก ทั้งการแข่งขันและเกมเอาตัวรอด",
+        "evidence": "Sports genre, Survival of the Fittest, Competitive Atmosphere (MangaUpdates), R9712, R25813, MU4, MU6"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงเรื่องฮา",
+        "evidence": "No Comedy genre"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เข้มข้นตลอด ไม่ใช่เรื่องผ่อนคลาย",
+        "evidence": "Competitive, Battle Royale 91%"
+      }
+    },
+    "textCount": 13,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 72451,
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงฉากต่อสู้",
+        "evidence": "No Action genre"
+      },
+      "romance": {
+        "score": 3,
+        "reason": "คนอ่านหลายคนบอกว่าชอบความสัมพันธ์ของฮอริกับมิยามูระมาก ฟินและน่ารัก",
+        "evidence": "Romance genre, Heterosexual 93%, R266, R267, MU2, MU11, MU25"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "มีคนบอกว่าอ่านแล้วน้ำตาซึมกับความสัมพันธ์ของตัวละคร",
+        "evidence": "MU20"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มีคนพูดถึงความลุ้นระทึก",
+        "evidence": "No thrill genres or readers"
+      },
+      "comedy": {
+        "score": 3,
+        "reason": "คนอ่านหลายคนบอกว่าตลกและมุกจั๊กจี้ อ่านแล้วหัวเราะออกมา",
+        "evidence": "Comedy genre, Slapstick 73%, R267, MU12, MU15, MU23"
+      },
+      "chill": {
+        "score": 2,
+        "reason": "อ่านสบายๆ น่ารัก ไม่หนัก แม้บางช่วงจะมีดราม่าอยู่บ้าง",
+        "evidence": "Slice of Life genre, MU13, MU23, MU24"
+      }
+    },
+    "textCount": 30,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 30012,
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "ฉากต่อสู้ด้วยดาบและพลังของตัวละครคือจุดขาย คนอ่านชอบฉากสู้มาก",
+        "evidence": "Swordplay 92%, Super Power 87%, Action genre, R12868, R16270, MU9"
+      },
+      "romance": {
+        "score": 1,
+        "reason": "ความรักของตัวละครมีคนพูดถึงบ้าง แต่หลายคนบ่นว่าไม่ได้ลงตัว",
+        "evidence": "Heterosexual 57%, MU10, MU11, MU13"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "มีคนบอกว่าช่วงการจากลาและการสูญเสียสะเทือนใจ",
+        "evidence": "R28753"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "คนอ่านหลายคนบอกว่าพลิกผันและจับตาอยู่ตลอด",
+        "evidence": "R12868, R16270"
+      },
+      "comedy": {
+        "score": 2,
+        "reason": "คนอ่านบอกว่ามุกและคำพูดของตัวละครตลกเป็นจุดแข็ง",
+        "evidence": "Comedy genre (MangaUpdates), R16270, MU12"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องดุเดือดและโหด ไม่ใช่เรื่องสบาย",
+        "evidence": "Gore 60%, War 85%"
+      }
+    },
+    "textCount": 35,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 102988,
+    "moods": {
+      "action": {
+        "score": 1,
+        "reason": "ฉากทะเลาะของแก๊งเป็นหลัก แต่หลายคนบ่นว่าซ้ำและไม่ค่อยตื่นเต้น",
+        "evidence": "Gangs 97%, Delinquents 99%, Action genre, R13965, R17929, MU12"
+      },
+      "romance": {
+        "score": 1,
+        "reason": "มีความสัมพันธ์ของตัวละครพอให้คนอ่านติดตาม แต่ไม่ใช่จุดขาย",
+        "evidence": "Romance genre (AniList), Heterosexual 63%, R19642"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "คนอ่านบางคนรู้สึกผูกพันกับเพื่อนและมีช่วงสูญเสียที่กินใจ",
+        "evidence": "Dead Friend/s (MangaUpdates), R19642, MU1"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "พล็อตย้อนเวลาที่มีปมให้ตามหาทำให้คนอ่านหลายคนอ่านรวดเดียว",
+        "evidence": "Time Travel (MangaUpdates), Mystery genre, MU2, MU3, MU14"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "มีมุกบ้างในเรื่อง แต่ไม่ค่อยมีคนบอกว่าหัวเราะ",
+        "evidence": "Comedy genre (MangaUpdates), MU1"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องก้าวร้าวและดุดัน ไม่ใช่เรื่องชิลๆ",
+        "evidence": "Gangs 97%, Violence (MangaUpdates)"
+      }
+    },
+    "textCount": 25,
+    "confidence": "high"
+  }
+]

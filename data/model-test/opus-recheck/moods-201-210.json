@@ -1,0 +1,132 @@
+[
+  {
+    "anilistId": 105778,
+    "moods": {
+      "action": { "score": 3, "reason": "คนอ่านหลายคนชมฉากต่อสู้ทั้งดุทั้งเละ ว่าเป็นจุดเด่น", "evidence": "R9656, R18677, R15701, MU17, MU25" },
+      "romance": { "score": 1, "reason": "มีเส้นรักบ้าง แต่คนอ่านบอกว่าความรักหายไปกลางเรื่อง", "evidence": "MU2, MU16" },
+      "cry": { "score": 2, "reason": "หลายคนบอกว่าดราม่าบีบใจ มีช่วงอ่อนโยนที่ทำเอาจุก", "evidence": "R5042, R9656, MU2, MU18" },
+      "thrill": { "score": 3, "reason": "คนอ่านบอกหยุดอ่านไม่ได้ เดาทางไม่ถูก ใครก็ตายได้", "evidence": "Survival 82%, R10022, R8717, MU22, MU24" },
+      "comedy": { "score": 2, "reason": "มีมุกตลกร้ายบ้าๆ ที่คนอ่านพูดถึงหลายคน", "evidence": "R5042, R9656, MU25, Black Humor 34" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง เรื่องหนักและโหด", "evidence": "MU23" }
+    },
+    "textCount": 33,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 87216,
+    "moods": {
+      "action": { "score": 3, "reason": "ฉากฟันอสูรคือหัวใจของเรื่อง คนอ่านชมฉากต่อสู้และท่าปราณ", "evidence": "Swordplay 92%, R7207, MU4, MU20, MU25" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 2, "reason": "คนอ่านบอกว่าอดีตตัวละครเศร้าจนร้องไห้ แต่บางคนว่าไม่ค่อยอิน", "evidence": "MU1, R16377, MU23, MU19" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าลุ้นตามจนนั่งไม่ติด ช่วงศึกใหญ่", "evidence": "MU20, MU4" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 1, "reason": "มีคนว่าอ่านแล้วอบอุ่น แต่เรื่องก็โหดอยู่", "evidence": "MU6, MU25" }
+    },
+    "textCount": 33,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 85486,
+    "moods": {
+      "action": { "score": 3, "reason": "การต่อสู้ด้วยพลังพิเศษเป็นจุดขาย คนอ่านชมฉากสู้ที่ใช้ไหวพริบ", "evidence": "Super Power 96%, MU12, MU18, MU22, R25195" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 1, "reason": "มีบางคนอิน แต่หลายคนบอกว่าอารมณ์ไม่ค่อยถึง", "evidence": "R24126, R13204, MU10" },
+      "thrill": { "score": 2, "reason": "คนอ่านบอกว่าตื่นเต้นทุกตอน ลุ้นจนวางไม่ลง โดยเฉพาะช่วงแรก", "evidence": "MU6, MU16, MU20, MU2" },
+      "comedy": { "score": 1, "reason": "มีความสนุกเฮฮาบ้าง แต่ไม่มีใครบอกว่าขำ", "evidence": "R25195" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 33,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 74347,
+    "moods": {
+      "action": { "score": 3, "reason": "คนอ่านชมฉากต่อสู้อลังการ ภาพสวยจนตะลึง", "evidence": "Super Power 95%, R15018, MU10, MU19, MU22" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าอินกับเรื่องมากกว่าที่คิด", "evidence": "MU5" },
+      "thrill": { "score": 1, "reason": "บางคนใจเต้นตาม แต่หลายคนว่าไม่รู้สึกถึงเดิมพัน", "evidence": "MU5, MU11, MU18" },
+      "comedy": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าฮาจนกลั้นไม่อยู่ มุกล้อฮีโร่ไม่เคยเก่า", "evidence": "Parody 91%, Satire 80%, MU5, MU19, MU24, MU13, R15018" },
+      "chill": { "score": 1, "reason": "ตอนพิเศษให้ฟีลชีวิตประจำวันสบายๆ", "evidence": "R18129" }
+    },
+    "textCount": 29,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 108556,
+    "moods": {
+      "action": { "score": 2, "reason": "มีฉากภารกิจและฉากต่อสู้ที่คนอ่านว่าสนุก แต่ไม่ใช่จุดหลัก", "evidence": "Super Power 70%, R18632, MU10, MU12" },
+      "romance": { "score": 2, "reason": "คนอ่านเชียร์ให้พ่อแม่จำแลงรักกันจริง แม้จะค่อยเป็นค่อยไป", "evidence": "Fake Relationship 82%, MU10, MU11, MU17, MU20" },
+      "cry": { "score": 2, "reason": "มีโมเมนต์ครอบครัวอบอุ่นและฉากสงครามที่กินใจ มีคนบอกว่าช่วยพาผ่านช่วงซึมเศร้า", "evidence": "MU6, MU10, R18632, MU3" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าอยากรู้ต่อจนหยุดไม่ได้", "evidence": "MU1, MU20" },
+      "comedy": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าขำหนัก โดยเฉพาะสีหน้าและความคิดของอาเนีย", "evidence": "R13874, MU10, MU12, MU24, MU25" },
+      "chill": { "score": 3, "reason": "หลายคนบอกว่าอ่านเบาๆ อบอุ่น ฮีลใจ", "evidence": "R18632, MU10, MU13, MU15, R16093" }
+    },
+    "textCount": 26,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 87423,
+    "moods": {
+      "action": { "score": 0, "reason": "คนอ่านบอกว่าฉากสู้ช่วงหลังจืด ไม่ใช่จุดขาย", "evidence": "MU4, MU8" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 2, "reason": "คนอ่านบอกว่ามีฉากตายที่เศร้าจับใจและโมเมนต์บีบหัวใจ", "evidence": "R31547, MU12, MU18" },
+      "thrill": { "score": 3, "reason": "เกมชิงไหวชิงพริบช่วงแรกทำให้คนอ่านลุ้นจนวางไม่ลง จบตอนค้างทุกตอน", "evidence": "R6898, R8302, MU13, MU14, MU16, MU17" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง เรื่องมืดและตึงเครียด", "evidence": "MU21" }
+    },
+    "textCount": 31,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 106130,
+    "moods": {
+      "action": { "score": 1, "reason": "ฉากเตะบอลดุดันแบบหนังต่อสู้ แต่เป็นการแข่งกีฬา", "evidence": "R25813, MU2" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "MU4" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 3, "reason": "คนอ่านบอกว่าเข้มข้นจนไม่มีเวลาหายใจ ติดงอมแงม", "evidence": "Athletics 91%, Football 73%, R25813, R13998, MU6, MU7" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง เรื่องตึงตลอด", "evidence": "R25813" }
+    },
+    "textCount": 13,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 72451,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าคู่พระนางน่ารักหวานใจ เป็นเรื่องรักที่ดีที่สุดเรื่องหนึ่ง", "evidence": "Heterosexual 93%, R10139, R16977, R31672, MU11, MU25" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าอ่านซ้ำแล้วร้องไห้หลายรอบ", "evidence": "MU20" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "comedy": { "score": 3, "reason": "คนอ่านหลายคนบอกว่ามุกฮามาก ยิ่งช่วงหลังยิ่งเน้นตลก", "evidence": "Slapstick 73%, R31672, MU23, MU21, MU24" },
+      "chill": { "score": 3, "reason": "หลายคนบอกว่าอ่านแล้วฟีลกู๊ด ชีวิตประจำวันสบายๆ ไม่ค่อยมีดราม่า", "evidence": "R31672, MU23, MU8, MU2, MU24" }
+    },
+    "textCount": 28,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 30012,
+    "moods": {
+      "action": { "score": 3, "reason": "คนอ่านชมการต่อสู้ด้วยดาบเท่ๆ ตื่นตา แม้บางคนว่าช่วงหลังลากยาว", "evidence": "Swordplay 92%, Super Power 87%, R12868, R16270, MU9, MU22" },
+      "romance": { "score": 1, "reason": "คนอ่านจิ้นคู่พระนางกันบ้าง แต่เรื่องรักไม่ได้ถูกเล่า", "evidence": "MU10, MU11, MU13" },
+      "cry": { "score": 1, "reason": "มีบางคนบอกว่ามีช่วงบีบใจ", "evidence": "R28753, MU2" },
+      "thrill": { "score": 1, "reason": "บางคนบอกว่าหักมุมลุ้นตาม แต่หลายคนบอกว่าช่วงหลังน่าเบื่อ", "evidence": "R12868, R16270, R18009, MU4" },
+      "comedy": { "score": 2, "reason": "คนอ่านหลายคนบอกว่ามุกตลกขำจริง", "evidence": "R16270, MU2, MU12" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 33,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 102988,
+    "moods": {
+      "action": { "score": 1, "reason": "มีศึกแก๊งเยอะ แต่คนอ่านไม่ค่อยชมฉากต่อสู้", "evidence": "R13965, R12298, MU13" },
+      "romance": { "score": 1, "reason": "มีเส้นแฟนสาวเป็นแรงผลักดัน แต่ไม่ค่อยมีคนพูดถึงความฟิน", "evidence": "R11116" },
+      "cry": { "score": 1, "reason": "มีคนอินกับตัวละครบางตัว แต่บางคนว่าจุดพีคไม่ถึง", "evidence": "MU1, MU12" },
+      "thrill": { "score": 2, "reason": "คนอ่านบอกว่าหักมุมเดายาก อ่านรวดเดียวจบ อยากรู้ว่าจะแก้อดีตได้ไหม", "evidence": "MU2, MU14, R19642, R13965" },
+      "comedy": { "score": 1, "reason": "มีความสนุกบ้าๆ บ้าง แต่ไม่มีใครบอกว่าขำ", "evidence": "MU1, MU3" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 24,
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "anilistId": 153987,
+    "moods": {
+      "action": { "score": 1, "reason": "มีฉากปะทะอยู่บ้าง แต่คนอ่านไม่ได้พูดถึงความมันส์", "evidence": "MU3" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 1, "reason": "มีคนอ่านบอกว่าน้ำตาซึมกับบางฉากที่ซึ้ง", "evidence": "MU1" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 4,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 117581,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนฟินกับคู่พระนาง พระเอกค่อยๆ ตกหลุมรักนางเอก", "evidence": "Heterosexual 70%, R19300, MU1, MU13, MU19, MU20, MU23" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 0, "reason": "คนอ่านบอกว่าไม่มีอะไรให้ลุ้น", "evidence": "MU11" },
+      "comedy": { "score": 2, "reason": "มีมุกและหน้าตลกๆ ของนางเอกที่ทำให้คนอ่านขำ", "evidence": "MU15, MU21, MU23" },
+      "chill": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าเป็นเรื่องฟลัฟฟี่ อ่านสบาย ไม่ดราม่า", "evidence": "MU1, MU6, MU14, MU16" }
+    },
+    "textCount": 25,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 109436,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 1, "reason": "มีพระเอกที่ใจดีกับนางเอก แต่ไม่ใช่จุดที่คนอ่านพูดถึง", "evidence": "MU4" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 0, "reason": "คนอ่านบางคนบอกว่าช่วงกลางเรื่องยืดและน่าเบื่อ", "evidence": "MU6, MU10" },
+      "comedy": { "score": 1, "reason": "มีฉากตลกแทรกมาคั่นความหน่วงบ้าง", "evidence": "R15511" },
+      "chill": { "score": 1, "reason": "ฉากครอบครัวบุญธรรมอบอุ่นน่ารัก แต่เรื่องการถูกทารุณก็อ่านแล้วหนัก", "evidence": "R15511, MU5, MU9, MU18" }
+    },
+    "textCount": 19,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 142894,
+    "moods": {
+      "action": { "score": 1, "reason": "มีคนอ่านบอกว่าเน้นดราม่ากับแอ็กชันมากกว่า", "evidence": "MU3" },
+      "romance": { "score": 1, "reason": "ความรักค่อยเป็นค่อยไปมาก คนอ่านหลายคนบอกว่าแทบไม่มีโรแมนซ์", "evidence": "Heterosexual 84%, MU3, MU5, MU6, MU7" },
+      "cry": { "score": 1, "reason": "ภาพเล่าอารมณ์ได้สะเทือนใจผ่านความเงียบ", "evidence": "MU2, R25045" },
+      "thrill": { "score": 1, "reason": "บรรยากาศหลอนๆ บางช่วงทำเอาขนลุก", "evidence": "R22300, R25045" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 1, "reason": "มีโมเมนต์ครอบครัวอบอุ่น แต่บรรยากาศโดยรวมมืดหม่น", "evidence": "MU5, R25045" }
+    },
+    "textCount": 11,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 187189,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "cry": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าร้องไห้ เรื่องบีบหัวใจมาก", "evidence": "R28163, R28926, MU6, MU11, MU13, MU15, MU18" },
+      "thrill": { "score": 1, "reason": "เล่าเรื่องดึงให้อ่านต่อตั้งแต่ตอนแรกๆ", "evidence": "MU5" },
+      "comedy": { "score": 1, "reason": "พระเอกตัวน้อยมีมุมน่ารักตลกอยู่บ้าง", "evidence": "MU11" },
+      "chill": { "score": 2, "reason": "คนอ่านหลายคนบอกว่าอบอุ่น น่ารัก เงียบสงบ แม้จะมีช่วงหน่วงใจ", "evidence": "R28163, MU5, MU17, MU21" }
+    },
+    "textCount": 22,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 128963,
+    "moods": {
+      "action": { "score": 1, "reason": "เป็นเรื่องเอาตัวรอดจากซอมบี้ แต่คนอ่านไม่ได้พูดถึงฉากต่อสู้", "evidence": "MU4, MU7" },
+      "romance": { "score": 0, "reason": "คนอ่านบอกว่าแทบไม่มีโรแมนซ์ตามชื่อเรื่อง", "evidence": "R18546, MU10, MU11" },
+      "cry": { "score": 1, "reason": "มีคนอ่านบอกว่ามีจุดหนึ่งที่ทำให้เศร้า", "evidence": "MU8" },
+      "thrill": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าลุ้นระทึก หักมุมเยอะ เดาไม่ถูก", "evidence": "Survival, R18546, MU1, MU4, MU5, MU6, MU8, MU10" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" }
+    },
+    "textCount": 12,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 147587,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนชอบความสัมพันธ์คู่หลักที่ค่อยๆ พัฒนาจนน่ารัก", "evidence": "Heterosexual 83%, MU1, MU6, MU13, MU14, MU17" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 1, "reason": "มีคนอ่านบอกว่าอ่านแล้วจมไปกับเรื่อง", "evidence": "MU1" },
+      "comedy": { "score": 1, "reason": "มีความตลกแทรกสลับกับดราม่า", "evidence": "MU20" },
+      "chill": { "score": 1, "reason": "ตอนพิเศษเป็นเรื่องฟลัฟฟี่ แต่เนื้อหลักมีจุดอึดอัดใจ", "evidence": "MU3, MU19, MU16" }
+    },
+    "textCount": 23,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 145551,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าคู่หลักเคมีดี มีโมเมนต์หวานเยอะ", "evidence": "Heterosexual 100%, MU1, MU2, MU5, MU7" },
+      "cry": { "score": 1, "reason": "มีคนอ่านบอกว่าอินและสงสารนางเอกที่โดนทำร้าย", "evidence": "MU15, MU17" },
+      "thrill": { "score": 2, "reason": "เรื่องแก้แค้นดึงให้ติดตาม แต่บางคนบอกว่าช่วงหลังยืด", "evidence": "MU3, MU5, MU6, MU7, MU14" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "คนอ่านบอกว่าดราม่าหนักจนปวดหัว", "evidence": "MU1, MU14" }
+    },
+    "textCount": 16,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 145525,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "romance": { "score": 2, "reason": "คนอ่านชอบความตึงเครียดระหว่างพระนางกับพระเอกยันเดเระ แต่บางคนว่าช่วงหลังน่าเบื่อ", "evidence": "Heterosexual 92%, MU1, MU4, MU5, MU9" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าลุ้นและวางไม่ลง โดยเฉพาะครึ่งแรก", "evidence": "MU1, MU5, MU6, MU14, MU15" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 0, "reason": "คนอ่านบอกว่าตัวละครท็อกซิกทั้งเรื่อง", "evidence": "MU6, MU15" }
+    },
+    "textCount": 16,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 103854,
+    "moods": {
+      "action": { "score": 1, "reason": "มีเรื่องสงครามและนางเอกนักดาบ แต่คนอ่านไม่ค่อยพูดถึงความมันส์", "evidence": "Swordplay 77%, MU20, MU23" },
+      "romance": { "score": 1, "reason": "บางคนชอบคู่พระนางที่เก่งทั้งคู่ แต่หลายคนว่าความรักดูฝืน", "evidence": "Heterosexual 80%, MU2, MU13, MU22, MU23" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "thrill": { "score": 1, "reason": "ช่วงแรกดึงดูดให้อ่านต่อ แต่หลายคนว่าช่วงหลังจืด", "evidence": "MU8, MU20, MU15, MU17" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "" },
+      "chill": { "score": 2, "reason": "คนอ่านบอกว่าเป็นเรื่องอ่านเบาๆ ไม่หนัก", "evidence": "MU3, MU5, MU10" }
+    },
+    "textCount": 22,
+    "confidence": "high"
+  }
+]

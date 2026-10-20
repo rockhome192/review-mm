@@ -3,6 +3,9 @@
 // crowd mood estimate to check the AI mood scores against. anilist-top.json itself
 // is not touched, so the writer's source data stays fixed.
 //
+// Titles already in the output are kept as they are; only new titles are fetched.
+// Set ALL=1 to refetch everything.
+//
 // Usage: npx tsx pipeline/fetch-reviews.ts [reviewsPerTitle=10]
 import fs from "node:fs";
 
@@ -64,10 +67,13 @@ async function gql(variables: Record<string, unknown>): Promise<Raw> {
 }
 
 const ids: number[] = JSON.parse(fs.readFileSync(SRC, "utf8")).map((t: Raw) => t.anilistId);
-const byId = new Map<number, Raw>();
+const prev: Raw[] = !process.env.ALL && fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : [];
+const byId = new Map<number, Raw>(prev.map((t) => [t.anilistId, t]));
+const todo = ids.filter((id) => !byId.has(id));
+console.log(`${ids.length - todo.length} already fetched, ${todo.length} to fetch`);
 
-for (let i = 0; i < ids.length; i += IDS_PER_CALL) {
-  const data = await gql({ ids: ids.slice(i, i + IDS_PER_CALL), perPage: PER_TITLE });
+for (let i = 0; i < todo.length; i += IDS_PER_CALL) {
+  const data = await gql({ ids: todo.slice(i, i + IDS_PER_CALL), perPage: PER_TITLE });
   for (const m of data.media)
     byId.set(m.id, {
       anilistId: m.id,
@@ -85,7 +91,7 @@ for (let i = 0; i < ids.length; i += IDS_PER_CALL) {
         excerpt: clean(r.body).slice(0, REVIEW_CHARS),
       })),
     });
-  console.log(`${Math.min(i + IDS_PER_CALL, ids.length)}/${ids.length}`);
+  console.log(`${Math.min(i + IDS_PER_CALL, todo.length)}/${todo.length}`);
   await new Promise((r) => setTimeout(r, 2500)); // stay well under the rate limit
 }
 
