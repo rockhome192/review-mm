@@ -3,6 +3,8 @@
 // a card whose title changed since the text was written is skipped.
 //
 // Usage: npx tsx pipeline/db-import-rec-text.ts [--dry]
+// Run --dry on fresh writer output before the Opus review, so the mechanical
+// problems (banned words, length) are fixed without spending a review on them.
 import fs from "node:fs";
 import path from "node:path";
 import { RecText, BANNED_PHRASES } from "./schema.ts";
@@ -35,6 +37,16 @@ for (const t of texts)
         problems++;
         console.log(`⚠ ${t.anilistId} -> ${t.recAnilistId}: "${bad}" in "${line}"`);
       }
+// the prompt asks for ~60 characters; a few over is fine, past 65 it wraps badly under the card
+for (const t of texts)
+  for (const line of [t.same, t.diff]) {
+    if (line.length > 65) {
+      problems++;
+      console.log(`⚠ ${t.anilistId} -> ${t.recAnilistId}: ${line.length} chars "${line}"`);
+    } else if (line.length < 20) {
+      console.log(`? ${t.anilistId} -> ${t.recAnilistId}: short, maybe genre only "${line}"`);
+    }
+  }
 if (problems) {
   console.log(`${problems} problems; fix them before importing`);
   process.exit(1);
