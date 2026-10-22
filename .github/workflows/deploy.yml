@@ -1,0 +1,42 @@
+# Build the static site from Supabase and deploy it to Cloudflare Workers.
+# Runs on Linux because OpenNext doesn't guarantee Windows builds.
+# Data edits in Supabase don't touch the repo: run this by hand (Actions → Deploy → Run workflow)
+# to publish them, until the pipeline triggers it.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+    paths: ["web/**", ".github/workflows/deploy.yml"]
+  workflow_dispatch:
+
+# a newer deploy replaces one still running
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - name: Build and deploy
+        run: npm run deploy
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+          # repo variable (Settings → Secrets and variables → Actions → Variables);
+          # left unset, robots.txt blocks crawlers
+          NEXT_PUBLIC_SITE_URL: ${{ vars.SITE_URL }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
