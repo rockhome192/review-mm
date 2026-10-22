@@ -4,7 +4,7 @@
 //
 // Usage: npx tsx pipeline/validate.ts
 import fs from "node:fs";
-import { Recommendation, MoodResult, MOOD_KEYS, pickMoods, MOOD_LABELS, BANNED_PHRASES } from "./schema.ts";
+import { Recommendation, MoodResult, MOOD_KEYS, pickMoods, MOOD_LABELS, BANNED_PHRASES, findCitation } from "./schema.ts";
 
 const BANNED = BANNED_PHRASES;
 const raw: any[] = JSON.parse(fs.readFileSync("data/raw/anilist-top.json", "utf8"));
@@ -39,6 +39,8 @@ for (const f of files) {
       if (!src.alsoLiked.includes(name)) { problems++; console.log(`⚠ ${src.title}: ifYouLike "${name}" not in alsoLiked`); }
     const text = `${r.hook} ${r.body} ${r.caveat ?? ""}`;
     for (const b of BANNED) if (text.includes(b)) { problems++; console.log(`⚠ ${src.title}: banned phrase "${b}"`); }
+    const cited = findCitation(r);
+    if (cited) { problems++; console.log(`⚠ ${src.title}: cites reviews/readers "${cited}"`); }
     const m = moodById.get(r.anilistId);
     if (m) for (const k of MOOD_KEYS) r.moods[k] = { score: m.moods[k].score, reason: m.moods[k].reason };
     all.push(r);

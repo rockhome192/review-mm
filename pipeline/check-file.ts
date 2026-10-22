@@ -3,7 +3,7 @@
 //
 // Usage: npx tsx pipeline/check-file.ts data/model-test/sonnet.json
 import fs from "node:fs";
-import { Recommendation, BANNED_PHRASES } from "./schema.ts";
+import { Recommendation, BANNED_PHRASES, findCitation } from "./schema.ts";
 
 const raw: any[] = JSON.parse(fs.readFileSync("data/raw/anilist-top.json", "utf8"));
 const byId = new Map(raw.map((t) => [t.anilistId, t]));
@@ -24,6 +24,8 @@ for (const item of JSON.parse(fs.readFileSync(file, "utf8"))) {
     if (!src.alsoLiked.includes(name)) { problems++; console.log(`⚠ ${src.title}: ifYouLike "${name}" not in alsoLiked`); }
   const text = `${r.hook} ${r.body} ${r.caveat ?? ""}`;
   for (const b of BANNED_PHRASES) if (text.includes(b)) { problems++; console.log(`⚠ ${src.title}: banned phrase "${b}"`); }
+  const cited = findCitation(r);
+  if (cited) { problems++; console.log(`⚠ ${src.title}: cites reviews/readers "${cited}"`); }
   ok++;
 }
 console.log(`\n${ok} valid, ${problems} problems in ${file}`);

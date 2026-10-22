@@ -17,6 +17,18 @@ export const WARNING_KEYS = ["violence", "gore", "sexual", "nudity", "suicide", 
 /** Overused phrases the writers must not use (prompt.md "คำ/สำนวนที่ห้ามใช้ซ้ำซาก"). */
 export const BANNED_PHRASES = ["ลุ้นจนลืมหายใจ", "วางไม่ลง", "ห้ามพลาด", "ครบทุกรส", "อ่านเพลิน"];
 
+// hook/body speak in our own voice and cite nobody; a caveat may say "บางคนว่า…" but never "รีวิว"
+// (prompt.md). "จนคนอ่านน้ำตาซึม" (what the story does to a reader) is fine, so only
+// reader + verb-of-opinion is matched.
+const CITES = /รีวิว|(?:คนอ่าน|ผู้อ่าน|แฟนๆ)\s?(?:บอก|ชม|ชอบ|ติด|พูดถึง|ถก|ยอมรับ|จำได้|จำนวนมาก|หลายคน)|(?:หลายคน|มีคน|บางคน)อ่าน/;
+
+/** The part of a blurb that cites reviews or readers, or null. */
+export function findCitation(r: { hook: string; body: string; caveat: string | null }): string | null {
+  const own = `${r.hook} ${r.body}`.match(CITES)?.[0];
+  if (own) return own;
+  return r.caveat?.includes("รีวิว") ? "รีวิว" : null;
+}
+
 const MoodScore = z.object({
   score: z.number().int().min(0).max(3),
   reason: z.string().min(1),
