@@ -3,9 +3,8 @@
 //
 // Usage: npx tsx pipeline/check-file.ts data/model-test/sonnet.json
 import fs from "node:fs";
-import { Recommendation } from "./schema.ts";
+import { Recommendation, BANNED_PHRASES } from "./schema.ts";
 
-const BANNED = ["ลุ้นจนลืมหายใจ", "วางไม่ลง", "ห้ามพลาด", "ครบทุกรส", "อ่านเพลิน"];
 const raw: any[] = JSON.parse(fs.readFileSync("data/raw/anilist-top.json", "utf8"));
 const byId = new Map(raw.map((t) => [t.anilistId, t]));
 
@@ -24,7 +23,7 @@ for (const item of JSON.parse(fs.readFileSync(file, "utf8"))) {
   for (const name of r.ifYouLike)
     if (!src.alsoLiked.includes(name)) { problems++; console.log(`⚠ ${src.title}: ifYouLike "${name}" not in alsoLiked`); }
   const text = `${r.hook} ${r.body} ${r.caveat ?? ""}`;
-  for (const b of BANNED) if (text.includes(b)) { problems++; console.log(`⚠ ${src.title}: banned phrase "${b}"`); }
+  for (const b of BANNED_PHRASES) if (text.includes(b)) { problems++; console.log(`⚠ ${src.title}: banned phrase "${b}"`); }
   ok++;
 }
 console.log(`\n${ok} valid, ${problems} problems in ${file}`);
