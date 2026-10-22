@@ -49,6 +49,7 @@ function toTitle(r: TitleRow): Title {
     popularity: r.popularity ?? 0,
     cover: r.cover_url,
     coverColor: r.cover_color ?? "#ebe5d8",
+    anilistUrl: r.anilist_url,
     hook: o?.premise ?? r.blurbs.hook,
     body: r.blurbs.body,
     caveat: r.blurbs.caveat,

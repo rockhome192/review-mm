@@ -68,6 +68,7 @@ export type Title = {
   popularity: number;
   cover: string | null;
   coverColor: string;
+  anilistUrl: string | null;
   hook: string;
   body: string;
   caveat: string | null;

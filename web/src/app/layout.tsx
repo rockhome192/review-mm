@@ -3,6 +3,7 @@ import Link from "next/link";
 import { IBM_Plex_Sans_Thai, Noto_Serif_Thai } from "next/font/google";
 import { ListsMenu } from "@/components/ListsMenu";
 import { getLists } from "@/lib/data";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const plex = IBM_Plex_Sans_Thai({
@@ -17,9 +18,15 @@ const serif = Noto_Serif_Thai({
   weight: ["600", "800"],
 });
 
+const DESCRIPTION = "เลือกมังงะและมังฮวาตามอารมณ์ที่อยากรู้สึก สรุปจากเสียงของคนอ่านจริง พร้อมช่องทางอ่านแบบถูกลิขสิทธิ์";
+
 export const metadata: Metadata = {
-  title: { default: "อ่านอะไรดี. — แนะนำมังงะและมังฮวาตามอารมณ์", template: "%s · อ่านอะไรดี." },
-  description: "เลือกมังงะและมังฮวาตามอารมณ์ที่อยากรู้สึก สรุปจากเสียงของคนอ่านจริง พร้อมช่องทางอ่านแบบถูกลิขสิทธิ์",
+  // relative URLs below need a base; without SITE_URL robots.ts blocks crawlers anyway
+  metadataBase: new URL(SITE_URL ?? "http://localhost:3000"),
+  title: { default: `${SITE_NAME} — แนะนำมังงะและมังฮวาตามอารมณ์`, template: `%s · ${SITE_NAME}` },
+  description: DESCRIPTION,
+  openGraph: { siteName: SITE_NAME, locale: "th_TH", type: "website" },
+  twitter: { card: "summary" }, // covers are portrait; a large card crops them
 };
 
 export default async function RootLayout({ children }: LayoutProps<"/">) {
@@ -46,7 +53,17 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="mt-auto border-t-[1.5px] border-ink">
           <div className="mx-auto flex max-w-[1240px] flex-wrap justify-between gap-2.5 px-4 py-[22px] text-[13px] text-soft sm:px-7">
             <span>อ่านอะไรดี. — แนะนำมังงะและมังฮวา จากเสียงของคนอ่าน</span>
-            <span>ข้อมูลเรื่องจาก AniList · ความเห็นคนอ่านจาก MangaUpdates · สนับสนุนการอ่านผ่านช่องทางที่มีลิขสิทธิ์</span>
+            <span>
+              ข้อมูลเรื่องจาก{" "}
+              <a href="https://anilist.co" target="_blank" rel="noopener" className="underline">
+                AniList
+              </a>{" "}
+              · ความเห็นคนอ่านจาก{" "}
+              <a href="https://www.mangaupdates.com" target="_blank" rel="noopener" className="underline">
+                MangaUpdates
+              </a>{" "}
+              · สนับสนุนการอ่านผ่านช่องทางที่มีลิขสิทธิ์
+            </span>
           </div>
         </footer>
       </body>

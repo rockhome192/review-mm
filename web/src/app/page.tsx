@@ -1,5 +1,9 @@
+import type { Metadata } from "next";
 import { getCatalog, getLists, toCard } from "@/lib/data";
 import { HomeClient, type Featured } from "./HomeClient";
+
+// filter views (?type, ?moods, ?list) are the same page to a search engine
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 const FEATURED_SLUG = "featured";
 const FEATURED_FALLBACK = 4;

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Cover } from "@/components/Cover";
 import { CopyLinkButton } from "@/components/CopyLinkButton";
 import { getCatalog, getTitle } from "@/lib/data";
+import { SITE_NAME, SITE_URL, largeCover } from "@/lib/site";
 import {
   LINK_KIND_LABELS,
   MOOD_COLORS,
@@ -30,8 +31,37 @@ export async function generateMetadata({ params }: PageProps<"/[type]/[slug]">):
   return {
     title: `${t.title} — ${TYPE_LABELS[t.type]}แนะนำ`,
     description: t.hook,
-    openGraph: { title: t.title, description: t.hook, images: t.cover ? [t.cover] : [] },
+    alternates: { canonical: t.href },
+    openGraph: { title: t.title, description: t.hook, url: t.href, images: t.cover ? [largeCover(t.cover)] : [] },
   };
+}
+
+/** schema.org data for search engines: the series itself and the breadcrumb trail. */
+function jsonLd(t: Title) {
+  const base = SITE_URL ?? "";
+  const series = {
+    "@context": "https://schema.org",
+    "@type": "ComicSeries",
+    name: t.title,
+    alternateName: [t.titleRomaji, t.titleNative].filter((x) => x && x !== t.title),
+    description: t.hook,
+    url: `${base}${t.href}`,
+    ...(t.cover ? { image: largeCover(t.cover) } : {}),
+    genre: t.tags,
+    ...(t.startYear ? { startDate: String(t.startYear) } : {}),
+    ...(t.anilistUrl ? { sameAs: [t.anilistUrl] } : {}),
+  };
+  const crumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: SITE_NAME, item: `${base}/` },
+      { "@type": "ListItem", position: 2, name: TYPE_LABELS[t.type], item: `${base}/?type=${t.type}` },
+      { "@type": "ListItem", position: 3, name: t.title },
+    ],
+  };
+  // "<" escaped so a title can never close the script tag
+  return JSON.stringify([series, crumbs]).replace(/</g, "\\u003c");
 }
 
 /** Moods shown in the hero: clearly mentioned, strongest first, at most 3. */
@@ -64,6 +94,7 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
 
   return (
     <main className="mx-auto flex w-full max-w-[1240px] flex-wrap items-start gap-10 px-4 pt-5 pb-16 sm:px-7">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(t) }} />
       <div className="flex min-w-0 flex-[1_1_440px] flex-col gap-10">
         <nav aria-label="breadcrumb" className="flex flex-wrap gap-2 text-[13px] text-soft">
           <Link href="/" className="underline">
@@ -274,6 +305,11 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
               </div>
             ))}
           </dl>
+          {t.anilistUrl && (
+            <a href={t.anilistUrl} target="_blank" rel="noopener" className="mt-2.5 text-xs text-soft underline">
+              ข้อมูลเรื่องจาก AniList ↗
+            </a>
+          )}
         </div>
       </aside>
     </main>
