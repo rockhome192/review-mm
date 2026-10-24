@@ -7,3 +7,7 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+# local agent skills and pre-minors blurb backup
+.agents/
+data/generated/pre-minors/
