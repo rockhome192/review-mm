@@ -2,6 +2,7 @@
 # Runs on Linux because OpenNext doesn't guarantee Windows builds.
 # Data edits in Supabase don't touch the repo: run this by hand (Actions → Deploy → Run workflow)
 # to publish them, until the pipeline triggers it.
+# The Monday run rolls the home page's weekly featured titles over.
 name: Deploy
 
 on:
@@ -9,6 +10,8 @@ on:
     branches: [main]
     paths: ["web/**", ".github/workflows/deploy.yml"]
   workflow_dispatch:
+  schedule:
+    - cron: "5 17 * * 0" # Monday 00:05 Bangkok time
 
 # a newer deploy replaces one still running
 concurrency:
