@@ -82,7 +82,11 @@ export type Title = {
 /** The slice of a Title the home page ships to the browser. */
 export type CardTitle = Pick<
   Title,
-  "id" | "href" | "title" | "type" | "status" | "chapters" | "length" | "cover" | "coverColor" | "popularity"
-> & { moodScores: Record<MoodKey, number> };
+  "id" | "href" | "title" | "type" | "status" | "chapters" | "length" | "cover" | "coverColor" | "popularity" | "score" | "startYear"
+> & {
+  moodScores: Record<MoodKey, number>;
+  /** All names (title, romaji, native), normalized for the search box. */
+  names: string;
+};
 
 export type List = { slug: string; title: string; description: string | null; ids: number[] };

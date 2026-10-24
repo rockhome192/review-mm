@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { Cover } from "@/components/Cover";
 import { LENGTH_LABELS, MOOD_LABELS, TYPE_LABELS, metaLine } from "@/lib/labels";
+import { normalizeName } from "@/lib/search";
 import { MOOD_KEYS, type CardTitle, type LengthKey, type List, type MoodKey, type TitleType } from "@/lib/types";
 
 export type Featured = {
@@ -17,8 +18,11 @@ export type Featured = {
   tags: string[];
 };
 
-type Filters = { type: TitleType | "all"; moods: MoodKey[]; length: LengthKey | "any" };
-const NO_FILTERS: Filters = { type: "all", moods: [], length: "any" };
+/** "best" = mood fit when moods are chosen, else popularity. */
+type SortKey = "best" | "score" | "new";
+const SORT_KEYS: SortKey[] = ["best", "score", "new"];
+type Filters = { type: TitleType | "all"; moods: MoodKey[]; length: LengthKey | "any"; q: string; sort: SortKey };
+const NO_FILTERS: Filters = { type: "all", moods: [], length: "any", q: "", sort: "best" };
 /** A title "has" a mood when readers clearly mention it. */
 const MOOD_MIN = 2;
 /** Cards per "ดูเพิ่ม" step; divides evenly into 2–6 columns. */
@@ -31,15 +35,23 @@ const fitOf = (t: CardTitle, f: Filters) =>
   f.moods.reduce((s, m) => s + (t.moodScores[m] >= MOOD_MIN ? t.moodScores[m] : 0), 0);
 
 function match(titles: CardTitle[], f: Filters) {
+  const q = normalizeName(f.q);
   return titles
     .filter(
       (t) =>
         (f.type === "all" || t.type === f.type) &&
         (f.length === "any" || t.length === f.length) &&
-        (!f.moods.length || f.moods.some((m) => t.moodScores[m] >= MOOD_MIN)),
+        (!f.moods.length || f.moods.some((m) => t.moodScores[m] >= MOOD_MIN)) &&
+        (!q || t.names.includes(q)),
     )
     .map((t) => ({ t, fit: fitOf(t, f) }))
-    .sort((a, b) => b.fit - a.fit || b.t.popularity - a.t.popularity)
+    .sort(
+      (a, b) =>
+        (f.sort === "score" ? (b.t.score ?? 0) - (a.t.score ?? 0) : 0) ||
+        (f.sort === "new" ? (b.t.startYear ?? 0) - (a.t.startYear ?? 0) : 0) ||
+        b.fit - a.fit ||
+        b.t.popularity - a.t.popularity,
+    )
     .map((x) => x.t);
 }
 
@@ -57,16 +69,21 @@ function toQuery(f: Filters) {
   if (f.type !== "all") q.set("type", f.type);
   if (f.moods.length) q.set("moods", f.moods.join(","));
   if (f.length !== "any") q.set("length", f.length);
+  if (f.q.trim()) q.set("q", f.q.trim());
+  if (f.sort !== "best") q.set("sort", f.sort);
   return q.toString();
 }
 
 function fromQuery(params: URLSearchParams): Filters {
   const type = params.get("type");
   const length = params.get("length");
+  const sort = params.get("sort") as SortKey;
   return {
     type: type === "manga" || type === "manhwa" ? type : "all",
     moods: (params.get("moods") ?? "").split(",").filter((m): m is MoodKey => MOOD_KEYS.includes(m as MoodKey)),
     length: length === "short" || length === "mid" || length === "long" ? length : "any",
+    q: params.get("q") ?? "",
+    sort: SORT_KEYS.includes(sort) ? sort : "best",
   };
 }
 
@@ -132,7 +149,8 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
     return () => io.disconnect();
   }, [canAutoLoad, viewKey, shown]);
 
-  const hasFilters = filters.type !== "all" || filters.moods.length > 0 || filters.length !== "any";
+  const hasFilters =
+    filters.type !== "all" || filters.moods.length > 0 || filters.length !== "any" || !!filters.q.trim() || filters.sort !== "best";
   const scrollToResults = () =>
     requestAnimationFrame(() => {
       const el = resultsRef.current;
@@ -330,7 +348,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
             <span>
               {list
                 ? `ลิสต์คัดสรร · ${results.length} เรื่อง`
-                : `${results.length} เรื่อง${filters.moods.length ? " · เรียงตามความตรงใจ" : ""}`}
+                : `${results.length} เรื่อง`}
             </span>
             {(hasFilters || list) && (
               <button
@@ -347,9 +365,31 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
           </div>
         </div>
 
+        <div className="flex flex-wrap items-center gap-3">
+          {filters.q.trim() && (
+            <span className="text-[15px]">
+              ค้นหา “{filters.q.trim()}”
+            </span>
+          )}
+          <label className="ml-auto flex items-center gap-2 text-sm text-soft">
+            เรียงตาม
+            <select
+              value={filters.sort}
+              onChange={(e) => update({ sort: e.target.value as SortKey })}
+              className="rounded-lg border-[1.5px] border-ink bg-paper px-3 py-2 text-[15px] text-ink"
+            >
+              <option value="best">{filters.moods.length ? "ตรงใจที่สุด" : "ยอดนิยม"}</option>
+              <option value="score">คะแนนสูงสุด</option>
+              <option value="new">เรื่องใหม่ก่อน</option>
+            </select>
+          </label>
+        </div>
+
         {results.length === 0 ? (
           <div className="rounded-[10px] border-[1.5px] border-dashed border-ink p-10 text-center text-base text-muted">
-            ยังไม่มีเรื่องที่ตรงทุกข้อ ลองเปลี่ยนความยาวหรือประเภทดูนะ
+            {filters.q.trim()
+              ? "ไม่เจอเรื่องชื่อนี้ ลองพิมพ์ชื่ออังกฤษหรือโรมาจิ หรือล้างตัวเลือกอื่นดูนะ"
+              : "ยังไม่มีเรื่องที่ตรงทุกข้อ ลองเปลี่ยนความยาวหรือประเภทดูนะ"}
           </div>
         ) : (
           <ul className="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-x-5 gap-y-[26px]">

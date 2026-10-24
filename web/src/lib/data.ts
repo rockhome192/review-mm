@@ -1,6 +1,7 @@
 // Build-time data access. Reads Supabase through the Data API with the
 // publishable key, so only rows RLS lets the public see come back.
 import "server-only";
+import { normalizeName } from "./search";
 import { MOOD_KEYS, type CardTitle, type LengthKey, type List, type Title, type TitleRow } from "./types";
 
 const URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -90,6 +91,9 @@ export function toCard(t: Title): CardTitle {
     cover: t.cover,
     coverColor: t.coverColor,
     popularity: t.popularity,
+    score: t.score,
+    startYear: t.startYear,
+    names: [t.title, t.titleRomaji, t.titleNative].filter(Boolean).map((n) => normalizeName(n!)).join("\n"),
     moodScores: Object.fromEntries(MOOD_KEYS.map((k) => [k, t.moods[k].score])) as CardTitle["moodScores"],
   };
 }

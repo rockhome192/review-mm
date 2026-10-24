@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { IBM_Plex_Sans_Thai, Noto_Serif_Thai } from "next/font/google";
+import { Suspense } from "react";
+import { HeaderSearch, HeaderSearchFallback } from "@/components/HeaderSearch";
 import { ListsMenu } from "@/components/ListsMenu";
 import { getLists } from "@/lib/data";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
@@ -42,6 +44,9 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="font-serif text-2xl font-extrabold tracking-tight">
               อ่านอะไรดี<span className="text-accent">.</span>
             </Link>
+            <Suspense fallback={<HeaderSearchFallback />}>
+              <HeaderSearch />
+            </Suspense>
             <nav className="flex items-center gap-3.5 text-[15px] sm:gap-[18px] font-medium whitespace-nowrap">
               <Link href="/?type=manga">มังงะ</Link>
               <Link href="/?type=manhwa">มังฮวา</Link>
