@@ -1,0 +1,465 @@
+[
+  {
+    "anilistId": 59983,
+    "hook": "ตื่นจากหลับยาว 820 ปี มาเป็นนักเรียนม.ปลายธรรมดา แต่ศัตรูเก่าไม่ยอมปล่อยให้เงียบ",
+    "body": "คนรับใช้ผู้ภักดีอย่างแฟรงเกนสไตน์เป็นคนตั้งโรงเรียนให้เจ้านายเอง ฉากโรงเรียนแสนสงบเลยตัดกับกลุ่มผู้โจมตีลึกลับที่เรียกว่า \"ยูเนียน\" ได้สนุก แวมไพร์ มนุษย์หมาป่า และมนุษย์ชนกันเป็นแกนยาวทั้งเรื่อง",
+    "caveat": "ยาวถึง 544 ตอน และบางคนว่าครึ่งหลังไม่สนุกเท่าครึ่งแรก",
+    "ifYouLike": [
+      "Eleceed",
+      "Tower of God"
+    ],
+    "tagsTh": [
+      "แวมไพร์",
+      "พลังพิเศษ",
+      "โรงเรียน",
+      "ต่อสู้"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "แท็ก Super Power และฉากต่อสู้ตลอดเรื่อง"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีเส้นเรื่องรัก"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "มีมิติตัวละครบ้าง"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "ศัตรูลึกลับ"
+      },
+      "comedy": {
+        "score": 2,
+        "reason": "ตลกชีวิตโรงเรียนสลับแอ็กชัน"
+      },
+      "chill": {
+        "score": 1,
+        "reason": "ช่วงต้นสงบ"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "high",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 125636,
+    "hook": "เจ้าชายที่ถูกดูแคลนว่าไร้พลัง ฝึกกับเหล่าฮีโร่มาพันปีในห้วงวิญญาณ แล้วกลับมาเล่นงานศัตรูในราชสำนัก",
+    "body": "ห้องโถงวีรบุรุษที่เหล่ายอดคนระดับตำนานมารุมฝึกเขาอย่างโหดสุดๆ ตลอดพันปี เกิดขึ้นระหว่างร่างจริงนอนโคม่า ศัตรูในวังเลยยังประเมินเขาเหมือนเดิมและไม่ทันตั้งตัวเมื่อเขาลุกขึ้นมาพลิกเกม",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "I Am the Sorcerer King",
+      "A Returner's Magic Should Be Special"
+    ],
+    "tagsTh": [
+      "การเมืองในวัง",
+      "เจ้าชาย",
+      "เวทมนตร์",
+      "พระเอกเทพ"
+    ],
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "แท็ก Magic และพลังที่ฝึกมา"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "แท็ก Politics, Conspiracy"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องตึงเครียด"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 119276,
+    "hook": "ติดอยู่ในหอคอยเต็มไปด้วยมอนสเตอร์ที่เกิดใหม่ไม่หยุดนาน 12 ปี พอออกมาได้ เขาแข็งกว่าเกือบทุกสิ่งบนโลก",
+    "body": "ฮยอนอูออกมาพร้อมเป้าหมายเดียวคือหาคนที่ขังเขาไว้ ระหว่างทางก็ล้มมอนสเตอร์เป็นกอง จนกลายเป็นคนที่ช่วยโลกไว้โดยไม่ได้ตั้งใจ",
+    "caveat": null,
+    "ifYouLike": [
+      "Solo Leveling",
+      "The Player Who Can't Level Up"
+    ],
+    "tagsTh": [
+      "ฮันเตอร์",
+      "ตึกทดสอบ",
+      "เกมระบบ",
+      "กลับมาแข็งแกร่ง"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "สู้มอนสเตอร์ตลอด แท็ก Dungeon, Martial Arts"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "ตามหาคนผู้อยู่เบื้องหลัง"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่เรื่องสบาย"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 67707,
+    "hook": "เสียงไวโอลินแบบไม่ตามตำราของสาวคนหนึ่ง อาจเป็นสิ่งเดียวที่ดึงอดีตเด็กอัจฉริยะเปียโนออกจากโลกสีเทาได้",
+    "body": "โคเซย์เลิกเล่นเปียโนหลังแม่ผู้เข้มงวดจากไป ส่วนคาโอริเล่นตามใจตัวเอง และค่อยๆ ลากเขากลับเข้าหาดนตรี เรื่องนี้ทั้งฟินและจุกอกไปพร้อมกัน",
+    "caveat": "ตอนจบเรียกน้ำตา ถ้าไม่ถนัดเรื่องซึ้งหนักๆ ให้เตรียมใจ",
+    "ifYouLike": [
+      "The Summer You Were There",
+      "I Want to Eat Your Pancreas"
+    ],
+    "tagsTh": [
+      "ดนตรี",
+      "โรแมนติก",
+      "เปียโน",
+      "ดราม่า"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "romance": {
+        "score": 2,
+        "reason": "เส้นเรื่องรักวัยรุ่น"
+      },
+      "cry": {
+        "score": 3,
+        "reason": "ถูกพูดถึงว่าเป็นเรื่องเรียกน้ำตา"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "มีมุกบ้าง"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "หนักใจ"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "high",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 85155,
+    "hook": "ค่าสเตตัสลอยขึ้นมาในชีวิตจริง เควสต์เด้งเตือนไม่หยุด แต่การบ้านของเด็กมัธยมคนนี้ก็ยังต้องทำเหมือนเดิม",
+    "body": "จีฮันสะดุดเข้ากับโลกซ่อนเร้นของคนที่มีพลังแบบเดียวกัน พอทุกอย่างในชีวิตกลายเป็นตัวเลขและเควสต์ เขาก็ต้องหาวิธีปั้นตัวเองขึ้นเลเวลไปทีละขั้น",
+    "caveat": null,
+    "ifYouLike": [
+      "Solo Leveling",
+      "The Legendary Moonlight Sculptor"
+    ],
+    "tagsTh": [
+      "เกมระบบ",
+      "พลังพิเศษ",
+      "ฮาเร็ม",
+      "เลเวลอัพ"
+    ],
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "พลังพิเศษและเควสต์"
+      },
+      "romance": {
+        "score": 1,
+        "reason": "แท็ก Female Harem"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "โลกซ่อนเร้น"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "ชีวิตนักเรียนปนเกม"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่ชิล"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 141479,
+    "hook": "หอกคู่ใจเปล่งแสงตอนเจ้าของใกล้สิ้นลม พากลับไปคอกม้าในวัยเด็ก และเขาตั้งใจแล้วว่าชาตินี้ต้องล้างแค้น",
+    "body": "โจชัวเคยจบสงครามกลางเมืองด้วยหอก ทั้งที่ใครๆ เชื่อว่าอัศวินที่เก่งต้องใช้ดาบ แต่พวกพ้องที่กลัวฝีมือเขากลับเป็นฝ่ายลงมือฆ่า",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "The Return of the 8th Class Mage",
+      "The Swordmaster's Son"
+    ],
+    "tagsTh": [
+      "ย้อนเวลา",
+      "ล้างแค้น",
+      "จอมหอก",
+      "อัศวิน"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "การต่อสู้ด้วยหอก"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "แก้แค้น"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่ชิล"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 132093,
+    "hook": "โลกที่ฮีโร่กับวายร้ายรบกันไม่เลิก มีหญิงสาวคนหนึ่งเลือกเส้นทางเลือดเพื่อชำระแค้น",
+    "body": "ฮีโร่ในเรื่องไม่ได้ดีไปทุกคน และใครเป็นฮีโร่ ใครเป็นวายร้าย ก็ถูกตั้งคำถามตลอด เหมาะกับคนที่ชอบตัวเอกแบบแอนตี้ฮีโร่",
+    "caveat": "มีฉากโหดและเลือด",
+    "ifYouLike": [
+      "Villain to Kill",
+      "Eleceed"
+    ],
+    "tagsTh": [
+      "แก้แค้น",
+      "ซูเปอร์ฮีโร่",
+      "แอนตี้ฮีโร่",
+      "ต่อสู้"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "พลังพิเศษ วิชาต่อสู้"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "แท็ก Tragedy"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "Conspiracy, Survival"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เครียดหนัก"
+      }
+    },
+    "contentWarnings": [
+      "violence",
+      "gore"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 119523,
+    "hook": "เคยเป็นมือวางแผนที่ช่วยพี่ชายชิงบัลลังก์ แล้วถูกเขาจับขัง เธอย้อนเวลากลับมาเพื่อล้มพี่ตัวเอง",
+    "body": "อาร์เทเซียสละชีวิตด้วยเวทต้องห้ามเพื่อช่วยแกรนด์ดยุกเซดริก แล้วตื่นขึ้นมาในหลายปีก่อน คราวนี้เธอเลือกอยู่ข้างเขาโดยไม่สนว่าต้องหักกับครอบครัว และความรักก็ค่อยๆ ก่อตัวท่ามกลางศึกชิงอำนาจ",
+    "caveat": null,
+    "ifYouLike": [
+      "The Villainess Turns the Hourglass",
+      "Villains Are Destined to Die"
+    ],
+    "tagsTh": [
+      "นางร้าย",
+      "ย้อนเวลา",
+      "การเมือง",
+      "โรแมนซ์"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่เน้น"
+      },
+      "romance": {
+        "score": 2,
+        "reason": "มีรักผลิบาน"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "ถูกพี่ทรยศ"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "Politics, Conspiracy"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 164222,
+    "hook": "ใช้ลมปราณไม่ได้เลยในลัทธิมารสวรรค์ที่เต็มไปด้วยศัตรู แต่คนในร่างเจ้าชายคนนี้คือนักฆ่าระดับสูงที่เพิ่งตายมา",
+    "body": "ฮาจินเคยหนีพันธนาการของพันธมิตรยุติธรรมจนบาดเจ็บสาหัสตาย ตอนนี้อยู่ในร่างซอรยาง ไม่มีลมปราณก็ต้องงัดทักษะนักฆ่าเดิมมาเอาตัวรอดจากศัตรูในลัทธิ",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "Nano Machine",
+      "The Demon Faction’s Return"
+    ],
+    "tagsTh": [
+      "กำลังภายใน",
+      "ทะลุมิติ",
+      "ลัทธิมารสวรรค์",
+      "นักฆ่า"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "Wuxia, Martial Arts"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "เอาตัวรอดจากศัตรู"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 101418,
+    "hook": "บนเตียงที่รอวันสุดท้าย ผู้อาวุโสสำนักฮวาซานที่เสียดายมาทั้งชีวิตได้กลับไปอดีตอีกครั้ง",
+    "body": "จูซอชอนรอดจากยุคสงครามมาได้เพราะโชคล้วนๆ แล้วใช้ชีวิตเต็มไปด้วยความเสียดายจนวาระสุดท้าย ชาตินี้เขาได้โอกาสแก้ตัวกับวิชาดาบและสำนักที่ตนเคยดูแล",
+    "caveat": null,
+    "ifYouLike": [
+      "Return of the Blossoming Blade",
+      "The Legend of the Northern Blade"
+    ],
+    "tagsTh": [
+      "กำลังภายใน",
+      "ย้อนเวลา",
+      "วิชาดาบ",
+      "สำนักฮวาซาน"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "Swordplay, Wuxia"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "ความเสียดายในอดีต"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "สงคราม"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "ไม่ใช่"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  }
+]
