@@ -23,6 +23,8 @@ const NO_FILTERS: Filters = { type: "all", moods: [], length: "any" };
 const MOOD_MIN = 2;
 /** Cards per "ดูเพิ่ม" step; divides evenly into 2–6 columns. */
 const PAGE_SIZE = 48;
+/** Scrolling near the end loads more by itself up to this many; past it, the button, so the footer stays reachable. */
+const AUTO_LOAD_UNTIL = PAGE_SIZE * 4;
 
 /** How well a title fits the chosen moods: sum of its clearly-mentioned mood scores. */
 const fitOf = (t: CardTitle, f: Filters) =>
@@ -117,6 +119,18 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
   const viewKey = listSlug ?? toQuery(filters);
   const [more, setMore] = useState({ key: "", count: PAGE_SIZE });
   const shown = more.key === viewKey ? more.count : PAGE_SIZE;
+  const moreRef = useRef<HTMLButtonElement>(null);
+  const canAutoLoad = shown < AUTO_LOAD_UNTIL && results.length > shown;
+  useEffect(() => {
+    const el = moreRef.current;
+    if (!el || !canAutoLoad) return;
+    const io = new IntersectionObserver(
+      ([e]) => e.isIntersecting && setMore({ key: viewKey, count: shown + PAGE_SIZE }),
+      { rootMargin: "800px 0px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [canAutoLoad, viewKey, shown]);
 
   const hasFilters = filters.type !== "all" || filters.moods.length > 0 || filters.length !== "any";
   const scrollToResults = () =>
@@ -364,6 +378,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
         )}
         {results.length > shown && (
           <button
+            ref={moreRef}
             onClick={() => setMore({ key: viewKey, count: shown + PAGE_SIZE })}
             className="self-center rounded-lg border-[1.5px] border-ink px-6 py-2.5 text-[15px] font-semibold hover:bg-ink hover:text-paper"
           >
