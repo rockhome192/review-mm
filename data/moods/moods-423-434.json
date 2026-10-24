@@ -1,0 +1,158 @@
+[
+  {
+    "anilistId": 140837,
+    "moods": {
+      "action": { "score": 2, "reason": "ตัวเรื่องมีการต่อสู้และการปะทะกับแก๊งเป็นหลัก แต่คนอ่านไม่ได้พูดถึงมาก", "evidence": "Martial Arts 79%, Action genre" },
+      "romance": { "score": 1, "reason": "มีคนบอกว่ามีกลิ่นของฮาเร็มและตัวละครหญิงที่หลงรักพระเอก แต่ไม่ได้ลึกซึ้ง", "evidence": "Heterosexual 53%, MU1" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 2, "reason": "คนอ่านบอกว่าตัวละครคุยกันแล้วขำ และเรื่องแอบล้อแนวฮาเร็มอยู่บ้าง", "evidence": "Comedy genre (MangaUpdates), MU1, MU2" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 5,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 103995,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 1, "reason": "ความรักมีให้เห็นชัด แต่คนอ่านหลายคนบอกว่าสามเส้าดูฝืนและไม่น่าเชื่อ", "evidence": "Heterosexual 75%, MU3, MU5, MU11" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าตัวละครสะท้อนการดิ้นรนจริงๆ จนรู้สึกผูกพัน", "evidence": "MU4, MU14" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 2, "reason": "คนอ่านบอกว่ามุกตลกยังอยู่ และช่วงแรกๆ ขำมาก", "evidence": "Comedy genre, MU9, MU11, MU15" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 17,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 138655,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 2, "reason": "คนอ่านชอบพระเอกที่รักนางเอกหมดใจและมองเขาแล้วใจเต้น แต่บางคนว่าความรักไม่ค่อยมีจริง", "evidence": "Romance genre, Heterosexual 60%, MU7, MU8, MU9, MU10" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 1, "reason": "มีมุกที่คนอ่านชอบบ้าง แต่ไม่ได้ขำกันจนต้องพูดถึง", "evidence": "MU8, MU10" },
+      "chill": { "score": 1, "reason": "บางคนว่าเป็นเรื่องไม่ลึก ตัวละครน่ารัก อ่านสบายๆ", "evidence": "MU10" }
+    },
+    "textCount": 10,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 107763,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนชอบความรักของสองคนที่ค่อยๆ ไว้ใจกันและเป็นคู่ที่น่าเชียร์", "evidence": "Heterosexual 75%, Romance genre, MU2, MU5, MU7" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าตอนใหม่ทำให้ลุ้นจนประสาทเสีย", "evidence": "MU21" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 2, "reason": "คนอ่านบอกว่าเป็นเรื่องน่ารักและมีความหวานเบาๆ อ่านสบาย", "evidence": "MU7, MU22" }
+    },
+    "textCount": 23,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 166658,
+    "moods": {
+      "action": { "score": 1, "reason": "มีการต่อสู้เล็กน้อยปนอยู่ แต่เรื่องเน้นการทำฟาร์มมากกว่า", "evidence": "MU6" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าเป็นเรื่องน่ารัก เรียบง่าย และอ่านแล้วผ่อนคลาย โดยเฉพาะสัตว์เลี้ยงที่น่ารักมาก", "evidence": "MU2, MU4, MU6" }
+    },
+    "textCount": 7,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 170688,
+    "moods": {
+      "action": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าฉากสู้เยอะและมันส์ แม้บางคนจะติเรื่องเดิมๆ", "evidence": "MU2, MU3, MU5" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 1, "reason": "มีจังหวะตลกและความไร้สาระอยู่บ้าง แต่คนอ่านไม่ได้บอกว่าขำ", "evidence": "Comedy genre (AniList), MU2" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 5,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 129579,
+    "moods": {
+      "action": { "score": 1, "reason": "มีการต่อสู้บ้าง แต่บางคนว่ายังไม่ค่อยมีฉากแอ็กชัน", "evidence": "Martial Arts 64%, MU4" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าเรื่องยังน่าตื่นเต้นและอยากรู้ว่าจะไปทางไหนต่อ", "evidence": "MU4" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 1, "reason": "มีคนบอกว่าความสัมพันธ์ของตัวละครอบอุ่นและอ่านแล้วสบายใจ", "evidence": "MU3" }
+    },
+    "textCount": 5,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 118371,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 2, "reason": "คนอ่านหลายคนบอกว่าเรื่องทำให้ซึ้งและน้ำตาซึม โดยเฉพาะเรื่องความฝันของตัวละคร", "evidence": "MU2, R17406, R27861" },
+      "thrill": { "score": 3, "reason": "คนอ่านบอกว่าฉากแข่งขันสเก็ตน่าลุ้นและตื่นเต้นมาก", "evidence": "Ice Sports 99%, Sports genre, R17406, MU1" },
+      "comedy": { "score": 1, "reason": "มีมุกเล็กน้อยปนอยู่ แต่คนอ่านไม่ได้บอกว่าขำ", "evidence": "Comedy genre (MangaUpdates)" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 4,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 137168,
+    "moods": {
+      "action": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าฉากสู้มันส์มาก ได้อารมณ์ฮึกเหิมตลอดเรื่อง", "evidence": "Swordplay 80%, MU2, MU6, MU15" },
+      "romance": { "score": 1, "reason": "มีคนอยากให้ความสัมพันธ์ของพระเอกกับภรรยาได้พัฒนามากกว่านี้", "evidence": "MU8" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 2, "reason": "คนอ่านหลายคนบอกว่าอ่านรวดเดียวจนหยุดไม่ได้", "evidence": "MU1, MU8" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 19,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 133038,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนชอบคู่พระเอกนางเอกที่ค่อยๆ ชอบกัน และบอกว่าพระเอกน่ารักมาก", "evidence": "Heterosexual 84%, Romance genre, MU5, MU6, MU14" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 2, "reason": "คนอ่านบอกว่ามีช่วงที่ขำและตัวละครบางคนตลกมาก", "evidence": "Comedy genre (MangaUpdates), MU15, MU16" },
+      "chill": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าเป็นเรื่องอบอุ่น น่ารัก และอ่านสบาย", "evidence": "MU1, MU4, MU9, MU17" }
+    },
+    "textCount": 18,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 35744,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าเรื่องเต็มไปด้วยอารมณ์ แต่ไม่ได้เศร้าจนเกินไป", "evidence": "MU2" },
+      "thrill": { "score": 3, "reason": "คนอ่านบอกว่าการแข่งปิงปองตึงเครียดและหัวใจเต้นแรงตอนฉากสำคัญ", "evidence": "Table Tennis 98%, Sports genre, MU2, MU4" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 8,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 147586,
+    "moods": {
+      "action": { "score": 1, "reason": "มีฉากสู้และตัวเอกเก่งกว่าใครๆ แต่คนอ่านไม่ได้เน้นฉากสู้มาก", "evidence": "Action genre, MU2, MU4" },
+      "romance": { "score": 1, "reason": "มีความรักแบบค่อยๆ ก่อตัวอยู่ด้านข้างของเรื่อง คนอ่านบอกว่ามีแต่ไม่ได้ฟินมาก", "evidence": "Romance genre, MU3, MU4" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 2, "reason": "คนอ่านบอกว่าเรื่องสนุกและตัวเอกเก่งเกินแต่ตลกดี", "evidence": "Comedy genre (MangaUpdates), MU7, MU9" },
+      "chill": { "score": 2, "reason": "คนอ่านบอกว่าอ่านแล้วพอใจและครอบครัวที่อบอุ่นทำให้ผ่อนคลาย", "evidence": "MU4, MU7" }
+    },
+    "textCount": 10,
+    "confidence": "high"
+  }
+]
