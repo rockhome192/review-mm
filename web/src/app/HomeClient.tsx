@@ -21,6 +21,8 @@ type Filters = { type: TitleType | "all"; moods: MoodKey[]; length: LengthKey | 
 const NO_FILTERS: Filters = { type: "all", moods: [], length: "any" };
 /** A title "has" a mood when readers clearly mention it. */
 const MOOD_MIN = 2;
+/** Cards per "ดูเพิ่ม" step; divides evenly into 2–6 columns. */
+const PAGE_SIZE = 48;
 
 /** How well a title fits the chosen moods: sum of its clearly-mentioned mood scores. */
 const fitOf = (t: CardTitle, f: Filters) =>
@@ -111,6 +113,10 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
   const byId = useMemo(() => new Map(titles.map((t) => [t.id, t])), [titles]);
   let results = list ? list.ids.flatMap((id) => byId.get(id) ?? []) : pool;
   if (picked) results = [...results.filter((t) => t.id === picked), ...results.filter((t) => t.id !== picked)];
+  // "ดูเพิ่ม" count; a new filter or list starts back at one page
+  const viewKey = listSlug ?? toQuery(filters);
+  const [more, setMore] = useState({ key: "", count: PAGE_SIZE });
+  const shown = more.key === viewKey ? more.count : PAGE_SIZE;
 
   const hasFilters = filters.type !== "all" || filters.moods.length > 0 || filters.length !== "any";
   const scrollToResults = () =>
@@ -333,7 +339,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
           </div>
         ) : (
           <ul className="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-x-5 gap-y-[26px]">
-            {results.map((t) => (
+            {results.slice(0, shown).map((t) => (
               <li key={t.id} className="relative">
                 <Link href={t.href} className="flex flex-col gap-[9px]">
                   <Cover
@@ -355,6 +361,14 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
               </li>
             ))}
           </ul>
+        )}
+        {results.length > shown && (
+          <button
+            onClick={() => setMore({ key: viewKey, count: shown + PAGE_SIZE })}
+            className="self-center rounded-lg border-[1.5px] border-ink px-6 py-2.5 text-[15px] font-semibold hover:bg-ink hover:text-paper"
+          >
+            ดูเพิ่ม (อีก {results.length - shown} เรื่อง)
+          </button>
         )}
       </section>
     </main>
