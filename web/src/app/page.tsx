@@ -33,7 +33,7 @@ function shuffled<T>(items: T[], seed: number): T[] {
 }
 
 /** This week's picks: no title repeats until the whole pool has come up, then a new order. */
-function weeklyPicks<T extends { type: string; score: number | null }>(catalog: T[]): T[] {
+function weeklyPicks<T extends { id: number; type: string; score: number | null }>(catalog: T[]): T[] {
   const week = Math.floor((Date.now() + BANGKOK_MS - MONDAY_EPOCH) / WEEK_MS);
   const weeksPerCycle = POOL / PER_TYPE;
   const cycle = Math.floor(week / weeksPerCycle);
@@ -41,7 +41,8 @@ function weeklyPicks<T extends { type: string; score: number | null }>(catalog: 
   return ["manga", "manhwa"].flatMap((type) => {
     const pool = catalog
       .filter((t) => t.type === type)
-      .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+      // id breaks score ties, so the pool doesn't shift when popularity order does
+      .sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || a.id - b.id)
       .slice(0, POOL);
     return shuffled(pool, cycle).slice(start, start + PER_TYPE);
   });
