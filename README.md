@@ -48,7 +48,7 @@ Prompt ทั้งหมดอยู่ใน `pipeline/*.md`
 
 ## รายละเอียดทางเทคนิคที่น่าสนใจ
 
-- **กันสแปมโหวตใน database** — trigger ใน Postgres จำกัดหนึ่ง IP ต่อหนึ่งแถวต่อวัน และ 60 โหวตต่อชั่วโมง เก็บ IP เป็น hash ที่เปลี่ยน salt ทุกวัน ไม่เก็บ IP จริง (`supabase/migrations/0003_mood_votes.sql`)
+- **กันสแปมโหวตใน database** — trigger ใน Postgres จำกัดหนึ่ง IP ต่อหนึ่งแถวต่อวัน และ 60 โหวตต่อชั่วโมง เก็บเป็น hash ของ salt ลับ + วันที่ + IP ไม่เก็บ IP จริง และ IP เดียวกันได้ hash คนละค่าในแต่ละวัน จึงตามรอยข้ามวันไม่ได้ (`supabase/migrations/0003_mood_votes.sql`)
 - **Row Level Security** — คนทั่วไปอ่านได้เฉพาะเนื้อหาที่เผยแพร่แล้ว และเขียนได้แค่ตารางโหวต (insert อย่างเดียว อ่านกลับไม่ได้)
 - **การเลือกเรื่องแนะนำต่อ** — ให้คะแนนจากโหวตของคนอ่าน AniList รวมกับความคล้ายของแท็ก แนว และอารมณ์ แล้วลงโทษลิงก์ที่วนกลับไปมาระหว่างสองเรื่อง (`pipeline/pick-recs.ts`)
 - **SEO** — sitemap, canonical URL, JSON-LD และ Lighthouse ได้ Accessibility / Best Practices / SEO 100 ทั้งหน้าแรกและหน้าเรื่อง

@@ -18,9 +18,10 @@ revoke all on public.mood_votes from anon, authenticated;
 grant insert (anilist_id, mood, agree, score_shown) on public.mood_votes to anon, authenticated;
 
 -- Rate limit per voter, so votes sent straight to the API (skipping the page's
--- localStorage check) can't pile up. The voter is a salted hash of their IP;
--- the raw IP is never stored. The salt rotates daily, so hashes from different
--- days can't be linked, and rows older than a day are deleted on the next vote.
+-- localStorage check) can't pile up. The voter is a hash of a secret salt, the
+-- date and their IP; the raw IP is never stored. The date in the hash makes
+-- hashes from different days unlinkable, and rows older than a day are deleted
+-- on the next vote.
 create table internal.vote_salt (
   id   boolean primary key default true check (id), -- one row only
   salt text not null
