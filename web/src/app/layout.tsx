@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 import { IBM_Plex_Sans_Thai, Noto_Serif_Thai } from "next/font/google";
 import { Suspense } from "react";
 import { HeaderSearch, HeaderSearchFallback } from "@/components/HeaderSearch";
@@ -71,6 +72,13 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
             </span>
           </div>
         </footer>
+        {/* Cloudflare Web Analytics: page views and real-user speed, no cookies; skipped in dev */}
+        {process.env.NODE_ENV === "production" && (
+          <Script
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token": "07302b69694d44bebf7f7aa73c1f8dc1"}'
+          />
+        )}
       </body>
     </html>
   );
