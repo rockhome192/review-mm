@@ -110,7 +110,7 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
         </nav>
 
         <section className="-mt-4 flex flex-wrap items-start gap-8 border-b border-line pb-9">
-          <Cover src={t.cover} color={t.coverColor} title={t.title} eager className="w-[190px] flex-none" />
+          <Cover src={t.cover} color={t.coverColor} title={t.title} eager className="mx-auto w-[190px] flex-none" />
           <div className="flex min-w-0 flex-[1_1_320px] flex-col gap-3.5">
             <div className="flex flex-wrap gap-1.5 text-[13px]">
               <span className="rounded-full bg-ink px-[11px] py-0.5 font-semibold whitespace-nowrap text-paper">
