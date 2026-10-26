@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Cover } from "@/components/Cover";
 import { CopyLinkButton } from "@/components/CopyLinkButton";
+import { MoodVote } from "@/components/MoodVote";
 import { getCatalog, getTitle } from "@/lib/data";
 import { SITE_NAME, SITE_URL, largeCover } from "@/lib/site";
 import {
@@ -180,7 +181,7 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
               return (
                 <li
                   key={k}
-                  className="grid grid-cols-[96px_minmax(0,1fr)] items-center gap-x-4 gap-y-2 border-b border-line py-3.5 sm:grid-cols-[110px_150px_minmax(0,1fr)]"
+                  className="grid grid-cols-[96px_minmax(0,1fr)] items-center gap-x-4 gap-y-2 border-b border-line py-3.5 sm:grid-cols-[110px_150px_minmax(0,1fr)_auto]"
                 >
                   <div className="text-[15px] font-semibold">{MOOD_LABELS[k]}</div>
                   <div className="flex flex-col gap-[5px]" aria-label={`${MOOD_LEVELS[score]} (${score} จาก 3)`}>
@@ -196,6 +197,9 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
                     <div className="text-xs text-soft">{MOOD_LEVELS[score]}</div>
                   </div>
                   <div className="col-span-2 text-sm leading-normal text-pretty text-[#2e2a24] sm:col-span-1">{reason}</div>
+                  <div className="col-span-2 sm:col-span-1">
+                    <MoodVote id={t.id} mood={k} score={score} />
+                  </div>
                 </li>
               );
             })}
