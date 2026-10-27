@@ -56,14 +56,16 @@ const norm = (s: string | null | undefined) =>
 async function getJson(url: URL | string, init?: RequestInit): Promise<Raw> {
   for (let attempt = 0; attempt < 5; attempt++) {
     await sleep(GAP_MS);
-    const res = await fetch(url, { ...init, headers: { ...UA, ...init?.headers } });
-    if (res.status === 429 || res.status >= 500) {
-      console.log(`  ${res.status}, waiting 30s`);
-      await sleep(30_000);
-      continue;
+    // a dropped connection can fail the request or the body read; both are worth a retry
+    const res = await fetch(url, { ...init, headers: { ...UA, ...init?.headers } }).catch(() => null);
+    if (res && (res.status === 429 || res.status >= 500)) console.log(`  ${res.status}`);
+    else if (res && !res.ok) throw new Error(`${res.status} ${url}`);
+    else if (res) {
+      const json = await res.json().catch(() => null);
+      if (json) return json;
     }
-    if (!res.ok) throw new Error(`${res.status} ${url}`);
-    return res.json();
+    console.log("  request failed, waiting 30s");
+    await sleep(30_000);
   }
   throw new Error(`too many retries on ${url}`);
 }

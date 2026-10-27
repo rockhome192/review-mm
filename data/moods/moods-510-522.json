@@ -1,0 +1,171 @@
+[
+  {
+    "anilistId": 105577,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าคู่พระนางน่ารักและอบอุ่นหัวใจ ความรักค่อยๆ ก่อตัวไปเรื่อยๆ", "evidence": "Heterosexual 95%, R22452, R8623, MU4, MU5" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 2, "reason": "มุกล้อการ์ตูนและแนวตัวละครทำให้อ่านสนุก", "evidence": "Slapstick 80%, Comedy genre, R14406" },
+      "chill": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าอ่านสบาย น่ารัก และเป็นเรื่องเบาๆ ไม่ต้องคิดมาก", "evidence": "R14406, R22452, R8623, MU1, MU5" }
+    },
+    "textCount": 11,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 85395,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 2, "reason": "คู่หลักน่าติดตามและผูกพันกัน แต่หลายคนรำคาญพระเอกที่ดื้อและนางเอกที่ลังเล", "evidence": "Heterosexual 80%, R16847, MU6, MU13, MU14, MU21, MU22" },
+      "cry": { "score": 1, "reason": "คนอ่านบางคนบอกว่าการเติบโตของตัวละครกระทบใจ", "evidence": "R16847" },
+      "thrill": { "score": 2, "reason": "มีการแข่งขันบาสเก็ตบอลเป็นส่วนหนึ่งของเรื่อง", "evidence": "Basketball 90%, Sports genre" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่าเพื่อนของนางเอกตลกมาก", "evidence": "MU9" },
+      "chill": { "score": 1, "reason": "มีคนบอกว่าอ่านเบาๆ สนุกได้แม้จะเป็นการ์ตูนรักวัยรุ่นตามสูตร", "evidence": "MU2" }
+    },
+    "textCount": 26,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 85226,
+    "moods": {
+      "action": { "score": 3, "reason": "ฉากฮีโร่ที่ใช้พลังสู้กัน และคุณตาที่ลุกขึ้นสู้ เป็นจุดที่คนอ่านพูดถึงบ่อย", "evidence": "Super Power 85%, Action genre, MU6, MU11, MU16" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 2, "reason": "คนอ่านบางคนบอกว่าซึ้งกับชีวิตของคุณตาและรู้สึกเอาใจช่วย", "evidence": "R12460, MU16, MU1" },
+      "thrill": { "score": 2, "reason": "คนอ่านบอกว่าอยากรู้ตอนต่อไปเรื่อยๆ", "evidence": "Psychological + Mystery genres, MU13" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่าตัวเอกคุณตาดูตลกเล็กน้อย", "evidence": "MU15" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 22,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 105641,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าความรักของทั้งคู่ค่อยๆ เติบโตและทำให้ใจเต้นแรง", "evidence": "Heterosexual 97%, R25855, MU1, MU4" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 1, "reason": "มีมุกเรื่องแว่นที่ลืมบ่อยๆ แต่ไม่ค่อยมีคนบอกว่าขำ", "evidence": "R25855, Comedy genre" },
+      "chill": { "score": 3, "reason": "คนอ่านบอกว่าเบาๆ สนุก และอ่านสบาย", "evidence": "Iyashikei 86%, MU3" }
+    },
+    "textCount": 5,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 30481,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 2, "reason": "มีคนบอกว่าเรื่องความรักและความสัมพันธ์ของตัวละครทำให้อบอุ่น แต่ไม่ได้เป็นจุดหลัก", "evidence": "Romance genre, Heterosexual 70%, MU8, MU10, R17493" },
+      "cry": { "score": 2, "reason": "หลายคนบอกว่าเรื่องคนธรรมดาในอวกาศกระทบใจและทำให้รู้สึกผูกพัน", "evidence": "MU12, MU13" },
+      "thrill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่าเรื่องนี้มีมุกตลกอยู่บ้าง", "evidence": "MU11" },
+      "chill": { "score": 2, "reason": "คนอ่านบอกว่าเป็นเรื่องชีวิตธรรมดาที่อ่านสบาย ไม่ได้เร้าใจ", "evidence": "Iyashikei 70%, MU12, MU13" }
+    },
+    "textCount": 23,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 37519,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 3, "reason": "คนอ่านพูดถึงสาวๆ หลายคนและเรื่องหัวใจของพระเอกเยอะ บางคนไม่ชอบตอนจบ", "evidence": "Romance genre, Heterosexual 80%, R3484, MU2, MU10, MU15" },
+      "cry": { "score": 2, "reason": "บางคนบอกว่าอ่านแล้วซึ้งจนน้ำตาคลอ และเศร้าหลังอ่านจบ", "evidence": "R3484, R23729" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าเนื้อเรื่องทำให้ต้องคอยติดตาม แต่บางช่วงยืดเยื้อ", "evidence": "R3484, MU18" },
+      "comedy": { "score": 2, "reason": "หลายคนบอกว่ามุกและการล้อของเรื่องทำให้ขำ", "evidence": "Slapstick 76%, R3484, R16692" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 29,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 144866,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าเรื่องน่าติดตาม และมีการประลองแบบการแข่งขันบ้าง", "evidence": "R26518, R26221" },
+      "comedy": { "score": 1, "reason": "เรื่องมีมุกเล็กน้อย แต่ไม่มีคนบอกว่าขำ", "evidence": "Comedy genre" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 5,
+    "confidence": "medium"
+  },
+  {
+    "anilistId": 80217,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 2, "reason": "มีคนบอกว่าความรักแรกๆ ของเด็กสองคนหวานและน่าเอ็นดู แต่บางคนว่าฝืนไปหน่อย", "evidence": "Romance genre, Heterosexual 85%, MU7, MU17, MU20, MU23" },
+      "cry": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าอ่านแล้วร้องไห้หรือน้ำตาคลอ และตอนจบกินใจมาก", "evidence": "R4740, MU5, MU7, MU8, MU13" },
+      "thrill": { "score": 2, "reason": "หลายคนบอกว่าอ่านรวดเดียวจบ มีปมและความลับที่ทำให้อยากรู้ต่อ", "evidence": "MU4, MU20, MU24" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 1, "reason": "คนอ่านบอกว่าเรื่องหนักและเศร้า แต่การเล่าเรียบๆ ทำให้ไม่ตึงเครียด", "evidence": "MU8, MU24" }
+    },
+    "textCount": 26,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 56736,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 2, "reason": "คนอ่านบางคนชอบความรักที่ค่อยๆ ก่อตัว แต่หลายคนรู้สึกว่าช่วงอายุห่างและความวุ่นวายของความรักน่าอึดอัด", "evidence": "R5382, MU1, MU4, MU5, MU10" },
+      "cry": { "score": 3, "reason": "หลายคนบอกว่าเรื่องครอบครัวกระทบใจจนต้องหยุดอ่านชั่วครู่หรือน้ำตาคลอ", "evidence": "MU10, MU12, MU13, MU15" },
+      "thrill": { "score": 2, "reason": "หลายคนบอกว่าอ่านแล้ววางไม่ลงและอ่านจบในรวดเดียว", "evidence": "MU9, MU15, MU24" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่าขำอยู่บ้าง แต่ไม่ได้เป็นจุดขาย", "evidence": "MU2" },
+      "chill": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าอบอุ่น หวาน และอ่านสบายใจ แม้จะมีเรื่องครอบครัวหนักๆ บ้าง", "evidence": "R5382, MU8, MU18, MU20" }
+    },
+    "textCount": 27,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 111149,
+    "moods": {
+      "action": { "score": 1, "reason": "มีฉากต่อสู้ที่คนอ่านบอกว่าตื่นเต้น แต่บางคนว่าซ้ำๆ", "evidence": "Action genre, Swordplay 65%, R27680, MU3, MU4" },
+      "romance": { "score": 2, "reason": "คนอ่านบอกว่าคู่พระนางน่ารักและมีความผูกพันกันมานาน", "evidence": "Romance genre, Heterosexual 90%, R27680, MU5" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่าเรื่องน่าลุ้นในฉากต่อสู้บ้าง", "evidence": "R27680" },
+      "comedy": { "score": 1, "reason": "คนอ่านบางคนบอกว่ามีอารมณ์ขัน แต่บางคนว่ามุกซ้ำ", "evidence": "R27680, MU1" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 8,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 30010,
+    "moods": {
+      "action": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "romance": { "score": 2, "reason": "บางคนบอกว่าชอบความสัมพันธ์ของตัวละครหลักและอยากให้ได้คู่กัน", "evidence": "MU2, MU8" },
+      "cry": { "score": 2, "reason": "คนอ่านบางคนบอกว่าตอนจบเศร้าและน้ำตาคลอ", "evidence": "MU8, MU9, MU10" },
+      "thrill": { "score": 2, "reason": "คนอ่านบอกว่ามีปริศนาและเรื่องลึกลับให้ตามหาคำตอบ", "evidence": "Mystery + Psychological genres, MU1, MU25" },
+      "comedy": { "score": 1, "reason": "มีคนบอกว่ามีอารมณ์ขันเบาๆ แฝงอยู่", "evidence": "MU14, MU20" },
+      "chill": { "score": 1, "reason": "คนอ่านบอกว่าบรรยากาศนิ่งสงบแบบฝัน แต่เรื่องลึกลับทำให้งุนงงบ้าง", "evidence": "MU20, MU24" }
+    },
+    "textCount": 28,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 85247,
+    "moods": {
+      "action": { "score": 2, "reason": "เป็นการ์ตูนต่อสู้แนวชอนเนน มีฉากสู้และการเปลี่ยนร่างที่คนชอบ", "evidence": "Action genre, R15612, MU10, MU12" },
+      "romance": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าความสัมพันธ์ของคู่หลักหวานและน่าเชียร์", "evidence": "Heterosexual 88%, R15612, MU3, MU12" },
+      "cry": { "score": 1, "reason": "มีคนบอกว่าตอนจบกินใจ", "evidence": "MU1" },
+      "thrill": { "score": 1, "reason": "มีคนบอกว่ามีการหักมุมที่คาดไม่ถึง", "evidence": "MU13" },
+      "comedy": { "score": 2, "reason": "หลายคนบอกว่าตัวละครและมุกตลกทำให้ขำ", "evidence": "MU13, MU14, MU15" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 18,
+    "confidence": "high"
+  },
+  {
+    "anilistId": 102989,
+    "moods": {
+      "action": { "score": 2, "reason": "คนอ่านบอกว่าฉากแอ็กชันดีและน่าตื่นเต้น", "evidence": "Action genre, MU8, MU9" },
+      "romance": { "score": 1, "reason": "มีเรื่องความรักอยู่บ้าง แต่คนอ่านบอกว่าไม่ค่อยลงตัว", "evidence": "MU1, MU8, MU9" },
+      "cry": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "thrill": { "score": 3, "reason": "คนอ่านหลายคนบอกว่าลุ้นตลอด มีเรื่องหักมุมเยอะ และอ่านรวดเดียวได้", "evidence": "Thriller genre, R17689, MU2, MU6, MU9" },
+      "comedy": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" },
+      "chill": { "score": 0, "reason": "ไม่มีคนพูดถึง", "evidence": "none" }
+    },
+    "textCount": 12,
+    "confidence": "high"
+  }
+]

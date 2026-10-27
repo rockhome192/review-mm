@@ -1,0 +1,378 @@
+[
+  {
+    "anilistId": 121565,
+    "recAnilistId": 149756,
+    "same": "รักวัยเรียนที่คู่หลักน่ารักจนอมยิ้มตาม",
+    "diff": "เบากว่ามาก หวานอบอุ่น ไม่มีเรื่องซึมเศร้าหนักๆ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 52651,
+    "recAnilistId": 112326,
+    "same": "ฉากแอ็กชันเด่น พระเอกต้องสู้ศึกใหญ่เกินตัว",
+    "diff": "เป็นแฟนตาซีปีศาจ ไม่มีแก๊งนักเรียนหรือมุกตลก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 38586,
+    "recAnilistId": 112326,
+    "same": "พระเอกได้พลังมาแล้วลุยสู้ ฉากแอ็กชันเดินเร็ว",
+    "diff": "แฟนตาซีปีศาจ ไม่มีโรงเรียนหรือแก๊งนักเรียน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 44483,
+    "recAnilistId": 30481,
+    "same": "คนธรรมดาที่ทำงานอยู่ในอวกาศ ชีวิตจริงล้วนๆ",
+    "diff": "นิ่งและหม่นกว่า ชวนคิดเรื่องชีวิต จบสั้นใน 28 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 131640,
+    "recAnilistId": 97973,
+    "same": "ดราม่าวายวัยรุ่นที่ความสัมพันธ์ตึงเครียดและมืด",
+    "diff": "มืดและหนักกว่ามาก มีเรื่องรุนแรงทางเพศและทำร้ายตัวเอง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 102259,
+    "recAnilistId": 104596,
+    "same": "สาวธรรมดาที่ชีวิตป่วนเพราะเรื่องเหนือธรรมชาติ",
+    "diff": "เป็นปีศาจกับเทพ ตลกน้อยกว่า เน้นอบอุ่นหวานๆ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 121276,
+    "recAnilistId": 150663,
+    "same": "นางเอกรู้เรื่องในนิยายรักและพยายามเลี่ยงบทเดิม",
+    "diff": "จริงจังกว่า ไม่เน้นฮา เน้นช่วยเขาไม่ให้ตาย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 121276,
+    "recAnilistId": 128435,
+    "same": "นางเอกที่รู้ไส้นิยายรักแล้วเลือกเส้นทางเอง",
+    "diff": "โรแมนซ์ชัดกว่า น่ารักอบอุ่น และฮาเบาๆ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 102988,
+    "recAnilistId": 135083,
+    "same": "แก๊งเด็กเกเรที่ชนะกันด้วยหมัด เพื่อนพ้องแน่นแฟ้น",
+    "diff": "ไม่ย้อนเวลา เน้นฮีโร่ของเมือง และยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 102988,
+    "recAnilistId": 102989,
+    "same": "มีการย้อนเวลาและปมให้ตามหา อ่านรวดเดียวจบได้",
+    "diff": "ไม่มีแก๊งนักเรียน เป็นระทึกขวัญบนเกาะ มีฉากเลือด",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 85215,
+    "recAnilistId": 102989,
+    "same": "พระเอกวนเวลาสู้กับเอเลี่ยน ลุ้นว่าจะรอดยังไง",
+    "diff": "เป็นเกาะชนบทลึกลับ ยาว 139 ตอน ไม่ใช่สนามรบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 85442,
+    "recAnilistId": 87225,
+    "same": "พระเอกต่างโลกที่ถูกทิ้ง แต่มีพวกพ้องแปลกๆ ข้างตัว",
+    "diff": "เบาสบายกว่ามาก มุกฮาเยอะ ไม่หม่นแบบนี้",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 138603,
+    "recAnilistId": 102989,
+    "same": "เกาะชนบทที่ของปลอมสวมรอยคนที่รู้จัก ลุ้นตั้งแต่ต้น",
+    "diff": "บู๊และหักมุมเยอะกว่า ยาว 139 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 124056,
+    "recAnilistId": 128273,
+    "same": "นางเอกฉลาดลุยเอง พลิกชะตาด้วยฝีมือตัวเอง",
+    "diff": "เป็นนางร้ายสายกำลังภายใน เน้นต่อสู้มากกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 124056,
+    "recAnilistId": 131772,
+    "same": "คู่พระนางในวังที่ความหวานค่อยๆ ก่อตัว",
+    "diff": "หนักกว่า มีย้อนเวลาและอดีตเศร้า ยาว 167 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 158706,
+    "recAnilistId": 147278,
+    "same": "นางร้ายที่ไม่ยอมจบตามบท ลงมือเปลี่ยนชะตาเอง",
+    "diff": "หนุ่มๆ แวะมาเยอะกว่า ฉากร้านเครื่องเขียนอบอุ่นสบายใจ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 110059,
+    "recAnilistId": 86703,
+    "same": "มุกตลกเยอะทุกหน้า ในเรื่องรักวัยเรียน",
+    "diff": "จบแล้วใน 141 ตอน และมีผีเป็นแกนของเรื่อง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 184347,
+    "recAnilistId": 148091,
+    "same": "ตัวเอกชายที่ต้องเอาตัวรอดในโลกที่โหดร้าย",
+    "diff": "เป็นนักรบเผ่าเถื่อนยุคโบราณ ไม่มีไซเบอร์พังก์",
+    "fit": "weak",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 98235,
+    "recAnilistId": 37519,
+    "same": "พระเอกถูกลากไปสนิทกับสาวๆ หลายคน ทั้งฮาทั้งน่าเอ็นดู",
+    "diff": "มีปีศาจและวิญญาณมาเกี่ยว ยาว 271 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86703,
+    "recAnilistId": 110059,
+    "same": "ล้อสูตรนิยายรักด้วยมุกที่ขำทั้งเรื่อง",
+    "diff": "ไม่มีผี เน้นมิตรภาพมากกว่ารัก ยังไม่จบและยาวมาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 86703,
+    "recAnilistId": 104596,
+    "same": "รักเบาๆ ที่มีปีศาจมาปนกับมุกตลก",
+    "diff": "เนื้อเรื่องอยู่ในร้านกาแฟ เน้นอบอุ่นหวานๆ ฮาน้อยกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 97973,
+    "recAnilistId": 131640,
+    "same": "ดราม่าวายวัยรุ่นที่ความสัมพันธ์ตึงและค้างคา",
+    "diff": "ไม่มีเรื่องเหนือธรรมชาติ เป็นชีวิตวัยรุ่นจริงๆ เน้นการโตขึ้น",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 131772,
+    "recAnilistId": 131263,
+    "same": "นางเอกย้อนเวลากลับมาแก้ชะตาก่อนทุกอย่างพัง",
+    "diff": "รักเจ้าหญิงกับทาส การเมืองเข้ม ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 131772,
+    "recAnilistId": 141013,
+    "same": "นางเอกแต่งกับสามีที่ชะตาว่าจะต้องจบด้วยความตาย",
+    "diff": "รักช้าๆ ที่ซึ้งจนเสียน้ำตา และยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 131772,
+    "recAnilistId": 124056,
+    "same": "นางเอกต้องแต่งกับ 'ท่านลอร์ดอสูร' ที่ใครๆ กลัว",
+    "diff": "เบากว่ามาก ฮาและหวานน่ารัก จบแล้วใน 110 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 147278,
+    "recAnilistId": 158706,
+    "same": "นางร้ายที่ดิ้นหนีชะตาด้วยหัวคิดตัวเอง",
+    "diff": "เน้นนางเอกรวยที่คิดนำหน้าทุกคน ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 148091,
+    "recAnilistId": 119521,
+    "same": "พระเอกนักสู้ที่ฉากเลือดสาดเป็นจุดขาย",
+    "diff": "เป็นยุทธภพทวงแค้นให้พ่อ เข้มและหม่นกว่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 148091,
+    "recAnilistId": 184347,
+    "same": "เพื่อนสองคนที่มิตรภาพพาไปเจอเกมอำนาจ",
+    "diff": "เป็นไซเบอร์พังก์ เน้นการเมืองกับเอาตัวรอด",
+    "fit": "weak",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 183376,
+    "recAnilistId": 175946,
+    "same": "ยุทธภพสายดาบ พระเอกแบกชะตาหนักมาตั้งแต่เด็ก",
+    "diff": "ดิบและเลือดสาดกว่ามาก มีผีและปีศาจ ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 183376,
+    "recAnilistId": 137304,
+    "same": "ยุทธภพที่พระเอกได้โอกาสเริ่มใหม่และดิ้นหนีชะตาเดิม",
+    "diff": "ฮาหนักมาก ตัวเอกสายเทาเพี้ยนๆ ไม่จริงจัง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 183376,
+    "recAnilistId": 160693,
+    "same": "พระเอกยุทธภพที่พลังเก่ายังอยู่ แต่เกิดในสถานะต่ำ",
+    "diff": "ตื่นในร่างที่พัง มีจุดสะใจเรื่องสถานะ ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 112326,
+    "recAnilistId": 38586,
+    "same": "พระเอกเป็นศิษย์ที่ต้องสู้เอาตัวรอด ฉากบู๊เด่น",
+    "diff": "จบแล้วใน 72 ตอน เป็นแก๊งนักเรียนและมีตลก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 112326,
+    "recAnilistId": 52651,
+    "same": "ฉากบู๊เร็วๆ ที่พระเอกถูกลากเข้าเรื่องใหญ่โต",
+    "diff": "เป็นภาคต่อ ควรอ่านภาคแรกก่อน มีแก๊งและมุกคั่น ยาว 203 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 113340,
+    "recAnilistId": 86964,
+    "same": "ระทึกขวัญจิตวิทยาที่ตัวเอกต้องเอาตัวรอด",
+    "diff": "มืดและโหดกว่ามาก มีฉากทารุณและความรุนแรง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 113340,
+    "recAnilistId": 121991,
+    "same": "พระเอกถูกรังแกที่ต้องหาทางเอาตัวรอดด้วยตัวเอง",
+    "diff": "เป็นสายต่อยและฮา ไม่มืดหรือน่ากลัวแบบนี้",
+    "fit": "weak",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 116133,
+    "recAnilistId": 150663,
+    "same": "นางเอกรู้ใจตัวละครในนิยายถึงขั้นลงมือเปลี่ยนชะตา",
+    "diff": "จริงจังกว่า เศร้ากว่า เน้นช่วยเขาไม่ให้ตาย",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 128273,
+    "recAnilistId": 124056,
+    "same": "นางเอกฉลาดและลุยเอง พลิกชะตาด้วยฝีมือตัวเอง",
+    "diff": "ใช้หัวคิดสู้แทนวิทยายุทธ และมีสามีเป็นลอร์ดอสูร",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 128273,
+    "recAnilistId": 132165,
+    "same": "นางร้ายในนิยายที่ไม่ยอมเล่นตามบท",
+    "diff": "เศร้ากว่า ซึ้งจนเสียน้ำตา และรักน้อยกว่ามาก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 128273,
+    "recAnilistId": 123573,
+    "same": "ตื่นมาเป็นตัวร้ายในนิยายและต้องหนีชะตาของเรื่อง",
+    "diff": "พระเอกผู้ชาย เน้นพวกพ้อง สงครามและมุกตลก",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 144006,
+    "recAnilistId": 168656,
+    "same": "รักวัยเรียนระหว่างเด็กเรียนกับนักเลง ที่ค่อยๆ ใกล้กัน",
+    "diff": "เบากว่า เงียบและนุ่มนวล ไม่มีแก๊งหรือแอ็กชัน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 144006,
+    "recAnilistId": 149483,
+    "same": "นางเอกวัยเรียนที่ใจหวั่นไหวกับคนที่รักไม่ง่าย",
+    "diff": "มีสามเส้ากับมือถือพูดได้ ยังลงไม่จบ ช่วงหลังจืดลง",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 144006,
+    "recAnilistId": 133795,
+    "same": "รักตึงๆ กับคนอันตราย ที่ต้องชั่งใจว่าคุ้มเสี่ยงไหม",
+    "diff": "เป็นแวมไพร์ล้างแค้น รักผสมเกลียด มืดและยาว 203 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 144027,
+    "recAnilistId": 139339,
+    "same": "นางเอกตายอย่างไม่เป็นธรรม แล้วได้ชีวิตใหม่อีกรอบ",
+    "diff": "เน้นล้างแค้นคนที่หักหลัง จบแล้วใน 114 ตอน",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 144027,
+    "recAnilistId": 159436,
+    "same": "นางเอกที่ได้ความอบอุ่นของครอบครัวในวัง",
+    "diff": "เบาและน่ารักกว่ามาก เน้นแม่ลูก ยังลงไม่จบ",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 144027,
+    "recAnilistId": 130429,
+    "same": "นางเอกย้อนกลับมาปกป้องคนที่รักจากชะตาร้าย",
+    "diff": "สายการเมืองและเงิน เก่งแต่ไม่เศร้าเท่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 149756,
+    "recAnilistId": 121565,
+    "same": "รักวัยเรียนที่คู่หลักน่ารักจนกรี๊ด",
+    "diff": "หนักกว่ามาก มีประเด็นซึมเศร้าและการกลั่นแกล้ง เรียกน้ำตา",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 149756,
+    "recAnilistId": 104533,
+    "same": "คู่หลักน่ารักที่ทำให้ยิ้มตามตลอดเรื่อง",
+    "diff": "ฉากมหาลัยสายโปรแกรมเมอร์ ฮากว่าและไม่มีดราม่า",
+    "fit": "ok",
+    "usedOutsideKnowledge": false
+  }
+]

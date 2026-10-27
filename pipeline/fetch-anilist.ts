@@ -27,6 +27,7 @@ const OUT = process.env.OUT ?? "data/raw/anilist-top.json";
 // Separate AniList entries for the same story; keep only the one more people read.
 const SKIP = new Set([
   98361, // Mikkakan no Koufuku (2013) — same novel as 97553 Jumyou wo Kaitotte Moratta (2016, 85K readers)
+  101311, // Bakemonogatari manga — the novel (44893) is already on the site
 ]);
 
 const QUERY = `

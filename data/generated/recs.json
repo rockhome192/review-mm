@@ -576,7 +576,8 @@
     "anilistId": 121565,
     "recs": [
       "After School Lessons for Unripe Apples",
-      "Romance 101"
+      "Romance 101",
+      "Our Secret Alliance"
     ]
   },
   {
@@ -690,7 +691,9 @@
   },
   {
     "anilistId": 52651,
-    "recs": []
+    "recs": [
+      "Promise of an Orchid"
+    ]
   },
   {
     "anilistId": 85143,
@@ -768,7 +771,8 @@
     "anilistId": 38586,
     "recs": [
       "Eleceed",
-      "Sun-Ken Rock"
+      "Sun-Ken Rock",
+      "Promise of an Orchid"
     ]
   },
   {
@@ -1216,7 +1220,8 @@
   {
     "anilistId": 44483,
     "recs": [
-      "Real"
+      "Real",
+      "Planetes"
     ]
   },
   {
@@ -1334,7 +1339,9 @@
   },
   {
     "anilistId": 131640,
-    "recs": []
+    "recs": [
+      "At The End of The Road"
+    ]
   },
   {
     "anilistId": 132123,
@@ -1419,7 +1426,8 @@
     "anilistId": 102259,
     "recs": [
       "See You in My 19th Life",
-      "Romance 101"
+      "Romance 101",
+      "Devil Number 4"
     ]
   },
   {
@@ -1458,7 +1466,9 @@
   {
     "anilistId": 121276,
     "recs": [
-      "Villainess in Love"
+      "Villainess in Love",
+      "For My Derelict Favorite",
+      "Happily Ever Afterwards"
     ]
   },
   {
@@ -1527,7 +1537,9 @@
   {
     "anilistId": 102988,
     "recs": [
-      "Erased"
+      "Erased",
+      "WIND BREAKER",
+      "Summertime Rendering"
     ]
   },
   {
@@ -2973,14 +2985,16 @@
     "anilistId": 85215,
     "recs": [
       "Kaiju No.8",
-      "Erased"
+      "Erased",
+      "Summertime Rendering"
     ]
   },
   {
     "anilistId": 85442,
     "recs": [
       "That Time I Got Reincarnated as a Slime",
-      "Mushoku Tensei: Jobless Reincarnation"
+      "Mushoku Tensei: Jobless Reincarnation",
+      "Tsukimichi: Moonlit Fantasy"
     ]
   },
   {
@@ -3015,7 +3029,9 @@
   },
   {
     "anilistId": 138603,
-    "recs": []
+    "recs": [
+      "Summertime Rendering"
+    ]
   },
   {
     "anilistId": 147149,
@@ -3261,7 +3277,9 @@
   {
     "anilistId": 124056,
     "recs": [
-      "Author of My Own Destiny"
+      "Author of My Own Destiny",
+      "Master Villainess the Invincible!",
+      "Saving My Sweetheart"
     ]
   },
   {
@@ -3312,7 +3330,8 @@
     "anilistId": 158706,
     "recs": [
       "Villains Are Destined to Die",
-      "The Perks of Being an S-Class Heroine"
+      "The Perks of Being an S-Class Heroine",
+      "The Villainess's Stationery Shop"
     ]
   },
   {
@@ -3321,7 +3340,9 @@
   },
   {
     "anilistId": 110059,
-    "recs": []
+    "recs": [
+      "Oh! Holy"
+    ]
   },
   {
     "anilistId": 132359,
@@ -3535,7 +3556,8 @@
     "anilistId": 98235,
     "recs": [
       "The Quintessential Quintuplets",
-      "Nisekoi: False Love"
+      "Nisekoi: False Love",
+      "Kami nomi zo Shiru Sekai"
     ]
   },
   {
@@ -3599,10 +3621,378 @@
     ]
   },
   {
+    "anilistId": 86703,
+    "recs": [
+      "My Life as an Internet Novel",
+      "Devil Number 4"
+    ]
+  },
+  {
+    "anilistId": 97973,
+    "recs": [
+      "Lost in the Cloud"
+    ]
+  },
+  {
     "anilistId": 105332,
     "recs": [
       "Wotakoi: Love is Hard for Otaku",
       "Veil"
+    ]
+  },
+  {
+    "anilistId": 131772,
+    "recs": [
+      "Revolutionary Princess Eve",
+      "How to Win My Husband Over",
+      "My Secretly Hot Husband"
+    ]
+  },
+  {
+    "anilistId": 147278,
+    "recs": [
+      "The Perks of Being a Villainess"
+    ]
+  },
+  {
+    "anilistId": 148091,
+    "recs": [
+      "The Legend of the Northern Blade"
+    ]
+  },
+  {
+    "anilistId": 183376,
+    "recs": [
+      "Myst, Might, Mayhem",
+      "Return of the Mad Demon",
+      "Cheonhwa Archive's Young Master"
+    ]
+  },
+  {
+    "anilistId": 112326,
+    "recs": [
+      "THE BREAKER",
+      "THE BREAKER - NEW WAVES"
+    ]
+  },
+  {
+    "anilistId": 113340,
+    "recs": [
+      "Bastard"
+    ]
+  },
+  {
+    "anilistId": 116133,
+    "recs": [
+      "For My Derelict Favorite"
+    ]
+  },
+  {
+    "anilistId": 128273,
+    "recs": [
+      "My Secretly Hot Husband",
+      "Kill the Villainess",
+      "Lout of Count’s Family"
+    ]
+  },
+  {
+    "anilistId": 144006,
+    "recs": [
+      "The Dawn to Come",
+      "Operation: True Love",
+      "Trapped"
+    ]
+  },
+  {
+    "anilistId": 144027,
+    "recs": [
+      "Into the Light, Once Again",
+      "Mother's Contract Marriage",
+      "I Shall Master this Family!"
+    ]
+  },
+  {
+    "anilistId": 149756,
+    "recs": [
+      "Seasons of Blossom",
+      "Romance 101",
+      "Maybe Meant to Be"
+    ]
+  },
+  {
+    "anilistId": 160693,
+    "recs": [
+      "Reincarnated Murim Lord",
+      "Chronicles of a Doomed Prodigy",
+      "Absolute Regression"
+    ]
+  },
+  {
+    "anilistId": 176790,
+    "recs": [
+      "Absolute Regression",
+      "Chronicles of the Demon Faction",
+      "Cheonhwa Archive's Young Master"
+    ]
+  },
+  {
+    "anilistId": 183285,
+    "recs": [
+      "Absolute Regression",
+      "Myst, Might, Mayhem",
+      "Chronicles of the Demon Faction"
+    ]
+  },
+  {
+    "anilistId": 104596,
+    "recs": [
+      "A Good Day to be a Dog",
+      "Oh! Holy"
+    ]
+  },
+  {
+    "anilistId": 105577,
+    "recs": [
+      "The Girl I Like Forgot Her Glasses",
+      "Horimiya",
+      "Shikimori's Not Just a Cutie"
+    ]
+  },
+  {
+    "anilistId": 128435,
+    "recs": [
+      "For My Derelict Favorite",
+      "The First Night With the Duke"
+    ]
+  },
+  {
+    "anilistId": 142372,
+    "recs": [
+      "The Villainess Flips the Script!"
+    ]
+  },
+  {
+    "anilistId": 150663,
+    "recs": [
+      "Not Your Typical Reincarnation Story",
+      "Charming the Duke of the North",
+      "Happily Ever Afterwards"
+    ]
+  },
+  {
+    "anilistId": 150750,
+    "recs": [
+      "For My Derelict Favorite",
+      "Your Eternal Lies",
+      "The Reason Why Raeliana Ended Up at the Duke's Mansion"
+    ]
+  },
+  {
+    "anilistId": 156477,
+    "recs": [
+      "Tomb Raider King"
+    ]
+  },
+  {
+    "anilistId": 159436,
+    "recs": [
+      "The Male Lead's Little Lion Daughter",
+      "The Siren: Becoming the Villain's Family",
+      "Who Made Me a Princess"
+    ]
+  },
+  {
+    "anilistId": 165202,
+    "recs": [
+      "Weak Hero"
+    ]
+  },
+  {
+    "anilistId": 202986,
+    "recs": [
+      "The Greatest Estate Developer",
+      "Tyrant of the Tower Defense Game"
+    ]
+  },
+  {
+    "anilistId": 30010,
+    "recs": [
+      "Toilet-Bound Hanako-kun",
+      "Mushishi"
+    ]
+  },
+  {
+    "anilistId": 30481,
+    "recs": [
+      "Space Brothers",
+      "Vinland Saga",
+      "The Climber"
+    ]
+  },
+  {
+    "anilistId": 37519,
+    "recs": [
+      "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+      "Yamada-kun and the Seven Witches",
+      "Nisekoi: False Love"
+    ]
+  },
+  {
+    "anilistId": 56736,
+    "recs": [
+      "Daytime Shooting Star",
+      "Horimiya"
+    ]
+  },
+  {
+    "anilistId": 80217,
+    "recs": [
+      "A Silent Voice",
+      "Three Days of Happiness",
+      "My Broken Mariko"
+    ]
+  },
+  {
+    "anilistId": 85226,
+    "recs": [
+      "Ajin: Demi-Human",
+      "Parasyte",
+      "Death Note"
+    ]
+  },
+  {
+    "anilistId": 85395,
+    "recs": [
+      "Maid-sama!",
+      "My Little Monster"
+    ]
+  },
+  {
+    "anilistId": 105641,
+    "recs": [
+      "Giji Harem",
+      "The Dangers in My Heart",
+      "Kubo Won't Let Me Be Invisible"
+    ]
+  },
+  {
+    "anilistId": 111149,
+    "recs": [
+      "SPY x FAMILY",
+      "Twin Star Exorcists",
+      "Reborn!"
+    ]
+  },
+  {
+    "anilistId": 144866,
+    "recs": [
+      "Chihayafuru",
+      "Blue Period",
+      "March Comes in Like a Lion"
+    ]
+  },
+  {
+    "anilistId": 30731,
+    "recs": [
+      "Akira",
+      "Battle Angel Alita",
+      "Fire Punch"
+    ]
+  },
+  {
+    "anilistId": 33438,
+    "recs": [
+      "Bleach",
+      "Reborn!",
+      "Akira"
+    ]
+  },
+  {
+    "anilistId": 57231,
+    "recs": [
+      "Ao Haru Ride",
+      "In the Clear Moonlit Dusk",
+      "House of the Sun"
+    ]
+  },
+  {
+    "anilistId": 85247,
+    "recs": [
+      "Blue Exorcist",
+      "Mission: Yozakura Family",
+      "D.Gray-man"
+    ]
+  },
+  {
+    "anilistId": 87225,
+    "recs": [
+      "The Rising of the Shield Hero",
+      "That Time I Got Reincarnated as a Slime"
+    ]
+  },
+  {
+    "anilistId": 102989,
+    "recs": [
+      "Erased",
+      "Tokyo Revengers",
+      "The Summer Hikaru Died"
+    ]
+  },
+  {
+    "anilistId": 122063,
+    "recs": [
+      "So I'm a Spider, So What?"
+    ]
+  },
+  {
+    "anilistId": 126135,
+    "recs": [
+      "Made in Abyss",
+      "The Girl From the Other Side: Siúil, a Rún",
+      "Shadows House"
+    ]
+  },
+  {
+    "anilistId": 152404,
+    "recs": [
+      "More Than a Married Couple, but Not Lovers.",
+      "Kaguya-sama: Love is War"
+    ]
+  },
+  {
+    "anilistId": 176740,
+    "recs": [
+      "Vinland Saga",
+      "Berserk",
+      "Fire Punch"
+    ]
+  },
+  {
+    "anilistId": 31101,
+    "recs": [
+      "Death Note"
+    ]
+  },
+  {
+    "anilistId": 120502,
+    "recs": [
+      "Daytime Shooting Star",
+      "Ouran High School Host Club",
+      "Maid-sama!"
+    ]
+  },
+  {
+    "anilistId": 125624,
+    "recs": [
+      "Toilet-Bound Hanako-kun"
+    ]
+  },
+  {
+    "anilistId": 135083,
+    "recs": [
+      "Tokyo Revengers",
+      "Beelzebub",
+      "Blue Exorcist"
     ]
   }
 ]

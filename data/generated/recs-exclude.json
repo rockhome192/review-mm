@@ -122,5 +122,29 @@
   {
     "anilistId": 38848,
     "recAnilistId": 98416
+  },
+  {
+    "anilistId": 184347,
+    "recAnilistId": 148091
+  },
+  {
+    "anilistId": 148091,
+    "recAnilistId": 184347
+  },
+  {
+    "anilistId": 113340,
+    "recAnilistId": 121991
+  },
+  {
+    "anilistId": 85226,
+    "recAnilistId": 31101
+  },
+  {
+    "anilistId": 122063,
+    "recAnilistId": 120760
+  },
+  {
+    "anilistId": 135083,
+    "recAnilistId": 106130
   }
 ]
