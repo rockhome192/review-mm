@@ -44,7 +44,16 @@ jobs:
         if: github.event_name != 'push'
         continue-on-error: true
         working-directory: .
-        run: npx tsx pipeline/weekly-trending.ts
+        # DB errors can echo the user and password (e.g. a password pasted into the
+        # user slot); mask both so a malformed secret never shows in the log
+        run: |
+          node -e '
+            try {
+              const u = new URL(process.env.SUPABASE_DB_URL);
+              for (const v of [u.username, u.password, decodeURIComponent(u.password)])
+                if (v) console.log(`::add-mask::${v}`);
+            } catch {}'
+          npx tsx pipeline/weekly-trending.ts
         env:
           SUPABASE_DB_URL: ${{ secrets.WEEKLY_BOT_DB_URL }}
       - run: npm ci
