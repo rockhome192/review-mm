@@ -66,12 +66,28 @@ function toTitle(r: TitleRow): Title {
 
 let catalog: Promise<Title[]> | undefined;
 
+/** The Data API returns at most 1000 rows per request (Supabase "Max rows"), so read in pages. */
+const CATALOG_PAGE = 500;
+
+async function allTitleRows(): Promise<TitleRow[]> {
+  const rows: TitleRow[] = [];
+  // anilist_id breaks popularity ties, so no row lands on two pages or none.
+  // Step by what came back and stop on an empty page, not a short one: a lower
+  // Max rows would cut every page short.
+  for (;;) {
+    const page = await rest<TitleRow[]>(
+      "titles?select=*,blurbs!inner(*),moods(*),recommendations!recommendations_anilist_id_fkey(*),reading_links(*),overrides(*)" +
+        `&order=popularity.desc,anilist_id.asc&limit=${CATALOG_PAGE}&offset=${rows.length}`,
+    );
+    if (!page.length) return rows;
+    rows.push(...page);
+  }
+}
+
 /** Every visible title (published blurb, not hidden), most popular first. */
 export function getCatalog(): Promise<Title[]> {
   if (DEV) catalog = undefined; // the dev server process lives across refreshes
-  catalog ??= rest<TitleRow[]>(
-    "titles?select=*,blurbs!inner(*),moods(*),recommendations!recommendations_anilist_id_fkey(*),reading_links(*),overrides(*)&order=popularity.desc",
-  ).then((rows) => rows.filter((r) => !r.overrides?.hidden).map(toTitle));
+  catalog ??= allTitleRows().then((rows) => rows.filter((r) => !r.overrides?.hidden).map(toTitle));
   return catalog;
 }
 
