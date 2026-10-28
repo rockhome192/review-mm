@@ -2,7 +2,7 @@
 # Runs on Linux because OpenNext doesn't guarantee Windows builds.
 # Data edits in Supabase don't touch the repo: run this by hand (Actions → Deploy → Run workflow)
 # to publish them, until the pipeline triggers it.
-# The Monday run rolls the home page's weekly featured titles over.
+# The Monday run picks the week's featured titles and the "trending" list, then rebuilds.
 name: Deploy
 
 on:
@@ -12,6 +12,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "5 17 * * 0" # Monday 00:05 Bangkok time
+    - cron: "5 23 * * 0" # Monday 06:05: retry, in case AniList was down at midnight
 
 # a newer deploy replaces one still running
 concurrency:
@@ -31,6 +32,21 @@ jobs:
           node-version: 24
           cache: npm
           cache-dependency-path: web/package-lock.json
+      # Weekly featured + "trending" list from AniList trending. Skipped on pushes, so a
+      # code deploy never reshuffles the week; a week already picked is left alone.
+      # On failure the site keeps last week's picks. Only this step sees the DB secret,
+      # which is the restricted weekly_bot role (supabase/migrations/0004_weekly_bot.sql).
+      - name: Install pipeline deps
+        if: github.event_name != 'push'
+        working-directory: .
+        run: npm ci
+      - name: Pick this week's trending titles
+        if: github.event_name != 'push'
+        continue-on-error: true
+        working-directory: .
+        run: npx tsx pipeline/weekly-trending.ts
+        env:
+          SUPABASE_DB_URL: ${{ secrets.WEEKLY_BOT_DB_URL }}
       - run: npm ci
       - run: npm run lint
       - name: Build and deploy

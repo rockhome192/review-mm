@@ -6,8 +6,8 @@ import { HomeClient, type Featured } from "./HomeClient";
 export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 const FEATURED_SLUG = "featured";
-// Without a "featured" list, each week shows PER_TYPE titles of each type, drawn
-// from the POOL best-scored of that type. The deploy workflow rebuilds every Monday.
+// Fallback when the "featured" list is empty: each week shows PER_TYPE titles of
+// each type, drawn from the POOL best-scored of that type. The deploy workflow rebuilds every Monday.
 const PER_TYPE = 2;
 const POOL = 30;
 const WEEK_MS = 7 * 24 * 3600 * 1000;
@@ -52,12 +52,11 @@ export default async function Home() {
   const [catalog, lists] = await Promise.all([getCatalog(), getLists()]);
   const byId = new Map(catalog.map((t) => [t.id, t]));
 
-  // "เรื่องเด่นประจำสัปดาห์" is the list with slug "featured"; until one is
-  // published, rotate through well-scored titles week by week.
-  const featuredList = lists.find((l) => l.slug === FEATURED_SLUG);
-  const featuredTitles = featuredList
-    ? featuredList.ids.flatMap((id) => byId.get(id) ?? [])
-    : weeklyPicks(catalog);
+  // "เรื่องเด่นประจำสัปดาห์" is the list with slug "featured" (filled weekly from
+  // AniList trending by pipeline/weekly-trending.ts); while it is missing or
+  // empty, rotate through well-scored titles week by week.
+  const fromList = (lists.find((l) => l.slug === FEATURED_SLUG)?.ids ?? []).flatMap((id) => byId.get(id) ?? []);
+  const featuredTitles = fromList.length ? fromList : weeklyPicks(catalog);
   const featured: Featured[] = featuredTitles.map((t) => ({
     href: t.href,
     title: t.title,

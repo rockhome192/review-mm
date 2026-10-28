@@ -6,7 +6,8 @@
   "scripts": {
     "db:migrate": "tsx pipeline/db-migrate.ts",
     "db:import": "tsx pipeline/db-import.ts",
-    "db:links": "tsx pipeline/db-import-links.ts"
+    "db:links": "tsx pipeline/db-import-links.ts",
+    "db:lists": "tsx pipeline/db-lists.ts"
   },
   "keywords": [],
   "author": "",
