@@ -31,6 +31,7 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   openGraph: { siteName: SITE_NAME, locale: "th_TH", type: "website" },
   twitter: { card: "summary" }, // covers are portrait; a large card crops them
+  verification: { google: "rBBjTvpsrXjZWTKdrhkW00cPGYkBqVwpdfjmr4PMAqk" }, // Search Console ownership
 };
 
 export default async function RootLayout({ children }: LayoutProps<"/">) {
