@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { Cover } from "@/components/Cover";
 import { CopyLinkButton } from "@/components/CopyLinkButton";
 import { MoodVote } from "@/components/MoodVote";
-import { getCatalog, getTitle } from "@/lib/data";
+import { getCatalog, getListPages, getTitle } from "@/lib/data";
+import { listHref } from "@/lib/lists";
 import { SITE_NAME, SITE_URL, largeCover } from "@/lib/site";
 import {
   LINK_KIND_LABELS,
@@ -76,7 +77,8 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
   const t = await getTitle(type, slug);
   if (!t) notFound();
 
-  const catalog = await getCatalog();
+  const [catalog, lists] = await Promise.all([getCatalog(), getListPages()]);
+  const inLists = lists.filter((l) => l.ids.includes(t.id));
   const byId = new Map(catalog.map((x) => [x.id, x]));
   const shown = MOOD_KEYS.filter((k) => t.moods[k].score > 0).sort((a, b) => t.moods[b].score - t.moods[a].score);
   const quiet = MOOD_KEYS.filter((k) => t.moods[k].score === 0);
@@ -315,6 +317,23 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
             </a>
           )}
         </div>
+        {inLists.length > 0 && (
+          <div className="flex flex-col gap-2.5">
+            <h2 className="font-serif text-[19px] font-extrabold">อยู่ในลิสต์คัดสรร</h2>
+            <ul className="flex flex-wrap gap-2">
+              {inLists.map((l) => (
+                <li key={l.slug}>
+                  <Link
+                    href={listHref(l.slug)}
+                    className="block rounded-full border-[1.5px] border-ink px-3 py-1 text-sm hover:bg-ink hover:text-paper"
+                  >
+                    {l.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </aside>
     </main>
   );

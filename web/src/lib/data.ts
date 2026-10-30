@@ -1,6 +1,7 @@
 // Build-time data access. Reads Supabase through the Data API with the
 // publishable key, so only rows RLS lets the public see come back.
 import "server-only";
+import { LIST_PAGES } from "./lists";
 import { normalizeName } from "./search";
 import { MOOD_KEYS, type CardTitle, type LengthKey, type List, type Title, type TitleRow } from "./types";
 
@@ -124,4 +125,14 @@ export async function getLists(): Promise<List[]> {
     description: l.description,
     ids: l.list_items.sort((a, b) => a.position - b.position).map((i) => i.anilist_id),
   }));
+}
+
+/** Published lists that have their own page (lib/lists.ts) and at least one title still on the site. */
+export async function getListPages() {
+  const [catalog, lists] = await Promise.all([getCatalog(), getLists()]);
+  const byId = new Map(catalog.map((t) => [t.id, t]));
+  return lists
+    .filter((l) => LIST_PAGES[l.slug])
+    .map((l) => ({ ...l, ...LIST_PAGES[l.slug], titles: l.ids.flatMap((id) => byId.get(id) ?? []) }))
+    .filter((l) => l.titles.length);
 }

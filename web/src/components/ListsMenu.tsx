@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
-export type MenuList = { slug: string; title: string; description: string | null; count: number };
+export type MenuList = { slug: string; href: string; title: string; description: string | null; count: number };
 
-/** Header "ลิสต์คัดสรร ▾": each list opens on the home page as /?list=<slug>. */
+/** Header "ลิสต์คัดสรร ▾": each list opens its own page (/list/<slug>), or the home page filtered to it. */
 export function ListsMenu({ lists }: { lists: MenuList[] }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -49,7 +49,7 @@ export function ListsMenu({ lists }: { lists: MenuList[] }) {
           {lists.map((l) => (
             <li key={l.slug}>
               <Link
-                href={`/?list=${l.slug}`}
+                href={l.href}
                 onClick={() => setOpen(false)}
                 className="block px-4 py-2.5 hover:bg-panel hover:text-ink"
               >

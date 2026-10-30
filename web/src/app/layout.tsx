@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import { HeaderSearch, HeaderSearchFallback } from "@/components/HeaderSearch";
 import { ListsMenu } from "@/components/ListsMenu";
 import { getLists } from "@/lib/data";
+import { LIST_PAGES, listHref } from "@/lib/lists";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -36,7 +37,13 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
   // the lists section is hidden until a list is published, so is its menu link
   const menuLists = (await getLists())
     .filter((l) => l.slug !== "featured" && l.ids.length)
-    .map((l) => ({ slug: l.slug, title: l.title, description: l.description, count: l.ids.length }));
+    .map((l) => ({
+      slug: l.slug,
+      href: LIST_PAGES[l.slug] ? listHref(l.slug) : `/?list=${l.slug}`,
+      title: l.title,
+      description: l.description,
+      count: l.ids.length,
+    }));
   return (
     <html lang="th" className={`${plex.variable} ${serif.variable}`}>
       <body className="flex min-h-screen flex-col font-sans">
