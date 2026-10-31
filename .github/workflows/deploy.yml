@@ -80,7 +80,7 @@ jobs:
           check() { for i in 1 2 3 4 5; do curl -sfo /dev/null "$1" && return 0; sleep 5; done; echo "::error::$1 did not answer"; return 1; }
           check "$SITE/"
           check "$SITE/sitemap.xml"
-          page=$(curl -sf "$SITE/sitemap.xml" | grep -oE "$SITE/(manga|manhwa)/[^<]+" | head -1)
+          page=$(curl -sf "$SITE/sitemap.xml" | grep -m1 -oE "$SITE/(manga|manhwa)/[^<]+")
           check "$page"
           curl -sI "$page" | grep -qi '^x-content-type-options: nosniff' || { echo "::error::security headers missing on $page"; exit 1; }
           echo "ok: $page"
