@@ -1,0 +1,24 @@
+{
+  "id": "msgbatch_01AiaKEnB5JBdeKCHjRBSL6Z",
+  "step": "recheck",
+  "model": "claude-opus-5-5",
+  "createdAt": "2026-10-31T10:31:31.652490+00:00",
+  "chunks": [
+    {
+      "custom_id": "recheck-0",
+      "ids": [
+        46765,
+        30104,
+        85135
+      ]
+    },
+    {
+      "custom_id": "recheck-1",
+      "ids": [
+        119521,
+        143003,
+        111140
+      ]
+    }
+  ]
+}

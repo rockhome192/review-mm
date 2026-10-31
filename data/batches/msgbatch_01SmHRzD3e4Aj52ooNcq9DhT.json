@@ -1,0 +1,25 @@
+{
+  "id": "msgbatch_01SmHRzD3e4Aj52ooNcq9DhT",
+  "step": "rewrite",
+  "model": "claude-sonnet-5-5",
+  "createdAt": "2026-10-31T10:24:57.420574+00:00",
+  "base": "data/model-test/batch-sonnet.json",
+  "chunks": [
+    {
+      "custom_id": "rewrite-0",
+      "ids": [
+        46765,
+        30104,
+        85135
+      ]
+    },
+    {
+      "custom_id": "rewrite-1",
+      "ids": [
+        119521,
+        143003,
+        111140
+      ]
+    }
+  ]
+}
