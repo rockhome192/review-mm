@@ -83,8 +83,9 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
   const shown = MOOD_KEYS.filter((k) => t.moods[k].score > 0).sort((a, b) => t.moods[b].score - t.moods[a].score);
   const quiet = MOOD_KEYS.filter((k) => t.moods[k].score === 0);
   const hero = heroMoods(t);
-  const thai = t.links.filter((l) => l.kind !== "en_official");
-  const english = t.links.filter((l) => l.kind === "en_official");
+  const linkGroups = (["th_read", "th_buy", "en_official"] as const)
+    .map((kind) => ({ label: LINK_KIND_LABELS[kind], links: t.links.filter((l) => l.kind === kind) }))
+    .filter((g) => g.links.length);
   const altTitles = [t.titleNative, t.titleRomaji !== t.title ? t.titleRomaji : null].filter(Boolean).join(" · ");
 
   const info = [
@@ -274,28 +275,23 @@ export default async function TitlePage({ params }: PageProps<"/[type]/[slug]">)
         {t.links.length > 0 && (
           <div className="flex flex-col gap-3 rounded-[10px] bg-ink p-[18px] text-paper">
             <h2 className="font-serif text-[19px] font-extrabold">อ่านแบบถูกลิขสิทธิ์</h2>
-            {[
-              { label: thai.length ? LINK_KIND_LABELS.th_read : null, links: thai },
-              { label: LINK_KIND_LABELS.en_official, links: english },
-            ]
-              .filter((g) => g.links.length)
-              .map((g) => (
-                <div key={g.label} className="flex flex-col gap-2">
-                  <div className="text-xs text-[#bfb7a9]">{g.label}</div>
-                  {g.links.map((l) => (
-                    <a
-                      key={l.url}
-                      href={l.url}
-                      target="_blank"
-                      rel={l.is_affiliate ? "sponsored noopener" : "noopener"}
-                      className="flex items-center justify-between gap-2 rounded-lg border-[1.5px] border-[#8a8276] px-3 py-2.5 text-sm hover:border-paper hover:text-paper"
-                    >
-                      <span>{l.site}</span>
-                      <span aria-hidden>↗</span>
-                    </a>
-                  ))}
-                </div>
-              ))}
+            {linkGroups.map((g) => (
+              <div key={g.label} className="flex flex-col gap-2">
+                <div className="text-xs text-[#bfb7a9]">{g.label}</div>
+                {g.links.map((l) => (
+                  <a
+                    key={l.url}
+                    href={l.url}
+                    target="_blank"
+                    rel={l.is_affiliate ? "sponsored noopener" : "noopener"}
+                    className="flex items-center justify-between gap-2 rounded-lg border-[1.5px] border-[#8a8276] px-3 py-2.5 text-sm hover:border-paper hover:text-paper"
+                  >
+                    <span>{l.site}</span>
+                    <span aria-hidden>↗</span>
+                  </a>
+                ))}
+              </div>
+            ))}
             {t.links.some((l) => l.is_affiliate) && (
               <div className="text-xs text-[#bfb7a9]">บางลิงก์เป็น affiliate เราได้ค่าคอมมิชชันเล็กน้อยโดยราคาไม่เปลี่ยน</div>
             )}

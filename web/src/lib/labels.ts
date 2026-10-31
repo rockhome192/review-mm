@@ -49,7 +49,7 @@ export const WARNING_LABELS: Record<string, string> = {
 
 export const LINK_KIND_LABELS = {
   th_read: "อ่านออนไลน์ภาษาไทย",
-  th_buy: "ซื้อฉบับรวมเล่มภาษาไทย",
+  th_buy: "ฉบับรวมเล่มภาษาไทย",
   en_official: "ฉบับภาษาอังกฤษ",
 } as const;
 
