@@ -6,6 +6,7 @@
 //   review   editor (review-prompt.md + prompt.md)  -> Review[]  (the manga-reviewer agent's job)
 //   rewrite  writer fixes the titles marked revise  -> the blurbs file with those titles replaced
 //   recheck  editor checks only those titles        -> Review[] for the re-checked titles
+//   moods    mood rater (mood-prompt.md, step B)    -> MoodResult[] from reader evidence only, never our blurbs
 //
 // One request per chunk of CHUNK titles, like the agents, so the "vary the openings within a
 // chunk" rules still apply. rewrite and recheck keep the same chunks and send only chunks that
@@ -17,6 +18,7 @@
 //   npx tsx pipeline/batch.ts review <blurbs.json> [--dry]    blurbs.json: Recommendation[]
 //   npx tsx pipeline/batch.ts rewrite <blurbs.json> <reviews.json> [--dry]
 //   npx tsx pipeline/batch.ts recheck <rewritten.json> <reviews.json> [--dry]   reviews.json: the first review
+//   npx tsx pipeline/batch.ts moods <ids.json> [--dry]        fetch to data/moods/moods-<from>-<to>.json
 //   npx tsx pipeline/batch.ts status <batchId>
 //   npx tsx pipeline/batch.ts fetch <batchId> <out.json>
 // --dry prints what would be sent and needs no API key.
@@ -26,7 +28,8 @@ import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { z } from "zod";
 import { titleInput } from "./make-chunk.ts";
-import { Recommendation, Review } from "./schema.ts";
+import { moodInput } from "./mood-input.ts";
+import { MoodResult, Recommendation, Review } from "./schema.ts";
 
 const CHUNK = 10;
 const MAX_TOKENS = 32000; // 10 titles plus thinking; a cut-off chunk is wasted money
@@ -39,10 +42,11 @@ const STEPS = {
   // (blind/B.json, current rules) the agent sent back 10, high 8 (7 the same), medium 7; high
   // caught a review copy medium missed, for about $0.004 more per title.
   review: { model: "claude-opus-5-5", price: { input: 2, output: 10 }, schema: z.object({ titles: z.array(Review) }), effort: "high" },
+  moods: { model: "claude-haiku-5-5", price: { input: 0.05, output: 0.25 }, schema: z.object({ titles: z.array(MoodResult) }) },
   rewrite: { model: "claude-sonnet-5-5", price: { input: 1, output: 5 }, schema: z.object({ titles: z.array(Recommendation) }) },
   recheck: { model: "claude-opus-5-5", price: { input: 2, output: 10 }, schema: z.object({ titles: z.array(Review) }), effort: "high" },
 } as Record<string, { model: string; price: { input: number; output: number }; schema: z.ZodType<{ titles: { anilistId: number }[] }>; effort?: "high" | "xhigh" | "max" }>;
-type Step = "A" | "review" | "rewrite" | "recheck";
+type Step = "A" | "review" | "rewrite" | "recheck" | "moods";
 
 const [cmd, ...args] = process.argv.slice(2);
 const DRY = args.includes("--dry");
@@ -72,7 +76,7 @@ const editorSystem = () =>
   "\n\n---\n\n# คู่มือนักเขียน (`pipeline/prompt.md`)\n\n" +
   fs.readFileSync("pipeline/prompt.md", "utf8");
 
-/** For rewrite/recheck: the blurbs by id, and per chunk the titles the first review marked revise. */
+/** For rewrite/recheck: the blurbs by id, and per chunk the titles to fix (revise, or any copy issue). */
 function revisePlan(blurbsPath: string, reviewsPath: string) {
   const blurbs: Recommendation[] = JSON.parse(fs.readFileSync(blurbsPath, "utf8"));
   const reviews = new Map((JSON.parse(fs.readFileSync(reviewsPath, "utf8")) as Review[]).map((r) => [r.anilistId, r]));
@@ -80,7 +84,8 @@ function revisePlan(blurbsPath: string, reviewsPath: string) {
   if (missing.length) throw new Error(`not in ${reviewsPath}: ${missing.join(", ")}`);
   const byId = new Map(blurbs.map((b) => [b.anilistId, b]));
   const groups = chunks(blurbs.map((b) => b.anilistId), CHUNK)
-    .map((chunk) => ({ chunk, fix: chunk.filter((id) => reviews.get(id)!.verdict === "revise") }))
+    // a copy issue is fixed even on a passed title: copying from reviews is never OK
+    .map((chunk) => ({ chunk, fix: chunk.filter((id) => reviews.get(id)!.verdict === "revise" || reviews.get(id)!.issues.some((i) => i.criterion === "copy")) }))
     .filter((g) => g.fix.length);
   const issues = (id: number) => JSON.stringify(reviews.get(id)!.issues, null, 2);
   return { byId, groups, issues, source: sourceData(groups.flatMap((g) => g.fix)) };
@@ -133,6 +138,13 @@ if (cmd === "submit") {
     `ตอบเป็น titles เรียงตามลำดับเดียวกับคำโปรย หนึ่งรายการต่อเรื่อง\n\n` +
     `## ข้อมูลต้นทาง\n\n${part.map(source).join("\n\n")}\n\n` +
     `## คำโปรยที่นักเขียนส่งมา\n\n${JSON.stringify(part.map((id) => byId.get(id)), null, 2)}`,
+  );
+} else if (cmd === "moods") {
+  const ids: number[] = JSON.parse(fs.readFileSync(args[0], "utf8")).map((x: any) => x.anilistId);
+  await submit("moods", fs.readFileSync("pipeline/mood-prompt.md", "utf8"), chunks(ids, CHUNK), (part) =>
+    `ให้คะแนนอารมณ์ ${part.length} เรื่องต่อไปนี้จากหลักฐานของคนอ่านเท่านั้น ตามคู่มือ ` +
+    `ตอบเป็น titles เรียงตามลำดับข้อมูล หนึ่งรายการต่อเรื่อง ใช้ anilistId ตามข้อมูล\n\n` +
+    part.map(moodInput).join("\n\n"),
   );
 } else if (cmd === "rewrite") {
   // the manga-writer agent's "Rewrite" job: fix every listed issue, leave passed titles alone
@@ -226,5 +238,5 @@ if (cmd === "submit") {
   console.log(`tokens: input ${usage.input}, cache write ${usage.cacheWrite}, cache read ${usage.cacheRead}, output ${usage.output}`);
   console.log(`cost ≈ $${cost.toFixed(3)} ($${(cost / Math.max(answered, 1)).toFixed(4)} per title)`);
 } else {
-  console.log("usage: batch.ts submit <ids.json> | review <blurbs.json> | rewrite <blurbs.json> <reviews.json> | recheck <rewritten.json> <reviews.json>  [--dry] | status <batchId> | fetch <batchId> <out.json>");
+  console.log("usage: batch.ts submit <ids.json> | review <blurbs.json> | rewrite <blurbs.json> <reviews.json> | recheck <rewritten.json> <reviews.json> | moods <ids.json>  [--dry] | status <batchId> | fetch <batchId> <out.json>");
 }

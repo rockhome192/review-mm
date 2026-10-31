@@ -1,0 +1,57 @@
+{
+  "id": "msgbatch_01M4Z1DgabyNSfQqCHyGpyB4",
+  "step": "rewrite",
+  "model": "claude-sonnet-5-5",
+  "createdAt": "2026-10-31T11:22:47.635035+00:00",
+  "base": "data/model-test/new50-A.json",
+  "chunks": [
+    {
+      "custom_id": "rewrite-0",
+      "ids": [
+        130158,
+        119762,
+        110720,
+        183367
+      ]
+    },
+    {
+      "custom_id": "rewrite-1",
+      "ids": [
+        136012,
+        155877,
+        179455,
+        100793,
+        160187
+      ]
+    },
+    {
+      "custom_id": "rewrite-2",
+      "ids": [
+        113545,
+        101644,
+        125095,
+        180422,
+        104864
+      ]
+    },
+    {
+      "custom_id": "rewrite-3",
+      "ids": [
+        123625,
+        170399,
+        30610,
+        101521,
+        37482,
+        108768
+      ]
+    },
+    {
+      "custom_id": "rewrite-4",
+      "ids": [
+        86243,
+        87350,
+        99065
+      ]
+    }
+  ]
+}

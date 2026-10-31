@@ -1173,7 +1173,8 @@
   {
     "anilistId": 104677,
     "recs": [
-      "I Love Amy"
+      "I Love Amy",
+      "Getting to Know Grace"
     ]
   },
   {
@@ -1302,7 +1303,10 @@
   },
   {
     "anilistId": 84897,
-    "recs": []
+    "recs": [
+      "Days of Hana",
+      "Bloody Sweet"
+    ]
   },
   {
     "anilistId": 86214,
@@ -2134,7 +2138,8 @@
     "anilistId": 33285,
     "recs": [
       "The Climber",
-      "Tokyo Revengers"
+      "Tokyo Revengers",
+      "Shamo"
     ]
   },
   {
@@ -2557,7 +2562,8 @@
   {
     "anilistId": 117195,
     "recs": [
-      "Kaguya-sama: Love is War"
+      "Kaguya-sama: Love is War",
+      "Skip Beat!"
     ]
   },
   {
@@ -3177,7 +3183,8 @@
   {
     "anilistId": 118267,
     "recs": [
-      "Teenage Mercenary"
+      "Teenage Mercenary",
+      "Castle"
     ]
   },
   {
@@ -3224,7 +3231,8 @@
     "anilistId": 128521,
     "recs": [
       "Teenage Mercenary",
-      "Study Group"
+      "Study Group",
+      "Norigam"
     ]
   },
   {
@@ -3399,7 +3407,9 @@
   },
   {
     "anilistId": 174104,
-    "recs": []
+    "recs": [
+      "Peaceful Camping Life in Another World"
+    ]
   },
   {
     "anilistId": 184347,
@@ -3488,7 +3498,8 @@
   {
     "anilistId": 38848,
     "recs": [
-      "THE BREAKER"
+      "THE BREAKER",
+      "ORIGIN"
     ]
   },
   {
@@ -3510,7 +3521,8 @@
     "anilistId": 85564,
     "recs": [
       "That Time I Got Reincarnated as a Slime",
-      "The Rising of the Shield Hero"
+      "The Rising of the Shield Hero",
+      "The Faraway Paladin"
     ]
   },
   {
@@ -3645,7 +3657,8 @@
     "anilistId": 86703,
     "recs": [
       "My Life as an Internet Novel",
-      "Devil Number 4"
+      "Devil Number 4",
+      "Days of Hana"
     ]
   },
   {
@@ -3827,7 +3840,8 @@
   {
     "anilistId": 165202,
     "recs": [
-      "Weak Hero"
+      "Weak Hero",
+      "Norigam"
     ]
   },
   {
@@ -3865,7 +3879,8 @@
     "anilistId": 56736,
     "recs": [
       "Daytime Shooting Star",
-      "Horimiya"
+      "Horimiya",
+      "Tsubaki-chou Lonely Planet"
     ]
   },
   {
@@ -4079,7 +4094,8 @@
     "anilistId": 107327,
     "recs": [
       "THE BREAKER",
-      "THE BREAKER - NEW WAVES"
+      "THE BREAKER - NEW WAVES",
+      "Shamo"
     ]
   },
   {
@@ -4321,14 +4337,16 @@
     "anilistId": 106454,
     "recs": [
       "Fly Me to the Moon",
-      "Kubo Won't Let Me Be Invisible"
+      "Kubo Won't Let Me Be Invisible",
+      "I Have a Crush at Work"
     ]
   },
   {
     "anilistId": 109728,
     "recs": [
       "Even If You Slit My Mouth",
-      "Wotakoi: Love is Hard for Otaku"
+      "Wotakoi: Love is Hard for Otaku",
+      "I Have a Crush at Work"
     ]
   },
   {
@@ -4505,7 +4523,9 @@
   },
   {
     "anilistId": 125233,
-    "recs": []
+    "recs": [
+      "Your Smile is a Trap"
+    ]
   },
   {
     "anilistId": 129956,
@@ -4786,11 +4806,335 @@
     "recs": []
   },
   {
+    "anilistId": 101159,
+    "recs": []
+  },
+  {
     "anilistId": 108196,
     "recs": [
       "My Dearest Self With Malice Aforethought",
       "I Am a Hero",
       "Monster"
+    ]
+  },
+  {
+    "anilistId": 119762,
+    "recs": [
+      "God of Blackfield"
+    ]
+  },
+  {
+    "anilistId": 130158,
+    "recs": []
+  },
+  {
+    "anilistId": 153682,
+    "recs": []
+  },
+  {
+    "anilistId": 153975,
+    "recs": [
+      "I Shall Master this Family!"
+    ]
+  },
+  {
+    "anilistId": 199496,
+    "recs": [
+      "Deadman Wonderland"
+    ]
+  },
+  {
+    "anilistId": 110720,
+    "recs": [
+      "Her Tale of Shim Chong"
+    ]
+  },
+  {
+    "anilistId": 117663,
+    "recs": [
+      "Yeonwoo's Innocence"
+    ]
+  },
+  {
+    "anilistId": 136012,
+    "recs": []
+  },
+  {
+    "anilistId": 155877,
+    "recs": [
+      "Return of the Mad Demon",
+      "The Legend of the Northern Blade"
+    ]
+  },
+  {
+    "anilistId": 157871,
+    "recs": []
+  },
+  {
+    "anilistId": 170151,
+    "recs": [
+      "Secret Lady",
+      "Villains Are Destined to Die"
+    ]
+  },
+  {
+    "anilistId": 179455,
+    "recs": [
+      "The Top Dungeon Farmer",
+      "The Archmage’s Restaurant"
+    ]
+  },
+  {
+    "anilistId": 180121,
+    "recs": [
+      "The Dawn to Come",
+      "Maybe Meant to Be"
+    ]
+  },
+  {
+    "anilistId": 183367,
+    "recs": [
+      "The Apothecary Diaries"
+    ]
+  },
+  {
+    "anilistId": 214050,
+    "recs": []
+  },
+  {
+    "anilistId": 87292,
+    "recs": []
+  },
+  {
+    "anilistId": 100793,
+    "recs": [
+      "ORANGE MARMALADE",
+      "Oh! Holy"
+    ]
+  },
+  {
+    "anilistId": 101644,
+    "recs": [
+      "Trapped",
+      "ORANGE MARMALADE",
+      "Unholy Blood"
+    ]
+  },
+  {
+    "anilistId": 102354,
+    "recs": []
+  },
+  {
+    "anilistId": 113545,
+    "recs": []
+  },
+  {
+    "anilistId": 125095,
+    "recs": []
+  },
+  {
+    "anilistId": 154349,
+    "recs": [
+      "Sakamoto Days",
+      "SPY x FAMILY",
+      "Mission: Yozakura Family"
+    ]
+  },
+  {
+    "anilistId": 160187,
+    "recs": []
+  },
+  {
+    "anilistId": 186506,
+    "recs": [
+      "Agui Deunggyo",
+      "Get Schooled"
+    ]
+  },
+  {
+    "anilistId": 187452,
+    "recs": []
+  },
+  {
+    "anilistId": 30107,
+    "recs": [
+      "Welcome to the N.H.K.",
+      "Kowloon Generic Romance"
+    ]
+  },
+  {
+    "anilistId": 30610,
+    "recs": [
+      "[Oshi no Ko]",
+      "Kamisama Kiss"
+    ]
+  },
+  {
+    "anilistId": 31023,
+    "recs": [
+      "Battle Angel Alita",
+      "Akira",
+      "Eden: It's an Endless World!"
+    ]
+  },
+  {
+    "anilistId": 43290,
+    "recs": [
+      "Homunculus",
+      "Bokutachi ga Yarimashita",
+      "Goodnight Punpun"
+    ]
+  },
+  {
+    "anilistId": 66099,
+    "recs": [
+      "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
+      "RAINBOW: Nisha Rokubou no Shichinin",
+      "Golden Kamuy"
+    ]
+  },
+  {
+    "anilistId": 104864,
+    "recs": [
+      "Fly Me to the Moon",
+      "It Takes Two Tomorrow, Too",
+      "The Duke of Death and His Maid"
+    ]
+  },
+  {
+    "anilistId": 105747,
+    "recs": [
+      "Three Days of Happiness",
+      "I Want to Eat Your Pancreas",
+      "Machida-kun no Sekai"
+    ]
+  },
+  {
+    "anilistId": 123625,
+    "recs": []
+  },
+  {
+    "anilistId": 170399,
+    "recs": [
+      "Claymore",
+      "Delicious in Dungeon",
+      "Made in Abyss"
+    ]
+  },
+  {
+    "anilistId": 180422,
+    "recs": [
+      "Komi Can't Communicate",
+      "Giji Harem",
+      "The Dangers in My Heart"
+    ]
+  },
+  {
+    "anilistId": 30727,
+    "recs": [
+      "Holyland",
+      "The Climber",
+      "RAINBOW: Nisha Rokubou no Shichinin"
+    ]
+  },
+  {
+    "anilistId": 37482,
+    "recs": [
+      "Banana Fish",
+      "Holyland",
+      "GANGSTA."
+    ]
+  },
+  {
+    "anilistId": 55250,
+    "recs": [
+      "Dorohedoro",
+      "Call of the Night"
+    ]
+  },
+  {
+    "anilistId": 86243,
+    "recs": [
+      "Daytime Shooting Star",
+      "House of the Sun",
+      "Ao Haru Ride"
+    ]
+  },
+  {
+    "anilistId": 98227,
+    "recs": [
+      "Sun-Ken Rock"
+    ]
+  },
+  {
+    "anilistId": 101521,
+    "recs": [
+      "Mushoku Tensei: Jobless Reincarnation",
+      "Frieren: Beyond Journey’s End",
+      "Delicious in Dungeon"
+    ]
+  },
+  {
+    "anilistId": 104045,
+    "recs": [
+      "The Summer You Were There",
+      "Love Bullet",
+      "Witch Hat Atelier"
+    ]
+  },
+  {
+    "anilistId": 108768,
+    "recs": [
+      "You and I Are Polar Opposites",
+      "Horimiya"
+    ]
+  },
+  {
+    "anilistId": 138577,
+    "recs": [
+      "Hell’s Paradise: Jigokuraku",
+      "Tokyo Ghoul",
+      "Chainsaw Man"
+    ]
+  },
+  {
+    "anilistId": 143516,
+    "recs": [
+      "Twin Star Exorcists",
+      "Blue Exorcist",
+      "D.Gray-man"
+    ]
+  },
+  {
+    "anilistId": 87350,
+    "recs": [
+      "I Had That Same Dream Again",
+      "Fruits Basket",
+      "Three Days of Happiness"
+    ]
+  },
+  {
+    "anilistId": 99065,
+    "recs": [
+      "Claymore",
+      "Berserk",
+      "Hell’s Paradise: Jigokuraku"
+    ]
+  },
+  {
+    "anilistId": 115790,
+    "recs": [
+      "My Dearest Self With Malice Aforethought",
+      "My Broken Mariko",
+      "Takopi's Original Sin"
+    ]
+  },
+  {
+    "anilistId": 116333,
+    "recs": [
+      "Sweat and Soap",
+      "Sensei wa Koi wo Oshierarenai",
+      "Wotakoi: Love is Hard for Otaku"
     ]
   }
 ]
