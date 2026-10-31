@@ -9,6 +9,7 @@
 // Usage: npx tsx pipeline/pick-recs.ts [--dry]
 import fs from "node:fs";
 import { MOOD_KEYS } from "./schema.ts";
+import { jaccard, cosine, indegree, score, type Cand, type Picks } from "./rec-scoring.ts";
 
 const N = 3;
 const MIN_VOTES = 3; // 1–2 votes is one person's opinion
@@ -30,15 +31,6 @@ const excluded = new Set<string>(
 );
 const moodsOf = new Map(gen.map((g) => [g.anilistId, MOOD_KEYS.map((k) => g.moods[k].score as number)]));
 
-const jaccard = (a: Set<string>, b: Set<string>) => {
-  const inter = [...a].filter((x) => b.has(x)).length;
-  return inter / (a.size + b.size - inter || 1);
-};
-const cosine = (a: number[], b: number[]) => {
-  const dot = a.reduce((s, x, i) => s + x * b[i], 0);
-  const n = Math.hypot(...a) * Math.hypot(...b);
-  return n ? dot / n : 0;
-};
 const tagSet = (t: any) => new Set<string>(t.tags.filter((x: any) => x.rank >= 60).map((x: any) => x.name));
 
 /** 0–1: tags 40%, genres 30%, mood profile 30% */
@@ -49,7 +41,6 @@ function similarity(a: number, b: number) {
     0.3 * cosine(moodsOf.get(a)!, moodsOf.get(b)!);
 }
 
-type Cand = { id: number; votes: number; sim: number; base: number };
 const cands = new Map<number, Cand[]>();
 for (const f of fetched) {
   cands.set(f.anilistId, f.recs
@@ -61,29 +52,6 @@ for (const f of fetched) {
       return { id: r.anilistId, votes: r.votes, sim, base: Math.log2(r.votes) + SIM_WEIGHT * sim };
     })
     .filter((c: Cand) => c.sim >= MIN_SIM));
-}
-
-type Picks = Map<number, number[]>;
-
-function indegree(picks: Picks, skip?: number) {
-  const d = new Map<number, number>();
-  for (const [a, s] of picks) if (a !== skip) for (const id of s) d.set(id, (d.get(id) ?? 0) + 1);
-  return d;
-}
-
-function score(a: number, c: Cand, picks: Picks, deg: Map<number, number>) {
-  let s = c.base;
-  // it points back at us: fine while its page has another way out, but if we are
-  // its only card, its readers just bounce between the two pages
-  const theirs = picks.get(c.id) ?? [];
-  if (theirs.includes(a)) {
-    const exit = theirs.some((o) => o !== a && !picks.get(o)?.includes(c.id));
-    s -= exit ? 0.5 : 5;
-  }
-  const d = deg.get(c.id) ?? 0;
-  if (d === 0) s += 1;
-  s -= 0.4 * Math.max(0, d - 3);
-  return s;
 }
 
 const top = (c: Cand[], f: (x: Cand) => number) =>

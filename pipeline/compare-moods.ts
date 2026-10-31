@@ -5,7 +5,7 @@
 // "Shown" = score >= 2 (see pickMoods in schema.ts), so that is the line that matters.
 // Usage: npx tsx pipeline/compare-moods.ts
 import fs from "node:fs";
-import { MOOD_KEYS, MOOD_LABELS } from "./schema";
+import { MOOD_KEYS, MOOD_LABELS } from "./schema.ts";
 
 const all = JSON.parse(fs.readFileSync("data/generated/all.json", "utf8"));
 const top = JSON.parse(fs.readFileSync("data/raw/anilist-top.json", "utf8"));

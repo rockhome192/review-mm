@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "tsx --test \"pipeline/*.test.ts\"",
+    "typecheck": "tsc -p tsconfig.json",
     "db:migrate": "tsx pipeline/db-migrate.ts",
     "db:import": "tsx pipeline/db-import.ts",
     "db:links": "tsx pipeline/db-import-links.ts",

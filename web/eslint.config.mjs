@@ -9,6 +9,8 @@ const eslintConfig = defineConfig([
   globalIgnores([
     // Default ignores of eslint-config-next:
     ".next/**",
+    ".open-next/**", // OpenNext build output (npm run deploy / preview)
+    ".wrangler/**", // local wrangler dev cache
     "out/**",
     "build/**",
     "next-env.d.ts",

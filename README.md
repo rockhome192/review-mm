@@ -61,6 +61,7 @@ Prompt ทั้งหมดอยู่ใน `pipeline/*.md`
 - **กันสแปมโหวตใน database** — trigger ใน Postgres จำกัดหนึ่ง IP ต่อหนึ่งแถวต่อวัน และ 60 โหวตต่อชั่วโมง เก็บเป็น hash ของ salt ลับ + วันที่ + IP ไม่เก็บ IP จริง และ IP เดียวกันได้ hash คนละค่าในแต่ละวัน จึงตามรอยข้ามวันไม่ได้ (`supabase/migrations/0003_mood_votes.sql`)
 - **Row Level Security** — คนทั่วไปอ่านได้เฉพาะเนื้อหาที่เผยแพร่แล้ว และเขียนได้แค่ตารางโหวต (insert อย่างเดียว อ่านกลับไม่ได้)
 - **การเลือกเรื่องแนะนำต่อ** — ให้คะแนนจากโหวตของคนอ่าน AniList รวมกับความคล้ายของแท็ก แนว และอารมณ์ แล้วลงโทษลิงก์ที่วนกลับไปมาระหว่างสองเรื่อง (`pipeline/pick-recs.ts`)
+- **ทดสอบและ CI** — `npm test` (node:test) ทดสอบกฎจับการอ้างรีวิว การเลือกป้ายอารมณ์ และสูตรให้คะแนนการ์ดแนะนำต่อ และตรวจเนื้อหาจริงทั้งหมดใน `data/` ตามกฎเดียวกับตอน import ทุก push จะรัน test, type-check ของทั้ง pipeline และเว็บ และ lint (`.github/workflows/ci.yml`) หลัง deploy มี smoke test เช็กว่าหน้าเว็บจริงตอบ และส่ง security header ครบ
 - **SEO** — sitemap (705 URL), canonical URL, JSON-LD (ComicSeries, ItemList, BreadcrumbList ผ่าน Rich Results Test) ยืนยันกับ Google Search Console แล้ว และ Lighthouse ได้ SEO 100 ทั้งหน้าแรก หน้าเรื่อง และหน้าลิสต์
 
 ## Tech stack
