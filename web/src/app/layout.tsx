@@ -3,6 +3,7 @@ import Link from "next/link";
 import Script from "next/script";
 import { IBM_Plex_Sans_Thai, Noto_Serif_Thai } from "next/font/google";
 import { Suspense } from "react";
+import { preconnect } from "react-dom";
 import { HeaderSearch, HeaderSearchFallback } from "@/components/HeaderSearch";
 import { ListsMenu } from "@/components/ListsMenu";
 import { getLists } from "@/lib/data";
@@ -35,6 +36,8 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: LayoutProps<"/">) {
+  // covers come from AniList's CDN: open that connection while the HTML is still downloading
+  preconnect("https://s4.anilist.co");
   // the lists section is hidden until a list is published, so is its menu link
   const menuLists = (await getLists())
     .filter((l) => l.slug !== "featured" && l.ids.length)
