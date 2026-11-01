@@ -219,7 +219,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
             <div className="grid min-w-0 flex-[3_1_520px] grid-cols-[repeat(auto-fit,minmax(200px,1fr))] items-start gap-8 px-4 py-11 sm:px-7">
               {/* on phones the grid is one column, wider than the cover */}
               <Link href={F.href} className="block w-full max-w-[300px] max-sm:justify-self-center">
-                <Cover src={F.cover} color={F.coverColor} title={F.title} eager />
+                <Cover src={F.cover} color={F.coverColor} title={F.title} priority />
               </Link>
               <div className="flex min-h-full flex-col gap-3.5">
                 <div className="text-[13px] font-semibold tracking-[0.12em] text-accent-ink">

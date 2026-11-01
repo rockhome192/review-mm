@@ -5,12 +5,15 @@ export function Cover({
   title,
   className = "",
   eager = false,
+  priority = false,
 }: {
   src: string | null;
   color: string;
   title: string;
   className?: string;
   eager?: boolean;
+  /** The page's LCP image: load eagerly and ask the browser to fetch it first. One per page. */
+  priority?: boolean;
 }) {
   return (
     <div
@@ -22,7 +25,8 @@ export function Cover({
         <img
           src={src}
           alt={`ปก ${title}`}
-          loading={eager ? "eager" : "lazy"}
+          loading={eager || priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : undefined}
           decoding="async"
           className="absolute inset-0 h-full w-full object-cover"
         />

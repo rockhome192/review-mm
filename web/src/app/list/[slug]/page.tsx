@@ -96,6 +96,7 @@ export default async function ListPage({ params }: PageProps<"/list/[slug]">) {
                   color={t.coverColor}
                   title={t.title}
                   eager={i < 3}
+                  priority={i === 0}
                   className="w-[92px] flex-none sm:w-[112px]"
                 />
                 <div className="flex min-w-0 flex-col gap-2">
