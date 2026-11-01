@@ -96,6 +96,7 @@ jobs:
           page=$(curl -sf "$SITE/sitemap.xml" | grep -m1 -oE "$SITE/(manga|manhwa)/[^<]+")
           check "$page"
           curl -sI "$page" | grep -qi '^x-content-type-options: nosniff' || { echo "::error::security headers missing on $page"; exit 1; }
-          cover=$(curl -sf "$page" | grep -m1 -oE '/covers/[A-Za-z0-9_-]+\.webp' || true)
+          # the page is one line, so take the first match, not the first matching line
+          cover=$(curl -sf "$page" | grep -oE '/covers/[A-Za-z0-9_-]+\.webp' | head -1 || true)
           if [ -n "$cover" ]; then check "$SITE$cover"; else echo "::warning::$page shows no local cover (AniList fallback)"; fi
           echo "ok: $page ${cover:-}"
