@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getCatalog, getLists, toCard } from "@/lib/data";
+import { PAGE_SIZE } from "@/lib/home";
 import { HomeClient, type Featured } from "./HomeClient";
 
 // filter views (?type, ?moods, ?list) are the same page to a search engine
@@ -69,7 +70,10 @@ export default async function Home() {
 
   return (
     <HomeClient
-      titles={catalog.map(toCard)}
+      // the first screen in default order (catalog is most popular first); the rest
+      // comes from /catalog.json after the page loads
+      initial={catalog.slice(0, PAGE_SIZE).map(toCard)}
+      total={catalog.length}
       featured={featured}
       lists={lists
         .filter((l) => l.slug !== FEATURED_SLUG)

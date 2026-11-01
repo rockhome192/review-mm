@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { Cover } from "@/components/Cover";
 import { LENGTH_LABELS, MOOD_LABELS, TYPE_LABELS, metaLine } from "@/lib/labels";
+import { PAGE_SIZE } from "@/lib/home";
 import { normalizeName } from "@/lib/search";
 import { MOOD_KEYS, type CardTitle, type LengthKey, type List, type MoodKey, type TitleType } from "@/lib/types";
 
@@ -25,8 +26,6 @@ type Filters = { type: TitleType | "all"; moods: MoodKey[]; length: LengthKey | 
 const NO_FILTERS: Filters = { type: "all", moods: [], length: "any", q: "", sort: "best" };
 /** A title "has" a mood when readers clearly mention it. */
 const MOOD_MIN = 2;
-/** Cards per "ดูเพิ่ม" step; divides evenly into 2–6 columns. */
-const PAGE_SIZE = 48;
 /** Scrolling near the end loads more by itself up to this many; past it, the button, so the footer stays reachable. */
 const AUTO_LOAD_UNTIL = PAGE_SIZE * 4;
 
@@ -110,7 +109,31 @@ function ParamSync({
   return null;
 }
 
-export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; featured: Featured[]; lists: List[] }) {
+/**
+ * The page embeds only the first screen of cards (`initial`, in default order) and
+ * fetches the rest from /catalog.json once it has mounted. Until that arrives,
+ * anything that needs every title (filters, search, lists, random) waits for it.
+ */
+export function HomeClient({
+  initial,
+  total,
+  featured,
+  lists,
+}: {
+  initial: CardTitle[];
+  total: number;
+  featured: Featured[];
+  lists: List[];
+}) {
+  const [catalog, setCatalog] = useState<CardTitle[] | null>(null);
+  const [loadFailed, setLoadFailed] = useState(false);
+  useEffect(() => {
+    fetch("/catalog.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+      .then(setCatalog, () => setLoadFailed(true));
+  }, []);
+  const titles = catalog ?? initial;
+  const loaded = catalog !== null;
   const [filters, setFilters] = useState<Filters>(NO_FILTERS);
   const [picked, setPicked] = useState<number | null>(null);
   const [listSlug, setListSlug] = useState<string | null>(null);
@@ -137,7 +160,9 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
   const [more, setMore] = useState({ key: "", count: PAGE_SIZE });
   const shown = more.key === viewKey ? more.count : PAGE_SIZE;
   const moreRef = useRef<HTMLButtonElement>(null);
-  const canAutoLoad = shown < AUTO_LOAD_UNTIL && results.length > shown;
+  // before the catalog is in, the unfiltered view still counts every title
+  const available = loaded ? results.length : total;
+  const canAutoLoad = shown < AUTO_LOAD_UNTIL && available > shown;
   useEffect(() => {
     const el = moreRef.current;
     if (!el || !canAutoLoad) return;
@@ -181,6 +206,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
     scrollToResults();
   };
 
+  const pendingRandomRef = useRef<{ f: Filters; from: number | null } | null>(null);
   const onParams = useMemo(
     () => (f: Filters, random: boolean, from: number | null, list: string | null) => {
       setPicked(null);
@@ -194,16 +220,27 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
       setFilters(f);
       setListSlug(null);
       if (random) {
-        // "from" is the detail page the visitor came from; never pick it back
-        pickRandom(match(titles, f), f, from);
+        // "from" is the detail page the visitor came from; never pick it back.
+        // Before the catalog is in, the pick waits for it (effect below).
+        if (!loaded) pendingRandomRef.current = { f, from };
+        else pickRandom(match(titles, f), f, from);
         // drop ?random=1 so a refresh doesn't pick again
         writtenRef.current = toQuery(f);
         window.history.replaceState(null, "", writtenRef.current ? `/?${writtenRef.current}` : "/");
       } else if (toQuery(f)) scrollToResults();
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps -- run once per URL change
-    [titles, lists],
+    [titles, loaded, lists],
   );
+  useEffect(() => {
+    const p = pendingRandomRef.current;
+    if (!catalog || !p) return;
+    pendingRandomRef.current = null;
+    pickRandom(match(catalog, p.f), p.f, p.from);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- once, when the catalog arrives
+  }, [catalog]);
+  // filtered views, lists and the result count need every title
+  const waiting = !loaded && (hasFilters || !!listSlug);
 
   const F = featured[feat];
 
@@ -326,11 +363,11 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
                 }}
                 className="rounded-lg border-[1.5px] border-ink bg-ink p-3 text-base font-semibold text-paper hover:border-accent-ink hover:bg-accent-ink"
               >
-                ดู {pool.length} เรื่องที่ตรงใจ
+                ดู {loaded ? pool.length : hasFilters ? "…" : total} เรื่องที่ตรงใจ
               </button>
               <button
                 onClick={() => pickRandom(pool, filters)}
-                disabled={!pool.length}
+                disabled={!loaded || !pool.length}
                 className="w-full rounded-lg border-[1.5px] border-ink p-2.5 text-[15px] font-semibold hover:bg-paper disabled:opacity-40"
               >
                 สุ่มให้หนึ่งเรื่อง ✦
@@ -347,9 +384,7 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
           </h2>
           <div className="flex items-baseline gap-4 text-sm text-muted" aria-live="polite">
             <span>
-              {list
-                ? `ลิสต์คัดสรร · ${results.length} เรื่อง`
-                : `${results.length} เรื่อง`}
+              {waiting ? "…" : list ? `ลิสต์คัดสรร · ${results.length} เรื่อง` : `${available} เรื่อง`}
             </span>
             {(hasFilters || list) && (
               <button
@@ -386,7 +421,11 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
           </label>
         </div>
 
-        {results.length === 0 ? (
+        {waiting ? (
+          <div className="rounded-[10px] border-[1.5px] border-dashed border-ink p-10 text-center text-base text-muted">
+            {loadFailed ? "โหลดรายชื่อเรื่องไม่สำเร็จ ลองรีเฟรชหน้านี้ดูนะ" : "กำลังโหลดรายชื่อเรื่อง…"}
+          </div>
+        ) : results.length === 0 ? (
           <div className="rounded-[10px] border-[1.5px] border-dashed border-ink p-10 text-center text-base text-muted">
             {filters.q.trim()
               ? "ไม่เจอเรื่องชื่อนี้ ลองพิมพ์ชื่ออังกฤษหรือโรมาจิ หรือล้างตัวเลือกอื่นดูนะ"
@@ -417,13 +456,13 @@ export function HomeClient({ titles, featured, lists }: { titles: CardTitle[]; f
             ))}
           </ul>
         )}
-        {results.length > shown && (
+        {!waiting && available > shown && (
           <button
             ref={moreRef}
             onClick={() => setMore({ key: viewKey, count: shown + PAGE_SIZE })}
             className="self-center rounded-lg border-[1.5px] border-ink px-6 py-2.5 text-[15px] font-semibold hover:bg-ink hover:text-paper"
           >
-            ดูเพิ่ม (อีก {results.length - shown} เรื่อง)
+            ดูเพิ่ม (อีก {available - shown} เรื่อง)
           </button>
         )}
       </section>
