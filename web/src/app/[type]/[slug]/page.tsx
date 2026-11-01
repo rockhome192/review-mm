@@ -6,7 +6,7 @@ import { CopyLinkButton } from "@/components/CopyLinkButton";
 import { MoodVote } from "@/components/MoodVote";
 import { getCatalog, getListPages, getTitle } from "@/lib/data";
 import { listHref } from "@/lib/lists";
-import { SITE_NAME, SITE_URL, largeCover } from "@/lib/site";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 import {
   LINK_KIND_LABELS,
   MOOD_COLORS,
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps<"/[type]/[slug]">):
     title: `${t.title} — ${TYPE_LABELS[t.type]}แนะนำ`,
     description: t.hook,
     alternates: { canonical: t.href },
-    openGraph: { title: t.title, description: t.hook, url: t.href, images: t.cover ? [largeCover(t.cover)] : [] },
+    openGraph: { title: t.title, description: t.hook, url: t.href, images: t.coverLarge ? [t.coverLarge] : [] },
   };
 }
 
@@ -48,7 +48,7 @@ function jsonLd(t: Title) {
     alternateName: [t.titleRomaji, t.titleNative].filter((x) => x && x !== t.title),
     description: t.hook,
     url: `${base}${t.href}`,
-    ...(t.cover ? { image: largeCover(t.cover) } : {}),
+    ...(t.coverLarge ? { image: t.coverLarge } : {}),
     genre: t.tags,
     ...(t.startYear ? { startDate: String(t.startYear) } : {}),
     ...(t.anilistUrl ? { sameAs: [t.anilistUrl] } : {}),

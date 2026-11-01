@@ -47,3 +47,7 @@ next-env.d.ts
 .wrangler
 .dev.vars*
 !.dev.vars.example
+
+# covers made by scripts/build-covers.mjs
+/public/covers/
+/.cover-cache/

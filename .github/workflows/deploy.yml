@@ -58,6 +58,19 @@ jobs:
           SUPABASE_DB_URL: ${{ secrets.WEEKLY_BOT_DB_URL }}
       - run: npm ci
       - run: npm run lint
+      # Covers as small WebP files the site serves itself (scripts/build-covers.mjs).
+      # The cache keeps earlier runs' files, so only new covers are downloaded; a cover
+      # that fails falls back to the AniList URL instead of failing the deploy.
+      - uses: actions/cache@v5
+        with:
+          path: web/.cover-cache
+          key: covers-${{ github.run_id }}
+          restore-keys: covers-
+      - name: Make covers
+        run: npm run covers
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
       - name: Build and deploy
         run: npm run deploy
         env:
@@ -83,4 +96,6 @@ jobs:
           page=$(curl -sf "$SITE/sitemap.xml" | grep -m1 -oE "$SITE/(manga|manhwa)/[^<]+")
           check "$page"
           curl -sI "$page" | grep -qi '^x-content-type-options: nosniff' || { echo "::error::security headers missing on $page"; exit 1; }
-          echo "ok: $page"
+          cover=$(curl -sf "$page" | grep -m1 -oE '/covers/[A-Za-z0-9_-]+\.webp' || true)
+          if [ -n "$cover" ]; then check "$SITE$cover"; else echo "::warning::$page shows no local cover (AniList fallback)"; fi
+          echo "ok: $page ${cover:-}"

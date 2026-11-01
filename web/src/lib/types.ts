@@ -66,7 +66,10 @@ export type Title = {
   startYear: number | null;
   score: number | null;
   popularity: number;
+  /** What pages show: the site's own WebP when it was made, else AniList's 230px cover. */
   cover: string | null;
+  /** AniList's 460px cover, for link previews, the sitemap and JSON-LD (they need a full URL). */
+  coverLarge: string | null;
   coverColor: string;
   anilistUrl: string | null;
   hook: string;

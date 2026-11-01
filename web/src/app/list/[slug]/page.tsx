@@ -5,7 +5,7 @@ import { Cover } from "@/components/Cover";
 import { getListPages } from "@/lib/data";
 import { MOOD_COLORS, MOOD_LABELS, metaLine } from "@/lib/labels";
 import { listHref } from "@/lib/lists";
-import { SITE_NAME, SITE_URL, largeCover } from "@/lib/site";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 import type { Title } from "@/lib/types";
 
 export const dynamicParams = false;
@@ -27,13 +27,13 @@ export async function generateMetadata({ params }: PageProps<"/list/[slug]">): P
   if (!found) return {};
   const { list } = found;
   const href = listHref(list.slug);
-  const cover = list.titles.find((t) => t.cover)?.cover;
+  const cover = list.titles.find((t) => t.coverLarge)?.coverLarge;
   return {
     title: pageTitle(list),
     description: list.intro,
     alternates: { canonical: href },
     // the top title's cover, so a shared link shows a picture
-    openGraph: { title: list.title, description: list.intro, url: href, images: cover ? [largeCover(cover)] : [] },
+    openGraph: { title: list.title, description: list.intro, url: href, images: cover ? [cover] : [] },
   };
 }
 

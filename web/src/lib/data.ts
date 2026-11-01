@@ -1,7 +1,9 @@
 // Build-time data access. Reads Supabase through the Data API with the
 // publishable key, so only rows RLS lets the public see come back.
 import "server-only";
+import { existsSync } from "node:fs";
 import { LIST_PAGES } from "./lists";
+import { largeCover } from "./site";
 import { normalizeName } from "./search";
 import { MOOD_KEYS, type CardTitle, type LengthKey, type List, type Title, type TitleRow } from "./types";
 
@@ -29,6 +31,17 @@ function lengthOf(chapters: number | null, status: string | null, startYear: num
   return null; // unknown: only matches "ได้หมด"
 }
 
+/**
+ * The site's own WebP copy of an AniList cover (scripts/build-covers.mjs), or the
+ * AniList URL when that copy wasn't made. Pages are all built ahead of time, so this
+ * only runs at build, in web/.
+ */
+function localCover(url: string | null) {
+  if (!url) return null;
+  const file = `covers/${url.split("/").pop()!.replace(/\.\w+$/, "")}.webp`;
+  return existsSync(`public/${file}`) ? `/${file}` : url;
+}
+
 function toTitle(r: TitleRow): Title {
   const o = r.overrides;
   const chapters = o?.chapters ?? r.chapters;
@@ -49,7 +62,8 @@ function toTitle(r: TitleRow): Title {
     startYear: r.start_year,
     score: r.score,
     popularity: r.popularity ?? 0,
-    cover: r.cover_url,
+    cover: localCover(r.cover_url),
+    coverLarge: r.cover_url && largeCover(r.cover_url),
     coverColor: r.cover_color ?? "#ebe5d8",
     anilistUrl: r.anilist_url,
     hook: o?.premise ?? r.blurbs.hook,
