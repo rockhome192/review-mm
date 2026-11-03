@@ -13,6 +13,8 @@ permissions: {}
 
 jobs:
   ping:
+    # the public mirror gets this file but not the secrets
+    if: github.repository == 'rockhome192/review-manga'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
