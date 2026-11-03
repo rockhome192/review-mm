@@ -166,5 +166,13 @@
   {
     "anilistId": 127848,
     "recAnilistId": 133963
+  },
+  {
+    "anilistId": 85621,
+    "recAnilistId": 85747
+  },
+  {
+    "anilistId": 85747,
+    "recAnilistId": 85621
   }
 ]

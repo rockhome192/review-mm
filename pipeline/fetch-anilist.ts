@@ -28,6 +28,8 @@ const OUT = process.env.OUT ?? "data/raw/anilist-top.json";
 const SKIP = new Set([
   98361, // Mikkakan no Koufuku (2013) — same novel as 97553 Jumyou wo Kaitotte Moratta (2016, 85K readers)
   101311, // Bakemonogatari manga — the novel (44893) is already on the site
+  78621, // Koe no Katachi 2011 one-shot — the series (85135 A Silent Voice) is already on the site
+  122337, // The Angel Next Door manga — the novel (113533) is already on the site
 ]);
 
 const QUERY = `
