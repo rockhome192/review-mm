@@ -4,33 +4,33 @@
     "moods": {
       "action": {
         "score": 2,
-        "reason": "แนวเรื่องเน้นการต่อสู้ แต่ยังไม่มีคนอ่านเขียนความเห็นเรื่องนี้",
+        "reason": "เป็นแนวฟันดาบแอ็กชันชัดเจน แต่ยังไม่มีคนอ่านเขียนถึง",
         "evidence": "Swordplay 79%, Action genre"
       },
       "romance": {
         "score": 0,
-        "reason": "ไม่มีคนพูดถึงความรัก",
-        "evidence": "none"
+        "reason": "ไม่มีคนพูดถึง",
+        "evidence": ""
       },
       "cry": {
         "score": 0,
-        "reason": "ยังไม่มีคนอ่านเขียนความเห็นเรื่องนี้",
-        "evidence": "none"
+        "reason": "ไม่มีคนพูดถึง",
+        "evidence": ""
       },
       "thrill": {
         "score": 0,
-        "reason": "ไม่มีคนพูดถึงความลุ้นระทึก",
-        "evidence": "none"
+        "reason": "ไม่มีคนพูดถึง",
+        "evidence": ""
       },
       "comedy": {
         "score": 0,
-        "reason": "ไม่มีคนพูดถึงมุกตลก",
-        "evidence": "none"
+        "reason": "ไม่มีคนพูดถึง",
+        "evidence": ""
       },
       "chill": {
         "score": 0,
         "reason": "ไม่มีคนพูดถึง",
-        "evidence": "none"
+        "evidence": ""
       }
     },
     "textCount": 0,
