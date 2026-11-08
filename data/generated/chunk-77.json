@@ -1,0 +1,452 @@
+[
+  {
+    "anilistId": 208654,
+    "hook": "คฤหาสน์โรฮันสันมีสิ่งหนึ่งสวมหนังของเลดี้เอวานเจลีนที่ตายไปแล้ว มันเชื่อว่าตัวเองคือนางเอกนิยายรัก",
+    "body": "เป็นสยองขวัญแบบคอสมิกผสมกลิ่นแฟนตาซีโรแมนซ์ อ่านแล้วขนลุกมากกว่าหวาน",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "How to survive as a maid in a horror game",
+      "Welcome to Rose Manor"
+    ],
+    "tagsTh": [
+      "สยองขวัญ",
+      "สิงร่าง",
+      "แฟนตาซี"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มีแท็กหรือเรื่องย่อที่ชี้ไปทางบู๊"
+      },
+      "romance": {
+        "score": 1,
+        "reason": "แนวโรแมนซ์ แต่เป็นรักในมุมของสิ่งที่หลอน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐานว่าซึ้ง"
+      },
+      "thrill": {
+        "score": 3,
+        "reason": "แท็ก Cosmic Horror, Thriller และเรื่องย่อเป็นฝันร้ายหลอนทั้งคฤหาสน์"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีแนว Comedy"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "บรรยากาศสยองขวัญ"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "low",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 111799,
+    "hook": "ห้องข้างๆ คือแฟนเก่าที่เธอบอกเลิกไปเมื่อห้าปีก่อน แถมยังเรียนมหาลัยเดียวกันอีก",
+    "body": "แม้จะเป็นฝ่ายทิ้งเขาเอง แต่พอต้องเจอกันทั้งตอนกลับห้องและตอนไปเรียน ฮเยจินก็ยังงงกับใจตัวเองและแคร์สายตาคนอื่นมากไป",
+    "caveat": null,
+    "ifYouLike": [
+      "Seasons of Blossom",
+      "10 Years in the Friend Zone"
+    ],
+    "tagsTh": [
+      "แฟนเก่า",
+      "รักในมหาลัย",
+      "โรแมนติกคอมเมดี้"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "romance": {
+        "score": 2,
+        "reason": "แนว Romance, แท็ก College และเรื่องย่อเป็นการกลับมาเจอรักแรก"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 2,
+        "reason": "แนว Comedy และแท็ก Chibi"
+      },
+      "chill": {
+        "score": 1,
+        "reason": "ชีวิตมหาลัยเบาๆ แต่มีความสับสนเรื่องรัก"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "low",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 103855,
+    "hook": "อยากขอคืนชีวิตเก่าแล้วเกิดใหม่เป็นเวอร์ชันที่ดีกว่า ต้องไปสะสมกรรมดีที่โรงเรียนชื่อ Refund High School ก่อน",
+    "body": "ฉากหลักอยู่ในรั้วโรงเรียน มีมุกแทรกและเส้นรักให้ตาม จบแล้วที่ 135 ตอน",
+    "caveat": null,
+    "ifYouLike": [
+      "How to Become a Dragon",
+      "Ghost Theater"
+    ],
+    "tagsTh": [
+      "เกิดใหม่",
+      "โรงเรียน",
+      "โรแมนติกคอมเมดี้"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "romance": {
+        "score": 1,
+        "reason": "มีแนวโรแมนซ์"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "มีแนวคอมเมดี้"
+      },
+      "chill": {
+        "score": 1,
+        "reason": "ฉากโรงเรียนเบาๆ"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "low",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 121868,
+    "hook": "นักกรีฑาดาวรุ่งที่เสียทุกอย่างไปเพราะโรคหัวใจ ได้หัวใจใหม่มา แล้วเจ้าของเดิมก็มาเข้าฝันฝากลูกชายไว้",
+    "body": "โซยูต้องกลับไปเรียนม.ปลายช้ากว่าเพื่อนและยังหาเพื่อนไม่ได้ แต่การเป็นกำลังใจให้แจฮา เด็กหนุ่มที่ไม่เหลือใครแล้ว ค่อยๆ พาเธอเจอเหตุผลที่อยากมีชีวิตอยู่",
+    "caveat": null,
+    "ifYouLike": [
+      "Seasons of Blossom",
+      "Romance 101"
+    ],
+    "tagsTh": [
+      "ปลูกถ่ายหัวใจ",
+      "รักวัยเรียน",
+      "ดราม่า"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "romance": {
+        "score": 2,
+        "reason": "แนว Romance ผ่านความสัมพันธ์ของโซยูกับแจฮา"
+      },
+      "cry": {
+        "score": 1,
+        "reason": "เรื่องการสูญเสียและได้ชีวิตใหม่จากหัวใจของคนอื่น"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "chill": {
+        "score": 1,
+        "reason": "โทนค่อยๆ เดินไปทีละก้าว แต่มีเรื่องหนัก"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 40685,
+    "hook": "ขี้เหล้า เจ้าชู้ ไม่รู้จักกลัว นักล่าค่าหัวคนนี้ต้องคุ้มครองเด็กชายกับเหรียญที่ใครๆ ก็อยากได้",
+    "body": "ม้าคู่ใจชอบดื่มไม่แพ้เจ้านาย ส่วนเหรียญที่ทุกคนหมายตาทำให้หนึ่งคนหนึ่งม้ากับเด็กชายต้องลุยกับคนที่ขวางทางไม่หยุด โทนบู๊เลือดสาดผสมฮา",
+    "caveat": "เป็นผลงานเก่าตั้งแต่ปี 1998",
+    "ifYouLike": [
+      "Blade of the Phantom Master",
+      "Red Storm"
+    ],
+    "tagsTh": [
+      "กำลังภายใน",
+      "นักล่าค่าหัว",
+      "มันฮวาเก่า"
+    ],
+    "moods": {
+      "action": {
+        "score": 2,
+        "reason": "แท็ก Martial Arts, Gore และแนว Action"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีเส้นรักชัดเจน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 1,
+        "reason": "มีการต่อสู้และอันตราย"
+      },
+      "comedy": {
+        "score": 2,
+        "reason": "แนว Comedy และตัวเอกขี้เหล้าเจ้าชู้"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "มีความรุนแรง ไม่ใช่เรื่องอ่านสบาย"
+      }
+    },
+    "contentWarnings": [
+      "violence",
+      "gore"
+    ],
+    "confidence": "low",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 124621,
+    "hook": "หนุ่มบาร์บีคิวสายเนิร์ดกับสาวออฟฟิศสุดเนี้ยบ คบกันได้ไม่นานก็แต่งงาน ทั้งที่ยังไม่รู้จักกันดีพอ",
+    "body": "เคนตะถูกย้ายไปทำงานต่างเมืองจนต้องอยู่กันคนละที่ ทั้งคู่เลยเริ่มรู้จักกันจริงๆ ผ่านเตาย่าง และจิฮิโระก็ไม่ได้สมบูรณ์แบบอย่างที่ทำท่า",
+    "caveat": null,
+    "ifYouLike": [
+      "Solo Camping for Two",
+      "The Way of the Househusband"
+    ],
+    "tagsTh": [
+      "ย่างบาร์บีคิว",
+      "คู่แต่งงาน",
+      "อาหาร",
+      "รักผู้ใหญ่"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "romance": {
+        "score": 2,
+        "reason": "คู่แต่งงานใหม่ค่อยๆ รู้จักกัน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "เรื่องย่อเล่นมุกกับเรื่องย่าง"
+      },
+      "chill": {
+        "score": 3,
+        "reason": "แท็ก Food, Iyashikei, Outdoor Activities, Slice of Life"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 97216,
+    "hook": "มนุษย์เงินเดือนสายเหตุผลนิยมเกิดใหม่เป็นเด็กหญิงในโลกเวทมนตร์ที่กำลังมีสงครามโลก ทั้งที่ใจจริงอยากได้แค่งานโต๊ะสบายๆ",
+    "body": "ทานย่าไต่เต้าในกองทัพจนอายุเก้าขวบก็เป็นทหารเวทที่น่ากลัวที่สุดของจักรวรรดิ แอนตี้ฮีโร่ผสมการเมืองสงครามทำให้เข้มกว่าเรื่องต่างโลกทั่วไป",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "Drifters",
+      "Gate: Where the JSDF Fought"
+    ],
+    "tagsTh": [
+      "ต่างโลก",
+      "สงคราม",
+      "เกิดใหม่",
+      "ทหาร"
+    ],
+    "moods": {
+      "action": {
+        "score": 3,
+        "reason": "แท็ก Military, War, Magic และแนว Action"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "แท็ก Tragedy อย่างเดียวไม่นับ"
+      },
+      "thrill": {
+        "score": 2,
+        "reason": "สงครามและการเมืองที่ตึงเครียด"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "ตัวเอกคิดแบบมนุษย์เงินเดือนในสนามรบ"
+      },
+      "chill": {
+        "score": 0,
+        "reason": "เรื่องสงครามที่ตึง"
+      }
+    },
+    "contentWarnings": [
+      "violence"
+    ],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 104617,
+    "hook": "ลุงฟื้นจากโคม่า 17 ปี พร้อมคำบอกเล่าว่าไปเป็นผู้พิทักษ์ต่างโลกมา แถมรักเกมมากกว่าทุกอย่าง",
+    "body": "ทากาฟุมิต้องอัปเดตโลกยี่สิบปีให้ลุงที่ร่ายเวทได้จริง ตั้งแต่สมาร์ตโฟน อนิเมะ ไปจนถึงบาดแผลจากสงครามคอนโซลยุค 90",
+    "caveat": "ยังลงไม่จบ",
+    "ifYouLike": [
+      "Konosuba: God's Blessing on This Wonderful World!",
+      "Helck"
+    ],
+    "tagsTh": [
+      "ต่างโลก",
+      "ล้อเลียน",
+      "โอตาคุ",
+      "เอลฟ์"
+    ],
+    "moods": {
+      "action": {
+        "score": 1,
+        "reason": "แนว Action มีฉากเวทมนตร์"
+      },
+      "romance": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 3,
+        "reason": "แท็ก Parody(92) และเรื่องย่อเล่นมุกวัฒนธรรมเกม"
+      },
+      "chill": {
+        "score": 2,
+        "reason": "แท็ก Slice of Life, Family Life โทนตลก"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 156303,
+    "hook": "ช่วงล็อกดาวน์ได้ทำงานที่บ้านเต็มตัว หนุ่มคนหนึ่งเลยมีเวลาหลงเสน่ห์สาวห้องข้างๆ",
+    "body": "ฝั่งโนโครุได้กลับมาทำงานอดิเรกเก่าตอนอยู่บ้าน ส่วนนัตสึก็อยู่แค่ผนังกั้น ผู้ใหญ่สองคนเลยค่อยๆ รู้จักกันในช่วงที่โลกแทบไม่ได้เจอหน้ากัน",
+    "caveat": "จบในเล่มเดียว",
+    "ifYouLike": [
+      "Sweat and Soap",
+      "Wotakoi: Love is Hard for Otaku"
+    ],
+    "tagsTh": [
+      "รักผู้ใหญ่",
+      "ทำงานที่บ้าน",
+      "โรแมนติกคอมเมดี้",
+      "เล่มเดียวจบ"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "romance": {
+        "score": 3,
+        "reason": "ผู้ใหญ่สองคนค่อยๆ ใกล้กันแบบอบอุ่น"
+      },
+      "cry": {
+        "score": 0,
+        "reason": "ไม่มีหลักฐาน"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "แนว Comedy แต่ไม่ใช่จุดเด่น"
+      },
+      "chill": {
+        "score": 2,
+        "reason": "เล่มเดียวจบ รักเรียบๆ ไม่มีเรื่องหนัก"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "medium",
+    "usedOutsideKnowledge": false
+  },
+  {
+    "anilistId": 108251,
+    "hook": "ในห้องพักโรงพยาบาล สามีซุ่มซ่ามนั่งรำลึกกับภรรยาที่เคยเป็นคนรับใช้ ย้อนไปยี่สิบปีของรักที่ค่อยๆ โต",
+    "body": "เล่าข้ามช่วงเวลาไปมาในบรรยากาศยุคโชวะ ค่อยๆ เผยว่าสองคนผ่านอะไรมาด้วยกัน ตั้งแต่ตอนที่ยังเป็นนายกับคนรับใช้",
+    "caveat": null,
+    "ifYouLike": [
+      "My Happy Marriage",
+      "Taisho Girl Fairy Tale"
+    ],
+    "tagsTh": [
+      "คู่สามีภรรยา",
+      "ย้อนอดีต",
+      "ครอบครัว",
+      "ยุคโชวะ"
+    ],
+    "moods": {
+      "action": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "romance": {
+        "score": 3,
+        "reason": "ความรักของคู่สามีภรรยาตลอดชีวิต"
+      },
+      "cry": {
+        "score": 3,
+        "reason": "ความทรงจำของคู่ที่รักกันทั้งชีวิต เล่าสลับกับวันที่นอนโรงพยาบาล"
+      },
+      "thrill": {
+        "score": 0,
+        "reason": "ไม่มี"
+      },
+      "comedy": {
+        "score": 1,
+        "reason": "สามีซุ่มซ่ามกับภรรยาสายลุยหัวทื่อ"
+      },
+      "chill": {
+        "score": 1,
+        "reason": "อบอุ่นแต่มีความสูญเสีย"
+      }
+    },
+    "contentWarnings": [],
+    "confidence": "high",
+    "usedOutsideKnowledge": false
+  }
+]

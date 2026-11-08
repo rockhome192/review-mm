@@ -21,7 +21,10 @@ export function titleInput(t: any, reviewChars = 900): string {
       (r: any, i: number) => `review${i + 1} [${r.score}/100] "${r.summary}": ${r.excerpt.slice(0, reviewChars)}`,
     ),
     `alsoLiked: ${t.alsoLiked.join(" | ")}`,
-  ].join("\n");
+  ]
+    .join("\n")
+    // .slice() can cut an emoji in half; a lone surrogate makes the API reject the whole batch
+    .replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, "");
 }
 
 if (process.argv[1]?.endsWith("make-chunk.ts")) {

@@ -3,6 +3,7 @@
 // anilist-top.json so the facts the blurbs were written from stay as they are.
 //
 // Usage: npx tsx pipeline/fetch-recs.ts [perTitle=10]
+//        Only fetches titles not yet in the file; ALL=1 re-fetches every title (fresh vote counts).
 import fs from "node:fs";
 
 const PER_TITLE = Number(process.argv[2] ?? 10);
@@ -36,11 +37,18 @@ type Raw = any;
 
 async function gql(variables: Record<string, unknown>): Promise<Raw> {
   for (let attempt = 0; attempt < 5; attempt++) {
-    const res = await fetch("https://graphql.anilist.co", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify({ query: QUERY, variables }),
-    });
+    let res: Response;
+    try {
+      res = await fetch("https://graphql.anilist.co", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ query: QUERY, variables }),
+      });
+    } catch (e) {
+      console.log(`  network error (${(e as Error).message}), retrying in 10s`);
+      await new Promise((r) => setTimeout(r, 10_000));
+      continue;
+    }
     if (res.status === 429) {
       const wait = Number(res.headers.get("retry-after") ?? 60);
       console.log(`  rate limited, waiting ${wait}s`);
@@ -55,13 +63,16 @@ async function gql(variables: Record<string, unknown>): Promise<Raw> {
 }
 
 const raw: Raw[] = JSON.parse(fs.readFileSync("data/raw/anilist-top.json", "utf8"));
-const ids = raw.map((t) => t.anilistId);
-const out: Raw[] = [];
+const allIds = raw.map((t) => t.anilistId);
+const prev: Raw[] = !process.env.ALL && fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : [];
+const byId = new Map<number, Raw>(prev.map((t) => [t.anilistId, t]));
+const ids = allIds.filter((id) => !byId.has(id));
+console.log(`${allIds.length - ids.length} already fetched, ${ids.length} to fetch`);
 
 for (let i = 0; i < ids.length; i += PAGE_SIZE) {
   const data = await gql({ page: 1, perPage: PAGE_SIZE, ids: ids.slice(i, i + PAGE_SIZE), recs: PER_TITLE });
   for (const m of data.media)
-    out.push({
+    byId.set(m.id, {
       anilistId: m.id,
       recs: m.recommendations.nodes
         .filter((n: Raw) => n.mediaRecommendation)
@@ -88,5 +99,7 @@ for (let i = 0; i < ids.length; i += PAGE_SIZE) {
   await new Promise((r) => setTimeout(r, 2500)); // stay well under the rate limit
 }
 
+// same order as anilist-top.json; titles no longer there are dropped
+const out = allIds.map((id) => byId.get(id)).filter(Boolean);
 fs.writeFileSync(OUT, JSON.stringify(out, null, 2) + "\n");
 console.log(`saved recs for ${out.length} titles -> ${OUT}`);

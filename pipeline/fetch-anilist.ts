@@ -30,6 +30,11 @@ const SKIP = new Set([
   101311, // Bakemonogatari manga — the novel (44893) is already on the site
   78621, // Koe no Katachi 2011 one-shot — the series (85135 A Silent Voice) is already on the site
   122337, // The Angel Next Door manga — the novel (113533) is already on the site
+  99026, // The Apothecary Diaries (Nekokurage) — the Kurata manga (99022) is already on the site
+  33299, // Spice & Wolf — the 2006 manga (39115) is already on the site
+  107790, // No Longer Human (Junji Ito) — Usamaru Furuya's version (43290) is already on the site
+  85364, // One Punch Man webcomic — the Murata manga (74347) is already on the site
+  115154, // Gokurakugai one-shot — the series (150378) is already on the site
 ]);
 
 const QUERY = `
@@ -53,7 +58,7 @@ query ($page: Int, $perPage: Int, $country: CountryCode, $minPop: Int, $minScore
       reviews(sort: RATING_DESC, perPage: 3) {
         nodes { summary score rating body(asHtml: false) }
       }
-      relations { edges { relationType } }
+      relations { edges { relationType node { id } } }
       recommendations(sort: RATING_DESC, perPage: 5) {
         nodes { rating mediaRecommendation { id title { romaji english } } }
       }
@@ -73,11 +78,18 @@ const clean = (s: string | null | undefined) =>
 
 async function gql(variables: Record<string, unknown>): Promise<Raw> {
   for (let attempt = 0; attempt < 5; attempt++) {
-    const res = await fetch("https://graphql.anilist.co", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify({ query: QUERY, variables }),
-    });
+    let res: Response;
+    try {
+      res = await fetch("https://graphql.anilist.co", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ query: QUERY, variables }),
+      });
+    } catch (e) {
+      console.log(`  network error (${(e as Error).message}), retrying in 10s`);
+      await new Promise((r) => setTimeout(r, 10_000));
+      continue;
+    }
     if (res.status === 429) {
       const wait = Number(res.headers.get("retry-after") ?? 60);
       console.log(`  rate limited, waiting ${wait}s`);
@@ -133,6 +145,25 @@ const isSequel = (m: Raw) =>
 const out: ReturnType<typeof slim>[] = [];
 const seen = new Set<number>(SKIP);
 
+// Another edition of a story already picked (e.g. a second manga adaptation of the
+// same novel, or a one-shot of a series) usually has the same English or romaji title,
+// or AniList links it as ALTERNATIVE. Only checked in "more" mode; hand-picked ids are trusted.
+const norm = (s: string | null | undefined) => (s ?? "").toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
+const titleOwner = new Map<string, string>();
+let checkTitles = false;
+const picked = new Map<number, string>();
+function remember(t: { anilistId: number; title: string; titleRomaji: string }) {
+  picked.set(t.anilistId, t.title);
+  for (const k of [norm(t.title), norm(t.titleRomaji)]) if (k && !titleOwner.has(k)) titleOwner.set(k, `${t.anilistId} ${t.title}`);
+}
+function sameStory(m: Raw, t: { anilistId: number; title: string; titleRomaji: string }) {
+  // AniList links another version of the same story (e.g. a one-shot of a series) as ALTERNATIVE
+  const alt = m.relations.edges.find((e: Raw) => e.relationType === "ALTERNATIVE" && picked.has(e.node.id));
+  const owner = alt ? `${alt.node.id} ${picked.get(alt.node.id)}` : titleOwner.get(norm(t.title)) ?? titleOwner.get(norm(t.titleRomaji));
+  if (owner) console.log(`  skip ${t.anilistId} ${t.title}: same story as ${owner} (add it to SKIP to silence)`);
+  return Boolean(owner);
+}
+
 /** Append up to `want` new titles matching `filter`, skipping ones already picked. */
 async function take(want: number, pool: string, filter: Record<string, unknown>, standaloneOnly = false) {
   let got = 0;
@@ -142,9 +173,14 @@ async function take(want: number, pool: string, filter: Record<string, unknown>,
       // cancelled series (e.g. dropped for plagiarism) are not worth recommending
       .filter((m: Raw) => m.status !== "CANCELLED" && !seen.has(m.id))
       .filter((m: Raw) => !standaloneOnly || !isSequel(m))
-      .slice(0, want - got)
-      .map((m: Raw) => slim(m, pool));
-    for (const t of batch) seen.add(t.anilistId);
+      .filter((m: Raw) => {
+        if (!checkTitles) return true;
+        seen.add(m.id); // log each duplicate only once across pages
+        return !sameStory(m, slim(m, pool));
+      })
+      .map((m: Raw) => slim(m, pool))
+      .slice(0, want - got);
+    for (const t of batch) { seen.add(t.anilistId); remember(t); }
     out.push(...batch);
     got += batch.length;
     console.log(`${pool} ${filter.country} page ${page}: ${got}/${want}`);
@@ -158,7 +194,7 @@ if (MORE) {
   const prev = JSON.parse(fs.readFileSync(OUT, "utf8"));
   fs.copyFileSync(OUT, OUT.replace(/\.json$/, `.before-more-${prev.length}.json`));
   out.push(...prev);
-  for (const t of prev) seen.add(t.anilistId);
+  for (const t of prev) { seen.add(t.anilistId); remember(t); }
   if (process.argv[3] === "ids") {
     // hand-picked titles, e.g. to balance genres the popularity order skews
     const ids = process.argv[4].split(",").map(Number);
@@ -166,6 +202,7 @@ if (MORE) {
   } else {
     const [manhwa, manga] = [Number(process.argv[3] ?? 0), Number(process.argv[4] ?? 0)];
     const popular = { sort: ["POPULARITY_DESC"], minScore: MIN_SCORE_POPULAR };
+    checkTitles = true;
     await take(manhwa, "popular", { country: "KR", ...popular }, true);
     await take(manga, "popular", { country: "JP", ...popular }, true);
   }

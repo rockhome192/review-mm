@@ -71,7 +71,12 @@ async function match(t: Raw) {
   const pick = (list: Raw[]) =>
     list.sort((a, b) => yearGap(a) - yearGap(b) || (b.rating_votes ?? 0) - (a.rating_votes ?? 0))[0];
   const exacts = all.filter((r) => r.exact);
-  if (exacts.length) return { record: pick(exacts), match: exacts.length === 1 ? "exact" : "check" };
+  if (exacts.length) {
+    // same title years apart is often another work (Majo to Yajuu 2010 shoujo vs 2016 seinen),
+    // so a human checks it; novel-vs-manga gaps land here too, which is fine
+    const record = pick(exacts);
+    return { record, match: exacts.length === 1 && yearGap(record) <= 2 ? "exact" : "check" };
+  }
   const near = all.filter((r) => yearGap(r) <= 1);
   return near.length ? { record: pick(near), match: "check" } : null;
 }

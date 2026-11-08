@@ -174,5 +174,41 @@
   {
     "anilistId": 85747,
     "recAnilistId": 85621
+  },
+  {
+    "anilistId": 110605,
+    "recAnilistId": 180671
+  },
+  {
+    "anilistId": 186503,
+    "recAnilistId": 208654
+  },
+  {
+    "anilistId": 180671,
+    "recAnilistId": 110605
+  },
+  {
+    "anilistId": 208654,
+    "recAnilistId": 201009
+  },
+  {
+    "anilistId": 208654,
+    "recAnilistId": 158448
+  },
+  {
+    "anilistId": 121868,
+    "recAnilistId": 104533
+  },
+  {
+    "anilistId": 31461,
+    "recAnilistId": 39982
+  },
+  {
+    "anilistId": 78025,
+    "recAnilistId": 30598
+  },
+  {
+    "anilistId": 208654,
+    "recAnilistId": 186503
   }
 ]

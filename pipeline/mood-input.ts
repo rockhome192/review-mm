@@ -30,7 +30,8 @@ export function moodInput(anilistId: number): string {
   const cs = m?.comments ?? [];
   lines.push(`-- MangaUpdates comments (${cs.length} of ${m?.commentTotal ?? 0}):`);
   cs.forEach((c: any, i: number) => c.text && lines.push(`[MU${i + 1}] ${c.text.slice(0, COMMENT_CHARS)}`));
-  return lines.join("\n");
+  // .slice() can cut an emoji in half; a lone surrogate makes the API reject the whole batch
+  return lines.join("\n").replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, "");
 }
 
 if (process.argv[1]?.endsWith("mood-input.ts")) {

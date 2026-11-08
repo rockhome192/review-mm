@@ -1,66 +1,10 @@
 [
   {
-    "anilistId": 30001,
-    "recs": [
-      "20th Century Boys",
-      "Pluto",
-      "Homunculus"
-    ]
-  },
-  {
     "anilistId": 30002,
     "recs": [
       "Vinland Saga",
       "Claymore",
       "JoJo's Bizarre Adventure: Part 7–Steel Ball Run"
-    ]
-  },
-  {
-    "anilistId": 30013,
-    "recs": [
-      "Hunter x Hunter",
-      "Black Clover",
-      "Fullmetal Alchemist"
-    ]
-  },
-  {
-    "anilistId": 30025,
-    "recs": [
-      "One Piece",
-      "Witch Hat Atelier",
-      "Soul Eater"
-    ]
-  },
-  {
-    "anilistId": 30051,
-    "recs": [
-      "Real",
-      "Ashita no Joe: Fighting for Tomorrow",
-      "Eyeshield 21"
-    ]
-  },
-  {
-    "anilistId": 30642,
-    "recs": [
-      "Vagabond",
-      "Kingdom",
-      "Golden Kamuy"
-    ]
-  },
-  {
-    "anilistId": 30656,
-    "recs": [
-      "Berserk",
-      "Kingdom",
-      "Blade of the Immortal"
-    ]
-  },
-  {
-    "anilistId": 30657,
-    "recs": [
-      "The Climber",
-      "Vagabond",
-      "March Comes in Like a Lion"
     ]
   },
   {
@@ -72,6 +16,46 @@
     ]
   },
   {
+    "anilistId": 30656,
+    "recs": [
+      "Berserk",
+      "Kingdom",
+      "Blade of the Immortal"
+    ]
+  },
+  {
+    "anilistId": 30013,
+    "recs": [
+      "Hunter x Hunter",
+      "Black Clover",
+      "Fullmetal Alchemist"
+    ]
+  },
+  {
+    "anilistId": 30001,
+    "recs": [
+      "20th Century Boys",
+      "Pluto",
+      "Homunculus"
+    ]
+  },
+  {
+    "anilistId": 30642,
+    "recs": [
+      "Vagabond",
+      "Kingdom",
+      "Golden Kamuy"
+    ]
+  },
+  {
+    "anilistId": 30051,
+    "recs": [
+      "Real",
+      "Ashita no Joe: Fighting for Tomorrow",
+      "Eyeshield 21"
+    ]
+  },
+  {
     "anilistId": 74489,
     "recs": [
       "To Your Eternity",
@@ -80,27 +64,19 @@
     ]
   },
   {
-    "anilistId": 30026,
+    "anilistId": 30657,
+    "recs": [
+      "The Climber",
+      "Vagabond",
+      "March Comes in Like a Lion"
+    ]
+  },
+  {
+    "anilistId": 30025,
     "recs": [
       "One Piece",
-      "Yu Yu Hakusho",
-      "Fullmetal Alchemist"
-    ]
-  },
-  {
-    "anilistId": 30028,
-    "recs": [
-      "BECK",
-      "Given",
-      "Solanin"
-    ]
-  },
-  {
-    "anilistId": 30104,
-    "recs": [
-      "Azumanga Daioh",
-      "Hinamatsuri",
-      "SPY x FAMILY"
+      "Witch Hat Atelier",
+      "Soul Eater"
     ]
   },
   {
@@ -120,11 +96,19 @@
     ]
   },
   {
-    "anilistId": 63327,
+    "anilistId": 87395,
     "recs": [
-      "Choujin X",
-      "Parasyte",
-      "Kaiju No.8"
+      "The Way of the Househusband",
+      "Gin Tama",
+      "Zom 100: Bucket List of the Dead"
+    ]
+  },
+  {
+    "anilistId": 30104,
+    "recs": [
+      "Azumanga Daioh",
+      "Hinamatsuri",
+      "SPY x FAMILY"
     ]
   },
   {
@@ -136,20 +120,44 @@
     ]
   },
   {
+    "anilistId": 30028,
+    "recs": [
+      "BECK",
+      "Given",
+      "Solanin"
+    ]
+  },
+  {
     "anilistId": 85737,
     "recs": []
   },
   {
-    "anilistId": 87395,
+    "anilistId": 63327,
     "recs": [
-      "The Way of the Househusband",
-      "Gin Tama",
-      "Zom 100: Bucket List of the Dead"
+      "Choujin X",
+      "Parasyte",
+      "Kaiju No.8"
     ]
   },
   {
     "anilistId": 98610,
     "recs": []
+  },
+  {
+    "anilistId": 30026,
+    "recs": [
+      "One Piece",
+      "Yu Yu Hakusho",
+      "Fullmetal Alchemist"
+    ]
+  },
+  {
+    "anilistId": 75143,
+    "recs": [
+      "Chihayafuru",
+      "Welcome to the Ballroom",
+      "Blue Period"
+    ]
   },
   {
     "anilistId": 30003,
@@ -160,47 +168,11 @@
     ]
   },
   {
-    "anilistId": 30007,
-    "recs": [
-      "Ashita no Joe: Fighting for Tomorrow",
-      "Slam Dunk",
-      "Aoashi"
-    ]
-  },
-  {
-    "anilistId": 31224,
-    "recs": [
-      "Machida-kun no Sekai",
-      "Ikoku Nikki",
-      "Kono Oto Tomare!"
-    ]
-  },
-  {
     "anilistId": 34632,
     "recs": [
       "Solanin",
       "Blood on the Tracks",
       "Dead Dead Demon's Dededede Destruction"
-    ]
-  },
-  {
-    "anilistId": 37375,
-    "recs": [
-      "Real",
-      "Vagabond",
-      "Holyland"
-    ]
-  },
-  {
-    "anilistId": 44893,
-    "recs": []
-  },
-  {
-    "anilistId": 75143,
-    "recs": [
-      "Chihayafuru",
-      "Welcome to the Ballroom",
-      "Blue Period"
     ]
   },
   {
@@ -220,31 +192,39 @@
     ]
   },
   {
+    "anilistId": 30007,
+    "recs": [
+      "Ashita no Joe: Fighting for Tomorrow",
+      "Slam Dunk",
+      "Aoashi"
+    ]
+  },
+  {
+    "anilistId": 31224,
+    "recs": [
+      "Machida-kun no Sekai",
+      "Ikoku Nikki",
+      "Kono Oto Tomare!"
+    ]
+  },
+  {
+    "anilistId": 44893,
+    "recs": []
+  },
+  {
+    "anilistId": 37375,
+    "recs": [
+      "Real",
+      "Vagabond",
+      "Holyland"
+    ]
+  },
+  {
     "anilistId": 98263,
     "recs": [
       "Delicious in Dungeon",
       "The Girl From the Other Side: Siúil, a Rún",
       "Ichi the Witch"
-    ]
-  },
-  {
-    "anilistId": 39115,
-    "recs": []
-  },
-  {
-    "anilistId": 39982,
-    "recs": [
-      "Tomodachi Game",
-      "Death Note",
-      "Alice in Borderland"
-    ]
-  },
-  {
-    "anilistId": 43245,
-    "recs": [
-      "Kono Oto Tomare!",
-      "March Comes in Like a Lion",
-      "Welcome to the Ballroom"
     ]
   },
   {
@@ -264,27 +244,11 @@
     ]
   },
   {
-    "anilistId": 107279,
-    "recs": [
-      "Haikyu!!",
-      "Blue Lock",
-      "Slam Dunk"
-    ]
-  },
-  {
     "anilistId": 116170,
     "recs": [
       "A Bride's Story",
       "Smoking Behind the Supermarket with You",
       "Sweat and Soap"
-    ]
-  },
-  {
-    "anilistId": 117620,
-    "recs": [
-      "A Silent Voice",
-      "I Want to Eat Your Pancreas",
-      "A Tropical Fish Yearns for Snow"
     ]
   },
   {
@@ -296,19 +260,47 @@
     ]
   },
   {
+    "anilistId": 107279,
+    "recs": [
+      "Haikyu!!",
+      "Blue Lock",
+      "Slam Dunk"
+    ]
+  },
+  {
+    "anilistId": 117620,
+    "recs": [
+      "A Silent Voice",
+      "I Want to Eat Your Pancreas",
+      "A Tropical Fish Yearns for Snow"
+    ]
+  },
+  {
+    "anilistId": 39982,
+    "recs": [
+      "Tomodachi Game",
+      "Death Note",
+      "Alice in Borderland"
+    ]
+  },
+  {
+    "anilistId": 39115,
+    "recs": []
+  },
+  {
+    "anilistId": 43245,
+    "recs": [
+      "Kono Oto Tomare!",
+      "March Comes in Like a Lion",
+      "Welcome to the Ballroom"
+    ]
+  },
+  {
     "anilistId": 140475,
     "recs": [
       "A Silent Voice",
       "Kono Oto Tomare!",
       "Skip and Loafer"
-    ]
-  },
-  {
-    "anilistId": 30004,
-    "recs": [
-      "Aria",
-      "Girls' Last Tour",
-      "Frieren: Beyond Journey’s End"
     ]
   },
   {
@@ -320,35 +312,11 @@
     ]
   },
   {
-    "anilistId": 30081,
-    "recs": [
-      "Yokohama Kaidashi Kikou",
-      "Mushishi",
-      "Laid-Back Camp"
-    ]
-  },
-  {
-    "anilistId": 30145,
-    "recs": [
-      "SHIORI EXPERIENCE: Jimi na Watashi to Hen na Ojisan",
-      "Blue Giant",
-      "Solanin"
-    ]
-  },
-  {
     "anilistId": 30336,
     "recs": [
       "Assassination Classroom",
       "Gin Tama",
       "The Way of the Househusband"
-    ]
-  },
-  {
-    "anilistId": 31133,
-    "recs": [
-      "Dai Dark",
-      "JoJo no Kimyou na Bouken: JoJolion",
-      "Golden Kamuy"
     ]
   },
   {
@@ -360,11 +328,43 @@
     ]
   },
   {
+    "anilistId": 30081,
+    "recs": [
+      "Yokohama Kaidashi Kikou",
+      "Mushishi",
+      "Laid-Back Camp"
+    ]
+  },
+  {
+    "anilistId": 31133,
+    "recs": [
+      "Dai Dark",
+      "JoJo no Kimyou na Bouken: JoJolion",
+      "Golden Kamuy"
+    ]
+  },
+  {
     "anilistId": 86559,
     "recs": [
       "Vinland Saga",
       "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
       "Gin Tama"
+    ]
+  },
+  {
+    "anilistId": 30145,
+    "recs": [
+      "SHIORI EXPERIENCE: Jimi na Watashi to Hen na Ojisan",
+      "Blue Giant",
+      "Solanin"
+    ]
+  },
+  {
+    "anilistId": 109285,
+    "recs": [
+      "Hirayasumi",
+      "Insomniacs After School",
+      "Kimi ni Todoke: From Me to You"
     ]
   },
   {
@@ -376,11 +376,55 @@
     ]
   },
   {
-    "anilistId": 109285,
+    "anilistId": 30004,
     "recs": [
-      "Hirayasumi",
-      "Insomniacs After School",
-      "Kimi ni Todoke: From Me to You"
+      "Aria",
+      "Girls' Last Tour",
+      "Frieren: Beyond Journey’s End"
+    ]
+  },
+  {
+    "anilistId": 86218,
+    "recs": [
+      "Whisper Me a Love Song",
+      "The Summer You Were There",
+      "A Tropical Fish Yearns for Snow"
+    ]
+  },
+  {
+    "anilistId": 107237,
+    "recs": [
+      "Look Back",
+      "March Comes in Like a Lion",
+      "Blank Canvas: My So-Called Artist's Journey"
+    ]
+  },
+  {
+    "anilistId": 41054,
+    "recs": [
+      "Monster",
+      "20th Century Boys",
+      "Pluto"
+    ]
+  },
+  {
+    "anilistId": 99022,
+    "recs": [
+      "A Bride's Story",
+      "Snow White with the Red Hair",
+      "Witch Hat Atelier"
+    ]
+  },
+  {
+    "anilistId": 70171,
+    "recs": []
+  },
+  {
+    "anilistId": 85189,
+    "recs": [
+      "One-Punch Man",
+      "March Comes in Like a Lion",
+      "Machida-kun no Sekai"
     ]
   },
   {
@@ -400,6 +444,10 @@
     ]
   },
   {
+    "anilistId": 85470,
+    "recs": []
+  },
+  {
     "anilistId": 30745,
     "recs": [
       "20th Century Boys",
@@ -408,51 +456,19 @@
     ]
   },
   {
-    "anilistId": 41054,
+    "anilistId": 41514,
     "recs": [
-      "Monster",
-      "20th Century Boys",
-      "Pluto"
+      "The Apothecary Diaries",
+      "Golden Kamuy",
+      "Yokohama Kaidashi Kikou"
     ]
   },
   {
-    "anilistId": 70171,
-    "recs": []
-  },
-  {
-    "anilistId": 85189,
+    "anilistId": 85849,
     "recs": [
-      "One-Punch Man",
-      "March Comes in Like a Lion",
-      "Machida-kun no Sekai"
-    ]
-  },
-  {
-    "anilistId": 85470,
-    "recs": []
-  },
-  {
-    "anilistId": 86218,
-    "recs": [
-      "Whisper Me a Love Song",
-      "The Summer You Were There",
-      "A Tropical Fish Yearns for Snow"
-    ]
-  },
-  {
-    "anilistId": 99022,
-    "recs": [
-      "A Bride's Story",
-      "Snow White with the Red Hair",
-      "Witch Hat Atelier"
-    ]
-  },
-  {
-    "anilistId": 107237,
-    "recs": [
-      "Look Back",
-      "March Comes in Like a Lion",
-      "Blank Canvas: My So-Called Artist's Journey"
+      "Three Days of Happiness",
+      "A Silent Voice",
+      "Wotakoi: Love is Hard for Otaku"
     ]
   },
   {
@@ -472,49 +488,10 @@
     ]
   },
   {
-    "anilistId": 30904,
-    "recs": [
-      "Blade of the Immortal",
-      "Vagabond"
-    ]
-  },
-  {
-    "anilistId": 33031,
-    "recs": [
-      "D.Gray-man",
-      "Fullmetal Alchemist",
-      "Toilet-Bound Hanako-kun"
-    ]
-  },
-  {
-    "anilistId": 41514,
-    "recs": [
-      "The Apothecary Diaries",
-      "Golden Kamuy",
-      "Yokohama Kaidashi Kikou"
-    ]
-  },
-  {
     "anilistId": 55515,
     "recs": [
       "Dorohedoro",
       "Hunter x Hunter"
-    ]
-  },
-  {
-    "anilistId": 85849,
-    "recs": [
-      "Three Days of Happiness",
-      "A Silent Voice",
-      "Wotakoi: Love is Hard for Otaku"
-    ]
-  },
-  {
-    "anilistId": 86551,
-    "recs": [
-      "Girls' Last Tour",
-      "The Girl From the Other Side: Siúil, a Rún",
-      "Shadows House"
     ]
   },
   {
@@ -534,27 +511,35 @@
     ]
   },
   {
-    "anilistId": 100568,
+    "anilistId": 30904,
     "recs": [
-      "Goodnight Punpun",
+      "Blade of the Immortal",
+      "Vagabond",
+      "Shigurui"
+    ]
+  },
+  {
+    "anilistId": 33031,
+    "recs": [
+      "D.Gray-man",
+      "Fullmetal Alchemist",
+      "Toilet-Bound Hanako-kun"
+    ]
+  },
+  {
+    "anilistId": 86551,
+    "recs": [
       "Girls' Last Tour",
-      "Distant Sky"
+      "The Girl From the Other Side: Siúil, a Rún",
+      "Shadows House"
     ]
   },
   {
-    "anilistId": 106929,
+    "anilistId": 140407,
     "recs": [
-      "THE BREAKER",
-      "Villain to Kill",
-      "Teenage Mercenary"
-    ]
-  },
-  {
-    "anilistId": 118408,
-    "recs": [
-      "The Villainess Turns the Hourglass",
-      "Kill the Villainess",
-      "Beware the Villainess!"
+      "Lout of Count’s Family",
+      "Return of the Blossoming Blade",
+      "Log-in Murim"
     ]
   },
   {
@@ -574,27 +559,11 @@
     ]
   },
   {
-    "anilistId": 121565,
+    "anilistId": 187944,
     "recs": [
-      "After School Lessons for Unripe Apples",
-      "Romance 101",
-      "Our Secret Alliance"
-    ]
-  },
-  {
-    "anilistId": 132144,
-    "recs": [
-      "The Legend of the Northern Blade",
-      "Return of the Mad Demon",
-      "Nano Machine"
-    ]
-  },
-  {
-    "anilistId": 140407,
-    "recs": [
-      "Lout of Count’s Family",
-      "Return of the Blossoming Blade",
-      "Log-in Murim"
+      "Ctrl+Alt+Resign",
+      "Maybe Meant to Be",
+      "Our Guild's Idol"
     ]
   },
   {
@@ -606,19 +575,43 @@
     ]
   },
   {
-    "anilistId": 187944,
+    "anilistId": 100568,
     "recs": [
-      "Ctrl+Alt+Resign",
-      "Maybe Meant to Be",
-      "Our Guild's Idol"
+      "Goodnight Punpun",
+      "Girls' Last Tour",
+      "Distant Sky"
     ]
   },
   {
-    "anilistId": 86964,
+    "anilistId": 121565,
     "recs": [
-      "Sweet Home",
-      "Blood on the Tracks",
-      "PIGPEN"
+      "After School Lessons for Unripe Apples",
+      "Romance 101",
+      "Our Secret Alliance"
+    ]
+  },
+  {
+    "anilistId": 106929,
+    "recs": [
+      "THE BREAKER",
+      "Villain to Kill",
+      "Teenage Mercenary"
+    ]
+  },
+  {
+    "anilistId": 132144,
+    "recs": [
+      "The Legend of the Northern Blade",
+      "Return of the Mad Demon",
+      "Nano Machine"
+    ]
+  },
+  {
+    "anilistId": 118408,
+    "recs": [
+      "The Villainess Turns the Hourglass",
+      "Kill the Villainess",
+      "Beware the Villainess!"
     ]
   },
   {
@@ -630,17 +623,11 @@
     ]
   },
   {
-    "anilistId": 107521,
+    "anilistId": 159441,
     "recs": [
-      "I Am the Real One",
-      "The Monstrous Duke's Adopted Daughter",
-      "Into the Light, Once Again"
-    ]
-  },
-  {
-    "anilistId": 110605,
-    "recs": [
-      "Sweet Home"
+      "Tyrant of the Tower Defense Game",
+      "The 100th Regression of the Max-Level Player",
+      "The World After the Fall"
     ]
   },
   {
@@ -652,35 +639,19 @@
     ]
   },
   {
-    "anilistId": 128067,
+    "anilistId": 86964,
     "recs": [
-      "Second Life Ranker",
-      "The Knight Only Lives Today",
-      "Omniscient Reader"
+      "Sweet Home",
+      "Blood on the Tracks",
+      "PIGPEN"
     ]
   },
   {
-    "anilistId": 130429,
+    "anilistId": 107521,
     "recs": [
-      "Who Made Me a Princess",
-      "Into the Light, Once Again",
-      "The Male Lead's Little Lion Daughter"
-    ]
-  },
-  {
-    "anilistId": 159441,
-    "recs": [
-      "Tyrant of the Tower Defense Game",
-      "The 100th Regression of the Max-Level Player",
-      "The World After the Fall"
-    ]
-  },
-  {
-    "anilistId": 170400,
-    "recs": [
-      "The Regressed Mercenary Has a Plan",
-      "The Infinite Mage",
-      "The Lazy Lord Masters the Sword"
+      "I Am the Real One",
+      "The Monstrous Duke's Adopted Daughter",
+      "Into the Light, Once Again"
     ]
   },
   {
@@ -692,34 +663,33 @@
     ]
   },
   {
-    "anilistId": 52651,
+    "anilistId": 128067,
     "recs": [
-      "Promise of an Orchid",
-      "Fight Class 3"
+      "Second Life Ranker",
+      "The Knight Only Lives Today",
+      "Omniscient Reader"
     ]
   },
   {
-    "anilistId": 85143,
+    "anilistId": 170400,
     "recs": [
-      "Hunter x Hunter",
-      "The God of High School",
-      "Solo Leveling"
+      "The Regressed Mercenary Has a Plan",
+      "The Infinite Mage",
+      "The Lazy Lord Masters the Sword"
     ]
   },
   {
-    "anilistId": 100954,
+    "anilistId": 130429,
     "recs": [
-      "Bastard",
-      "PIGPEN",
-      "Surviving Romance"
+      "Who Made Me a Princess",
+      "Into the Light, Once Again",
+      "The Male Lead's Little Lion Daughter"
     ]
   },
   {
-    "anilistId": 104973,
+    "anilistId": 110605,
     "recs": [
-      "Flirting with The Villain's Dad",
-      "Villains Are Destined to Die",
-      "Who Made Me a Princess"
+      "Sweet Home"
     ]
   },
   {
@@ -728,30 +698,6 @@
       "Who Made Me a Princess",
       "Kill the Villainess",
       "How to Win My Husband Over"
-    ]
-  },
-  {
-    "anilistId": 120440,
-    "recs": [
-      "Daytime Star",
-      "A Business Proposal",
-      "See You in My 19th Life"
-    ]
-  },
-  {
-    "anilistId": 122060,
-    "recs": [
-      "A Good Day to be a Dog",
-      "Positively Yours",
-      "The Dawn to Come"
-    ]
-  },
-  {
-    "anilistId": 141013,
-    "recs": [
-      "My In-Laws are Obsessed with Me",
-      "Marriage of Convenience",
-      "Villains Are Destined to Die"
     ]
   },
   {
@@ -771,6 +717,109 @@
     ]
   },
   {
+    "anilistId": 100954,
+    "recs": [
+      "Bastard",
+      "PIGPEN",
+      "Surviving Romance"
+    ]
+  },
+  {
+    "anilistId": 85143,
+    "recs": [
+      "Hunter x Hunter",
+      "The God of High School",
+      "Solo Leveling"
+    ]
+  },
+  {
+    "anilistId": 104973,
+    "recs": [
+      "Flirting with The Villain's Dad",
+      "Villains Are Destined to Die",
+      "Who Made Me a Princess"
+    ]
+  },
+  {
+    "anilistId": 122060,
+    "recs": [
+      "A Good Day to be a Dog",
+      "Positively Yours",
+      "The Dawn to Come"
+    ]
+  },
+  {
+    "anilistId": 141013,
+    "recs": [
+      "My In-Laws are Obsessed with Me",
+      "Marriage of Convenience",
+      "Villains Are Destined to Die"
+    ]
+  },
+  {
+    "anilistId": 120440,
+    "recs": [
+      "Daytime Star",
+      "A Business Proposal",
+      "See You in My 19th Life"
+    ]
+  },
+  {
+    "anilistId": 52651,
+    "recs": [
+      "Promise of an Orchid",
+      "Fight Class 3"
+    ]
+  },
+  {
+    "anilistId": 182066,
+    "recs": [
+      "The Knight Only Lives Today",
+      "Revenge of the Baskerville Bloodhound",
+      "The Reborn Young Lord is an Assassin"
+    ]
+  },
+  {
+    "anilistId": 120980,
+    "recs": [
+      "Heavenly Demon Reborn!",
+      "Return of the Blossoming Blade",
+      "Log-in Murim"
+    ]
+  },
+  {
+    "anilistId": 138363,
+    "recs": [
+      "I Shall Master this Family!",
+      "Who Made Me a Princess",
+      "The Monstrous Duke's Adopted Daughter"
+    ]
+  },
+  {
+    "anilistId": 129210,
+    "recs": [
+      "Your Throne",
+      "The Villainess is a Marionette",
+      "Villains Are Destined to Die"
+    ]
+  },
+  {
+    "anilistId": 120385,
+    "recs": [
+      "Nano Machine",
+      "The Greatest Estate Developer",
+      "The Legend of the Northern Blade"
+    ]
+  },
+  {
+    "anilistId": 164857,
+    "recs": [
+      "Pick Me Up",
+      "Tyrant of the Tower Defense Game",
+      "Latna Saga: Survival of a Sword King"
+    ]
+  },
+  {
     "anilistId": 38586,
     "recs": [
       "Eleceed",
@@ -787,43 +836,11 @@
     ]
   },
   {
-    "anilistId": 120385,
-    "recs": [
-      "Nano Machine",
-      "The Greatest Estate Developer",
-      "The Legend of the Northern Blade"
-    ]
-  },
-  {
-    "anilistId": 120980,
-    "recs": [
-      "Heavenly Demon Reborn!",
-      "Return of the Blossoming Blade",
-      "Log-in Murim"
-    ]
-  },
-  {
-    "anilistId": 129210,
-    "recs": [
-      "Your Throne",
-      "The Villainess is a Marionette",
-      "Villains Are Destined to Die"
-    ]
-  },
-  {
     "anilistId": 137304,
     "recs": [
       "Return of the Blossoming Blade",
       "Descended from Divinity",
       "Absolute Regression"
-    ]
-  },
-  {
-    "anilistId": 138363,
-    "recs": [
-      "I Shall Master this Family!",
-      "Who Made Me a Princess",
-      "The Monstrous Duke's Adopted Daughter"
     ]
   },
   {
@@ -835,30 +852,11 @@
     ]
   },
   {
-    "anilistId": 164857,
+    "anilistId": 163824,
     "recs": [
-      "Pick Me Up",
-      "Tyrant of the Tower Defense Game",
-      "Latna Saga: Survival of a Sword King"
-    ]
-  },
-  {
-    "anilistId": 182066,
-    "recs": [
-      "The Knight Only Lives Today",
-      "Revenge of the Baskerville Bloodhound",
-      "The Reborn Young Lord is an Assassin"
-    ]
-  },
-  {
-    "anilistId": 60079,
-    "recs": []
-  },
-  {
-    "anilistId": 87154,
-    "recs": [
-      "Ooh La La",
-      "Super Secret"
+      "The Swordmaster's Son",
+      "The Reborn Young Lord is an Assassin",
+      "The Stellar Swordmaster"
     ]
   },
   {
@@ -878,14 +876,6 @@
     ]
   },
   {
-    "anilistId": 132165,
-    "recs": [
-      "Villains Are Destined to Die",
-      "A Stepmother’s Märchen",
-      "The Villainess Turns the Hourglass"
-    ]
-  },
-  {
     "anilistId": 136220,
     "recs": [
       "The World After the Fall",
@@ -894,11 +884,19 @@
     ]
   },
   {
-    "anilistId": 146139,
+    "anilistId": 87154,
     "recs": [
-      "Wotakoi: Love is Hard for Otaku",
-      "A Business Proposal",
-      "Positively Yours"
+      "Ooh La La",
+      "Super Secret",
+      "Saranghaneun Jonjae"
+    ]
+  },
+  {
+    "anilistId": 132165,
+    "recs": [
+      "Villains Are Destined to Die",
+      "A Stepmother’s Märchen",
+      "The Villainess Turns the Hourglass"
     ]
   },
   {
@@ -910,6 +908,14 @@
     ]
   },
   {
+    "anilistId": 146139,
+    "recs": [
+      "Wotakoi: Love is Hard for Otaku",
+      "A Business Proposal",
+      "Positively Yours"
+    ]
+  },
+  {
     "anilistId": 153513,
     "recs": [
       "Surviving the Game as a Barbarian",
@@ -918,19 +924,9 @@
     ]
   },
   {
-    "anilistId": 163824,
+    "anilistId": 60079,
     "recs": [
-      "The Swordmaster's Son",
-      "The Reborn Young Lord is an Assassin",
-      "The Stellar Swordmaster"
-    ]
-  },
-  {
-    "anilistId": 86848,
-    "recs": [
-      "Viral Hit",
-      "Weak Hero",
-      "Study Group"
+      "Duty After School"
     ]
   },
   {
@@ -942,11 +938,11 @@
     ]
   },
   {
-    "anilistId": 114542,
+    "anilistId": 201009,
     "recs": [
-      "Roxana",
-      "Villains Are Destined to Die",
-      "The Villainess Turns the Hourglass"
+      "Overlord",
+      "I'm Not That Kind of Talent",
+      "Lout of Count’s Family"
     ]
   },
   {
@@ -958,14 +954,6 @@
     ]
   },
   {
-    "anilistId": 121991,
-    "recs": [
-      "Lookism",
-      "Study Group",
-      "Weak Hero"
-    ]
-  },
-  {
     "anilistId": 150170,
     "recs": [
       "Player",
@@ -974,18 +962,34 @@
     ]
   },
   {
-    "anilistId": 151512,
-    "recs": [
-      "The Swordmaster's Son",
-      "The Art of Reincarnation",
-      "The Lazy Lord Masters the Sword"
-    ]
-  },
-  {
     "anilistId": 159930,
     "recs": [
       "The Stellar Swordmaster",
       "Blink Master of the Magic Academy",
+      "The Lazy Lord Masters the Sword"
+    ]
+  },
+  {
+    "anilistId": 86848,
+    "recs": [
+      "Viral Hit",
+      "Weak Hero",
+      "Study Group"
+    ]
+  },
+  {
+    "anilistId": 121991,
+    "recs": [
+      "Lookism",
+      "Study Group",
+      "Weak Hero"
+    ]
+  },
+  {
+    "anilistId": 151512,
+    "recs": [
+      "The Swordmaster's Son",
+      "The Art of Reincarnation",
       "The Lazy Lord Masters the Sword"
     ]
   },
@@ -998,11 +1002,11 @@
     ]
   },
   {
-    "anilistId": 201009,
+    "anilistId": 114542,
     "recs": [
-      "Overlord",
-      "I'm Not That Kind of Talent",
-      "Lout of Count’s Family"
+      "Roxana",
+      "Villains Are Destined to Die",
+      "The Villainess Turns the Hourglass"
     ]
   },
   {
@@ -1014,11 +1018,11 @@
     ]
   },
   {
-    "anilistId": 117460,
+    "anilistId": 138222,
     "recs": [
-      "Ranker's Return",
-      "Dungeon Reset",
-      "Solo Leveling"
+      "Second Life Ranker",
+      "Omniscient Reader",
+      "I’m the Max-Level Newbie"
     ]
   },
   {
@@ -1030,11 +1034,11 @@
     ]
   },
   {
-    "anilistId": 130300,
+    "anilistId": 153432,
     "recs": [
-      "The Villainess is a Marionette",
-      "Who Made Me a Princess",
-      "Villains Are Destined to Die"
+      "Heavenly Demon Reborn!",
+      "Legend of an Asura - The Poison Dragon",
+      "The Legend of the Northern Blade"
     ]
   },
   {
@@ -1046,19 +1050,19 @@
     ]
   },
   {
-    "anilistId": 138222,
-    "recs": [
-      "Second Life Ranker",
-      "Omniscient Reader",
-      "I’m the Max-Level Newbie"
-    ]
-  },
-  {
     "anilistId": 151460,
     "recs": [
       "Nano Machine",
       "Heavenly Demon Reborn!",
       "Hwasanjeonsaeng"
+    ]
+  },
+  {
+    "anilistId": 170894,
+    "recs": [
+      "Pick Me Up",
+      "SSS-Class Revival Hunter",
+      "The World After the Fall"
     ]
   },
   {
@@ -1070,20 +1074,40 @@
     ]
   },
   {
-    "anilistId": 153432,
+    "anilistId": 117460,
     "recs": [
-      "Heavenly Demon Reborn!",
-      "Legend of an Asura - The Poison Dragon",
-      "The Legend of the Northern Blade"
+      "Ranker's Return",
+      "Dungeon Reset",
+      "Solo Leveling"
     ]
   },
   {
-    "anilistId": 170894,
+    "anilistId": 130300,
     "recs": [
-      "Pick Me Up",
-      "SSS-Class Revival Hunter",
-      "The World After the Fall"
+      "The Villainess is a Marionette",
+      "Who Made Me a Princess",
+      "Villains Are Destined to Die"
     ]
+  },
+  {
+    "anilistId": 136109,
+    "recs": [
+      "Bloom Into You",
+      "Whisper Me a Love Song",
+      "A Silent Voice"
+    ]
+  },
+  {
+    "anilistId": 166742,
+    "recs": [
+      "You and I Are Polar Opposites",
+      "Kimi ni Todoke: From Me to You",
+      "Skip and Loafer"
+    ]
+  },
+  {
+    "anilistId": 91170,
+    "recs": []
   },
   {
     "anilistId": 38157,
@@ -1106,8 +1130,19 @@
     ]
   },
   {
-    "anilistId": 91170,
-    "recs": []
+    "anilistId": 126399,
+    "recs": [
+      "Banana Fish",
+      "Boy Meets Maria"
+    ]
+  },
+  {
+    "anilistId": 104241,
+    "recs": [
+      "My Lesbian Experience With Loneliness",
+      "Run Away With Me, Girl",
+      "Doughnuts Under a Crescent Moon"
+    ]
   },
   {
     "anilistId": 92550,
@@ -1119,75 +1154,6 @@
       "My Love Mix-Up!",
       "Seaside Stranger: Umibe no Étranger",
       "Horimiya"
-    ]
-  },
-  {
-    "anilistId": 104241,
-    "recs": [
-      "My Lesbian Experience With Loneliness",
-      "Run Away With Me, Girl"
-    ]
-  },
-  {
-    "anilistId": 126399,
-    "recs": [
-      "Banana Fish",
-      "Boy Meets Maria"
-    ]
-  },
-  {
-    "anilistId": 136109,
-    "recs": [
-      "Bloom Into You",
-      "Whisper Me a Love Song",
-      "A Silent Voice"
-    ]
-  },
-  {
-    "anilistId": 166742,
-    "recs": [
-      "You and I Are Polar Opposites",
-      "Kimi ni Todoke: From Me to You",
-      "Skip and Loafer"
-    ]
-  },
-  {
-    "anilistId": 99923,
-    "recs": [
-      "After School Lessons for Unripe Apples",
-      "The Makeup Remover",
-      "Odd Girl Out"
-    ]
-  },
-  {
-    "anilistId": 100932,
-    "recs": [
-      "Out of Control",
-      "The Shape of Your Love"
-    ]
-  },
-  {
-    "anilistId": 104533,
-    "recs": [
-      "Seasons of Blossom",
-      "Operation: True Love",
-      "A Good Day to be a Dog"
-    ]
-  },
-  {
-    "anilistId": 104677,
-    "recs": [
-      "I Love Amy",
-      "Getting to Know Grace",
-      "Whale Star: The Gyeongseong Mermaid"
-    ]
-  },
-  {
-    "anilistId": 119701,
-    "recs": [
-      "Your Eternal Lies",
-      "A Stepmother’s Märchen",
-      "Light and Shadow"
     ]
   },
   {
@@ -1206,11 +1172,35 @@
     ]
   },
   {
+    "anilistId": 104677,
+    "recs": [
+      "I Love Amy",
+      "Getting to Know Grace",
+      "Whale Star: The Gyeongseong Mermaid"
+    ]
+  },
+  {
     "anilistId": 143003,
     "recs": [
       "Marry My Husband",
       "Positively Yours",
       "A Business Proposal"
+    ]
+  },
+  {
+    "anilistId": 104533,
+    "recs": [
+      "Seasons of Blossom",
+      "Operation: True Love",
+      "A Good Day to be a Dog"
+    ]
+  },
+  {
+    "anilistId": 119701,
+    "recs": [
+      "Your Eternal Lies",
+      "A Stepmother’s Märchen",
+      "Light and Shadow"
     ]
   },
   {
@@ -1222,9 +1212,32 @@
     ]
   },
   {
+    "anilistId": 99923,
+    "recs": [
+      "After School Lessons for Unripe Apples",
+      "The Makeup Remover",
+      "Odd Girl Out"
+    ]
+  },
+  {
+    "anilistId": 100932,
+    "recs": [
+      "Out of Control",
+      "The Shape of Your Love"
+    ]
+  },
+  {
     "anilistId": 155471,
     "recs": [
       "Her Tale of Shim Chong"
+    ]
+  },
+  {
+    "anilistId": 106331,
+    "recs": [
+      "Our Dreams at Dusk: Shimanami Tasogare",
+      "Hirayasumi",
+      "Skip and Loafer"
     ]
   },
   {
@@ -1235,19 +1248,15 @@
     ]
   },
   {
-    "anilistId": 66413,
-    "recs": [
-      "SPY x FAMILY",
-      "Yotsuba&!",
-      "Sakamoto Days"
-    ]
+    "anilistId": 87383,
+    "recs": []
   },
   {
-    "anilistId": 74307,
+    "anilistId": 106726,
     "recs": [
-      "Blue Period",
-      "Look Back",
-      "My Lesbian Experience With Loneliness"
+      "Girls' Last Tour",
+      "Dead Dead Demon's Dededede Destruction",
+      "Nichijou"
     ]
   },
   {
@@ -1267,28 +1276,12 @@
     ]
   },
   {
-    "anilistId": 87383,
-    "recs": []
-  },
-  {
-    "anilistId": 106331,
+    "anilistId": 66413,
     "recs": [
-      "Our Dreams at Dusk: Shimanami Tasogare",
-      "Hirayasumi",
-      "Skip and Loafer"
+      "SPY x FAMILY",
+      "Yotsuba&!",
+      "Sakamoto Days"
     ]
-  },
-  {
-    "anilistId": 106726,
-    "recs": [
-      "Girls' Last Tour",
-      "Dead Dead Demon's Dededede Destruction",
-      "Nichijou"
-    ]
-  },
-  {
-    "anilistId": 113533,
-    "recs": []
   },
   {
     "anilistId": 136807,
@@ -1296,6 +1289,59 @@
       "Blue Period",
       "Just Listen to the Song",
       "Chainsaw Man"
+    ]
+  },
+  {
+    "anilistId": 74307,
+    "recs": [
+      "Blue Period",
+      "Look Back",
+      "My Lesbian Experience With Loneliness"
+    ]
+  },
+  {
+    "anilistId": 113533,
+    "recs": []
+  },
+  {
+    "anilistId": 126986,
+    "recs": [
+      "Fruits Basket",
+      "Seasons of Blossom",
+      "I Love Amy"
+    ]
+  },
+  {
+    "anilistId": 131640,
+    "recs": [
+      "At The End of The Road",
+      "A Shoulder to Cry On"
+    ]
+  },
+  {
+    "anilistId": 129791,
+    "recs": [
+      "You and I Are Polar Opposites",
+      "Something About Us"
+    ]
+  },
+  {
+    "anilistId": 123868,
+    "recs": [
+      "Relationship Guidelines",
+      "Blooming Sequence"
+    ]
+  },
+  {
+    "anilistId": 98561,
+    "recs": [
+      "Robber X Lover"
+    ]
+  },
+  {
+    "anilistId": 97871,
+    "recs": [
+      "Heesu in Class 2"
     ]
   },
   {
@@ -1307,54 +1353,14 @@
     ]
   },
   {
-    "anilistId": 84897,
-    "recs": [
-      "Days of Hana",
-      "Bloody Sweet"
-    ]
-  },
-  {
     "anilistId": 86214,
     "recs": []
   },
   {
-    "anilistId": 97871,
+    "anilistId": 84897,
     "recs": [
-      "Heesu in Class 2"
-    ]
-  },
-  {
-    "anilistId": 98561,
-    "recs": [
-      "Robber X Lover"
-    ]
-  },
-  {
-    "anilistId": 123868,
-    "recs": [
-      "Relationship Guidelines"
-    ]
-  },
-  {
-    "anilistId": 126986,
-    "recs": [
-      "Fruits Basket",
-      "Seasons of Blossom",
-      "I Love Amy"
-    ]
-  },
-  {
-    "anilistId": 129791,
-    "recs": [
-      "You and I Are Polar Opposites",
-      "Something About Us"
-    ]
-  },
-  {
-    "anilistId": 131640,
-    "recs": [
-      "At The End of The Road",
-      "A Shoulder to Cry On"
+      "Days of Hana",
+      "Bloody Sweet"
     ]
   },
   {
@@ -1363,6 +1369,58 @@
       "Ring My Bell",
       "Sora & Haena"
     ]
+  },
+  {
+    "anilistId": 86355,
+    "recs": []
+  },
+  {
+    "anilistId": 86036,
+    "recs": [
+      "BECK",
+      "Blue Giant",
+      "GTO: Great Teacher Onizuka"
+    ]
+  },
+  {
+    "anilistId": 99324,
+    "recs": [
+      "Ichi the Witch",
+      "Beelzebub",
+      "Mashle: Magic and Muscles"
+    ]
+  },
+  {
+    "anilistId": 98351,
+    "recs": [
+      "Yotsuba&!",
+      "Aria",
+      "Girls' Last Tour"
+    ]
+  },
+  {
+    "anilistId": 33082,
+    "recs": [
+      "Azumanga Daioh",
+      "Yotsuba&!",
+      "Shimeji Simulation"
+    ]
+  },
+  {
+    "anilistId": 109921,
+    "recs": [
+      "Sasaki and Miyano",
+      "Skip and Loafer",
+      "Blue Flag"
+    ]
+  },
+  {
+    "anilistId": 33083,
+    "recs": []
+  },
+  {
+    "anilistId": 129574,
+    "recs": []
   },
   {
     "anilistId": 30030,
@@ -1380,78 +1438,10 @@
     ]
   },
   {
-    "anilistId": 33082,
+    "anilistId": 188781,
     "recs": [
-      "Azumanga Daioh",
-      "Yotsuba&!",
-      "Shimeji Simulation"
-    ]
-  },
-  {
-    "anilistId": 33083,
-    "recs": []
-  },
-  {
-    "anilistId": 86036,
-    "recs": [
-      "BECK",
-      "Blue Giant",
-      "GTO: Great Teacher Onizuka"
-    ]
-  },
-  {
-    "anilistId": 86355,
-    "recs": []
-  },
-  {
-    "anilistId": 98351,
-    "recs": [
-      "Yotsuba&!",
-      "Aria",
-      "Girls' Last Tour"
-    ]
-  },
-  {
-    "anilistId": 99324,
-    "recs": [
-      "Ichi the Witch",
-      "Beelzebub",
-      "Mashle: Magic and Muscles"
-    ]
-  },
-  {
-    "anilistId": 109921,
-    "recs": [
-      "Sasaki and Miyano",
-      "Skip and Loafer",
-      "Blue Flag"
-    ]
-  },
-  {
-    "anilistId": 129574,
-    "recs": []
-  },
-  {
-    "anilistId": 97865,
-    "recs": [
-      "Something About Us",
-      "Odd Girl Out"
-    ]
-  },
-  {
-    "anilistId": 102259,
-    "recs": [
-      "See You in My 19th Life",
-      "Romance 101",
-      "Devil Number 4"
-    ]
-  },
-  {
-    "anilistId": 106098,
-    "recs": [
-      "Beware the Villainess!",
-      "Flirting with The Villain's Dad",
-      "The Villainess Flips the Script!"
+      "My Bias Gets on the Last Train",
+      "Wotakoi: Love is Hard for Otaku"
     ]
   },
   {
@@ -1463,13 +1453,40 @@
     ]
   },
   {
-    "anilistId": 111140,
-    "recs": []
-  },
-  {
     "anilistId": 113326,
     "recs": [
       "Fools: Original"
+    ]
+  },
+  {
+    "anilistId": 102259,
+    "recs": [
+      "See You in My 19th Life",
+      "Romance 101",
+      "Devil Number 4"
+    ]
+  },
+  {
+    "anilistId": 189051,
+    "recs": [
+      "The Greatest Estate Developer",
+      "Dr. STONE",
+      "The Top Dungeon Farmer"
+    ]
+  },
+  {
+    "anilistId": 97865,
+    "recs": [
+      "Something About Us",
+      "Odd Girl Out"
+    ]
+  },
+  {
+    "anilistId": 106098,
+    "recs": [
+      "Beware the Villainess!",
+      "Flirting with The Villain's Dad",
+      "The Villainess Flips the Script!"
     ]
   },
   {
@@ -1489,50 +1506,15 @@
     ]
   },
   {
-    "anilistId": 188781,
-    "recs": [
-      "My Bias Gets on the Last Train",
-      "Wotakoi: Love is Hard for Otaku"
-    ]
+    "anilistId": 111140,
+    "recs": []
   },
   {
-    "anilistId": 189051,
+    "anilistId": 105778,
     "recs": [
-      "The Greatest Estate Developer",
-      "Dr. STONE",
-      "The Top Dungeon Farmer"
-    ]
-  },
-  {
-    "anilistId": 30012,
-    "recs": [
-      "Naruto",
-      "One Piece",
-      "Yu Yu Hakusho"
-    ]
-  },
-  {
-    "anilistId": 72451,
-    "recs": [
-      "Kaguya-sama: Love is War",
-      "The Fragrant Flower Blooms With Dignity",
-      "You and I Are Polar Opposites"
-    ]
-  },
-  {
-    "anilistId": 74347,
-    "recs": [
-      "Mob Psycho 100",
-      "Mashle: Magic and Muscles",
-      "My Hero Academia"
-    ]
-  },
-  {
-    "anilistId": 85486,
-    "recs": [
-      "Black Clover",
-      "Naruto",
-      "One Piece"
+      "Dorohedoro",
+      "Fire Punch",
+      "Dandadan"
     ]
   },
   {
@@ -1544,35 +1526,19 @@
     ]
   },
   {
-    "anilistId": 87423,
+    "anilistId": 85486,
     "recs": [
-      "Made in Abyss",
-      "Shadows House",
-      "Death Note"
+      "Black Clover",
+      "Naruto",
+      "One Piece"
     ]
   },
   {
-    "anilistId": 102988,
+    "anilistId": 74347,
     "recs": [
-      "Erased",
-      "WIND BREAKER",
-      "Summertime Rendering"
-    ]
-  },
-  {
-    "anilistId": 105778,
-    "recs": [
-      "Dorohedoro",
-      "Fire Punch",
-      "Dandadan"
-    ]
-  },
-  {
-    "anilistId": 106130,
-    "recs": [
-      "Haikyu!!",
-      "Aoashi",
-      "Eyeshield 21"
+      "Mob Psycho 100",
+      "Mashle: Magic and Muscles",
+      "My Hero Academia"
     ]
   },
   {
@@ -1584,59 +1550,43 @@
     ]
   },
   {
-    "anilistId": 85141,
+    "anilistId": 87423,
     "recs": [
-      "Tower of God",
-      "The Boxer",
-      "Solo Leveling"
+      "Made in Abyss",
+      "Shadows House",
+      "Death Note"
     ]
   },
   {
-    "anilistId": 86123,
+    "anilistId": 106130,
+    "recs": [
+      "Haikyu!!",
+      "Aoashi",
+      "Eyeshield 21"
+    ]
+  },
+  {
+    "anilistId": 72451,
+    "recs": [
+      "Kaguya-sama: Love is War",
+      "The Fragrant Flower Blooms With Dignity",
+      "You and I Are Polar Opposites"
+    ]
+  },
+  {
+    "anilistId": 30012,
     "recs": [
       "Naruto",
-      "Mashle: Magic and Muscles",
-      "My Hero Academia"
+      "One Piece",
+      "Yu Yu Hakusho"
     ]
   },
   {
-    "anilistId": 87170,
+    "anilistId": 102988,
     "recs": [
-      "Chainsaw Man",
-      "Berserk",
-      "Goodbye, Eri"
-    ]
-  },
-  {
-    "anilistId": 97852,
-    "recs": [
-      "Shikimori's Not Just a Cutie",
-      "Horimiya",
-      "Kubo Won't Let Me Be Invisible"
-    ]
-  },
-  {
-    "anilistId": 105393,
-    "recs": [
-      "The Archmage Returns After 4000 Years",
-      "Latna Saga: Survival of a Sword King",
-      "Solo Leveling"
-    ]
-  },
-  {
-    "anilistId": 109957,
-    "recs": [
-      "Level Up with the Gods",
-      "Kill the Hero",
-      "I Am the Sorcerer King"
-    ]
-  },
-  {
-    "anilistId": 120760,
-    "recs": [
-      "Chainsaw Man",
-      "One-Punch Man",
-      "Parasyte"
+      "Erased",
+      "WIND BREAKER",
+      "Summertime Rendering"
     ]
   },
   {
@@ -1648,10 +1598,58 @@
     ]
   },
   {
+    "anilistId": 86123,
+    "recs": [
+      "Naruto",
+      "Mashle: Magic and Muscles",
+      "My Hero Academia"
+    ]
+  },
+  {
+    "anilistId": 97852,
+    "recs": [
+      "Shikimori's Not Just a Cutie",
+      "Horimiya",
+      "Kubo Won't Let Me Be Invisible"
+    ]
+  },
+  {
+    "anilistId": 120760,
+    "recs": [
+      "Chainsaw Man",
+      "One-Punch Man",
+      "Parasyte"
+    ]
+  },
+  {
+    "anilistId": 87170,
+    "recs": [
+      "Chainsaw Man",
+      "Berserk",
+      "Goodbye, Eri"
+    ]
+  },
+  {
+    "anilistId": 85141,
+    "recs": [
+      "Tower of God",
+      "The Boxer",
+      "Solo Leveling"
+    ]
+  },
+  {
     "anilistId": 137280,
     "recs": [
       "SSS-Class Revival Hunter",
       "Omniscient Reader",
+      "Solo Leveling"
+    ]
+  },
+  {
+    "anilistId": 105393,
+    "recs": [
+      "The Archmage Returns After 4000 Years",
+      "Latna Saga: Survival of a Sword King",
       "Solo Leveling"
     ]
   },
@@ -1664,50 +1662,11 @@
     ]
   },
   {
-    "anilistId": 114605,
+    "anilistId": 109957,
     "recs": [
-      "A Returner's Magic Should Be Special",
-      "Surviving the Game as a Barbarian",
-      "Solo Leveling"
-    ]
-  },
-  {
-    "anilistId": 118424,
-    "recs": [
-      "A Returner's Magic Should Be Special",
-      "I Am the Sorcerer King",
-      "66,666 Years: Advent of the Dark Mage"
-    ]
-  },
-  {
-    "anilistId": 128882,
-    "recs": [
-      "Villain to Kill",
-      "Eleceed"
-    ]
-  },
-  {
-    "anilistId": 130870,
-    "recs": [
-      "The Player Who Can't Level Up",
-      "Second Life Ranker",
-      "Level Up with the Gods"
-    ]
-  },
-  {
-    "anilistId": 136331,
-    "recs": [
-      "The Archmage Returns After 4000 Years",
-      "66,666 Years: Advent of the Dark Mage",
-      "The Legendary Spearman Returns"
-    ]
-  },
-  {
-    "anilistId": 141007,
-    "recs": [
-      "My S-Class Hunters",
-      "Omniscient Reader",
-      "The Novel's Extra"
+      "Level Up with the Gods",
+      "Kill the Hero",
+      "I Am the Sorcerer King"
     ]
   },
   {
@@ -1719,11 +1678,19 @@
     ]
   },
   {
-    "anilistId": 150836,
+    "anilistId": 118424,
     "recs": [
-      "The Villain's Survival Route",
-      "The Infinite Mage",
+      "A Returner's Magic Should Be Special",
+      "I Am the Sorcerer King",
       "66,666 Years: Advent of the Dark Mage"
+    ]
+  },
+  {
+    "anilistId": 114605,
+    "recs": [
+      "A Returner's Magic Should Be Special",
+      "Surviving the Game as a Barbarian",
+      "Solo Leveling"
     ]
   },
   {
@@ -1735,6 +1702,38 @@
     ]
   },
   {
+    "anilistId": 136331,
+    "recs": [
+      "The Archmage Returns After 4000 Years",
+      "66,666 Years: Advent of the Dark Mage",
+      "The Legendary Spearman Returns"
+    ]
+  },
+  {
+    "anilistId": 130870,
+    "recs": [
+      "The Player Who Can't Level Up",
+      "Second Life Ranker",
+      "Level Up with the Gods"
+    ]
+  },
+  {
+    "anilistId": 141007,
+    "recs": [
+      "My S-Class Hunters",
+      "Omniscient Reader",
+      "The Novel's Extra"
+    ]
+  },
+  {
+    "anilistId": 150836,
+    "recs": [
+      "The Villain's Survival Route",
+      "The Infinite Mage",
+      "66,666 Years: Advent of the Dark Mage"
+    ]
+  },
+  {
     "anilistId": 173020,
     "recs": [
       "The Extra’s Academy Survival Guide",
@@ -1743,40 +1742,10 @@
     ]
   },
   {
-    "anilistId": 107518,
+    "anilistId": 128882,
     "recs": [
-      "The Legend of the Northern Blade",
-      "Absolute Sword Sense",
-      "The Reaper"
-    ]
-  },
-  {
-    "anilistId": 107918,
-    "recs": [
-      "The Reason Why Raeliana Ended Up at the Duke's Mansion",
-      "This Villainess Wants a Divorce!",
-      "Medical Hwansaeng"
-    ]
-  },
-  {
-    "anilistId": 113055,
-    "recs": [
-      "Your Throne"
-    ]
-  },
-  {
-    "anilistId": 123739,
-    "recs": [
-      "How to Win My Husband Over",
-      "Like Wind on a Dry Branch"
-    ]
-  },
-  {
-    "anilistId": 129758,
-    "recs": [
-      "Roxana",
-      "The Villainess Turns the Hourglass",
-      "Your Throne"
+      "Villain to Kill",
+      "Eleceed"
     ]
   },
   {
@@ -1784,14 +1753,6 @@
     "recs": [
       "Bastard",
       "PIGPEN"
-    ]
-  },
-  {
-    "anilistId": 136204,
-    "recs": [
-      "Return of the Blossoming Blade",
-      "Lout of Count’s Family",
-      "My Blasted Reincarnated Life"
     ]
   },
   {
@@ -1803,14 +1764,6 @@
     ]
   },
   {
-    "anilistId": 149483,
-    "recs": [
-      "After School Lessons for Unripe Apples",
-      "Romance 101",
-      "The Dawn to Come"
-    ]
-  },
-  {
     "anilistId": 178379,
     "recs": [
       "The Novel's Extra",
@@ -1819,9 +1772,68 @@
     ]
   },
   {
-    "anilistId": 103854,
+    "anilistId": 113055,
     "recs": [
-      "The Spark in Your Eyes"
+      "Your Throne"
+    ]
+  },
+  {
+    "anilistId": 136204,
+    "recs": [
+      "Return of the Blossoming Blade",
+      "Lout of Count’s Family",
+      "My Blasted Reincarnated Life"
+    ]
+  },
+  {
+    "anilistId": 107918,
+    "recs": [
+      "The Reason Why Raeliana Ended Up at the Duke's Mansion",
+      "This Villainess Wants a Divorce!",
+      "Medical Hwansaeng"
+    ]
+  },
+  {
+    "anilistId": 107518,
+    "recs": [
+      "The Legend of the Northern Blade",
+      "Absolute Sword Sense",
+      "The Reaper"
+    ]
+  },
+  {
+    "anilistId": 123739,
+    "recs": [
+      "How to Win My Husband Over",
+      "Like Wind on a Dry Branch"
+    ]
+  },
+  {
+    "anilistId": 149483,
+    "recs": [
+      "After School Lessons for Unripe Apples",
+      "Romance 101",
+      "The Dawn to Come"
+    ]
+  },
+  {
+    "anilistId": 129758,
+    "recs": [
+      "Roxana",
+      "The Villainess Turns the Hourglass",
+      "Your Throne"
+    ]
+  },
+  {
+    "anilistId": 153987,
+    "recs": []
+  },
+  {
+    "anilistId": 117581,
+    "recs": [
+      "The Reason Why Raeliana Ended Up at the Duke's Mansion",
+      "Who Made Me a Princess",
+      "How to Win My Husband Over"
     ]
   },
   {
@@ -1833,11 +1845,17 @@
     ]
   },
   {
-    "anilistId": 117581,
+    "anilistId": 142894,
     "recs": [
-      "The Reason Why Raeliana Ended Up at the Duke's Mansion",
-      "Who Made Me a Princess",
-      "How to Win My Husband Over"
+      "A Stepmother’s Märchen",
+      "How to Win My Husband Over",
+      "The Villainess Flips the Script!"
+    ]
+  },
+  {
+    "anilistId": 187189,
+    "recs": [
+      "Your Letter"
     ]
   },
   {
@@ -1849,17 +1867,10 @@
     ]
   },
   {
-    "anilistId": 142894,
+    "anilistId": 147587,
     "recs": [
-      "A Stepmother’s Märchen",
-      "How to Win My Husband Over",
-      "The Villainess Flips the Script!"
-    ]
-  },
-  {
-    "anilistId": 145525,
-    "recs": [
-      "Trapped"
+      "I Shall Master this Family!",
+      "How to Win My Husband Over"
     ]
   },
   {
@@ -1869,28 +1880,15 @@
     ]
   },
   {
-    "anilistId": 147587,
+    "anilistId": 145525,
     "recs": [
-      "I Shall Master this Family!",
-      "How to Win My Husband Over"
+      "Trapped"
     ]
   },
   {
-    "anilistId": 153987,
-    "recs": []
-  },
-  {
-    "anilistId": 187189,
+    "anilistId": 103854,
     "recs": [
-      "Your Letter"
-    ]
-  },
-  {
-    "anilistId": 30011,
-    "recs": [
-      "One Piece",
-      "Bleach",
-      "My Hero Academia"
+      "The Spark in Your Eyes"
     ]
   },
   {
@@ -1902,11 +1900,27 @@
     ]
   },
   {
-    "anilistId": 30908,
+    "anilistId": 30011,
     "recs": [
-      "Gachiakuta",
-      "D.Gray-man",
-      "Bleach"
+      "One Piece",
+      "Bleach",
+      "My Hero Academia"
+    ]
+  },
+  {
+    "anilistId": 100994,
+    "recs": [
+      "Chainsaw Man",
+      "Dandadan",
+      "Rurouni Kenshin"
+    ]
+  },
+  {
+    "anilistId": 125828,
+    "recs": [
+      "SPY x FAMILY",
+      "The Way of the Househusband",
+      "Gin Tama"
     ]
   },
   {
@@ -1926,11 +1940,19 @@
     ]
   },
   {
-    "anilistId": 100994,
+    "anilistId": 169355,
     "recs": [
-      "Chainsaw Man",
-      "Dandadan",
-      "Rurouni Kenshin"
+      "Bleach",
+      "Demon Slayer: Kimetsu no Yaiba",
+      "Hell’s Paradise: Jigokuraku"
+    ]
+  },
+  {
+    "anilistId": 30908,
+    "recs": [
+      "Gachiakuta",
+      "D.Gray-man",
+      "Bleach"
     ]
   },
   {
@@ -1942,27 +1964,11 @@
     ]
   },
   {
-    "anilistId": 125828,
-    "recs": [
-      "SPY x FAMILY",
-      "The Way of the Househusband",
-      "Gin Tama"
-    ]
-  },
-  {
     "anilistId": 144946,
     "recs": [
       "Soul Eater",
       "Dandadan",
       "Dorohedoro"
-    ]
-  },
-  {
-    "anilistId": 169355,
-    "recs": [
-      "Bleach",
-      "Demon Slayer: Kimetsu no Yaiba",
-      "Hell’s Paradise: Jigokuraku"
     ]
   },
   {
@@ -1974,19 +1980,11 @@
     ]
   },
   {
-    "anilistId": 33731,
+    "anilistId": 98397,
     "recs": [
-      "Dead Dead Demon's Dededede Destruction",
-      "Nana",
-      "Look Back"
-    ]
-  },
-  {
-    "anilistId": 69883,
-    "recs": [
-      "GTO: Great Teacher Onizuka",
-      "Welcome to Demon School! Iruma-kun",
-      "My Hero Academia"
+      "Goodnight Punpun",
+      "Homunculus",
+      "Goodbye, Eri"
     ]
   },
   {
@@ -1998,30 +1996,6 @@
     ]
   },
   {
-    "anilistId": 86770,
-    "recs": [
-      "Land of the Lustrous",
-      "Witch Hat Atelier",
-      "Shadows House"
-    ]
-  },
-  {
-    "anilistId": 97830,
-    "recs": [
-      "Frieren: Beyond Journey’s End",
-      "Land of the Lustrous",
-      "Memories of Emanon"
-    ]
-  },
-  {
-    "anilistId": 98397,
-    "recs": [
-      "Goodnight Punpun",
-      "Homunculus",
-      "Goodbye, Eri"
-    ]
-  },
-  {
     "anilistId": 114960,
     "recs": [
       "One-Punch Man",
@@ -2030,11 +2004,19 @@
     ]
   },
   {
-    "anilistId": 126693,
+    "anilistId": 69883,
     "recs": [
-      "Tokyo Ghoul",
-      "Dandadan",
-      "Chainsaw Man"
+      "GTO: Great Teacher Onizuka",
+      "Welcome to Demon School! Iruma-kun",
+      "My Hero Academia"
+    ]
+  },
+  {
+    "anilistId": 33731,
+    "recs": [
+      "Dead Dead Demon's Dededede Destruction",
+      "Nana",
+      "Look Back"
     ]
   },
   {
@@ -2046,43 +2028,35 @@
     ]
   },
   {
+    "anilistId": 97830,
+    "recs": [
+      "Frieren: Beyond Journey’s End",
+      "Land of the Lustrous",
+      "Memories of Emanon"
+    ]
+  },
+  {
+    "anilistId": 126693,
+    "recs": [
+      "Tokyo Ghoul",
+      "Dandadan",
+      "Chainsaw Man"
+    ]
+  },
+  {
+    "anilistId": 86770,
+    "recs": [
+      "Land of the Lustrous",
+      "Witch Hat Atelier",
+      "Shadows House"
+    ]
+  },
+  {
     "anilistId": 30024,
     "recs": [
       "Fullmetal Alchemist",
       "Pandora Hearts",
       "Soul Eater"
-    ]
-  },
-  {
-    "anilistId": 30698,
-    "recs": [
-      "Land of the Lustrous",
-      "Fire Punch",
-      "Pluto"
-    ]
-  },
-  {
-    "anilistId": 32921,
-    "recs": [
-      "Last Game",
-      "Horimiya",
-      "Ouran High School Host Club"
-    ]
-  },
-  {
-    "anilistId": 33378,
-    "recs": [
-      "The Fragrant Flower Blooms With Dignity",
-      "Skip and Loafer",
-      "Fruits Basket"
-    ]
-  },
-  {
-    "anilistId": 85316,
-    "recs": [
-      "Goodnight Punpun",
-      "Shimeji Simulation",
-      "Girls' Last Tour"
     ]
   },
   {
@@ -2094,19 +2068,11 @@
     ]
   },
   {
-    "anilistId": 87459,
+    "anilistId": 85316,
     "recs": [
-      "Our Dreams at Dusk: Shimanami Tasogare",
-      "Blank Canvas: My So-Called Artist's Journey",
-      "How Do We Relationship?"
-    ]
-  },
-  {
-    "anilistId": 98334,
-    "recs": [
-      "My Love Mix-Up!",
-      "Our Dreams at Dusk: Shimanami Tasogare",
-      "Boy Meets Maria"
+      "Goodnight Punpun",
+      "Shimeji Simulation",
+      "Girls' Last Tour"
     ]
   },
   {
@@ -2118,11 +2084,59 @@
     ]
   },
   {
+    "anilistId": 98334,
+    "recs": [
+      "My Love Mix-Up!",
+      "Our Dreams at Dusk: Shimanami Tasogare",
+      "Boy Meets Maria"
+    ]
+  },
+  {
+    "anilistId": 30698,
+    "recs": [
+      "Land of the Lustrous",
+      "Fire Punch",
+      "Pluto"
+    ]
+  },
+  {
+    "anilistId": 33378,
+    "recs": [
+      "The Fragrant Flower Blooms With Dignity",
+      "Skip and Loafer",
+      "Fruits Basket"
+    ]
+  },
+  {
+    "anilistId": 87459,
+    "recs": [
+      "Our Dreams at Dusk: Shimanami Tasogare",
+      "Blank Canvas: My So-Called Artist's Journey",
+      "How Do We Relationship?"
+    ]
+  },
+  {
+    "anilistId": 32921,
+    "recs": [
+      "Last Game",
+      "Horimiya",
+      "Ouran High School Host Club"
+    ]
+  },
+  {
     "anilistId": 130511,
     "recs": [
       "The Frozen Player Returns",
       "Solo Leveling",
       "Latna Saga: Survival of a Sword King"
+    ]
+  },
+  {
+    "anilistId": 47465,
+    "recs": [
+      "Yokohama Kaidashi Kikou",
+      "Goodbye, Eri",
+      "Mushishi"
     ]
   },
   {
@@ -2150,11 +2164,35 @@
     ]
   },
   {
-    "anilistId": 47465,
+    "anilistId": 110473,
     "recs": [
-      "Yokohama Kaidashi Kikou",
-      "Goodbye, Eri",
-      "Mushishi"
+      "Hirayasumi",
+      "Skip and Loafer",
+      "The Fragrant Flower Blooms With Dignity"
+    ]
+  },
+  {
+    "anilistId": 180752,
+    "recs": [
+      "Welcome to Demon School! Iruma-kun",
+      "Black Clover",
+      "Witch Hat Atelier"
+    ]
+  },
+  {
+    "anilistId": 167649,
+    "recs": [
+      "I Killed the Main Player",
+      "Blink Master of the Magic Academy",
+      "The Extra’s Academy Survival Guide"
+    ]
+  },
+  {
+    "anilistId": 107987,
+    "recs": [
+      "Bloom Into You",
+      "The Guy She Was Interested In Wasn't a Guy at All",
+      "The Summer You Were There"
     ]
   },
   {
@@ -2174,35 +2212,11 @@
     ]
   },
   {
-    "anilistId": 107987,
+    "anilistId": 30053,
     "recs": [
-      "Bloom Into You",
-      "The Guy She Was Interested In Wasn't a Guy at All",
-      "The Summer You Were There"
-    ]
-  },
-  {
-    "anilistId": 110473,
-    "recs": [
-      "Hirayasumi",
-      "Skip and Loafer",
-      "The Fragrant Flower Blooms With Dignity"
-    ]
-  },
-  {
-    "anilistId": 167649,
-    "recs": [
-      "I Killed the Main Player",
-      "Blink Master of the Magic Academy",
-      "The Extra’s Academy Survival Guide"
-    ]
-  },
-  {
-    "anilistId": 180752,
-    "recs": [
-      "Welcome to Demon School! Iruma-kun",
-      "Black Clover",
-      "Witch Hat Atelier"
+      "Hunter x Hunter",
+      "Bleach",
+      "Demon Slayer: Kimetsu no Yaiba"
     ]
   },
   {
@@ -2214,19 +2228,11 @@
     ]
   },
   {
-    "anilistId": 30053,
+    "anilistId": 137595,
     "recs": [
-      "Hunter x Hunter",
-      "Bleach",
-      "Demon Slayer: Kimetsu no Yaiba"
-    ]
-  },
-  {
-    "anilistId": 40010,
-    "recs": [
-      "Welcome to Demon School! Iruma-kun",
-      "Saiki Kusuo no Ψ-nan",
-      "Gin Tama"
+      "The Return of the 8th Class Mage",
+      "The Academy's Undercover Professor",
+      "The Art of Reincarnation"
     ]
   },
   {
@@ -2238,11 +2244,19 @@
     ]
   },
   {
-    "anilistId": 99609,
+    "anilistId": 175262,
     "recs": [
-      "A Silent Voice",
-      "Three Days of Happiness",
-      "The Summer You Were There"
+      "The Swordmaster's Son",
+      "The Regressed Mercenary Has a Plan",
+      "Revenge of the Baskerville Bloodhound"
+    ]
+  },
+  {
+    "anilistId": 40010,
+    "recs": [
+      "Welcome to Demon School! Iruma-kun",
+      "Saiki Kusuo no Ψ-nan",
+      "Gin Tama"
     ]
   },
   {
@@ -2270,35 +2284,11 @@
     ]
   },
   {
-    "anilistId": 137595,
+    "anilistId": 99609,
     "recs": [
-      "The Return of the 8th Class Mage",
-      "The Academy's Undercover Professor",
-      "The Art of Reincarnation"
-    ]
-  },
-  {
-    "anilistId": 175262,
-    "recs": [
-      "The Swordmaster's Son",
-      "The Regressed Mercenary Has a Plan",
-      "Revenge of the Baskerville Bloodhound"
-    ]
-  },
-  {
-    "anilistId": 30043,
-    "recs": [
-      "Haikyu!!",
-      "Slam Dunk",
-      "Hajime no Ippo: Fighting Spirit!"
-    ]
-  },
-  {
-    "anilistId": 34571,
-    "recs": [
-      "Yona of the Dawn",
-      "The Apothecary Diaries",
-      "Fruits Basket"
+      "A Silent Voice",
+      "Three Days of Happiness",
+      "The Summer You Were There"
     ]
   },
   {
@@ -2308,26 +2298,18 @@
     ]
   },
   {
-    "anilistId": 85235,
-    "recs": [
-      "The Promised Neverland",
-      "Girls' Last Tour",
-      "Mieruko-chan"
-    ]
-  },
-  {
-    "anilistId": 85616,
-    "recs": [
-      "Given",
-      "Sasaki and Miyano",
-      "Our Dreams at Dusk: Shimanami Tasogare"
-    ]
-  },
-  {
     "anilistId": 114027,
     "recs": [
       "Our Dreams at Dusk: Shimanami Tasogare",
       "Blue Flag"
+    ]
+  },
+  {
+    "anilistId": 30043,
+    "recs": [
+      "Haikyu!!",
+      "Slam Dunk",
+      "Hajime no Ippo: Fighting Spirit!"
     ]
   },
   {
@@ -2347,6 +2329,14 @@
     ]
   },
   {
+    "anilistId": 85235,
+    "recs": [
+      "The Promised Neverland",
+      "Girls' Last Tour",
+      "Mieruko-chan"
+    ]
+  },
+  {
     "anilistId": 153880,
     "recs": [
       "The Reincarnated Assassin Is a Swordmaster",
@@ -2355,50 +2345,26 @@
     ]
   },
   {
+    "anilistId": 85616,
+    "recs": [
+      "Given",
+      "Sasaki and Miyano",
+      "Our Dreams at Dusk: Shimanami Tasogare"
+    ]
+  },
+  {
+    "anilistId": 34571,
+    "recs": [
+      "Yona of the Dawn",
+      "The Apothecary Diaries",
+      "Fruits Basket"
+    ]
+  },
+  {
     "anilistId": 167834,
     "recs": [
       "Level Up with the Gods",
       "The Return of the Disaster-Class Hero"
-    ]
-  },
-  {
-    "anilistId": 30085,
-    "recs": [
-      "Yotsuba&!",
-      "Nichijou",
-      "Komi Can't Communicate"
-    ]
-  },
-  {
-    "anilistId": 30676,
-    "recs": [
-      "Rurouni Kenshin",
-      "Kamisama Kiss",
-      "Yona of the Dawn"
-    ]
-  },
-  {
-    "anilistId": 97701,
-    "recs": [
-      "March Comes in Like a Lion",
-      "Skip and Loafer",
-      "Mob Psycho 100"
-    ]
-  },
-  {
-    "anilistId": 110042,
-    "recs": [
-      "The Archmage Returns After 4000 Years",
-      "Solo Leveling",
-      "A Returner's Magic Should Be Special"
-    ]
-  },
-  {
-    "anilistId": 110472,
-    "recs": [
-      "Viral Hit",
-      "Weak Hero",
-      "Teenage Mercenary"
     ]
   },
   {
@@ -2410,19 +2376,11 @@
     ]
   },
   {
-    "anilistId": 141705,
+    "anilistId": 165287,
     "recs": [
-      "Viral Hit",
-      "Lookism",
-      "QUESTISM"
-    ]
-  },
-  {
-    "anilistId": 151194,
-    "recs": [
-      "Goodbye, Eri",
-      "Look Back",
-      "Chainsaw Man"
+      "After Ten Millennia in Hell",
+      "My Blasted Reincarnated Life",
+      "The Player Hides His Past"
     ]
   },
   {
@@ -2434,11 +2392,66 @@
     ]
   },
   {
-    "anilistId": 165287,
+    "anilistId": 110042,
     "recs": [
-      "After Ten Millennia in Hell",
-      "My Blasted Reincarnated Life",
-      "The Player Hides His Past"
+      "The Archmage Returns After 4000 Years",
+      "Solo Leveling",
+      "A Returner's Magic Should Be Special"
+    ]
+  },
+  {
+    "anilistId": 151194,
+    "recs": [
+      "Goodbye, Eri",
+      "Look Back",
+      "Chainsaw Man"
+    ]
+  },
+  {
+    "anilistId": 30085,
+    "recs": [
+      "Yotsuba&!",
+      "Nichijou",
+      "Komi Can't Communicate"
+    ]
+  },
+  {
+    "anilistId": 141705,
+    "recs": [
+      "Viral Hit",
+      "Lookism",
+      "QUESTISM"
+    ]
+  },
+  {
+    "anilistId": 110472,
+    "recs": [
+      "Viral Hit",
+      "Weak Hero",
+      "Teenage Mercenary"
+    ]
+  },
+  {
+    "anilistId": 97701,
+    "recs": [
+      "March Comes in Like a Lion",
+      "Skip and Loafer",
+      "Mob Psycho 100"
+    ]
+  },
+  {
+    "anilistId": 30676,
+    "recs": [
+      "Rurouni Kenshin",
+      "Kamisama Kiss",
+      "Yona of the Dawn"
+    ]
+  },
+  {
+    "anilistId": 85934,
+    "recs": [
+      "That Time I Got Reincarnated as a Slime",
+      "The Eminence in Shadow"
     ]
   },
   {
@@ -2450,11 +2463,11 @@
     ]
   },
   {
-    "anilistId": 78347,
+    "anilistId": 168823,
     "recs": [
-      "Kono Oto Tomare!",
-      "Chihayafuru",
-      "Haikyu!!"
+      "The Swordmaster's Son",
+      "Revenge of the Baskerville Bloodhound",
+      "My Blasted Reincarnated Life"
     ]
   },
   {
@@ -2466,10 +2479,11 @@
     ]
   },
   {
-    "anilistId": 85934,
+    "anilistId": 78347,
     "recs": [
-      "That Time I Got Reincarnated as a Slime",
-      "The Eminence in Shadow"
+      "Kono Oto Tomare!",
+      "Chihayafuru",
+      "Haikyu!!"
     ]
   },
   {
@@ -2481,35 +2495,11 @@
     ]
   },
   {
-    "anilistId": 124783,
-    "recs": [
-      "The Villainess Turns the Hourglass",
-      "Father, I Don't Want this Marriage",
-      "I Shall Master this Family!"
-    ]
-  },
-  {
     "anilistId": 130566,
     "recs": [
       "The Legend of the Northern Blade",
       "Heavenly Demon Reborn!",
       "Nano Machine"
-    ]
-  },
-  {
-    "anilistId": 158448,
-    "recs": [
-      "The Patron of Villains",
-      "How to Use a Returner",
-      "Lout of Count’s Family"
-    ]
-  },
-  {
-    "anilistId": 168823,
-    "recs": [
-      "The Swordmaster's Son",
-      "Revenge of the Baskerville Bloodhound",
-      "My Blasted Reincarnated Life"
     ]
   },
   {
@@ -2521,61 +2511,18 @@
     ]
   },
   {
-    "anilistId": 53390,
+    "anilistId": 124783,
     "recs": [
-      "The Promised Neverland",
-      "Kaiju No.8",
-      "Claymore"
+      "The Villainess Turns the Hourglass",
+      "Father, I Don't Want this Marriage",
+      "I Shall Master this Family!"
     ]
   },
   {
-    "anilistId": 54705,
+    "anilistId": 158448,
     "recs": [
-      "Goodnight Punpun",
-      "Blood on the Tracks",
-      "Onani Master Kurosawa"
-    ]
-  },
-  {
-    "anilistId": 98416,
-    "recs": [
-      "To Your Eternity"
-    ]
-  },
-  {
-    "anilistId": 100187,
-    "recs": [
-      "Bloom Into You",
-      "Whisper Me a Love Song",
-      "The Summer You Were There"
-    ]
-  },
-  {
-    "anilistId": 101517,
-    "recs": [
-      "Chainsaw Man",
-      "Bleach",
-      "Hell’s Paradise: Jigokuraku"
-    ]
-  },
-  {
-    "anilistId": 101583,
-    "recs": [
-      "Kubo Won't Let Me Be Invisible",
-      "Wotakoi: Love is Hard for Otaku",
-      "Horimiya"
-    ]
-  },
-  {
-    "anilistId": 117195,
-    "recs": [
-      "Kaguya-sama: Love is War",
-      "Skip Beat!"
-    ]
-  },
-  {
-    "anilistId": 133708,
-    "recs": [
+      "The Patron of Villains",
+      "How to Use a Returner",
       "Lout of Count’s Family"
     ]
   },
@@ -2587,6 +2534,20 @@
     ]
   },
   {
+    "anilistId": 133708,
+    "recs": [
+      "Lout of Count’s Family"
+    ]
+  },
+  {
+    "anilistId": 100187,
+    "recs": [
+      "Bloom Into You",
+      "Whisper Me a Love Song",
+      "The Summer You Were There"
+    ]
+  },
+  {
     "anilistId": 139339,
     "recs": [
       "I Shall Master this Family!",
@@ -2595,51 +2556,48 @@
     ]
   },
   {
-    "anilistId": 30598,
+    "anilistId": 101517,
     "recs": [
-      "Black Clover",
-      "The Seven Deadly Sins",
-      "One Piece"
+      "Chainsaw Man",
+      "Bleach",
+      "Hell’s Paradise: Jigokuraku"
     ]
   },
   {
-    "anilistId": 54294,
+    "anilistId": 53390,
     "recs": [
-      "Kimi ni Todoke: From Me to You",
-      "Horimiya",
-      "My Little Monster"
+      "The Promised Neverland",
+      "Kaiju No.8",
+      "Claymore"
     ]
   },
   {
-    "anilistId": 54692,
+    "anilistId": 117195,
     "recs": [
-      "Toilet-Bound Hanako-kun",
-      "Blue Exorcist",
-      "Kamisama Kiss"
+      "Kaguya-sama: Love is War",
+      "Skip Beat!"
     ]
   },
   {
-    "anilistId": 79865,
+    "anilistId": 101583,
     "recs": [
-      "Tokyo Ghoul",
-      "Choujin X",
-      "Parasyte"
+      "Kubo Won't Let Me Be Invisible",
+      "Wotakoi: Love is Hard for Otaku",
+      "Horimiya"
     ]
   },
   {
-    "anilistId": 86310,
+    "anilistId": 98416,
     "recs": [
-      "Soul Eater",
-      "Gachiakuta",
-      "Blue Exorcist"
+      "To Your Eternity"
     ]
   },
   {
-    "anilistId": 86399,
+    "anilistId": 54705,
     "recs": [
-      "Overlord",
-      "So I'm a Spider, So What?",
-      "The Rising of the Shield Hero"
+      "Goodnight Punpun",
+      "Blood on the Tracks",
+      "Onani Master Kurosawa"
     ]
   },
   {
@@ -2653,7 +2611,17 @@
   {
     "anilistId": 107098,
     "recs": [
-      "One-Punch Man"
+      "One-Punch Man",
+      "Rosen Garten Saga",
+      "Drifters"
+    ]
+  },
+  {
+    "anilistId": 86310,
+    "recs": [
+      "Soul Eater",
+      "Gachiakuta",
+      "Blue Exorcist"
     ]
   },
   {
@@ -2665,11 +2633,59 @@
     ]
   },
   {
+    "anilistId": 79865,
+    "recs": [
+      "Tokyo Ghoul",
+      "Choujin X",
+      "Parasyte"
+    ]
+  },
+  {
+    "anilistId": 54692,
+    "recs": [
+      "Toilet-Bound Hanako-kun",
+      "Blue Exorcist",
+      "Kamisama Kiss"
+    ]
+  },
+  {
+    "anilistId": 86399,
+    "recs": [
+      "Overlord",
+      "So I'm a Spider, So What?",
+      "The Rising of the Shield Hero"
+    ]
+  },
+  {
+    "anilistId": 54294,
+    "recs": [
+      "Kimi ni Todoke: From Me to You",
+      "Horimiya",
+      "My Little Monster"
+    ]
+  },
+  {
+    "anilistId": 30598,
+    "recs": [
+      "Black Clover",
+      "The Seven Deadly Sins",
+      "One Piece"
+    ]
+  },
+  {
     "anilistId": 132182,
     "recs": [
       "The Fragrant Flower Blooms With Dignity",
       "Chihayafuru",
       "Haikyu!!"
+    ]
+  },
+  {
+    "anilistId": 74485,
+    "recs": [
+      "Fairy Tail",
+      "Black Clover",
+      "Dragon Ball"
     ]
   },
   {
@@ -2681,11 +2697,35 @@
     ]
   },
   {
+    "anilistId": 44790,
+    "recs": [
+      "One Piece",
+      "Ichi the Witch",
+      "Hunter x Hunter"
+    ]
+  },
+  {
+    "anilistId": 98587,
+    "recs": [
+      "Mob Psycho 100",
+      "Goodnight Punpun",
+      "Dorohedoro"
+    ]
+  },
+  {
     "anilistId": 30664,
     "recs": [
       "20th Century Boys",
       "Dorohedoro",
       "Fire Punch"
+    ]
+  },
+  {
+    "anilistId": 85307,
+    "recs": [
+      "The Case Study of Vanitas",
+      "Noragami: Stray God",
+      "Black Butler"
     ]
   },
   {
@@ -2705,35 +2745,11 @@
     ]
   },
   {
-    "anilistId": 44790,
+    "anilistId": 112981,
     "recs": [
-      "One Piece",
-      "Ichi the Witch",
-      "Hunter x Hunter"
-    ]
-  },
-  {
-    "anilistId": 74485,
-    "recs": [
-      "Fairy Tail",
-      "Black Clover",
-      "Dragon Ball"
-    ]
-  },
-  {
-    "anilistId": 85307,
-    "recs": [
-      "The Case Study of Vanitas",
-      "Noragami: Stray God",
-      "Black Butler"
-    ]
-  },
-  {
-    "anilistId": 98587,
-    "recs": [
-      "Mob Psycho 100",
-      "Goodnight Punpun",
-      "Dorohedoro"
+      "Shikimori's Not Just a Cutie",
+      "My Dress-Up Darling",
+      "Komi Can't Communicate"
     ]
   },
   {
@@ -2745,11 +2761,11 @@
     ]
   },
   {
-    "anilistId": 112981,
+    "anilistId": 63031,
     "recs": [
-      "Shikimori's Not Just a Cutie",
-      "My Dress-Up Darling",
-      "Komi Can't Communicate"
+      "Tomodachi Game",
+      "Usogui",
+      "LIAR GAME"
     ]
   },
   {
@@ -2761,6 +2777,22 @@
     ]
   },
   {
+    "anilistId": 110462,
+    "recs": [
+      "Kill the Hero",
+      "The Return of the Disaster-Class Hero",
+      "Solo Leveling"
+    ]
+  },
+  {
+    "anilistId": 86568,
+    "recs": [
+      "Pandora Hearts",
+      "Bungo Stray Dogs",
+      "Black Butler"
+    ]
+  },
+  {
     "anilistId": 59983,
     "recs": [
       "Tower of God",
@@ -2768,11 +2800,19 @@
     ]
   },
   {
-    "anilistId": 63031,
+    "anilistId": 125636,
     "recs": [
-      "Tomodachi Game",
-      "Usogui",
-      "LIAR GAME"
+      "I Am the Sorcerer King",
+      "66,666 Years: Advent of the Dark Mage",
+      "A Returner's Magic Should Be Special"
+    ]
+  },
+  {
+    "anilistId": 119276,
+    "recs": [
+      "Latna Saga: Survival of a Sword King",
+      "The Player Who Can't Level Up",
+      "I’m the Max-Level Newbie"
     ]
   },
   {
@@ -2792,67 +2832,11 @@
     ]
   },
   {
-    "anilistId": 86568,
-    "recs": [
-      "Pandora Hearts",
-      "Bungo Stray Dogs",
-      "Black Butler"
-    ]
-  },
-  {
-    "anilistId": 110462,
-    "recs": [
-      "Kill the Hero",
-      "The Return of the Disaster-Class Hero",
-      "Solo Leveling"
-    ]
-  },
-  {
-    "anilistId": 119276,
-    "recs": [
-      "Latna Saga: Survival of a Sword King",
-      "The Player Who Can't Level Up",
-      "I’m the Max-Level Newbie"
-    ]
-  },
-  {
-    "anilistId": 125636,
-    "recs": [
-      "I Am the Sorcerer King",
-      "66,666 Years: Advent of the Dark Mage",
-      "A Returner's Magic Should Be Special"
-    ]
-  },
-  {
     "anilistId": 141479,
     "recs": [
       "The Return of the 8th Class Mage",
       "The Swordmaster's Son",
       "Revenge of the Baskerville Bloodhound"
-    ]
-  },
-  {
-    "anilistId": 101418,
-    "recs": [
-      "Return of the Blossoming Blade",
-      "Heavenly Demon Reborn!",
-      "I Am the Sorcerer King"
-    ]
-  },
-  {
-    "anilistId": 119523,
-    "recs": [
-      "The Villainess Turns the Hourglass",
-      "Beware the Villainess!",
-      "Villains Are Destined to Die"
-    ]
-  },
-  {
-    "anilistId": 127783,
-    "recs": [
-      "Return of the Blossoming Blade",
-      "Return of the Mad Demon",
-      "Heavenly Demon Reborn!"
     ]
   },
   {
@@ -2864,27 +2848,11 @@
     ]
   },
   {
-    "anilistId": 133575,
+    "anilistId": 119523,
     "recs": [
-      "Roxana",
-      "Villains Are Destined to Die",
-      "The Villainess is a Marionette"
-    ]
-  },
-  {
-    "anilistId": 133797,
-    "recs": [
-      "A Stepmother’s Märchen",
-      "Your Eternal Lies",
-      "The Spark in Your Eyes"
-    ]
-  },
-  {
-    "anilistId": 160750,
-    "recs": [
-      "The Extra’s Academy Survival Guide",
-      "The Novel's Extra",
-      "Blink Master of the Magic Academy"
+      "The Villainess Turns the Hourglass",
+      "Beware the Villainess!",
+      "Villains Are Destined to Die"
     ]
   },
   {
@@ -2896,11 +2864,11 @@
     ]
   },
   {
-    "anilistId": 174515,
+    "anilistId": 101418,
     "recs": [
-      "Pick Me Up",
-      "Tyrant of the Tower Defense Game",
-      "Dungeon Odyssey"
+      "Return of the Blossoming Blade",
+      "Heavenly Demon Reborn!",
+      "I Am the Sorcerer King"
     ]
   },
   {
@@ -2912,57 +2880,51 @@
     ]
   },
   {
-    "anilistId": 30436,
+    "anilistId": 127783,
     "recs": [
-      "Tomie"
+      "Return of the Blossoming Blade",
+      "Return of the Mad Demon",
+      "Heavenly Demon Reborn!"
     ]
   },
   {
-    "anilistId": 33986,
+    "anilistId": 133575,
     "recs": [
-      "Tokyo Ghoul",
-      "Ajin: Demi-Human",
-      "Neon Genesis Evangelion"
-    ]
-  },
-  {
-    "anilistId": 61499,
-    "recs": [
-      "The Quintessential Quintuplets",
-      "Kaguya-sama: Love is War",
-      "More Than a Married Couple, but Not Lovers."
-    ]
-  },
-  {
-    "anilistId": 75757,
-    "recs": [
-      "Delicious in Dungeon",
-      "Grand Blue Dreaming",
-      "Silver Spoon"
-    ]
-  },
-  {
-    "anilistId": 100664,
-    "recs": [
-      "Teasing Master Takagi-san",
-      "Kubo Won't Let Me Be Invisible",
-      "Anjo the Mischievous Gal"
-    ]
-  },
-  {
-    "anilistId": 106758,
-    "recs": [
-      "The Patron of Villains",
-      "That Time I Got Reincarnated as a Slime",
-      "Overlord"
-    ]
-  },
-  {
-    "anilistId": 123366,
-    "recs": [
-      "The Villainess Turns the Hourglass",
       "Roxana",
+      "Villains Are Destined to Die",
       "The Villainess is a Marionette"
+    ]
+  },
+  {
+    "anilistId": 174515,
+    "recs": [
+      "Pick Me Up",
+      "Tyrant of the Tower Defense Game",
+      "Dungeon Odyssey"
+    ]
+  },
+  {
+    "anilistId": 160750,
+    "recs": [
+      "The Extra’s Academy Survival Guide",
+      "The Novel's Extra",
+      "Blink Master of the Magic Academy"
+    ]
+  },
+  {
+    "anilistId": 133797,
+    "recs": [
+      "A Stepmother’s Märchen",
+      "Your Eternal Lies",
+      "The Spark in Your Eyes"
+    ]
+  },
+  {
+    "anilistId": 168656,
+    "recs": [
+      "Positively Yours",
+      "Operation: True Love",
+      "See You in My 19th Life"
     ]
   },
   {
@@ -2974,6 +2936,14 @@
     ]
   },
   {
+    "anilistId": 123366,
+    "recs": [
+      "The Villainess Turns the Hourglass",
+      "Roxana",
+      "The Villainess is a Marionette"
+    ]
+  },
+  {
     "anilistId": 164599,
     "recs": [
       "Beware the Villainess!",
@@ -2982,11 +2952,87 @@
     ]
   },
   {
-    "anilistId": 168656,
+    "anilistId": 30436,
     "recs": [
-      "Positively Yours",
-      "Operation: True Love",
-      "See You in My 19th Life"
+      "Tomie"
+    ]
+  },
+  {
+    "anilistId": 100664,
+    "recs": [
+      "Teasing Master Takagi-san",
+      "Kubo Won't Let Me Be Invisible",
+      "Anjo the Mischievous Gal"
+    ]
+  },
+  {
+    "anilistId": 61499,
+    "recs": [
+      "The Quintessential Quintuplets",
+      "Kaguya-sama: Love is War",
+      "More Than a Married Couple, but Not Lovers."
+    ]
+  },
+  {
+    "anilistId": 33986,
+    "recs": [
+      "Tokyo Ghoul",
+      "Ajin: Demi-Human",
+      "Neon Genesis Evangelion"
+    ]
+  },
+  {
+    "anilistId": 75757,
+    "recs": [
+      "Delicious in Dungeon",
+      "Grand Blue Dreaming",
+      "Silver Spoon"
+    ]
+  },
+  {
+    "anilistId": 106758,
+    "recs": [
+      "The Patron of Villains",
+      "That Time I Got Reincarnated as a Slime",
+      "Overlord"
+    ]
+  },
+  {
+    "anilistId": 85215,
+    "recs": [
+      "Kaiju No.8",
+      "Erased",
+      "Summertime Rendering"
+    ]
+  },
+  {
+    "anilistId": 86300,
+    "recs": [
+      "Monthly Girls' Nozaki-kun",
+      "Shikimori's Not Just a Cutie",
+      "Wotakoi: Love is Hard for Otaku"
+    ]
+  },
+  {
+    "anilistId": 105097,
+    "recs": [
+      "Dandadan",
+      "School-Live!"
+    ]
+  },
+  {
+    "anilistId": 147149,
+    "recs": [
+      "Call of the Night",
+      "Wotakoi: Love is Hard for Otaku",
+      "Kowloon Generic Romance"
+    ]
+  },
+  {
+    "anilistId": 138603,
+    "recs": [
+      "Summertime Rendering",
+      "This Monster Wants to Eat Me"
     ]
   },
   {
@@ -3006,27 +3052,11 @@
     ]
   },
   {
-    "anilistId": 85215,
+    "anilistId": 109501,
     "recs": [
-      "Kaiju No.8",
-      "Erased",
-      "Summertime Rendering"
-    ]
-  },
-  {
-    "anilistId": 85442,
-    "recs": [
-      "That Time I Got Reincarnated as a Slime",
-      "Mushoku Tensei: Jobless Reincarnation",
-      "Tsukimichi: Moonlit Fantasy"
-    ]
-  },
-  {
-    "anilistId": 86300,
-    "recs": [
-      "Monthly Girls' Nozaki-kun",
-      "Shikimori's Not Just a Cutie",
-      "Wotakoi: Love is Hard for Otaku"
+      "Wotakoi: Love is Hard for Otaku",
+      "Horimiya",
+      "Love★Com"
     ]
   },
   {
@@ -3038,41 +3068,11 @@
     ]
   },
   {
-    "anilistId": 105097,
+    "anilistId": 85442,
     "recs": [
-      "Dandadan",
-      "School-Live!"
-    ]
-  },
-  {
-    "anilistId": 109501,
-    "recs": [
-      "Wotakoi: Love is Hard for Otaku",
-      "Horimiya",
-      "Love★Com"
-    ]
-  },
-  {
-    "anilistId": 138603,
-    "recs": [
-      "Summertime Rendering",
-      "This Monster Wants to Eat Me"
-    ]
-  },
-  {
-    "anilistId": 147149,
-    "recs": [
-      "Call of the Night",
-      "Wotakoi: Love is Hard for Otaku",
-      "Kowloon Generic Romance"
-    ]
-  },
-  {
-    "anilistId": 30768,
-    "recs": [
-      "Akira",
-      "Dorohedoro",
-      "Pluto"
+      "That Time I Got Reincarnated as a Slime",
+      "Mushoku Tensei: Jobless Reincarnation",
+      "Tsukimichi: Moonlit Fantasy"
     ]
   },
   {
@@ -3084,6 +3084,14 @@
     ]
   },
   {
+    "anilistId": 142568,
+    "recs": [
+      "Goodnight Punpun",
+      "Dead Dead Demon's Dededede Destruction",
+      "Erased"
+    ]
+  },
+  {
     "anilistId": 43702,
     "recs": [
       "Last Game",
@@ -3092,27 +3100,11 @@
     ]
   },
   {
-    "anilistId": 85435,
+    "anilistId": 30768,
     "recs": [
-      "The Girl From the Other Side: Siúil, a Rún",
-      "Witch Hat Atelier",
-      "Magus of the Library"
-    ]
-  },
-  {
-    "anilistId": 85533,
-    "recs": [
-      "Don't Toy With Me, Miss Nagatoro",
-      "Kubo Won't Let Me Be Invisible",
-      "The Dangers in My Heart"
-    ]
-  },
-  {
-    "anilistId": 86952,
-    "recs": [
-      "Overlord",
-      "The Eminence in Shadow",
-      "That Time I Got Reincarnated as a Slime"
+      "Akira",
+      "Dorohedoro",
+      "Pluto"
     ]
   },
   {
@@ -3124,11 +3116,11 @@
     ]
   },
   {
-    "anilistId": 101942,
+    "anilistId": 85533,
     "recs": [
-      "The Promised Neverland",
-      "Fire Punch",
-      "Akira"
+      "Don't Toy With Me, Miss Nagatoro",
+      "Kubo Won't Let Me Be Invisible",
+      "The Dangers in My Heart"
     ]
   },
   {
@@ -3140,11 +3132,34 @@
     ]
   },
   {
-    "anilistId": 142568,
+    "anilistId": 86952,
     "recs": [
-      "Goodnight Punpun",
-      "Dead Dead Demon's Dededede Destruction",
-      "Erased"
+      "Overlord",
+      "The Eminence in Shadow",
+      "That Time I Got Reincarnated as a Slime"
+    ]
+  },
+  {
+    "anilistId": 85435,
+    "recs": [
+      "The Girl From the Other Side: Siúil, a Rún",
+      "Witch Hat Atelier",
+      "Magus of the Library"
+    ]
+  },
+  {
+    "anilistId": 101942,
+    "recs": [
+      "The Promised Neverland",
+      "Fire Punch",
+      "Akira"
+    ]
+  },
+  {
+    "anilistId": 151025,
+    "recs": [
+      "After Ten Millennia in Hell",
+      "Solo Leveling"
     ]
   },
   {
@@ -3156,11 +3171,18 @@
     ]
   },
   {
-    "anilistId": 85869,
+    "anilistId": 103156,
     "recs": [
-      "Overgeared",
-      "The Gamer",
-      "Solo Leveling"
+      "SSS-Class Revival Hunter",
+      "Murim RPG Simulation"
+    ]
+  },
+  {
+    "anilistId": 113666,
+    "recs": [
+      "SSS-Class Revival Hunter",
+      "Kill the Hero",
+      "The Greatest Estate Developer"
     ]
   },
   {
@@ -3172,22 +3194,21 @@
     ]
   },
   {
-    "anilistId": 103156,
-    "recs": [
-      "SSS-Class Revival Hunter",
-      "Murim RPG Simulation"
-    ]
-  },
-  {
     "anilistId": 107720,
     "recs": []
   },
   {
-    "anilistId": 113666,
+    "anilistId": 129632,
     "recs": [
-      "SSS-Class Revival Hunter",
-      "Kill the Hero",
-      "The Greatest Estate Developer"
+      "Level Up with the Gods"
+    ]
+  },
+  {
+    "anilistId": 85869,
+    "recs": [
+      "Overgeared",
+      "The Gamer",
+      "Solo Leveling"
     ]
   },
   {
@@ -3198,43 +3219,10 @@
     ]
   },
   {
-    "anilistId": 129632,
-    "recs": [
-      "Level Up with the Gods"
-    ]
-  },
-  {
-    "anilistId": 151025,
-    "recs": [
-      "After Ten Millennia in Hell",
-      "Solo Leveling"
-    ]
-  },
-  {
     "anilistId": 166154,
     "recs": [
       "Singwahamkke Doraon Gisawangnim",
       "Omniscient Reader"
-    ]
-  },
-  {
-    "anilistId": 103995,
-    "recs": []
-  },
-  {
-    "anilistId": 107763,
-    "recs": [
-      "The Reason Why Raeliana Ended Up at the Duke's Mansion",
-      "Doctor Elise: The Royal Lady with the Lamp",
-      "The Villainess Lives Again"
-    ]
-  },
-  {
-    "anilistId": 118371,
-    "recs": [
-      "Chihayafuru",
-      "Welcome to the Ballroom",
-      "Blue Period"
     ]
   },
   {
@@ -3246,11 +3234,23 @@
     ]
   },
   {
-    "anilistId": 129579,
+    "anilistId": 180890,
     "recs": [
-      "My S-Class Hunters",
-      "The Divine Surgeon"
+      "Absolute Regression",
+      "Return of the Blossoming Blade"
     ]
+  },
+  {
+    "anilistId": 140837,
+    "recs": [
+      "Reality Quest",
+      "Lookism",
+      "Viral Hit"
+    ]
+  },
+  {
+    "anilistId": 103995,
+    "recs": []
   },
   {
     "anilistId": 138655,
@@ -3261,11 +3261,11 @@
     ]
   },
   {
-    "anilistId": 140837,
+    "anilistId": 107763,
     "recs": [
-      "Reality Quest",
-      "Lookism",
-      "Viral Hit"
+      "The Reason Why Raeliana Ended Up at the Duke's Mansion",
+      "Doctor Elise: The Royal Lady with the Lamp",
+      "The Villainess Lives Again"
     ]
   },
   {
@@ -3284,50 +3284,18 @@
     ]
   },
   {
-    "anilistId": 180890,
+    "anilistId": 129579,
     "recs": [
-      "Absolute Regression",
-      "Return of the Blossoming Blade"
+      "My S-Class Hunters",
+      "The Divine Surgeon"
     ]
   },
   {
-    "anilistId": 35744,
+    "anilistId": 118371,
     "recs": [
-      "Real",
-      "The Climber",
-      "March Comes in Like a Lion"
-    ]
-  },
-  {
-    "anilistId": 112197,
-    "recs": [
-      "Doctor Elise: The Royal Lady with the Lamp",
-      "A Returner's Magic Should Be Special",
-      "To Be an Actor"
-    ]
-  },
-  {
-    "anilistId": 124056,
-    "recs": [
-      "Author of My Own Destiny",
-      "Master Villainess the Invincible!",
-      "Saving My Sweetheart"
-    ]
-  },
-  {
-    "anilistId": 133038,
-    "recs": [
-      "A Stepmother’s Märchen",
-      "My In-Laws are Obsessed with Me",
-      "Not-Sew-Wicked Stepmom"
-    ]
-  },
-  {
-    "anilistId": 136087,
-    "recs": [
-      "Becoming the Monarch",
-      "The Knight Only Lives Today",
-      "Player"
+      "Chihayafuru",
+      "Welcome to the Ballroom",
+      "Blue Period"
     ]
   },
   {
@@ -3339,11 +3307,19 @@
     ]
   },
   {
-    "anilistId": 141076,
+    "anilistId": 133038,
     "recs": [
-      "The Knight Only Lives Today",
-      "The Skeleton Soldier Failed to Defend the Dungeon",
-      "Infinite Leveling: Murim"
+      "A Stepmother’s Märchen",
+      "My In-Laws are Obsessed with Me",
+      "Not-Sew-Wicked Stepmom"
+    ]
+  },
+  {
+    "anilistId": 35744,
+    "recs": [
+      "Real",
+      "The Climber",
+      "March Comes in Like a Lion"
     ]
   },
   {
@@ -3352,6 +3328,22 @@
       "I Shall Master this Family!",
       "Ending Maker",
       "Author of My Own Destiny"
+    ]
+  },
+  {
+    "anilistId": 124056,
+    "recs": [
+      "Author of My Own Destiny",
+      "Master Villainess the Invincible!",
+      "Saving My Sweetheart"
+    ]
+  },
+  {
+    "anilistId": 141076,
+    "recs": [
+      "The Knight Only Lives Today",
+      "The Skeleton Soldier Failed to Defend the Dungeon",
+      "Infinite Leveling: Murim"
     ]
   },
   {
@@ -3367,14 +3359,24 @@
     ]
   },
   {
-    "anilistId": 98689,
-    "recs": []
+    "anilistId": 112197,
+    "recs": [
+      "Doctor Elise: The Royal Lady with the Lamp",
+      "A Returner's Magic Should Be Special",
+      "To Be an Actor"
+    ]
   },
   {
-    "anilistId": 110059,
+    "anilistId": 136087,
     "recs": [
-      "Oh! Holy"
+      "Becoming the Monarch",
+      "The Knight Only Lives Today",
+      "Player"
     ]
+  },
+  {
+    "anilistId": 155967,
+    "recs": []
   },
   {
     "anilistId": 132359,
@@ -3385,11 +3387,20 @@
     ]
   },
   {
-    "anilistId": 134556,
+    "anilistId": 153948,
     "recs": [
-      "My Gently Raised Beast",
-      "The Crow's Prince"
+      "Hero-ga Jipchakaneun Akdangi Doeeotda"
     ]
+  },
+  {
+    "anilistId": 174104,
+    "recs": [
+      "Peaceful Camping Life in Another World"
+    ]
+  },
+  {
+    "anilistId": 184347,
+    "recs": []
   },
   {
     "anilistId": 134635,
@@ -3406,39 +3417,28 @@
     ]
   },
   {
-    "anilistId": 153948,
+    "anilistId": 110059,
     "recs": [
-      "Hero-ga Jipchakaneun Akdangi Doeeotda"
+      "Oh! Holy"
     ]
   },
   {
-    "anilistId": 155967,
+    "anilistId": 98689,
     "recs": []
   },
   {
-    "anilistId": 174104,
+    "anilistId": 134556,
     "recs": [
-      "Peaceful Camping Life in Another World"
+      "My Gently Raised Beast",
+      "The Crow's Prince"
     ]
   },
   {
-    "anilistId": 184347,
-    "recs": []
-  },
-  {
-    "anilistId": 105469,
+    "anilistId": 127084,
     "recs": [
-      "Bleach",
-      "Kagurabachi",
-      "Yu Yu Hakusho"
-    ]
-  },
-  {
-    "anilistId": 109398,
-    "recs": [
-      "After School Lessons for Unripe Apples",
-      "Seasons of Blossom",
-      "On the Way to Meet Mom"
+      "The Villainess Flips the Script!",
+      "Not-Sew-Wicked Stepmom",
+      "How to Win My Husband Over"
     ]
   },
   {
@@ -3450,11 +3450,19 @@
     ]
   },
   {
-    "anilistId": 127084,
+    "anilistId": 109398,
     "recs": [
-      "The Villainess Flips the Script!",
-      "Not-Sew-Wicked Stepmom",
-      "How to Win My Husband Over"
+      "After School Lessons for Unripe Apples",
+      "Seasons of Blossom",
+      "On the Way to Meet Mom"
+    ]
+  },
+  {
+    "anilistId": 142352,
+    "recs": [
+      "Absolute Sword Sense",
+      "Return of the Blossoming Blade",
+      "Return of the Mad Demon"
     ]
   },
   {
@@ -3477,6 +3485,13 @@
     ]
   },
   {
+    "anilistId": 186019,
+    "recs": [
+      "Tyrant of the Tower Defense Game",
+      "The Top Dungeon Farmer"
+    ]
+  },
+  {
     "anilistId": 131263,
     "recs": [
       "Solitary Lady",
@@ -3485,32 +3500,16 @@
     ]
   },
   {
-    "anilistId": 142352,
+    "anilistId": 105469,
     "recs": [
-      "Absolute Sword Sense",
-      "Return of the Blossoming Blade",
-      "Return of the Mad Demon"
+      "Bleach",
+      "Kagurabachi",
+      "Yu Yu Hakusho"
     ]
   },
   {
-    "anilistId": 186019,
-    "recs": [
-      "Tyrant of the Tower Defense Game",
-      "The Top Dungeon Farmer"
-    ]
-  },
-  {
-    "anilistId": 30912,
-    "recs": [
-      "Uzumaki: Spiral into Horror"
-    ]
-  },
-  {
-    "anilistId": 38848,
-    "recs": [
-      "THE BREAKER",
-      "ORIGIN"
-    ]
+    "anilistId": 106064,
+    "recs": []
   },
   {
     "anilistId": 38967,
@@ -3518,13 +3517,6 @@
       "The Flowers of Evil",
       "Death Note",
       "A Silent Voice"
-    ]
-  },
-  {
-    "anilistId": 85165,
-    "recs": [
-      "The Climber",
-      "Vagabond"
     ]
   },
   {
@@ -3536,19 +3528,28 @@
     ]
   },
   {
-    "anilistId": 94970,
-    "recs": []
-  },
-  {
-    "anilistId": 105011,
+    "anilistId": 150378,
     "recs": [
-      "My Dress-Up Darling",
-      "You and I Are Polar Opposites",
-      "Boarding School Juliet"
+      "Kagurabachi",
+      "Jujutsu Kaisen",
+      "Chainsaw Man"
     ]
   },
   {
-    "anilistId": 106064,
+    "anilistId": 38848,
+    "recs": [
+      "THE BREAKER",
+      "ORIGIN"
+    ]
+  },
+  {
+    "anilistId": 30912,
+    "recs": [
+      "Uzumaki: Spiral into Horror"
+    ]
+  },
+  {
+    "anilistId": 94970,
     "recs": []
   },
   {
@@ -3560,35 +3561,26 @@
     ]
   },
   {
-    "anilistId": 150378,
+    "anilistId": 105011,
     "recs": [
-      "Kagurabachi",
-      "Jujutsu Kaisen",
-      "Chainsaw Man"
+      "My Dress-Up Darling",
+      "You and I Are Polar Opposites",
+      "Boarding School Juliet"
     ]
   },
   {
-    "anilistId": 41734,
+    "anilistId": 85165,
     "recs": [
-      "Three Days of Happiness",
-      "I Want to Eat Your Pancreas",
-      "Toki Doki"
+      "The Climber",
+      "Vagabond"
     ]
   },
   {
-    "anilistId": 65003,
+    "anilistId": 150440,
     "recs": [
-      "Nisekoi: False Love",
-      "Boarding School Juliet",
-      "ReLIFE"
-    ]
-  },
-  {
-    "anilistId": 66267,
-    "recs": [
-      "The Flowers of Evil",
-      "My Dearest Self With Malice Aforethought",
-      "Onani Master Kurosawa"
+      "Dandadan",
+      "My Monster Secret: Actually, I Am…",
+      "Miss Kobayashi's Dragon Maid"
     ]
   },
   {
@@ -3600,23 +3592,11 @@
     ]
   },
   {
-    "anilistId": 100557,
-    "recs": []
-  },
-  {
-    "anilistId": 101315,
+    "anilistId": 65003,
     "recs": [
-      "Don't Toy With Me, Miss Nagatoro",
-      "My Dress-Up Darling",
-      "Teasing Master Takagi-san"
-    ]
-  },
-  {
-    "anilistId": 106867,
-    "recs": [
-      "Blood on the Tracks",
-      "Inside Mari",
-      "Bokutachi ga Yarimashita"
+      "Nisekoi: False Love",
+      "Boarding School Juliet",
+      "ReLIFE"
     ]
   },
   {
@@ -3628,6 +3608,38 @@
     ]
   },
   {
+    "anilistId": 106867,
+    "recs": [
+      "Blood on the Tracks",
+      "Inside Mari",
+      "Bokutachi ga Yarimashita"
+    ]
+  },
+  {
+    "anilistId": 66267,
+    "recs": [
+      "The Flowers of Evil",
+      "My Dearest Self With Malice Aforethought",
+      "Onani Master Kurosawa"
+    ]
+  },
+  {
+    "anilistId": 41734,
+    "recs": [
+      "Three Days of Happiness",
+      "I Want to Eat Your Pancreas",
+      "Toki Doki"
+    ]
+  },
+  {
+    "anilistId": 101315,
+    "recs": [
+      "Don't Toy With Me, Miss Nagatoro",
+      "My Dress-Up Darling",
+      "Teasing Master Takagi-san"
+    ]
+  },
+  {
     "anilistId": 114791,
     "recs": [
       "Dandadan",
@@ -3636,12 +3648,8 @@
     ]
   },
   {
-    "anilistId": 150440,
-    "recs": [
-      "Dandadan",
-      "My Monster Secret: Actually, I Am…",
-      "Miss Kobayashi's Dragon Maid"
-    ]
+    "anilistId": 100557,
+    "recs": []
   },
   {
     "anilistId": 30047,
@@ -3656,6 +3664,14 @@
     "recs": []
   },
   {
+    "anilistId": 105332,
+    "recs": [
+      "Wotakoi: Love is Hard for Otaku",
+      "Veil",
+      "It Takes Two Tomorrow, Too"
+    ]
+  },
+  {
     "anilistId": 86279,
     "recs": [
       "The Fragrant Flower Blooms With Dignity",
@@ -3664,25 +3680,15 @@
     ]
   },
   {
-    "anilistId": 86703,
+    "anilistId": 148091,
     "recs": [
-      "My Life as an Internet Novel",
-      "Devil Number 4",
-      "Days of Hana"
+      "The Legend of the Northern Blade"
     ]
   },
   {
-    "anilistId": 97973,
+    "anilistId": 147278,
     "recs": [
-      "Lost in the Cloud"
-    ]
-  },
-  {
-    "anilistId": 105332,
-    "recs": [
-      "Wotakoi: Love is Hard for Otaku",
-      "Veil",
-      "It Takes Two Tomorrow, Too"
+      "The Perks of Being a Villainess"
     ]
   },
   {
@@ -3694,15 +3700,17 @@
     ]
   },
   {
-    "anilistId": 147278,
+    "anilistId": 97973,
     "recs": [
-      "The Perks of Being a Villainess"
+      "Lost in the Cloud"
     ]
   },
   {
-    "anilistId": 148091,
+    "anilistId": 86703,
     "recs": [
-      "The Legend of the Northern Blade"
+      "My Life as an Internet Novel",
+      "Devil Number 4",
+      "Days of Hana"
     ]
   },
   {
@@ -3714,56 +3722,10 @@
     ]
   },
   {
-    "anilistId": 112326,
-    "recs": [
-      "THE BREAKER",
-      "THE BREAKER - NEW WAVES"
-    ]
-  },
-  {
-    "anilistId": 113340,
-    "recs": [
-      "Bastard",
-      "Cheolsu Saves the World"
-    ]
-  },
-  {
     "anilistId": 116133,
     "recs": [
       "For My Derelict Favorite",
       "As You Wish, Prince"
-    ]
-  },
-  {
-    "anilistId": 128273,
-    "recs": [
-      "My Secretly Hot Husband",
-      "Kill the Villainess",
-      "Lout of Count’s Family"
-    ]
-  },
-  {
-    "anilistId": 144006,
-    "recs": [
-      "The Dawn to Come",
-      "Operation: True Love",
-      "Trapped"
-    ]
-  },
-  {
-    "anilistId": 144027,
-    "recs": [
-      "Into the Light, Once Again",
-      "Mother's Contract Marriage",
-      "I Shall Master this Family!"
-    ]
-  },
-  {
-    "anilistId": 149756,
-    "recs": [
-      "Seasons of Blossom",
-      "Romance 101",
-      "Maybe Meant to Be"
     ]
   },
   {
@@ -3775,11 +3737,26 @@
     ]
   },
   {
-    "anilistId": 176790,
+    "anilistId": 113340,
     "recs": [
-      "Absolute Regression",
-      "Chronicles of the Demon Faction",
-      "Cheonhwa Archive's Young Master"
+      "Bastard",
+      "Cheolsu Saves the World"
+    ]
+  },
+  {
+    "anilistId": 144006,
+    "recs": [
+      "The Dawn to Come",
+      "Operation: True Love",
+      "Trapped"
+    ]
+  },
+  {
+    "anilistId": 149756,
+    "recs": [
+      "Seasons of Blossom",
+      "Romance 101",
+      "Maybe Meant to Be"
     ]
   },
   {
@@ -3791,39 +3768,42 @@
     ]
   },
   {
-    "anilistId": 104596,
+    "anilistId": 176790,
     "recs": [
-      "A Good Day to be a Dog",
-      "Oh! Holy"
+      "Absolute Regression",
+      "Chronicles of the Demon Faction",
+      "Cheonhwa Archive's Young Master"
     ]
   },
   {
-    "anilistId": 105577,
+    "anilistId": 128273,
     "recs": [
-      "The Girl I Like Forgot Her Glasses",
-      "Horimiya",
-      "Shikimori's Not Just a Cutie"
+      "My Secretly Hot Husband",
+      "Kill the Villainess",
+      "Lout of Count’s Family"
     ]
   },
   {
-    "anilistId": 128435,
+    "anilistId": 112326,
     "recs": [
-      "For My Derelict Favorite",
-      "The First Night With the Duke"
+      "THE BREAKER",
+      "THE BREAKER - NEW WAVES"
     ]
   },
   {
-    "anilistId": 142372,
+    "anilistId": 144027,
     "recs": [
-      "The Villainess Flips the Script!"
+      "Into the Light, Once Again",
+      "Mother's Contract Marriage",
+      "I Shall Master this Family!"
     ]
   },
   {
-    "anilistId": 150663,
+    "anilistId": 165202,
     "recs": [
-      "Not Your Typical Reincarnation Story",
-      "Charming the Duke of the North",
-      "Happily Ever Afterwards"
+      "Weak Hero",
+      "Norigam",
+      "Juvenile Offender"
     ]
   },
   {
@@ -3832,6 +3812,21 @@
       "For My Derelict Favorite",
       "Your Eternal Lies",
       "The Reason Why Raeliana Ended Up at the Duke's Mansion"
+    ]
+  },
+  {
+    "anilistId": 142372,
+    "recs": [
+      "The Villainess Flips the Script!",
+      "Becoming the Dark Hero's Daughter"
+    ]
+  },
+  {
+    "anilistId": 150663,
+    "recs": [
+      "Not Your Typical Reincarnation Story",
+      "Charming the Duke of the North",
+      "Happily Ever Afterwards"
     ]
   },
   {
@@ -3849,11 +3844,10 @@
     ]
   },
   {
-    "anilistId": 165202,
+    "anilistId": 104596,
     "recs": [
-      "Weak Hero",
-      "Norigam",
-      "Juvenile Offender"
+      "A Good Day to be a Dog",
+      "Oh! Holy"
     ]
   },
   {
@@ -3864,11 +3858,42 @@
     ]
   },
   {
-    "anilistId": 30010,
+    "anilistId": 128435,
     "recs": [
-      "Toilet-Bound Hanako-kun",
-      "Mushishi",
-      "Tsubasa RESERVoir CHRoNiCLE"
+      "For My Derelict Favorite",
+      "The First Night With the Duke"
+    ]
+  },
+  {
+    "anilistId": 105577,
+    "recs": [
+      "The Girl I Like Forgot Her Glasses",
+      "Horimiya",
+      "Shikimori's Not Just a Cutie"
+    ]
+  },
+  {
+    "anilistId": 85395,
+    "recs": [
+      "Maid-sama!",
+      "My Little Monster",
+      "Love★Com"
+    ]
+  },
+  {
+    "anilistId": 85226,
+    "recs": [
+      "Ajin: Demi-Human",
+      "Parasyte",
+      "Death Note"
+    ]
+  },
+  {
+    "anilistId": 105641,
+    "recs": [
+      "Giji Harem",
+      "The Dangers in My Heart",
+      "Kubo Won't Let Me Be Invisible"
     ]
   },
   {
@@ -3888,11 +3913,11 @@
     ]
   },
   {
-    "anilistId": 56736,
+    "anilistId": 144866,
     "recs": [
-      "Daytime Shooting Star",
-      "Horimiya",
-      "Tsubaki-chou Lonely Planet"
+      "Chihayafuru",
+      "Blue Period",
+      "March Comes in Like a Lion"
     ]
   },
   {
@@ -3904,27 +3929,11 @@
     ]
   },
   {
-    "anilistId": 85226,
+    "anilistId": 56736,
     "recs": [
-      "Ajin: Demi-Human",
-      "Parasyte",
-      "Death Note"
-    ]
-  },
-  {
-    "anilistId": 85395,
-    "recs": [
-      "Maid-sama!",
-      "My Little Monster",
-      "Love★Com"
-    ]
-  },
-  {
-    "anilistId": 105641,
-    "recs": [
-      "Giji Harem",
-      "The Dangers in My Heart",
-      "Kubo Won't Let Me Be Invisible"
+      "Daytime Shooting Star",
+      "Horimiya",
+      "Tsubaki-chou Lonely Planet"
     ]
   },
   {
@@ -3936,35 +3945,11 @@
     ]
   },
   {
-    "anilistId": 144866,
+    "anilistId": 30010,
     "recs": [
-      "Chihayafuru",
-      "Blue Period",
-      "March Comes in Like a Lion"
-    ]
-  },
-  {
-    "anilistId": 30731,
-    "recs": [
-      "Akira",
-      "Battle Angel Alita",
-      "Fire Punch"
-    ]
-  },
-  {
-    "anilistId": 33438,
-    "recs": [
-      "Bleach",
-      "Reborn!",
-      "Akira"
-    ]
-  },
-  {
-    "anilistId": 57231,
-    "recs": [
-      "Ao Haru Ride",
-      "In the Clear Moonlit Dusk",
-      "House of the Sun"
+      "Toilet-Bound Hanako-kun",
+      "Mushishi",
+      "Tsubasa RESERVoir CHRoNiCLE"
     ]
   },
   {
@@ -3976,13 +3961,6 @@
     ]
   },
   {
-    "anilistId": 87225,
-    "recs": [
-      "The Rising of the Shield Hero",
-      "That Time I Got Reincarnated as a Slime"
-    ]
-  },
-  {
     "anilistId": 102989,
     "recs": [
       "Erased",
@@ -3991,9 +3969,11 @@
     ]
   },
   {
-    "anilistId": 122063,
+    "anilistId": 30731,
     "recs": [
-      "So I'm a Spider, So What?"
+      "Akira",
+      "Battle Angel Alita",
+      "Fire Punch"
     ]
   },
   {
@@ -4005,11 +3985,40 @@
     ]
   },
   {
+    "anilistId": 33438,
+    "recs": [
+      "Bleach",
+      "Reborn!",
+      "Akira"
+    ]
+  },
+  {
+    "anilistId": 122063,
+    "recs": [
+      "So I'm a Spider, So What?"
+    ]
+  },
+  {
     "anilistId": 152404,
     "recs": [
       "More Than a Married Couple, but Not Lovers.",
       "Kaguya-sama: Love is War",
       "I Want to End This Love Game"
+    ]
+  },
+  {
+    "anilistId": 57231,
+    "recs": [
+      "Ao Haru Ride",
+      "In the Clear Moonlit Dusk",
+      "House of the Sun"
+    ]
+  },
+  {
+    "anilistId": 87225,
+    "recs": [
+      "The Rising of the Shield Hero",
+      "That Time I Got Reincarnated as a Slime"
     ]
   },
   {
@@ -4021,30 +4030,6 @@
     ]
   },
   {
-    "anilistId": 31101,
-    "recs": [
-      "Death Note"
-    ]
-  },
-  {
-    "anilistId": 72579,
-    "recs": [
-      "Tower of God"
-    ]
-  },
-  {
-    "anilistId": 80027,
-    "recs": [
-      "The Horizon"
-    ]
-  },
-  {
-    "anilistId": 104283,
-    "recs": [
-      "Spirit Fingers"
-    ]
-  },
-  {
     "anilistId": 120502,
     "recs": [
       "Daytime Shooting Star",
@@ -4053,11 +4038,19 @@
     ]
   },
   {
-    "anilistId": 124522,
+    "anilistId": 31101,
     "recs": [
-      "How to Win My Husband Over",
-      "Under the Oak Tree",
-      "Karina's Last Days"
+      "Death Note",
+      "The World Is Mine",
+      "Sanctuary"
+    ]
+  },
+  {
+    "anilistId": 135083,
+    "recs": [
+      "Tokyo Revengers",
+      "Beelzebub",
+      "Blue Exorcist"
     ]
   },
   {
@@ -4077,11 +4070,9 @@
     ]
   },
   {
-    "anilistId": 135083,
+    "anilistId": 80027,
     "recs": [
-      "Tokyo Revengers",
-      "Beelzebub",
-      "Blue Exorcist"
+      "The Horizon"
     ]
   },
   {
@@ -4093,28 +4084,23 @@
     ]
   },
   {
-    "anilistId": 85879,
+    "anilistId": 72579,
     "recs": [
-      "The Horizon",
-      "Sweet Home"
+      "Tower of God"
     ]
   },
   {
-    "anilistId": 86510,
-    "recs": []
-  },
-  {
-    "anilistId": 107327,
+    "anilistId": 124522,
     "recs": [
-      "THE BREAKER",
-      "THE BREAKER - NEW WAVES",
-      "Shamo"
+      "How to Win My Husband Over",
+      "Under the Oak Tree",
+      "Karina's Last Days"
     ]
   },
   {
-    "anilistId": 126769,
+    "anilistId": 104283,
     "recs": [
-      "Relationship Guidelines"
+      "Spirit Fingers"
     ]
   },
   {
@@ -4141,14 +4127,6 @@
     ]
   },
   {
-    "anilistId": 194727,
-    "recs": [
-      "The Knight Only Lives Today",
-      "SSS-Class Revival Hunter",
-      "Murim RPG Simulation"
-    ]
-  },
-  {
     "anilistId": 208208,
     "recs": [
       "The Infinite Mage"
@@ -4163,9 +4141,50 @@
     ]
   },
   {
-    "anilistId": 85653,
+    "anilistId": 194727,
     "recs": [
-      "Becoming the Monarch"
+      "The Knight Only Lives Today",
+      "SSS-Class Revival Hunter",
+      "Murim RPG Simulation"
+    ]
+  },
+  {
+    "anilistId": 86510,
+    "recs": []
+  },
+  {
+    "anilistId": 107327,
+    "recs": [
+      "THE BREAKER",
+      "THE BREAKER - NEW WAVES",
+      "Shamo"
+    ]
+  },
+  {
+    "anilistId": 126769,
+    "recs": [
+      "Relationship Guidelines"
+    ]
+  },
+  {
+    "anilistId": 85879,
+    "recs": [
+      "The Horizon",
+      "Sweet Home"
+    ]
+  },
+  {
+    "anilistId": 195914,
+    "recs": [
+      "Return of the Blossoming Blade"
+    ]
+  },
+  {
+    "anilistId": 182516,
+    "recs": [
+      "My S-Class Hunters",
+      "Omniscient Reader",
+      "Illusion Hunter from Another World"
     ]
   },
   {
@@ -4175,10 +4194,10 @@
     ]
   },
   {
-    "anilistId": 114714,
+    "anilistId": 204974,
     "recs": [
-      "An Uncomfortable Truth",
-      "It's Mine"
+      "Myst, Might, Mayhem",
+      "Return of the Mad Demon"
     ]
   },
   {
@@ -4190,12 +4209,6 @@
     ]
   },
   {
-    "anilistId": 154836,
-    "recs": [
-      "Player"
-    ]
-  },
-  {
     "anilistId": 159636,
     "recs": [
       "Maybe Meant to Be",
@@ -4204,16 +4217,23 @@
     ]
   },
   {
-    "anilistId": 182516,
+    "anilistId": 114714,
     "recs": [
-      "My S-Class Hunters",
-      "Omniscient Reader"
+      "An Uncomfortable Truth",
+      "It's Mine"
     ]
   },
   {
-    "anilistId": 195914,
+    "anilistId": 154836,
     "recs": [
-      "Return of the Blossoming Blade"
+      "Player"
+    ]
+  },
+  {
+    "anilistId": 85653,
+    "recs": [
+      "Becoming the Monarch",
+      "Yongbi the Invincible"
     ]
   },
   {
@@ -4225,36 +4245,6 @@
     ]
   },
   {
-    "anilistId": 204974,
-    "recs": [
-      "Myst, Might, Mayhem",
-      "Return of the Mad Demon"
-    ]
-  },
-  {
-    "anilistId": 30735,
-    "recs": [
-      "Gokurakugai",
-      "GANGSTA."
-    ]
-  },
-  {
-    "anilistId": 40552,
-    "recs": [
-      "Spirit Circle",
-      "Fullmetal Alchemist",
-      "Helck"
-    ]
-  },
-  {
-    "anilistId": 78151,
-    "recs": [
-      "Kaiju No.8",
-      "PSYЯEN",
-      "My Hero Academia"
-    ]
-  },
-  {
     "anilistId": 86481,
     "recs": [
       "Monthly Girls' Nozaki-kun",
@@ -4263,10 +4253,9 @@
     ]
   },
   {
-    "anilistId": 86549,
+    "anilistId": 159142,
     "recs": [
-      "My Love Mix-Up!",
-      "Our Dreams at Dusk: Shimanami Tasogare"
+      "Yona of the Dawn"
     ]
   },
   {
@@ -4278,10 +4267,48 @@
     ]
   },
   {
+    "anilistId": 113076,
+    "recs": [
+      "Giji Harem",
+      "Wotakoi: Love is Hard for Otaku",
+      "My Dress-Up Darling"
+    ]
+  },
+  {
+    "anilistId": 40552,
+    "recs": [
+      "Spirit Circle",
+      "Fullmetal Alchemist",
+      "Helck"
+    ]
+  },
+  {
+    "anilistId": 30735,
+    "recs": [
+      "Gokurakugai",
+      "GANGSTA."
+    ]
+  },
+  {
+    "anilistId": 78151,
+    "recs": [
+      "Kaiju No.8",
+      "PSYЯEN",
+      "My Hero Academia"
+    ]
+  },
+  {
     "anilistId": 111258,
     "recs": [
       "The Guy She Was Interested In Wasn't a Guy at All",
       "Whisper Me a Love Song"
+    ]
+  },
+  {
+    "anilistId": 86549,
+    "recs": [
+      "My Love Mix-Up!",
+      "Our Dreams at Dusk: Shimanami Tasogare"
     ]
   },
   {
@@ -4293,73 +4320,11 @@
     ]
   },
   {
-    "anilistId": 113076,
+    "anilistId": 143031,
     "recs": [
-      "Giji Harem",
-      "Wotakoi: Love is Hard for Otaku",
-      "My Dress-Up Darling"
-    ]
-  },
-  {
-    "anilistId": 159142,
-    "recs": [
-      "Yona of the Dawn"
-    ]
-  },
-  {
-    "anilistId": 30074,
-    "recs": [
-      "Reborn!",
-      "Blue Lock",
-      "Bleach"
-    ]
-  },
-  {
-    "anilistId": 58533,
-    "recs": [
-      "Welcome to the N.H.K.",
-      "Komi Can't Communicate",
-      "My Lesbian Experience With Loneliness"
-    ]
-  },
-  {
-    "anilistId": 68071,
-    "recs": [
-      "Lucifer and the Biscuit Hammer",
-      "Billy Bat",
-      "To Your Eternity"
-    ]
-  },
-  {
-    "anilistId": 97337,
-    "recs": [
-      "A Silent Voice",
-      "ReLIFE",
-      "Inside Mari"
-    ]
-  },
-  {
-    "anilistId": 97812,
-    "recs": [
-      "Three Days of Happiness",
-      "I Want to Eat Your Pancreas",
-      "Watashitachi no Shiawase na Jikan"
-    ]
-  },
-  {
-    "anilistId": 106454,
-    "recs": [
-      "Fly Me to the Moon",
-      "Kubo Won't Let Me Be Invisible",
-      "I Have a Crush at Work"
-    ]
-  },
-  {
-    "anilistId": 109728,
-    "recs": [
-      "Even If You Slit My Mouth",
-      "Wotakoi: Love is Hard for Otaku",
-      "I Have a Crush at Work"
+      "Kaguya-sama: Love is War",
+      "Last Game",
+      "Teasing Master Takagi-san"
     ]
   },
   {
@@ -4371,11 +4336,19 @@
     ]
   },
   {
-    "anilistId": 143031,
+    "anilistId": 97337,
     "recs": [
-      "Kaguya-sama: Love is War",
-      "Last Game",
-      "Teasing Master Takagi-san"
+      "A Silent Voice",
+      "ReLIFE",
+      "Inside Mari"
+    ]
+  },
+  {
+    "anilistId": 68071,
+    "recs": [
+      "Lucifer and the Biscuit Hammer",
+      "Billy Bat",
+      "To Your Eternity"
     ]
   },
   {
@@ -4384,6 +4357,46 @@
       "The Guy She Was Interested In Wasn't a Guy at All",
       "Witch Hat Atelier",
       "The Summer Hikaru Died"
+    ]
+  },
+  {
+    "anilistId": 30074,
+    "recs": [
+      "Reborn!",
+      "Blue Lock",
+      "Bleach"
+    ]
+  },
+  {
+    "anilistId": 109728,
+    "recs": [
+      "Even If You Slit My Mouth",
+      "Wotakoi: Love is Hard for Otaku",
+      "I Have a Crush at Work"
+    ]
+  },
+  {
+    "anilistId": 58533,
+    "recs": [
+      "Welcome to the N.H.K.",
+      "Komi Can't Communicate",
+      "My Lesbian Experience With Loneliness"
+    ]
+  },
+  {
+    "anilistId": 106454,
+    "recs": [
+      "Fly Me to the Moon",
+      "Kubo Won't Let Me Be Invisible",
+      "I Have a Crush at Work"
+    ]
+  },
+  {
+    "anilistId": 97812,
+    "recs": [
+      "Three Days of Happiness",
+      "I Want to Eat Your Pancreas",
+      "Watashitachi no Shiawase na Jikan"
     ]
   },
   {
@@ -4410,6 +4423,36 @@
     ]
   },
   {
+    "anilistId": 169272,
+    "recs": [
+      "The Quintessential Quintuplets",
+      "Nisekoi: False Love",
+      "We Never Learn"
+    ]
+  },
+  {
+    "anilistId": 154782,
+    "recs": [
+      "Revenge of the Baskerville Bloodhound"
+    ]
+  },
+  {
+    "anilistId": 167165,
+    "recs": []
+  },
+  {
+    "anilistId": 142253,
+    "recs": [
+      "Saving My Sweetheart",
+      "Like Wind on a Dry Branch",
+      "How to Win My Husband Over"
+    ]
+  },
+  {
+    "anilistId": 136099,
+    "recs": []
+  },
+  {
     "anilistId": 109219,
     "recs": [
       "I Stan the Prince"
@@ -4424,56 +4467,17 @@
     ]
   },
   {
-    "anilistId": 136099,
-    "recs": []
-  },
-  {
-    "anilistId": 142253,
-    "recs": [
-      "Saving My Sweetheart",
-      "Like Wind on a Dry Branch",
-      "How to Win My Husband Over"
-    ]
-  },
-  {
-    "anilistId": 154782,
-    "recs": [
-      "Revenge of the Baskerville Bloodhound"
-    ]
-  },
-  {
-    "anilistId": 167165,
-    "recs": []
-  },
-  {
-    "anilistId": 169272,
-    "recs": [
-      "The Quintessential Quintuplets",
-      "Nisekoi: False Love",
-      "We Never Learn"
-    ]
-  },
-  {
-    "anilistId": 98569,
-    "recs": [
-      "Save Me",
-      "Bastard",
-      "Secret Alliance"
-    ]
-  },
-  {
-    "anilistId": 118601,
-    "recs": [
-      "Bastard",
-      "Sweet Home",
-      "Secret Alliance"
-    ]
-  },
-  {
     "anilistId": 133963,
     "recs": [
       "The Reaper",
       "The Legend of the Northern Blade"
+    ]
+  },
+  {
+    "anilistId": 161750,
+    "recs": [
+      "I Am the Real One",
+      "Who Made Me a Princess"
     ]
   },
   {
@@ -4485,17 +4489,17 @@
     ]
   },
   {
+    "anilistId": 161715,
+    "recs": [
+      "I Shall Master this Family!",
+      "Master Villainess the Invincible!"
+    ]
+  },
+  {
     "anilistId": 142254,
     "recs": [
       "For Better or For Worse",
       "My Secretly Hot Husband"
-    ]
-  },
-  {
-    "anilistId": 145134,
-    "recs": [
-      "Doctor, Live Again",
-      "Doctor Elise: The Royal Lady with the Lamp"
     ]
   },
   {
@@ -4505,17 +4509,11 @@
     ]
   },
   {
-    "anilistId": 161715,
+    "anilistId": 98569,
     "recs": [
-      "I Shall Master this Family!",
-      "Master Villainess the Invincible!"
-    ]
-  },
-  {
-    "anilistId": 161750,
-    "recs": [
-      "I Am the Real One",
-      "Who Made Me a Princess"
+      "Save Me",
+      "Bastard",
+      "Secret Alliance"
     ]
   },
   {
@@ -4527,17 +4525,24 @@
     ]
   },
   {
-    "anilistId": 70345,
-    "recs": []
-  },
-  {
-    "anilistId": 115240,
-    "recs": []
-  },
-  {
-    "anilistId": 125233,
+    "anilistId": 145134,
     "recs": [
-      "Your Smile is a Trap"
+      "Doctor, Live Again",
+      "Doctor Elise: The Royal Lady with the Lamp"
+    ]
+  },
+  {
+    "anilistId": 118601,
+    "recs": [
+      "Bastard",
+      "Sweet Home",
+      "Secret Alliance"
+    ]
+  },
+  {
+    "anilistId": 158766,
+    "recs": [
+      "A Man's Man"
     ]
   },
   {
@@ -4549,9 +4554,34 @@
     ]
   },
   {
-    "anilistId": 158766,
+    "anilistId": 182139,
+    "recs": []
+  },
+  {
+    "anilistId": 169392,
     "recs": [
-      "A Man's Man"
+      "My Possession Became a Ghost Story"
+    ]
+  },
+  {
+    "anilistId": 115240,
+    "recs": []
+  },
+  {
+    "anilistId": 70345,
+    "recs": []
+  },
+  {
+    "anilistId": 125233,
+    "recs": [
+      "Your Smile is a Trap"
+    ]
+  },
+  {
+    "anilistId": 213942,
+    "recs": [
+      "Goedame Tteoreojyeodo Chulgeuneul Haeya Haneunguna",
+      "My Possession Became a Ghost Story"
     ]
   },
   {
@@ -4563,14 +4593,6 @@
     ]
   },
   {
-    "anilistId": 169392,
-    "recs": []
-  },
-  {
-    "anilistId": 182139,
-    "recs": []
-  },
-  {
     "anilistId": 198931,
     "recs": [
       "Myst, Might, Mayhem",
@@ -4579,61 +4601,10 @@
     ]
   },
   {
-    "anilistId": 213942,
+    "anilistId": 169882,
     "recs": [
-      "Goedame Tteoreojyeodo Chulgeuneul Haeya Haneunguna"
-    ]
-  },
-  {
-    "anilistId": 30142,
-    "recs": [
-      "Alice in Borderland"
-    ]
-  },
-  {
-    "anilistId": 31131,
-    "recs": [
-      "Homunculus",
-      "Eden: It's an Endless World!",
-      "Fire Punch"
-    ]
-  },
-  {
-    "anilistId": 54903,
-    "recs": [
-      "Black Lagoon",
-      "Gokurakugai",
-      "Sakamoto Days"
-    ]
-  },
-  {
-    "anilistId": 68105,
-    "recs": [
-      "Bloom Into You",
-      "Whisper Me a Love Song",
-      "I Can't Say No to the Lonely Girl"
-    ]
-  },
-  {
-    "anilistId": 86303,
-    "recs": [
-      "RuriDragon",
-      "Tsumiki Ogami's Not-So-Ordinary Life"
-    ]
-  },
-  {
-    "anilistId": 96518,
-    "recs": [
-      "The Flowers of Evil",
-      "My Dearest Self With Malice Aforethought",
-      "Goodnight Punpun"
-    ]
-  },
-  {
-    "anilistId": 99218,
-    "recs": [
-      "An Uncomfortable Truth",
-      "Bastard"
+      "A Business Proposal",
+      "See You in My 19th Life"
     ]
   },
   {
@@ -4645,38 +4616,62 @@
     ]
   },
   {
-    "anilistId": 169882,
-    "recs": [
-      "A Business Proposal",
-      "See You in My 19th Life"
-    ]
-  },
-  {
     "anilistId": 182000,
     "recs": [
       "To Be an Actor"
     ]
   },
   {
-    "anilistId": 30031,
+    "anilistId": 99218,
     "recs": [
-      "Cheeky Brat",
-      "My Love Mix-Up!",
-      "My Love Story with Yamada-kun at Lv999"
+      "An Uncomfortable Truth",
+      "Bastard"
     ]
   },
   {
-    "anilistId": 31061,
+    "anilistId": 30142,
     "recs": [
-      "Moriarty the Patriot"
+      "Alice in Borderland"
     ]
   },
   {
-    "anilistId": 35255,
+    "anilistId": 96518,
     "recs": [
-      "Maid-sama!",
-      "My Little Monster",
-      "My Love Story with Yamada-kun at Lv999"
+      "The Flowers of Evil",
+      "My Dearest Self With Malice Aforethought",
+      "Goodnight Punpun"
+    ]
+  },
+  {
+    "anilistId": 86303,
+    "recs": [
+      "RuriDragon",
+      "Tsumiki Ogami's Not-So-Ordinary Life",
+      "Sewayaki Kitsune no Senko-san"
+    ]
+  },
+  {
+    "anilistId": 54903,
+    "recs": [
+      "Black Lagoon",
+      "Gokurakugai",
+      "Sakamoto Days"
+    ]
+  },
+  {
+    "anilistId": 31131,
+    "recs": [
+      "Homunculus",
+      "Eden: It's an Endless World!",
+      "Fire Punch"
+    ]
+  },
+  {
+    "anilistId": 68105,
+    "recs": [
+      "Bloom Into You",
+      "Whisper Me a Love Song",
+      "I Can't Say No to the Lonely Girl"
     ]
   },
   {
@@ -4685,13 +4680,6 @@
       "Yamada-kun and the Seven Witches",
       "RuriDragon",
       "Welcome to Demon School! Iruma-kun"
-    ]
-  },
-  {
-    "anilistId": 85887,
-    "recs": [
-      "Sometimes Even Reality Is a Lie!",
-      "Chikan Otoko"
     ]
   },
   {
@@ -4711,8 +4699,28 @@
     ]
   },
   {
-    "anilistId": 101722,
-    "recs": []
+    "anilistId": 35255,
+    "recs": [
+      "Maid-sama!",
+      "My Little Monster",
+      "My Love Story with Yamada-kun at Lv999"
+    ]
+  },
+  {
+    "anilistId": 118695,
+    "recs": [
+      "Bloom Into You",
+      "The Summer You Were There",
+      "My Next Life as a Villainess: All Routes Lead to Doom!"
+    ]
+  },
+  {
+    "anilistId": 30031,
+    "recs": [
+      "Cheeky Brat",
+      "My Love Mix-Up!",
+      "My Love Story with Yamada-kun at Lv999"
+    ]
   },
   {
     "anilistId": 110140,
@@ -4723,10 +4731,21 @@
     ]
   },
   {
-    "anilistId": 118695,
+    "anilistId": 85887,
     "recs": [
-      "Bloom Into You",
-      "The Summer You Were There"
+      "Sometimes Even Reality Is a Lie!",
+      "Chikan Otoko",
+      "ONIMAI: I'm Now Your Sister!"
+    ]
+  },
+  {
+    "anilistId": 101722,
+    "recs": []
+  },
+  {
+    "anilistId": 31061,
+    "recs": [
+      "Moriarty the Patriot"
     ]
   },
   {
@@ -4738,10 +4757,11 @@
     ]
   },
   {
-    "anilistId": 30838,
+    "anilistId": 98686,
     "recs": [
-      "Mob Psycho 100",
-      "The Fable"
+      "Komi Can't Communicate",
+      "The Girl I Like Forgot Her Glasses",
+      "When Will Ayumu Make His Move?"
     ]
   },
   {
@@ -4757,26 +4777,18 @@
     "recs": []
   },
   {
-    "anilistId": 86639,
-    "recs": [
-      "Kowloon Generic Romance",
-      "Daytime Shooting Star"
-    ]
-  },
-  {
-    "anilistId": 98686,
-    "recs": [
-      "Komi Can't Communicate",
-      "The Girl I Like Forgot Her Glasses",
-      "When Will Ayumu Make His Move?"
-    ]
-  },
-  {
     "anilistId": 100293,
     "recs": [
       "Black Butler",
       "Don't Toy With Me, Miss Nagatoro",
       "Kaguya-sama: Love is War"
+    ]
+  },
+  {
+    "anilistId": 109017,
+    "recs": [
+      "Chained Soldier",
+      "Rosen Garten Saga"
     ]
   },
   {
@@ -4788,9 +4800,10 @@
     ]
   },
   {
-    "anilistId": 109017,
+    "anilistId": 30838,
     "recs": [
-      "Chained Soldier"
+      "Mob Psycho 100",
+      "The Fable"
     ]
   },
   {
@@ -4802,6 +4815,13 @@
     ]
   },
   {
+    "anilistId": 86639,
+    "recs": [
+      "Kowloon Generic Romance",
+      "Daytime Shooting Star"
+    ]
+  },
+  {
     "anilistId": 30703,
     "recs": [
       "Golden Kamuy",
@@ -4810,18 +4830,7 @@
     ]
   },
   {
-    "anilistId": 47904,
-    "recs": [
-      "Blank Canvas: My So-Called Artist's Journey",
-      "Ouran High School Host Club"
-    ]
-  },
-  {
     "anilistId": 78399,
-    "recs": []
-  },
-  {
-    "anilistId": 101159,
     "recs": []
   },
   {
@@ -4833,17 +4842,14 @@
     ]
   },
   {
-    "anilistId": 119762,
+    "anilistId": 47904,
     "recs": [
-      "God of Blackfield"
+      "Blank Canvas: My So-Called Artist's Journey",
+      "Ouran High School Host Club"
     ]
   },
   {
-    "anilistId": 130158,
-    "recs": []
-  },
-  {
-    "anilistId": 153682,
+    "anilistId": 101159,
     "recs": []
   },
   {
@@ -4859,15 +4865,40 @@
     ]
   },
   {
+    "anilistId": 130158,
+    "recs": []
+  },
+  {
+    "anilistId": 153682,
+    "recs": []
+  },
+  {
+    "anilistId": 119762,
+    "recs": [
+      "God of Blackfield"
+    ]
+  },
+  {
+    "anilistId": 170151,
+    "recs": [
+      "Secret Lady",
+      "Villains Are Destined to Die"
+    ]
+  },
+  {
     "anilistId": 110720,
     "recs": [
       "Her Tale of Shim Chong"
     ]
   },
   {
-    "anilistId": 117663,
+    "anilistId": 157871,
+    "recs": []
+  },
+  {
+    "anilistId": 183367,
     "recs": [
-      "Yeonwoo's Innocence"
+      "The Apothecary Diaries"
     ]
   },
   {
@@ -4882,14 +4913,21 @@
     ]
   },
   {
-    "anilistId": 157871,
+    "anilistId": 180121,
+    "recs": [
+      "The Dawn to Come",
+      "Maybe Meant to Be",
+      "Couple Breaker"
+    ]
+  },
+  {
+    "anilistId": 214050,
     "recs": []
   },
   {
-    "anilistId": 170151,
+    "anilistId": 117663,
     "recs": [
-      "Secret Lady",
-      "Villains Are Destined to Die"
+      "Yeonwoo's Innocence"
     ]
   },
   {
@@ -4900,21 +4938,26 @@
     ]
   },
   {
-    "anilistId": 180121,
+    "anilistId": 100793,
     "recs": [
-      "The Dawn to Come",
-      "Maybe Meant to Be",
-      "Couple Breaker"
+      "ORANGE MARMALADE",
+      "Oh! Holy"
     ]
   },
   {
-    "anilistId": 183367,
-    "recs": [
-      "The Apothecary Diaries"
-    ]
+    "anilistId": 102354,
+    "recs": []
   },
   {
-    "anilistId": 214050,
+    "anilistId": 160187,
+    "recs": []
+  },
+  {
+    "anilistId": 187452,
+    "recs": []
+  },
+  {
+    "anilistId": 113545,
     "recs": []
   },
   {
@@ -4924,10 +4967,11 @@
     ]
   },
   {
-    "anilistId": 100793,
+    "anilistId": 186506,
     "recs": [
-      "ORANGE MARMALADE",
-      "Oh! Holy"
+      "Agui Deunggyo",
+      "Get Schooled",
+      "Juvenile Offender"
     ]
   },
   {
@@ -4937,14 +4981,6 @@
       "ORANGE MARMALADE",
       "Unholy Blood"
     ]
-  },
-  {
-    "anilistId": 102354,
-    "recs": []
-  },
-  {
-    "anilistId": 113545,
-    "recs": []
   },
   {
     "anilistId": 125095,
@@ -4961,41 +4997,11 @@
     ]
   },
   {
-    "anilistId": 160187,
-    "recs": []
-  },
-  {
-    "anilistId": 186506,
+    "anilistId": 180422,
     "recs": [
-      "Agui Deunggyo",
-      "Get Schooled",
-      "Juvenile Offender"
-    ]
-  },
-  {
-    "anilistId": 187452,
-    "recs": []
-  },
-  {
-    "anilistId": 30107,
-    "recs": [
-      "Welcome to the N.H.K.",
-      "Kowloon Generic Romance"
-    ]
-  },
-  {
-    "anilistId": 30610,
-    "recs": [
-      "[Oshi no Ko]",
-      "Kamisama Kiss"
-    ]
-  },
-  {
-    "anilistId": 31023,
-    "recs": [
-      "Battle Angel Alita",
-      "Akira",
-      "Eden: It's an Endless World!"
+      "Komi Can't Communicate",
+      "Giji Harem",
+      "The Dangers in My Heart"
     ]
   },
   {
@@ -5007,19 +5013,26 @@
     ]
   },
   {
-    "anilistId": 66099,
-    "recs": [
-      "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
-      "RAINBOW: Nisha Rokubou no Shichinin",
-      "Golden Kamuy"
-    ]
-  },
-  {
     "anilistId": 104864,
     "recs": [
       "Fly Me to the Moon",
       "It Takes Two Tomorrow, Too",
       "The Duke of Death and His Maid"
+    ]
+  },
+  {
+    "anilistId": 31023,
+    "recs": [
+      "Battle Angel Alita",
+      "Akira",
+      "Eden: It's an Endless World!"
+    ]
+  },
+  {
+    "anilistId": 30107,
+    "recs": [
+      "Welcome to the N.H.K.",
+      "Kowloon Generic Romance"
     ]
   },
   {
@@ -5043,48 +5056,18 @@
     ]
   },
   {
-    "anilistId": 180422,
+    "anilistId": 30610,
     "recs": [
-      "Komi Can't Communicate",
-      "Giji Harem",
-      "The Dangers in My Heart"
+      "[Oshi no Ko]",
+      "Kamisama Kiss"
     ]
   },
   {
-    "anilistId": 30727,
+    "anilistId": 66099,
     "recs": [
-      "Holyland",
-      "The Climber",
-      "RAINBOW: Nisha Rokubou no Shichinin"
-    ]
-  },
-  {
-    "anilistId": 37482,
-    "recs": [
-      "Banana Fish",
-      "Holyland",
-      "GANGSTA."
-    ]
-  },
-  {
-    "anilistId": 55250,
-    "recs": [
-      "Dorohedoro",
-      "Call of the Night"
-    ]
-  },
-  {
-    "anilistId": 86243,
-    "recs": [
-      "Daytime Shooting Star",
-      "House of the Sun",
-      "Ao Haru Ride"
-    ]
-  },
-  {
-    "anilistId": 98227,
-    "recs": [
-      "Sun-Ken Rock"
+      "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
+      "RAINBOW: Nisha Rokubou no Shichinin",
+      "Golden Kamuy"
     ]
   },
   {
@@ -5093,6 +5076,14 @@
       "Mushoku Tensei: Jobless Reincarnation",
       "Frieren: Beyond Journey’s End",
       "Delicious in Dungeon"
+    ]
+  },
+  {
+    "anilistId": 37482,
+    "recs": [
+      "Banana Fish",
+      "Holyland",
+      "GANGSTA."
     ]
   },
   {
@@ -5112,11 +5103,40 @@
     ]
   },
   {
+    "anilistId": 55250,
+    "recs": [
+      "Dorohedoro",
+      "Call of the Night"
+    ]
+  },
+  {
     "anilistId": 138577,
     "recs": [
       "Hell’s Paradise: Jigokuraku",
       "Tokyo Ghoul",
       "Chainsaw Man"
+    ]
+  },
+  {
+    "anilistId": 30727,
+    "recs": [
+      "Holyland",
+      "The Climber",
+      "RAINBOW: Nisha Rokubou no Shichinin"
+    ]
+  },
+  {
+    "anilistId": 86243,
+    "recs": [
+      "Daytime Shooting Star",
+      "House of the Sun",
+      "Ao Haru Ride"
+    ]
+  },
+  {
+    "anilistId": 98227,
+    "recs": [
+      "Sun-Ken Rock"
     ]
   },
   {
@@ -5128,10 +5148,6 @@
     ]
   },
   {
-    "anilistId": 65171,
-    "recs": []
-  },
-  {
     "anilistId": 87350,
     "recs": [
       "I Had That Same Dream Again",
@@ -5140,23 +5156,11 @@
     ]
   },
   {
-    "anilistId": 97615,
-    "recs": []
-  },
-  {
     "anilistId": 99065,
     "recs": [
       "Claymore",
       "Berserk",
       "Hell’s Paradise: Jigokuraku"
-    ]
-  },
-  {
-    "anilistId": 115790,
-    "recs": [
-      "My Dearest Self With Malice Aforethought",
-      "My Broken Mariko",
-      "Takopi's Original Sin"
     ]
   },
   {
@@ -5168,21 +5172,20 @@
     ]
   },
   {
-    "anilistId": 135561,
+    "anilistId": 115790,
+    "recs": [
+      "My Dearest Self With Malice Aforethought",
+      "My Broken Mariko",
+      "Takopi's Original Sin"
+    ]
+  },
+  {
+    "anilistId": 97615,
     "recs": []
   },
   {
-    "anilistId": 160573,
-    "recs": [
-      "Selfish Romance",
-      "Romance 101"
-    ]
-  },
-  {
-    "anilistId": 203154,
-    "recs": [
-      "Nano Machine"
-    ]
+    "anilistId": 65171,
+    "recs": []
   },
   {
     "anilistId": 203958,
@@ -5193,8 +5196,21 @@
     ]
   },
   {
-    "anilistId": 85621,
+    "anilistId": 135561,
     "recs": []
+  },
+  {
+    "anilistId": 203154,
+    "recs": [
+      "Nano Machine"
+    ]
+  },
+  {
+    "anilistId": 160573,
+    "recs": [
+      "Selfish Romance",
+      "Romance 101"
+    ]
   },
   {
     "anilistId": 85747,
@@ -5203,24 +5219,10 @@
     ]
   },
   {
-    "anilistId": 87416,
+    "anilistId": 140951,
     "recs": [
-      "The Ember Knight",
-      "The Knight Only Lives Today",
-      "Frieren: Beyond Journey’s End"
+      "Love Tractor"
     ]
-  },
-  {
-    "anilistId": 97717,
-    "recs": [
-      "Spirit Fingers",
-      "Seasons of Blossom",
-      "Super Secret"
-    ]
-  },
-  {
-    "anilistId": 103822,
-    "recs": []
   },
   {
     "anilistId": 116768,
@@ -5234,15 +5236,23 @@
     "recs": []
   },
   {
-    "anilistId": 140951,
+    "anilistId": 87416,
     "recs": [
-      "Love Tractor"
+      "The Ember Knight",
+      "The Knight Only Lives Today",
+      "Frieren: Beyond Journey’s End"
     ]
   },
   {
-    "anilistId": 150701,
+    "anilistId": 85621,
+    "recs": []
+  },
+  {
+    "anilistId": 97717,
     "recs": [
-      "Pick Me Up"
+      "Spirit Fingers",
+      "Seasons of Blossom",
+      "Super Secret"
     ]
   },
   {
@@ -5252,9 +5262,59 @@
     ]
   },
   {
+    "anilistId": 150701,
+    "recs": [
+      "Pick Me Up"
+    ]
+  },
+  {
+    "anilistId": 103822,
+    "recs": []
+  },
+  {
+    "anilistId": 166122,
+    "recs": [
+      "Agui Deunggyo",
+      "Norigam"
+    ]
+  },
+  {
+    "anilistId": 115929,
+    "recs": []
+  },
+  {
+    "anilistId": 154474,
+    "recs": [
+      "Death's Game"
+    ]
+  },
+  {
     "anilistId": 100755,
     "recs": [
       "Heesu in Class 2"
+    ]
+  },
+  {
+    "anilistId": 116942,
+    "recs": [
+      "Lost in the Cloud"
+    ]
+  },
+  {
+    "anilistId": 186963,
+    "recs": [
+      "My Love Story with Yamada-kun at Lv999",
+      "My Bias Gets on the Last Train"
+    ]
+  },
+  {
+    "anilistId": 136672,
+    "recs": []
+  },
+  {
+    "anilistId": 111489,
+    "recs": [
+      "Her Tale of Shim Chong"
     ]
   },
   {
@@ -5270,43 +5330,19 @@
     ]
   },
   {
-    "anilistId": 111489,
+    "anilistId": 116401,
     "recs": [
-      "Her Tale of Shim Chong"
+      "Fly Me to the Moon",
+      "It Takes Two Tomorrow, Too",
+      "Wotakoi: Love is Hard for Otaku"
     ]
   },
   {
-    "anilistId": 115929,
-    "recs": []
-  },
-  {
-    "anilistId": 116942,
+    "anilistId": 55096,
     "recs": [
-      "Lost in the Cloud"
-    ]
-  },
-  {
-    "anilistId": 136672,
-    "recs": []
-  },
-  {
-    "anilistId": 154474,
-    "recs": [
-      "Death's Game"
-    ]
-  },
-  {
-    "anilistId": 166122,
-    "recs": [
-      "Agui Deunggyo",
-      "Norigam"
-    ]
-  },
-  {
-    "anilistId": 186963,
-    "recs": [
-      "My Love Story with Yamada-kun at Lv999",
-      "My Bias Gets on the Last Train"
+      "Yotsuba&!",
+      "Food Wars!: Shokugeki no Soma",
+      "March Comes in Like a Lion"
     ]
   },
   {
@@ -5318,11 +5354,26 @@
     ]
   },
   {
-    "anilistId": 30023,
+    "anilistId": 177096,
     "recs": [
-      "InuYasha",
-      "Dandadan",
-      "Gin Tama"
+      "Don't Toy With Me, Miss Nagatoro",
+      "Anjo the Mischievous Gal",
+      "My Dress-Up Darling"
+    ]
+  },
+  {
+    "anilistId": 54308,
+    "recs": [
+      "Banana Fish",
+      "Seaside Stranger: Umibe no Étranger",
+      "Pandora Hearts"
+    ]
+  },
+  {
+    "anilistId": 98608,
+    "recs": [
+      "Delicious in Dungeon",
+      "So I'm a Spider, So What?"
     ]
   },
   {
@@ -5338,34 +5389,11 @@
     "recs": []
   },
   {
-    "anilistId": 54308,
+    "anilistId": 30023,
     "recs": [
-      "Banana Fish",
-      "Seaside Stranger: Umibe no Étranger",
-      "Pandora Hearts"
-    ]
-  },
-  {
-    "anilistId": 55096,
-    "recs": [
-      "Yotsuba&!",
-      "Food Wars!: Shokugeki no Soma",
-      "March Comes in Like a Lion"
-    ]
-  },
-  {
-    "anilistId": 98608,
-    "recs": [
-      "Delicious in Dungeon",
-      "So I'm a Spider, So What?"
-    ]
-  },
-  {
-    "anilistId": 116401,
-    "recs": [
-      "Fly Me to the Moon",
-      "It Takes Two Tomorrow, Too",
-      "Wotakoi: Love is Hard for Otaku"
+      "InuYasha",
+      "Dandadan",
+      "Gin Tama"
     ]
   },
   {
@@ -5377,35 +5405,11 @@
     ]
   },
   {
-    "anilistId": 177096,
+    "anilistId": 101131,
     "recs": [
-      "Don't Toy With Me, Miss Nagatoro",
-      "Anjo the Mischievous Gal",
-      "My Dress-Up Darling"
-    ]
-  },
-  {
-    "anilistId": 30054,
-    "recs": [
-      "Usogui",
-      "Yu Yu Hakusho",
-      "Hunter x Hunter"
-    ]
-  },
-  {
-    "anilistId": 31534,
-    "recs": [
-      "Ajin: Demi-Human",
-      "Parasyte",
-      "PSYЯEN"
-    ]
-  },
-  {
-    "anilistId": 45805,
-    "recs": [
-      "Toilet-Bound Hanako-kun",
-      "Mieruko-chan",
-      "Even If You Slit My Mouth"
+      "Witch Hat Atelier",
+      "Magi: The Labyrinth of Magic",
+      "Frieren: Beyond Journey’s End"
     ]
   },
   {
@@ -5417,28 +5421,6 @@
     ]
   },
   {
-    "anilistId": 101131,
-    "recs": [
-      "Witch Hat Atelier",
-      "Magi: The Labyrinth of Magic",
-      "Frieren: Beyond Journey’s End"
-    ]
-  },
-  {
-    "anilistId": 114003,
-    "recs": [
-      "How Do We Relationship?",
-      "Our Dreams at Dusk: Shimanami Tasogare"
-    ]
-  },
-  {
-    "anilistId": 128448,
-    "recs": [
-      "My Little Monster",
-      "The Fragrant Flower Blooms With Dignity"
-    ]
-  },
-  {
     "anilistId": 136899,
     "recs": [
       "Fullmetal Alchemist",
@@ -5447,10 +5429,11 @@
     ]
   },
   {
-    "anilistId": 148082,
+    "anilistId": 45805,
     "recs": [
-      "Haimiya Is Scary Cute",
-      "Shikimori's Not Just a Cutie"
+      "Toilet-Bound Hanako-kun",
+      "Mieruko-chan",
+      "Even If You Slit My Mouth"
     ]
   },
   {
@@ -5462,11 +5445,41 @@
     ]
   },
   {
-    "anilistId": 58226,
+    "anilistId": 30054,
     "recs": [
-      "It Takes Two Tomorrow, Too",
-      "Hirayasumi",
-      "Horimiya"
+      "Usogui",
+      "Yu Yu Hakusho",
+      "Hunter x Hunter"
+    ]
+  },
+  {
+    "anilistId": 128448,
+    "recs": [
+      "My Little Monster",
+      "The Fragrant Flower Blooms With Dignity"
+    ]
+  },
+  {
+    "anilistId": 31534,
+    "recs": [
+      "Ajin: Demi-Human",
+      "Parasyte",
+      "PSYЯEN"
+    ]
+  },
+  {
+    "anilistId": 148082,
+    "recs": [
+      "Haimiya Is Scary Cute",
+      "Shikimori's Not Just a Cutie",
+      "Gals Can’t Be Kind to Otaku!?"
+    ]
+  },
+  {
+    "anilistId": 114003,
+    "recs": [
+      "How Do We Relationship?",
+      "Our Dreams at Dusk: Shimanami Tasogare"
     ]
   },
   {
@@ -5478,11 +5491,11 @@
     ]
   },
   {
-    "anilistId": 99183,
+    "anilistId": 58226,
     "recs": [
-      "Komi Can't Communicate",
-      "Tsuredure Children",
-      "ReLIFE"
+      "It Takes Two Tomorrow, Too",
+      "Hirayasumi",
+      "Horimiya"
     ]
   },
   {
@@ -5491,6 +5504,366 @@
       "I Want to Love You Till Your Dying Day",
       "The Summer You Were There",
       "A Tropical Fish Yearns for Snow"
+    ]
+  },
+  {
+    "anilistId": 99183,
+    "recs": [
+      "Komi Can't Communicate",
+      "Tsuredure Children",
+      "ReLIFE"
+    ]
+  },
+  {
+    "anilistId": 85430,
+    "recs": [
+      "The Horizon",
+      "The Sound of Magic: Annarasumanara"
+    ]
+  },
+  {
+    "anilistId": 157073,
+    "recs": []
+  },
+  {
+    "anilistId": 120727,
+    "recs": [
+      "Maybe Meant to Be",
+      "Our Secret Alliance"
+    ]
+  },
+  {
+    "anilistId": 131128,
+    "recs": [
+      "Villains Are Destined to Die"
+    ]
+  },
+  {
+    "anilistId": 100488,
+    "recs": [
+      "Ring My Bell"
+    ]
+  },
+  {
+    "anilistId": 186503,
+    "recs": [
+      "The Patron of Villains",
+      "My S-Class Hunters",
+      "The Otherworldly Genius Method Actor"
+    ]
+  },
+  {
+    "anilistId": 128484,
+    "recs": []
+  },
+  {
+    "anilistId": 180671,
+    "recs": []
+  },
+  {
+    "anilistId": 126107,
+    "recs": []
+  },
+  {
+    "anilistId": 139640,
+    "recs": [
+      "Blood on the Tracks",
+      "Bastard"
+    ]
+  },
+  {
+    "anilistId": 208654,
+    "recs": [
+      "Dungeon-eul Geurineun Hwaga",
+      "Goedame Tteoreojyeodo Chulgeuneul Haeya Haneunguna",
+      "How to survive as a maid in a horror game"
+    ]
+  },
+  {
+    "anilistId": 111799,
+    "recs": [
+      "Seasons of Blossom"
+    ]
+  },
+  {
+    "anilistId": 103855,
+    "recs": []
+  },
+  {
+    "anilistId": 121868,
+    "recs": [
+      "Seasons of Blossom",
+      "Something About Us"
+    ]
+  },
+  {
+    "anilistId": 40685,
+    "recs": [
+      "Red Storm"
+    ]
+  },
+  {
+    "anilistId": 124621,
+    "recs": [
+      "365 Days to the Wedding",
+      "It Takes Two Tomorrow, Too",
+      "Fly Me to the Moon"
+    ]
+  },
+  {
+    "anilistId": 97216,
+    "recs": [
+      "Drifters",
+      "Uncle from Another World"
+    ]
+  },
+  {
+    "anilistId": 104617,
+    "recs": [
+      "Helck",
+      "Kami nomi zo Shiru Sekai",
+      "Delicious in Dungeon"
+    ]
+  },
+  {
+    "anilistId": 156303,
+    "recs": [
+      "Sweat and Soap",
+      "It Takes Two Tomorrow, Too",
+      "Bonnouji"
+    ]
+  },
+  {
+    "anilistId": 108251,
+    "recs": [
+      "ReLIFE",
+      "Spirit Circle"
+    ]
+  },
+  {
+    "anilistId": 53571,
+    "recs": [
+      "Ping Pong",
+      "March Comes in Like a Lion"
+    ]
+  },
+  {
+    "anilistId": 31926,
+    "recs": [
+      "Call of the Night",
+      "The Flowers of Evil",
+      "Insomniacs After School"
+    ]
+  },
+  {
+    "anilistId": 100080,
+    "recs": [
+      "Ookami Shounen wa Kyou mo Uso wo Kasaneru",
+      "Love Me for Who I Am"
+    ]
+  },
+  {
+    "anilistId": 104140,
+    "recs": [
+      "Our Dreams at Dusk: Shimanami Tasogare"
+    ]
+  },
+  {
+    "anilistId": 38483,
+    "recs": []
+  },
+  {
+    "anilistId": 31408,
+    "recs": [
+      "Freesia",
+      "Monster",
+      "Akumetsu"
+    ]
+  },
+  {
+    "anilistId": 174790,
+    "recs": [
+      "The Girl I Like Forgot Her Glasses",
+      "Akira Failing in Love",
+      "Tsumiki Ogami's Not-So-Ordinary Life"
+    ]
+  },
+  {
+    "anilistId": 41425,
+    "recs": [
+      "Hajime no Ippo: Fighting Spirit!",
+      "Ashita no Joe: Fighting for Tomorrow",
+      "Usogui"
+    ]
+  },
+  {
+    "anilistId": 108919,
+    "recs": [
+      "Bloom Into You",
+      "A Tropical Fish Yearns for Snow",
+      "How Do We Relationship?"
+    ]
+  },
+  {
+    "anilistId": 30869,
+    "recs": [
+      "Lucifer and the Biscuit Hammer",
+      "Soul Eater",
+      "One Piece"
+    ]
+  },
+  {
+    "anilistId": 31461,
+    "recs": [
+      "Akumetsu",
+      "GANGSTA."
+    ]
+  },
+  {
+    "anilistId": 138380,
+    "recs": [
+      "I Made Friends with the Second Prettiest Girl in My Class",
+      "My Dress-Up Darling",
+      "Dealing with Mikadono Sisters Is a Breeze"
+    ]
+  },
+  {
+    "anilistId": 33102,
+    "recs": [
+      "Kase-san and...",
+      "Bloom Into You"
+    ]
+  },
+  {
+    "anilistId": 56769,
+    "recs": [
+      "Grand Blue Dreaming",
+      "I Want to End This Love Game",
+      "Komi Can't Communicate"
+    ]
+  },
+  {
+    "anilistId": 31859,
+    "recs": [
+      "Mushishi",
+      "xxxHOLiC",
+      "Fruits Basket"
+    ]
+  },
+  {
+    "anilistId": 37887,
+    "recs": [
+      "One Piece",
+      "Dragon Ball",
+      "Hunter x Hunter"
+    ]
+  },
+  {
+    "anilistId": 43801,
+    "recs": [
+      "The Saga of Tanya the Evil",
+      "Record of Ragnarok",
+      "Golden Kamuy"
+    ]
+  },
+  {
+    "anilistId": 110530,
+    "recs": [
+      "I Can't Say No to the Lonely Girl",
+      "Handsome Girl and Sheltered Girl",
+      "Doughnuts Under a Crescent Moon"
+    ]
+  },
+  {
+    "anilistId": 37378,
+    "recs": [
+      "Ao Haru Ride",
+      "Love Me, Love Me Not",
+      "Daytime Shooting Star"
+    ]
+  },
+  {
+    "anilistId": 100560,
+    "recs": [
+      "I’m in Love with the Villainess"
+    ]
+  },
+  {
+    "anilistId": 143719,
+    "recs": [
+      "The Quintessential Quintuplets",
+      "Tune In to the Midnight Heart",
+      "We Never Learn"
+    ]
+  },
+  {
+    "anilistId": 78025,
+    "recs": [
+      "One Piece",
+      "Dr. STONE",
+      "Delicious in Dungeon"
+    ]
+  },
+  {
+    "anilistId": 126559,
+    "recs": [
+      "After God",
+      "Choujin X",
+      "Heavenly Delusion"
+    ]
+  },
+  {
+    "anilistId": 30348,
+    "recs": [
+      "Welcome to the N.H.K.",
+      "Grand Blue Dreaming",
+      "Kami nomi zo Shiru Sekai"
+    ]
+  },
+  {
+    "anilistId": 125528,
+    "recs": [
+      "Gushing over Magical Girls",
+      "Record of Ragnarok",
+      "Chained Soldier"
+    ]
+  },
+  {
+    "anilistId": 100584,
+    "recs": [
+      "Miss Kobayashi's Dragon Maid"
+    ]
+  },
+  {
+    "anilistId": 33868,
+    "recs": [
+      "Blade of the Immortal",
+      "Berserk",
+      "Vagabond"
+    ]
+  },
+  {
+    "anilistId": 30020,
+    "recs": [
+      "Yu-Gi-Oh!",
+      "March Comes in Like a Lion",
+      "Chihayafuru"
+    ]
+  },
+  {
+    "anilistId": 86219,
+    "recs": [
+      "Ao Haru Ride",
+      "Strobe Edge",
+      "My Little Monster"
+    ]
+  },
+  {
+    "anilistId": 100109,
+    "recs": [
+      "The Case Study of Vanitas",
+      "The Ancient Magus' Bride",
+      "Witch Hat Atelier"
     ]
   }
 ]
